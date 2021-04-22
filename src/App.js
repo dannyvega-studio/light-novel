@@ -4,7 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Container, Nav, Navbar, Jumbotron } from 'react-bootstrap';
 import HomePage from './pages/HomePage';
+import RequestPage from './pages/RequestPage';
+import HuronRequestPage from './pages/HuronRequestPage';
 import LNNoGameNoLife from './pages/LNNoGameNoLife';
+import LNMushokuTensei from './pages/LNMushokuTensei';
 import logo from './assets/images/logo.png'
 
 class App extends React.Component {
@@ -15,20 +18,36 @@ class App extends React.Component {
       title: 'Light Novels',
       headerLinks: [
         { title: 'Home', path: '/light-novel/' },
-        { title: 'Novel List', path: '/light-novel/list' },
-        { title: 'Top Tier', path: '/light-novel/tier' },
-        { title: 'About', path: '/light-novel/about' },
-        { title: 'No Game No Life', path: '/light-novel/ngnl' }
+        { title: 'Novel List', path: '/light-novel/list/' },
+        { title: 'Request', path: '/light-novel/request/' },
+        { title: 'Sr Huron Requests', path: '/light-novel/huron/' },
+        { title: 'Top Tier', path: '/light-novel/tier/' },
+        { title: 'About', path: '/light-novel/about/' },
+        { title: 'No Game No Life', path: '/light-novel/ngnl/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/' }
       ],
       home: {
         title: 'Light Novels',
         subTitle: "Currently Reading...",
         text: "Hello there and welcome, I'm Danny Vega and this is my personal website that I have created to share with you one of my favorite hobbies, LIGHT NOVELS, so in GoogleDrive I'll upload the ones that I like (BTW, some do I have finished reading them and others have not)"
       },
+      request: {
+        title: 'Requests From Weebs',
+        subTitle: "########",
+        text: "If you'r a Weeb like me just contact me and I'll add u in this section for any LN request you could have, and with that someday I'll upload the .pdf files"
+      },
+      huronrequest: {
+        title: 'Sr. Hurón',
+        subTitle: "Thicc and LN are Top Tier",},
       lnngnl: {
         title: 'No Game No Life',
         subTitle: "Volumes: 9 of 10",
         text: "Sora and Shiro are two hikikomori step-siblings who are known in the online gaming world as Blank, an undefeated group of gamers. One day, they are challenged to a game of chess by Tet, a god from another reality. The two are victorious and are offered to live in a world that centers around games. They accept, believing it to be a joke, and are summoned to a reality known as Disboard. There, a spell known as the Ten Pledges prevents the citizens of Disboard from inflicting harm on one another, forcing them to resolve their differences by gambling with games whose rules and rewards are magically enforced. In-game, rule enforcement only occurs when the method of cheating is acknowledged and outed by the opponent, allowing players to cheat through discreet methods. Sora and Shiro traverse to Elkia, the nation inhabited by humans, and befriend the duchess Stephanie Dola. Learning about Elkia's decline, the two participate in a tournament to determine the next ruler; after winning the crown, they earn the right to challenge the Disboard's other species as humanity's representative. Their next goal is to conquer all sixteen species in order to challenge Tet to a game; as of the sixth volume, five of the sixteen are under their control."
+      },
+      lnmushoku: {
+        title: 'Mushoku Tensei: Isekai Ittara Honki Dasu',
+        subTitle: "Volumes: 24 of 24",
+        text: "A 34-year-old Japanese NEET is kicked out of his house following the death of his parents. He intercepts a speeding truck heading towards a group of teenagers and pulls one of them out of the way before dying. Awakening in a baby's body, he realizes he has been reincarnated in a world of sword and sorcery. While initially indulging in his perversion, he resolves to become successful in his new life, discarding his past identity for his new life as Rudeus Greyrat."
       }
     }
   }
@@ -48,9 +67,10 @@ render() {
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="mr-auto">
                 <Link className="nav-link" to="/light-novel/">Home</Link>
-                <Link className="nav-link" to="/light-novel/list">Novel List</Link>
-                <Link className="nav-link" to="/light-novel/tier">Top Tier</Link>
-                <Link className="nav-link" to="/light-novel/about">About</Link>
+                <Link className="nav-link" to="/light-novel/list/">Novel List</Link>
+                <Link className="nav-link" to="/light-novel/request/">Request</Link>
+                <Link className="nav-link" to="/light-novel/tier/">Top Tier</Link>
+                <Link className="nav-link" to="/light-novel/about/">About</Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -59,10 +79,21 @@ render() {
             <HomePage title={this.state.home.title} 
                       subTitle={this.state.home.subTitle} 
                       text={this.state.home.text} />} />
+          <Route path="/light-novel/request/" exact render={() => 
+            <RequestPage title={this.state.request.title}
+                            subTitle={this.state.request.subTitle} 
+                            text={this.state.request.text} />} />
+          <Route path="/light-novel/huron/" exact render={() => 
+            <HuronRequestPage title={this.state.huronrequest.title}
+                            subTitle={this.state.huronrequest.subTitle} />} />
           <Route path="/light-novel/ngnl/" exact render={() => 
             <LNNoGameNoLife title={this.state.lnngnl.title}
                             subTitle={this.state.lnngnl.subTitle} 
                             text={this.state.lnngnl.text} />} />
+          <Route path="/light-novel/mushoku/" exact render={() => 
+            <LNMushokuTensei title={this.state.lnmushoku.title}
+                            subTitle={this.state.lnmushoku.subTitle} 
+                            text={this.state.lnmushoku.text} />} />
           
         </Container>
       </Router>

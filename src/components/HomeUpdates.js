@@ -1,12 +1,12 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 import { Container, Row, Col, Card} from 'react-bootstrap';
-import ngnl04 from '../assets/images/ngnl/04.jpg';
-import ngnl05 from '../assets/images/ngnl/05.jpg';
-import ngnl06 from '../assets/images/ngnl/06.jpg';
-import ngnl07 from '../assets/images/ngnl/07.jpg';
-import ngnl08 from '../assets/images/ngnl/08.jpg';
-import ngnl09 from '../assets/images/ngnl/09.jpg';
+import mushoku19 from '../assets/images/mushoku/19.jpg';
+import mushoku20 from '../assets/images/mushoku/20.jpg';
+import mushoku21 from '../assets/images/mushoku/21.jpg';
+import mushoku22 from '../assets/images/mushoku/22.jpg';
+import mushoku23 from '../assets/images/mushoku/23.jpg';
+import mushoku24 from '../assets/images/mushoku/24.jpg';
 
 function HomeUpdates() {
 
@@ -21,61 +21,61 @@ function HomeUpdates() {
                     <h3 className="font-weight-bolder mb-4">LAST NOVEL UPLOADED</h3>
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 09" src={ngnl09} />
+                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 09" src={mushoku24} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 09</Card.Title>
+                            <Card.Title>Mushoku Tensei VOLUME 24</Card.Title>
                                 <Card.Text>
-                                    <a href="https://mega.nz/file/lwoQAKBa#2vexo96i8jO4sgHebgVhRV9ZOf8psCdoDQiOuqdsToQ" target="_blank" rel="noreferrer">View Volume</a>
+                                    <a class="nav-link btn-download" href="https://mega.nz/file/lshTFSZJ#C1Rb2WjiU_PBupzQ_aCjsgqdSONiytomLjZo5gP4dzA" target="_blank" rel="noreferrer">DOWNLOAD</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 08" src={ngnl08} />
+                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 09" src={mushoku23} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 08</Card.Title>
+                            <Card.Title>Mushoku Tensei VOLUME 23</Card.Title>
                                 <Card.Text>
-                                    <a href="https://mega.nz/file/klpyGYJA#LnoHI92JqUTWB-mKCd_MYLhx-empsU1zEFwHPmen9xs" target="_blank" rel="noreferrer">View Volume</a>
+                                    <a class="nav-link btn-download" href="https://mega.nz/file/1sxXRaaS#hqHS9QbDVmDa8bcD9ijIjRxjuZqSobEBZPJiSm0KzWY" target="_blank" rel="noreferrer">DOWNLOAD</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 07" src={ngnl07} />
+                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 09" src={mushoku22} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 07</Card.Title>
+                            <Card.Title>Mushoku Tensei VOLUME 22</Card.Title>
                                 <Card.Text>
-                                    <a href="https://mega.nz/file/ZwhgyQoR#aXsbPuOFtTwYAMMLqzwZSutSN8yjHJmwQJiD02Okp1U" target="_blank" rel="noreferrer">View Volume</a>
+                                    <a class="nav-link btn-download" href="https://mega.nz/file/A5xXFQAa#vP_8RAqCUM77WZRKuBJ3fUb7s7SOKs_j3IMbgVqRBNc" target="_blank" rel="noreferrer">DOWNLOAD</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 06" src={ngnl06} />
+                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 09" src={mushoku21} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 06</Card.Title>
+                            <Card.Title>Mushoku Tensei VOLUME 21</Card.Title>
                                 <Card.Text>
-                                    <a href="https://mega.nz/file/tkgAEaaA#OESQQCp6XnyQSClG_FoCi4QYvyaEBkUCm3DY8A11__E" target="_blank" rel="noreferrer">View Volume</a>
+                                    <a class="nav-link btn-download" href="https://mega.nz/file/otxXxA4b#baweT3TALxnfEBrCeDKPWWPWE2IDHK0j9cWVM0enOZk" target="_blank" rel="noreferrer">DOWNLOAD</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 05" src={ngnl05} />
+                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 09" src={mushoku20} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 05</Card.Title>
+                            <Card.Title>Mushoku Tensei VOLUME 20</Card.Title>
                                 <Card.Text>
-                                    <a href="https://mega.nz/file/wgxWjCAL#kpijRLyS0fiYytTHUOU05GwgmA2gxTUF9uSTiPz52lE" target="_blank" rel="noreferrer">View Volume</a>
+                                    <a class="nav-link btn-download" href="https://mega.nz/file/pkxFQYyY#LTHe02L-96GA2tA9tMqQ7yfs0A78bmvl8ufyxIia5f4" target="_blank" rel="noreferrer">DOWNLOAD</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 04" src={ngnl04} />
+                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 09" src={mushoku19} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 04</Card.Title>
+                            <Card.Title>Mushoku Tensei VOLUME 19</Card.Title>
                                 <Card.Text>
-                                    <a href="https://mega.nz/file/VgoQwYQI#gdDIE4Uo7UZ-SM5DtvYKFtjGHasrWTQDlQ7b_PYQMa4" target="_blank" rel="noreferrer">View Volume</a>
+                                    <a class="nav-link btn-download" href="https://mega.nz/file/lhxXwAAT#5-3NvZKt-6Srq-lta7GG9i38MtnRjXKlqt12hQEJ8nE" target="_blank" rel="noreferrer">DOWNLOAD</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />

@@ -4,6 +4,7 @@ import { Container, Row, Col, Card} from 'react-bootstrap';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import ngnl01 from '../assets/images/ngnl/01.jpg';
 import HomeUpdates from '../components/HomeUpdates';
+import RequestWeebs from '../components/RequestWeebs';
 
 function HomePage(props) {
 
@@ -21,15 +22,16 @@ function HomePage(props) {
                     </Col>
                     <Col lg={4} md={12} sm={12}>
                         { props.subTitle && <h3 className="display-4 font-weight-light">{props.subTitle}</h3> }
-                        <Card.Img className="aside-img mt-4 mb-4" variant="top" alt="No Game No Life 01" src={ngnl01} />
+                        <Card.Img className="aside-img mt-4 mb-4" variant="top" alt="No Game No Life" src={ngnl01} />
                         <Card.Body>
                             <Card.Title>No Game No Life VOLUME 01</Card.Title>
                                 <Card.Text>
-                                    <a href="https://mega.nz/file/AgpSBAgA#fhowhYVNiSe6YRWsJXNM8D023PRL47sFNTmpyccR7MY" target="_blank" rel="noreferrer">View Volume</a>
+                                    <a class="nav-link btn-download" href="https://mega.nz/file/AgpSBAgA#fhowhYVNiSe6YRWsJXNM8D023PRL47sFNTmpyccR7MY" target="_blank" rel="noreferrer">DOWNLOAD</a>
                                     <Link className="nav-link" to="/light-novel/ngnl/">View All NGNL Volumes</Link>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
+                        <RequestWeebs />
                     </Col>
                 </Row>
             </Container>

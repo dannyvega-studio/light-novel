@@ -50,6 +50,12 @@ code {
   border-radius: 10px;
 }
 
+.profile-request {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 100px;
+}
+
 .update-img {
   width: 100%;
   max-width: 100px;
@@ -62,4 +68,13 @@ code {
   max-width: 700px;
   text-align: center;
   align-items: center;
+}
+
+.btn-download {
+  color: blue;
+}
+
+.btn-download:hover {
+  color: red;
+  font-weight: bold;
 }
