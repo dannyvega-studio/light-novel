@@ -25,7 +25,7 @@ function HomeUpdates() {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 24</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/lshTFSZJ#C1Rb2WjiU_PBupzQ_aCjsgqdSONiytomLjZo5gP4dzA" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/lshTFSZJ#C1Rb2WjiU_PBupzQ_aCjsgqdSONiytomLjZo5gP4dzA" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -35,7 +35,7 @@ function HomeUpdates() {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 23</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/1sxXRaaS#hqHS9QbDVmDa8bcD9ijIjRxjuZqSobEBZPJiSm0KzWY" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/1sxXRaaS#hqHS9QbDVmDa8bcD9ijIjRxjuZqSobEBZPJiSm0KzWY" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -45,7 +45,7 @@ function HomeUpdates() {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 22</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/A5xXFQAa#vP_8RAqCUM77WZRKuBJ3fUb7s7SOKs_j3IMbgVqRBNc" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/A5xXFQAa#vP_8RAqCUM77WZRKuBJ3fUb7s7SOKs_j3IMbgVqRBNc" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -55,7 +55,7 @@ function HomeUpdates() {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 21</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/otxXxA4b#baweT3TALxnfEBrCeDKPWWPWE2IDHK0j9cWVM0enOZk" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/otxXxA4b#baweT3TALxnfEBrCeDKPWWPWE2IDHK0j9cWVM0enOZk" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -65,7 +65,7 @@ function HomeUpdates() {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 20</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/pkxFQYyY#LTHe02L-96GA2tA9tMqQ7yfs0A78bmvl8ufyxIia5f4" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/pkxFQYyY#LTHe02L-96GA2tA9tMqQ7yfs0A78bmvl8ufyxIia5f4" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -75,7 +75,7 @@ function HomeUpdates() {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 19</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/lhxXwAAT#5-3NvZKt-6Srq-lta7GG9i38MtnRjXKlqt12hQEJ8nE" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/lhxXwAAT#5-3NvZKt-6Srq-lta7GG9i38MtnRjXKlqt12hQEJ8nE" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />

@@ -70,11 +70,17 @@ code {
   align-items: center;
 }
 
-.btn-download {
-  color: blue;
+.pdf-controls {
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
 }
 
-.btn-download:hover {
-  color: red;
-  font-weight: bold;
+.disabled {
+  cursor: not-allowed;
+  color: lightslategray;
+}
+
+.clickable {
+  cursor: pointer;
 }

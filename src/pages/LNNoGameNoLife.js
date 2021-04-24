@@ -1,6 +1,7 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
-import { Container, Row, Col, Card} from 'react-bootstrap';
+import { Container, Row, Col, Card, Button} from 'react-bootstrap';
+import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import CarouselNGNL from '../components/CarouselNGNL';
 import ngnl01 from '../assets/images/ngnl/01.jpg';
 import ngnl02 from '../assets/images/ngnl/02.jpg';
@@ -34,9 +35,19 @@ function LNNoGameNoLife(props) {
                     <Col md={4} sm={6} xs={6}>
                         <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 09" src={ngnl09} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 09</Card.Title>
+                            <Card.Title> VOLUME 09</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/lwoQAKBa#2vexo96i8jO4sgHebgVhRV9ZOf8psCdoDQiOuqdsToQ" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <div class="d-flex align-items-baseline justify-content-center">
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <a class="nav-link" href="https://mega.nz/file/lwoQAKBa#2vexo96i8jO4sgHebgVhRV9ZOf8psCdoDQiOuqdsToQ" target="_blank" rel="noreferrer">
+                                                Download</a>
+                                            
+                                        </Button>
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <Link className="nav-link" to="/light-novel/ngnl/09">Read</Link>
+                                            
+                                        </Button>
+                                    </div>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -44,9 +55,19 @@ function LNNoGameNoLife(props) {
                     <Col md={4} sm={6} xs={6}>
                         <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 08" src={ngnl08} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 08</Card.Title>
+                            <Card.Title> VOLUME 08</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/klpyGYJA#LnoHI92JqUTWB-mKCd_MYLhx-empsU1zEFwHPmen9xs" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <div class="d-flex align-items-baseline justify-content-center">
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <a class="nav-link" href="https://mega.nz/file/klpyGYJA#LnoHI92JqUTWB-mKCd_MYLhx-empsU1zEFwHPmen9xs" target="_blank" rel="noreferrer">
+                                                Download</a>
+                                            
+                                        </Button>
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <Link className="nav-link" to="/light-novel/ngnl/08">Read</Link>
+                                            
+                                        </Button>
+                                    </div>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -54,9 +75,19 @@ function LNNoGameNoLife(props) {
                     <Col md={4} sm={6} xs={6}>
                         <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 07" src={ngnl07} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 07</Card.Title>
+                            <Card.Title> VOLUME 07</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/ZwhgyQoR#aXsbPuOFtTwYAMMLqzwZSutSN8yjHJmwQJiD02Okp1U" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <div class="d-flex align-items-baseline justify-content-center">
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <a class="nav-link" href="https://mega.nz/file/ZwhgyQoR#aXsbPuOFtTwYAMMLqzwZSutSN8yjHJmwQJiD02Okp1U" target="_blank" rel="noreferrer">
+                                                Download</a>
+                                            
+                                        </Button>
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <Link className="nav-link" to="/light-novel/ngnl/07">Read</Link>
+                                            
+                                        </Button>
+                                    </div>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -64,9 +95,19 @@ function LNNoGameNoLife(props) {
                     <Col md={4} sm={6} xs={6}>
                         <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 06" src={ngnl06} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 06</Card.Title>
+                            <Card.Title> VOLUME 06</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/tkgAEaaA#OESQQCp6XnyQSClG_FoCi4QYvyaEBkUCm3DY8A11__E" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <div class="d-flex align-items-baseline justify-content-center">
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <a class="nav-link" href="https://mega.nz/file/tkgAEaaA#OESQQCp6XnyQSClG_FoCi4QYvyaEBkUCm3DY8A11__E" target="_blank" rel="noreferrer">
+                                                Download</a>
+                                            
+                                        </Button>
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <Link className="nav-link" to="/light-novel/ngnl/06">Read</Link>
+                                            
+                                        </Button>
+                                    </div>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -74,9 +115,19 @@ function LNNoGameNoLife(props) {
                     <Col md={4} sm={6} xs={6}>
                         <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 05" src={ngnl05} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 05</Card.Title>
+                            <Card.Title> VOLUME 05</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/wgxWjCAL#kpijRLyS0fiYytTHUOU05GwgmA2gxTUF9uSTiPz52lE" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <div class="d-flex align-items-baseline justify-content-center">
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <a class="nav-link" href="https://mega.nz/file/wgxWjCAL#kpijRLyS0fiYytTHUOU05GwgmA2gxTUF9uSTiPz52lE" target="_blank" rel="noreferrer">
+                                                Download</a>
+                                            
+                                        </Button>
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <Link className="nav-link" to="/light-novel/ngnl/05">Read</Link>
+                                            
+                                        </Button>
+                                    </div>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -84,9 +135,19 @@ function LNNoGameNoLife(props) {
                     <Col md={4} sm={6} xs={6}>
                         <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 04" src={ngnl04} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 04</Card.Title>
+                            <Card.Title> VOLUME 04</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/VgoQwYQI#gdDIE4Uo7UZ-SM5DtvYKFtjGHasrWTQDlQ7b_PYQMa4" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <div class="d-flex align-items-baseline justify-content-center">
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <a class="nav-link" href="https://mega.nz/file/VgoQwYQI#gdDIE4Uo7UZ-SM5DtvYKFtjGHasrWTQDlQ7b_PYQMa4" target="_blank" rel="noreferrer">
+                                                Download</a>
+                                            
+                                        </Button>
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <Link className="nav-link" to="/light-novel/ngnl/04">Read</Link>
+                                            
+                                        </Button>
+                                    </div>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -94,9 +155,19 @@ function LNNoGameNoLife(props) {
                     <Col md={4} sm={6} xs={6}>
                         <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 03" src={ngnl03} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 03</Card.Title>
+                            <Card.Title> VOLUME 03</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/RpAigBiB#EybAUZVGMmXv-aKpjJA4FvS47X5LzEPMtRHPF0ABQ5g" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <div class="d-flex align-items-baseline justify-content-center">
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <a class="nav-link" href="https://mega.nz/file/RpAigBiB#EybAUZVGMmXv-aKpjJA4FvS47X5LzEPMtRHPF0ABQ5g" target="_blank" rel="noreferrer">
+                                                Download</a>
+                                            
+                                        </Button>
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <Link className="nav-link" to="/light-novel/ngnl/03">Read</Link>
+                                            
+                                        </Button>
+                                    </div>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -104,9 +175,19 @@ function LNNoGameNoLife(props) {
                     <Col md={4} sm={6} xs={6}>
                         <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 02" src={ngnl02} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 02</Card.Title>
+                            <Card.Title> VOLUME 02</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/95ZQ0brI#zqiZYF8e2uV7X1kuWDrJZ8G9R3bvEfZi1-yor222Ebs" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <div class="d-flex align-items-baseline justify-content-center">
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <a class="nav-link" href="https://mega.nz/file/95ZQ0brI#zqiZYF8e2uV7X1kuWDrJZ8G9R3bvEfZi1-yor222Ebs" target="_blank" rel="noreferrer">
+                                                Download</a>
+                                            
+                                        </Button>
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <Link className="nav-link" to="/light-novel/ngnl/02">Read</Link>
+                                            
+                                        </Button>
+                                    </div>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -114,9 +195,19 @@ function LNNoGameNoLife(props) {
                     <Col md={4} sm={6} xs={6}>
                         <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 01" src={ngnl01} />
                         <Card.Body>
-                            <Card.Title>No Game No Life VOLUME 01</Card.Title>
+                            <Card.Title> VOLUME 01</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/AgpSBAgA#fhowhYVNiSe6YRWsJXNM8D023PRL47sFNTmpyccR7MY" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <div class="d-flex align-items-baseline justify-content-center">
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <a class="nav-link" href="https://mega.nz/file/AgpSBAgA#fhowhYVNiSe6YRWsJXNM8D023PRL47sFNTmpyccR7MY" target="_blank" rel="noreferrer">
+                                                Download</a>
+                                            
+                                        </Button>
+                                        <Button variant="light" size="sm" className="mr-2">
+                                            <Link className="nav-link" to="/light-novel/ngnl/01">Read</Link>
+                                            
+                                        </Button>
+                                    </div>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />

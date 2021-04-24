@@ -8,6 +8,15 @@ import RequestPage from './pages/RequestPage';
 import HuronRequestPage from './pages/HuronRequestPage';
 import LNNoGameNoLife from './pages/LNNoGameNoLife';
 import LNMushokuTensei from './pages/LNMushokuTensei';
+import PDFViewverNGNL01 from './pages/PDFViewver/PDFViewverNGNL01';
+import PDFViewverNGNL02 from './pages/PDFViewver/PDFViewverNGNL02';
+import PDFViewverNGNL03 from './pages/PDFViewver/PDFViewverNGNL03';
+import PDFViewverNGNL04 from './pages/PDFViewver/PDFViewverNGNL04';
+import PDFViewverNGNL05 from './pages/PDFViewver/PDFViewverNGNL05';
+import PDFViewverNGNL06 from './pages/PDFViewver/PDFViewverNGNL06';
+import PDFViewverNGNL07 from './pages/PDFViewver/PDFViewverNGNL07';
+import PDFViewverNGNL08 from './pages/PDFViewver/PDFViewverNGNL08';
+import PDFViewverNGNL09 from './pages/PDFViewver/PDFViewverNGNL09';
 import logo from './assets/images/logo.png'
 
 class App extends React.Component {
@@ -24,7 +33,17 @@ class App extends React.Component {
         { title: 'Top Tier', path: '/light-novel/tier/' },
         { title: 'About', path: '/light-novel/about/' },
         { title: 'No Game No Life', path: '/light-novel/ngnl/' },
+        { title: 'No Game No Life volume 01', path: '/light-novel/ngnl/01/' },
+        { title: 'No Game No Life volume 02', path: '/light-novel/ngnl/02/' },
+        { title: 'No Game No Life volume 03', path: '/light-novel/ngnl/03/' },
+        { title: 'No Game No Life volume 04', path: '/light-novel/ngnl/04/' },
+        { title: 'No Game No Life volume 05', path: '/light-novel/ngnl/05/' },
+        { title: 'No Game No Life volume 06', path: '/light-novel/ngnl/06/' },
+        { title: 'No Game No Life volume 07', path: '/light-novel/ngnl/07/' },
+        { title: 'No Game No Life volume 08', path: '/light-novel/ngnl/08/' },
+        { title: 'No Game No Life volume 09', path: '/light-novel/ngnl/09/' },
         { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/' }
+        
       ],
       home: {
         title: 'Light Novels',
@@ -90,10 +109,20 @@ render() {
             <LNNoGameNoLife title={this.state.lnngnl.title}
                             subTitle={this.state.lnngnl.subTitle} 
                             text={this.state.lnngnl.text} />} />
+          <Route path="/light-novel/ngnl/01" exact render={() => <PDFViewverNGNL01 />} />
+          <Route path="/light-novel/ngnl/02" exact render={() => <PDFViewverNGNL02 />} />
+          <Route path="/light-novel/ngnl/03" exact render={() => <PDFViewverNGNL03 />} />
+          <Route path="/light-novel/ngnl/04" exact render={() => <PDFViewverNGNL04 />} />
+          <Route path="/light-novel/ngnl/05" exact render={() => <PDFViewverNGNL05 />} />
+          <Route path="/light-novel/ngnl/06" exact render={() => <PDFViewverNGNL06 />} />
+          <Route path="/light-novel/ngnl/07" exact render={() => <PDFViewverNGNL07 />} />
+          <Route path="/light-novel/ngnl/08" exact render={() => <PDFViewverNGNL08 />} />
+          <Route path="/light-novel/ngnl/09" exact render={() => <PDFViewverNGNL09 />} />
           <Route path="/light-novel/mushoku/" exact render={() => 
             <LNMushokuTensei title={this.state.lnmushoku.title}
                             subTitle={this.state.lnmushoku.subTitle} 
                             text={this.state.lnmushoku.text} />} />
+          
           
         </Container>
       </Router>

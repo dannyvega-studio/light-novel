@@ -1,6 +1,7 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 import { Container, Row, Col, Card} from 'react-bootstrap';
+import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import CarouselMushokuTensei from '../components/CarouselMushokuTensei';
 import mushoku01 from '../assets/images/mushoku/01.jpg';
 import mushoku02 from '../assets/images/mushoku/02.jpg';
@@ -51,7 +52,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 24</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/lshTFSZJ#C1Rb2WjiU_PBupzQ_aCjsgqdSONiytomLjZo5gP4dzA" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/lshTFSZJ#C1Rb2WjiU_PBupzQ_aCjsgqdSONiytomLjZo5gP4dzA" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -61,7 +62,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 23</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/1sxXRaaS#hqHS9QbDVmDa8bcD9ijIjRxjuZqSobEBZPJiSm0KzWY" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/1sxXRaaS#hqHS9QbDVmDa8bcD9ijIjRxjuZqSobEBZPJiSm0KzWY" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -71,7 +72,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 22</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/A5xXFQAa#vP_8RAqCUM77WZRKuBJ3fUb7s7SOKs_j3IMbgVqRBNc" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/A5xXFQAa#vP_8RAqCUM77WZRKuBJ3fUb7s7SOKs_j3IMbgVqRBNc" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -81,7 +82,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 21</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/otxXxA4b#baweT3TALxnfEBrCeDKPWWPWE2IDHK0j9cWVM0enOZk" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/otxXxA4b#baweT3TALxnfEBrCeDKPWWPWE2IDHK0j9cWVM0enOZk" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -91,7 +92,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 20</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/pkxFQYyY#LTHe02L-96GA2tA9tMqQ7yfs0A78bmvl8ufyxIia5f4" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/pkxFQYyY#LTHe02L-96GA2tA9tMqQ7yfs0A78bmvl8ufyxIia5f4" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -101,7 +102,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 19</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/lhxXwAAT#5-3NvZKt-6Srq-lta7GG9i38MtnRjXKlqt12hQEJ8nE" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/lhxXwAAT#5-3NvZKt-6Srq-lta7GG9i38MtnRjXKlqt12hQEJ8nE" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -111,7 +112,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 18</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/1o4xUS7Z#Gjqb6AWVbSDKOFniwqRclPBIC_0LDYMz2HBuhIjlXPw" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/1o4xUS7Z#Gjqb6AWVbSDKOFniwqRclPBIC_0LDYMz2HBuhIjlXPw" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -121,7 +122,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 17</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/MgxzCQQL#_LjrYAeoLyNR315AqknK4Ggov1viD8qdeYau6EAvY0A" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/MgxzCQQL#_LjrYAeoLyNR315AqknK4Ggov1viD8qdeYau6EAvY0A" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -131,7 +132,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 16</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/0ghzUKBA#OvLe0so_VCiKF1nvJL1_B7tHpZ-IQMv_b67JMhHAOd4" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/0ghzUKBA#OvLe0so_VCiKF1nvJL1_B7tHpZ-IQMv_b67JMhHAOd4" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -141,7 +142,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 15</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/JwwlmK7S#a2e_weeiFo5osUJ_UMXkiLGDYtkDDx75pUsDyR43vi0" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/JwwlmK7S#a2e_weeiFo5osUJ_UMXkiLGDYtkDDx75pUsDyR43vi0" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -151,7 +152,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 14</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/t051RYgD#0PLkdBVGyvvfUrX-ylLFOOnB_Ba4LfPr8if0K18WP74" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/t051RYgD#0PLkdBVGyvvfUrX-ylLFOOnB_Ba4LfPr8if0K18WP74" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -161,7 +162,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 13</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/40oHQaBZ#6EAw7tYi6y5Dv77Sv1I5wsDnWgeG_0F_f80xZ5OCOOo" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/40oHQaBZ#6EAw7tYi6y5Dv77Sv1I5wsDnWgeG_0F_f80xZ5OCOOo" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -171,7 +172,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 12</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/k94jjSBR#jWqL31OwnrEp7d0x4E8gzNm9N-WhhT1wPi20xhQctO0" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/k94jjSBR#jWqL31OwnrEp7d0x4E8gzNm9N-WhhT1wPi20xhQctO0" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -181,7 +182,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 11</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/M9onGYDC#Vie6tEEd7iRZUGRA8pNR72uwIUsrQdjGn5zrhepiv3Q" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/M9onGYDC#Vie6tEEd7iRZUGRA8pNR72uwIUsrQdjGn5zrhepiv3Q" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -191,7 +192,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 10</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/tx430aqQ#7rxycDweT865-0E5rYMXM5CTBkQGs0o62RL15TPviBs" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/tx430aqQ#7rxycDweT865-0E5rYMXM5CTBkQGs0o62RL15TPviBs" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -201,7 +202,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 09</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/JtwnEIwa#sOEtGAm3L0UcrhIFdph4gkMHzZuni3IPc6fVzKVFo8g" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/JtwnEIwa#sOEtGAm3L0UcrhIFdph4gkMHzZuni3IPc6fVzKVFo8g" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -211,7 +212,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 08</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/s44lyYqa#fTvBZHbFWYp8vR3Wpu-rxR0cW9H0ZGs2mFwIf1N9LFI" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/s44lyYqa#fTvBZHbFWYp8vR3Wpu-rxR0cW9H0ZGs2mFwIf1N9LFI" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -221,7 +222,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 07</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/k4xhFSYD#CENdNyaHYL0Dk48PozNxI9PEk0tELdkJdeof7tPoLDY" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/k4xhFSYD#CENdNyaHYL0Dk48PozNxI9PEk0tELdkJdeof7tPoLDY" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -231,7 +232,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 06</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/8x41iI4a#AEtIWXPaW6FfdHiR6NlXK3teFLN7RTy70V-PSLcR0ug" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/8x41iI4a#AEtIWXPaW6FfdHiR6NlXK3teFLN7RTy70V-PSLcR0ug" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -241,7 +242,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 05</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/UxxzkIgR#znn2v8wK6G44-ocZAwYOx5sWicFePZmHuvuAgJTk9FU" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/UxxzkIgR#znn2v8wK6G44-ocZAwYOx5sWicFePZmHuvuAgJTk9FU" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -251,7 +252,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 04</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/tpp31AxA#Ypa3fLDCWUYuBlmsdBy_7RMcgNZmYLv1VeKjFLyQsnQ" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/tpp31AxA#Ypa3fLDCWUYuBlmsdBy_7RMcgNZmYLv1VeKjFLyQsnQ" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -261,7 +262,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 03</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/Ew5jUQIB#fNPZI_UEARSwoK-lhAkaN4S6QZW1_o-ICp9uAUPSKx8" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/Ew5jUQIB#fNPZI_UEARSwoK-lhAkaN4S6QZW1_o-ICp9uAUPSKx8" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -271,7 +272,7 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 02</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/5loXwQrK#bTBxGmSTB8dK9DoXNAR7zsXSOuFu2VNH5U8CB2nsQBo" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/5loXwQrK#bTBxGmSTB8dK9DoXNAR7zsXSOuFu2VNH5U8CB2nsQBo" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
@@ -281,7 +282,8 @@ function LNMushokuTensei(props) {
                         <Card.Body>
                             <Card.Title>Mushoku Tensei VOLUME 01</Card.Title>
                                 <Card.Text>
-                                    <a class="nav-link btn-download" href="https://mega.nz/file/Vx4BDaZT#AI8V5WnGi8b7mfZNag18R67y3I-HjmWJxOnlCq1rM5w" target="_blank" rel="noreferrer">DOWNLOAD</a>
+                                    <Link className="nav-link btn-Download" to="/light-novel/mushoku/01">Read Online</Link>
+                                    <a class="nav-link btn-Download" href="https://mega.nz/file/Vx4BDaZT#AI8V5WnGi8b7mfZNag18R67y3I-HjmWJxOnlCq1rM5w" target="_blank" rel="noreferrer">Download</a>
                                 </Card.Text>
                         </Card.Body>
                         <Card.Img />
