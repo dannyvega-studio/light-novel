@@ -1,6 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
-import { Container, Row, Col, Card} from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import profileHuron from '../assets/images/profile-huron.jpg';
 import mushoku from '../assets/images/mushoku/01.jpg';
@@ -21,7 +21,9 @@ function HuronRequestPage(props) {
                     </Col>
                     <Col lg={4} md={4} sm={6} xs={6}>
                         <Card.Img className="aside-img mt-4 mb-4" variant="top" alt="No Game No Life" src={mushoku} />
-                        <Link className="nav-link" to="/light-novel/mushoku/">View Volumes</Link>
+                        <Button variant="light" size="sm" className="mr-2">
+                            <Link className="nav-link" to="/light-novel/mushoku/">View All Volumes</Link>
+                        </Button>
                     </Col>
                 </Row>
             </Container>

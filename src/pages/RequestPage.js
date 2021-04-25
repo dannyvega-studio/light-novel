@@ -15,6 +15,7 @@ function RequestPage(props) {
                 <Row className="justify-content-center py-5">
                     <Col lg={12} md={12} sm={12}>
                         { props.title && <h1 className="display-2 font-weight-bolder mb-4">{props.title}</h1> }
+                        { props.subTitle && <h1 className="display-4 font-weight-bolder mb-4">{props.subTitle}</h1> }
                         { props.text && <h3 className="lead font-weight-bold">{props.text}</h3> }
                     </Col>
                     <Col lg={6} md={6} sm={6} xs={6}>

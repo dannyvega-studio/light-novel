@@ -7,7 +7,6 @@ import HomePage from './pages/HomePage';
 import RequestPage from './pages/RequestPage';
 import HuronRequestPage from './pages/HuronRequestPage';
 import LNNoGameNoLife from './pages/LNNoGameNoLife';
-import LNMushokuTensei from './pages/LNMushokuTensei';
 import PDFViewverNGNL01 from './pages/PDFViewver/PDFViewverNGNL01';
 import PDFViewverNGNL02 from './pages/PDFViewver/PDFViewverNGNL02';
 import PDFViewverNGNL03 from './pages/PDFViewver/PDFViewverNGNL03';
@@ -17,6 +16,31 @@ import PDFViewverNGNL06 from './pages/PDFViewver/PDFViewverNGNL06';
 import PDFViewverNGNL07 from './pages/PDFViewver/PDFViewverNGNL07';
 import PDFViewverNGNL08 from './pages/PDFViewver/PDFViewverNGNL08';
 import PDFViewverNGNL09 from './pages/PDFViewver/PDFViewverNGNL09';
+import LNMushokuTensei from './pages/LNMushokuTensei';
+import PDFViewverMT01 from './pages/PDFViewver/MushoTensei/PDFViewverMT01';
+import PDFViewverMT02 from './pages/PDFViewver/MushoTensei/PDFViewverMT02';
+import PDFViewverMT03 from './pages/PDFViewver/MushoTensei/PDFViewverMT03';
+import PDFViewverMT04 from './pages/PDFViewver/MushoTensei/PDFViewverMT04';
+import PDFViewverMT05 from './pages/PDFViewver/MushoTensei/PDFViewverMT05';
+import PDFViewverMT06 from './pages/PDFViewver/MushoTensei/PDFViewverMT06';
+import PDFViewverMT07 from './pages/PDFViewver/MushoTensei/PDFViewverMT07';
+import PDFViewverMT08 from './pages/PDFViewver/MushoTensei/PDFViewverMT08';
+import PDFViewverMT09 from './pages/PDFViewver/MushoTensei/PDFViewverMT09';
+import PDFViewverMT10 from './pages/PDFViewver/MushoTensei/PDFViewverMT10';
+import PDFViewverMT11 from './pages/PDFViewver/MushoTensei/PDFViewverMT11';
+import PDFViewverMT12 from './pages/PDFViewver/MushoTensei/PDFViewverMT12';
+import PDFViewverMT13 from './pages/PDFViewver/MushoTensei/PDFViewverMT13';
+import PDFViewverMT14 from './pages/PDFViewver/MushoTensei/PDFViewverMT14';
+import PDFViewverMT15 from './pages/PDFViewver/MushoTensei/PDFViewverMT15';
+import PDFViewverMT16 from './pages/PDFViewver/MushoTensei/PDFViewverMT16';
+import PDFViewverMT17 from './pages/PDFViewver/MushoTensei/PDFViewverMT17';
+import PDFViewverMT18 from './pages/PDFViewver/MushoTensei/PDFViewverMT18';
+import PDFViewverMT19 from './pages/PDFViewver/MushoTensei/PDFViewverMT19';
+import PDFViewverMT20 from './pages/PDFViewver/MushoTensei/PDFViewverMT20';
+import PDFViewverMT21 from './pages/PDFViewver/MushoTensei/PDFViewverMT21';
+import PDFViewverMT22 from './pages/PDFViewver/MushoTensei/PDFViewverMT22';
+import PDFViewverMT23 from './pages/PDFViewver/MushoTensei/PDFViewverMT23';
+import PDFViewverMT24 from './pages/PDFViewver/MushoTensei/PDFViewverMT24';
 import logo from './assets/images/logo.png'
 
 class App extends React.Component {
@@ -42,8 +66,31 @@ class App extends React.Component {
         { title: 'No Game No Life volume 07', path: '/light-novel/ngnl/07/' },
         { title: 'No Game No Life volume 08', path: '/light-novel/ngnl/08/' },
         { title: 'No Game No Life volume 09', path: '/light-novel/ngnl/09/' },
-        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/' }
-        
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/01/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/02/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/03/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/04/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/05/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/06/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/07/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/08/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/09/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/10/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/11/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/12/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/13/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/14/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/15/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/16/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/17/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/18/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/19/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/20/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/21/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/22/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/23/' },
+        { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/24/' }
       ],
       home: {
         title: 'Light Novels',
@@ -51,9 +98,9 @@ class App extends React.Component {
         text: "Hello there and welcome, I'm Danny Vega and this is my personal website that I have created to share with you one of my favorite hobbies, LIGHT NOVELS, so in GoogleDrive I'll upload the ones that I like (BTW, some do I have finished reading them and others have not)"
       },
       request: {
-        title: 'Requests From Weebs',
-        subTitle: "########",
-        text: "If you'r a Weeb like me just contact me and I'll add u in this section for any LN request you could have, and with that someday I'll upload the .pdf files"
+        title: "Weeb's Requests",
+        subTitle: "My friends list",
+        text: "If you'r a Weeb like me just contact me and I'll add u in this section like a weeb user for any LN request you could have, and with that someday I'll upload the .pdf files"
       },
       huronrequest: {
         title: 'Sr. Hurón',
@@ -122,7 +169,30 @@ render() {
             <LNMushokuTensei title={this.state.lnmushoku.title}
                             subTitle={this.state.lnmushoku.subTitle} 
                             text={this.state.lnmushoku.text} />} />
-          
+          <Route path="/light-novel/mushoku/01" exact render={() => <PDFViewverMT01 />} />
+          <Route path="/light-novel/mushoku/02" exact render={() => <PDFViewverMT02 />} />
+          <Route path="/light-novel/mushoku/03" exact render={() => <PDFViewverMT03 />} />
+          <Route path="/light-novel/mushoku/04" exact render={() => <PDFViewverMT04 />} />
+          <Route path="/light-novel/mushoku/05" exact render={() => <PDFViewverMT05 />} />
+          <Route path="/light-novel/mushoku/06" exact render={() => <PDFViewverMT06 />} />
+          <Route path="/light-novel/mushoku/07" exact render={() => <PDFViewverMT07 />} />
+          <Route path="/light-novel/mushoku/08" exact render={() => <PDFViewverMT08 />} />
+          <Route path="/light-novel/mushoku/09" exact render={() => <PDFViewverMT09 />} />
+          <Route path="/light-novel/mushoku/10" exact render={() => <PDFViewverMT10 />} />
+          <Route path="/light-novel/mushoku/11" exact render={() => <PDFViewverMT11 />} />
+          <Route path="/light-novel/mushoku/12" exact render={() => <PDFViewverMT12 />} />
+          <Route path="/light-novel/mushoku/13" exact render={() => <PDFViewverMT13 />} />
+          <Route path="/light-novel/mushoku/14" exact render={() => <PDFViewverMT14 />} />
+          <Route path="/light-novel/mushoku/15" exact render={() => <PDFViewverMT15 />} />
+          <Route path="/light-novel/mushoku/16" exact render={() => <PDFViewverMT16 />} />
+          <Route path="/light-novel/mushoku/17" exact render={() => <PDFViewverMT17 />} />
+          <Route path="/light-novel/mushoku/18" exact render={() => <PDFViewverMT18 />} />
+          <Route path="/light-novel/mushoku/19" exact render={() => <PDFViewverMT19 />} />
+          <Route path="/light-novel/mushoku/20" exact render={() => <PDFViewverMT20 />} />
+          <Route path="/light-novel/mushoku/21" exact render={() => <PDFViewverMT21 />} />
+          <Route path="/light-novel/mushoku/22" exact render={() => <PDFViewverMT22 />} />
+          <Route path="/light-novel/mushoku/23" exact render={() => <PDFViewverMT23 />} />
+          <Route path="/light-novel/mushoku/24" exact render={() => <PDFViewverMT24 />} />
           
         </Container>
       </Router>
