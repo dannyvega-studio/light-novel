@@ -1,11 +1,10 @@
 import React from 'react';
 import { FaBackward, FaFastBackward, 
-        FaForward, FaFastForward,
-        FaSearchPlus, FaSearchMinus } from 'react-icons/fa';
+        FaForward, FaFastForward } from 'react-icons/fa';
 
-const PDFReaderControls = (props) => {
+const PDFReaderControlsPage = (props) => {
 
-    const { file, pageNumber, numPages, setPageNumber, scale, setScale } = props;
+    const { pageNumber, numPages, setPageNumber } = props;
 
     const isFirstPage = pageNumber === 1;
     const isLastPage = pageNumber === numPages;
@@ -33,24 +32,9 @@ const PDFReaderControls = (props) => {
         const { value } = e.target;
         setPageNumber(Number(value));
     };
-    
-    const isMinZoom = scale < 0.6;
-    const isMaxZoom = scale >= 2.0;
-
-    const zoomOutClass = isMinZoom ? 'disabled' : 'clickable';
-    const zoomInClass = isMaxZoom ? 'disabled' : 'clickable';
-
-    const zoomOut = () => {
-        if (!isMinZoom) setScale(scale - 0.1);
-    };
-
-    const zoomIn = () => {
-        if (!isMaxZoom) setScale(scale + 0.1);
-    };
 
     return (
-        <div className="pdf-controls bg-dark m-3 p-3 d-flex align-items-baseline justify-content-between">
-            <div className="d-flex justify-content-between align-items-baseline">
+        <div className="pdf-controls bg-dark m-3 p-3 d-flex align-items-baseline justify-content-center">
             <FaFastBackward className={`mx-3 ${firstPageClass}`}
                 onClick={goToFirstPage} />
             <FaBackward className={`mx-3 ${firstPageClass}`}
@@ -72,21 +56,9 @@ const PDFReaderControls = (props) => {
                 onClick={goToNextPage} />
             <FaFastForward className={`mx-3 ${lastPageClass}`}
                 onClick={goToLastPage} />
-            </div>
-            <div className="d-flex justify-content-between align-items-baseline">
-                <FaSearchMinus
-                className={`fas fa-search-minus mx-3 ${zoomOutClass}`}
-                onClick={zoomOut}
-                /> 
-                <span>{(scale * 100).toFixed()}%</span>
-                <FaSearchPlus
-                className={`fas fa-search-plus mx-3 ${zoomInClass}`}
-                onClick={zoomIn}
-                />
-            </div>
         </div>
         
     )
 }
 
-export default PDFReaderControls;
+export default PDFReaderControlsPage;

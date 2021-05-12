@@ -28,17 +28,17 @@ function HomePage(props) {
                             <Card.Title>No Game No Life VOLUME 01</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <a class="nav-link" href="https://mega.nz/file/AgpSBAgA#fhowhYVNiSe6YRWsJXNM8D023PRL47sFNTmpyccR7MY" target="_blank" rel="noreferrer">
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/AgpSBAgA#fhowhYVNiSe6YRWsJXNM8D023PRL47sFNTmpyccR7MY" target="_blank" rel="noreferrer">
                                                 Download</a>
                                                 <FaCloudDownloadAlt />
                                         </Button>
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <Link className="nav-link" to="/light-novel/ngnl/01">Read</Link>
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <Link className="btn-dark-text" to="/light-novel/ngnl/01">Read</Link>
                                             <FaReadme />
                                         </Button>
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <Link className="nav-link" to="/light-novel/ngnl/">All Volumes</Link>
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <Link className="btn-dark-text" to="/light-novel/ngnl/">All Volumes</Link>
                                             <FaBook />
                                         </Button>
                                     </div>

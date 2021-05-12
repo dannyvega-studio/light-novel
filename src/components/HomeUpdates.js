@@ -1,6 +1,7 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
+import { FaCloudDownloadAlt, FaReadme } from 'react-icons/fa';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import mushoku19 from '../assets/images/mushoku/19.jpg';
 import mushoku20 from '../assets/images/mushoku/20.jpg';
@@ -27,14 +28,14 @@ function HomeUpdates() {
                             <Card.Title> VOLUME 24</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <a class="nav-link" href="https://mega.nz/file/lshTFSZJ#C1Rb2WjiU_PBupzQ_aCjsgqdSONiytomLjZo5gP4dzA" target="_blank" rel="noreferrer">
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/lshTFSZJ#C1Rb2WjiU_PBupzQ_aCjsgqdSONiytomLjZo5gP4dzA" target="_blank" rel="noreferrer">
                                                 Download</a>
-                                            
+                                                <FaCloudDownloadAlt />
                                         </Button>
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <Link className="nav-link" to="/light-novel/mushoku/24">Read</Link>
-                                            
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <Link className="btn-dark-text" to="/light-novel/mushoku/24">Read</Link>
+                                            <FaReadme />
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -47,13 +48,14 @@ function HomeUpdates() {
                             <Card.Title> VOLUME 23</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <a class="nav-link" href="https://mega.nz/file/1sxXRaaS#hqHS9QbDVmDa8bcD9ijIjRxjuZqSobEBZPJiSm0KzWY" target="_blank" rel="noreferrer">
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/1sxXRaaS#hqHS9QbDVmDa8bcD9ijIjRxjuZqSobEBZPJiSm0KzWY" target="_blank" rel="noreferrer">
                                                 Download</a>
-                                            
+                                                <FaCloudDownloadAlt />
                                         </Button>
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <Link className="nav-link" to="/light-novel/mushoku/23">Read</Link>
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <Link className="btn-dark-text" to="/light-novel/mushoku/23">Read</Link>
+                                            <FaReadme />
                                             
                                         </Button>
                                     </div>
@@ -67,13 +69,15 @@ function HomeUpdates() {
                             <Card.Title> VOLUME 22</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <a class="nav-link" href="https://mega.nz/file/A5xXFQAa#vP_8RAqCUM77WZRKuBJ3fUb7s7SOKs_j3IMbgVqRBNc" target="_blank" rel="noreferrer">
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/A5xXFQAa#vP_8RAqCUM77WZRKuBJ3fUb7s7SOKs_j3IMbgVqRBNc" target="_blank" rel="noreferrer">
                                                 Download</a>
+                                                <FaCloudDownloadAlt />
                                             
                                         </Button>
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <Link className="nav-link" to="/light-novel/mushoku/22">Read</Link>
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <Link className="btn-dark-text" to="/light-novel/mushoku/22">Read</Link>
+                                            <FaReadme />
                                             
                                         </Button>
                                     </div>
@@ -87,13 +91,15 @@ function HomeUpdates() {
                             <Card.Title> VOLUME 21</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <a class="nav-link" href="https://mega.nz/file/otxXxA4b#baweT3TALxnfEBrCeDKPWWPWE2IDHK0j9cWVM0enOZk" target="_blank" rel="noreferrer">
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/otxXxA4b#baweT3TALxnfEBrCeDKPWWPWE2IDHK0j9cWVM0enOZk" target="_blank" rel="noreferrer">
                                                 Download</a>
+                                                <FaCloudDownloadAlt />
                                             
                                         </Button>
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <Link className="nav-link" to="/light-novel/mushoku/21">Read</Link>
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <Link className="btn-dark-text" to="/light-novel/mushoku/21">Read</Link>
+                                            <FaReadme />
                                             
                                         </Button>
                                     </div>
@@ -107,13 +113,15 @@ function HomeUpdates() {
                             <Card.Title> VOLUME 20</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <a class="nav-link" href="https://mega.nz/file/pkxFQYyY#LTHe02L-96GA2tA9tMqQ7yfs0A78bmvl8ufyxIia5f4" target="_blank" rel="noreferrer">
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/pkxFQYyY#LTHe02L-96GA2tA9tMqQ7yfs0A78bmvl8ufyxIia5f4" target="_blank" rel="noreferrer">
                                                 Download</a>
+                                                <FaCloudDownloadAlt />
                                             
                                         </Button>
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <Link className="nav-link" to="/light-novel/mushoku/20">Read</Link>
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <Link className="btn-dark-text" to="/light-novel/mushoku/20">Read</Link>
+                                            <FaReadme />
                                             
                                         </Button>
                                     </div>
@@ -127,13 +135,15 @@ function HomeUpdates() {
                             <Card.Title> VOLUME 19</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <a class="nav-link" href="https://mega.nz/file/lhxXwAAT#5-3NvZKt-6Srq-lta7GG9i38MtnRjXKlqt12hQEJ8nE" target="_blank" rel="noreferrer">
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/lhxXwAAT#5-3NvZKt-6Srq-lta7GG9i38MtnRjXKlqt12hQEJ8nE" target="_blank" rel="noreferrer">
                                                 Download</a>
+                                                <FaCloudDownloadAlt />
                                             
                                         </Button>
-                                        <Button variant="light" size="sm" className="mr-2">
-                                            <Link className="nav-link" to="/light-novel/mushoku/19">Read</Link>
+                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                            <Link className="btn-dark-text" to="/light-novel/mushoku/19">Read</Link>
+                                            <FaReadme />
                                             
                                         </Button>
                                     </div>

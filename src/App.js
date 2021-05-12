@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Container, Nav, Navbar, Jumbotron } from 'react-bootstrap';
 import HomePage from './pages/HomePage';
 import RequestPage from './pages/RequestPage';
+import ListPage from './pages/ListPage';
 import HuronRequestPage from './pages/HuronRequestPage';
 import LNNoGameNoLife from './pages/LNNoGameNoLife';
 import PDFViewverNGNL01 from './pages/PDFViewver/PDFViewverNGNL01';
@@ -98,9 +99,13 @@ class App extends React.Component {
         text: "Hello there and welcome, I'm Danny Vega and this is my personal website that I have created to share with you one of my favorite hobbies, LIGHT NOVELS, so in GoogleDrive I'll upload the ones that I like (BTW, some do I have finished reading them and others have not)"
       },
       request: {
-        title: "Weeb's Requests",
-        subTitle: "My friends list",
+        title: "Light Novels Requested By...",
+        subTitle: "Checkout some personal requests from this weebs.",
         text: "If you'r a Weeb like me just contact me and I'll add u in this section like a weeb user for any LN request you could have, and with that someday I'll upload the .pdf files"
+      },
+      list: {
+        title: "Light Novels List",
+        subTitle: "Checkout My LN Backup",
       },
       huronrequest: {
         title: 'Sr. Hurón',
@@ -123,7 +128,7 @@ render() {
     <div className="App bg">
 
       <Router>
-        <Container className="p-0 pt-4 pb-4" fluid={false}>
+        <Container className="p-0" fluid={false}>
 
           <Jumbotron className="mb-2 mt-2 border jumbotron-bg"></Jumbotron>
           
@@ -149,6 +154,9 @@ render() {
             <RequestPage title={this.state.request.title}
                             subTitle={this.state.request.subTitle} 
                             text={this.state.request.text} />} />
+          <Route path="/light-novel/list/" exact render={() => 
+            <ListPage title={this.state.list.title}
+                            subTitle={this.state.list.subTitle} />} />
           <Route path="/light-novel/huron/" exact render={() => 
             <HuronRequestPage title={this.state.huronrequest.title}
                             subTitle={this.state.huronrequest.subTitle} />} />

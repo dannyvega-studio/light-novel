@@ -11,7 +11,7 @@ function RequestWeebs(props) {
             <Container>
                 <Row className="justify-content-center">
                     <Col xs={12}>
-                        <Card.Title>WEEB USERS</Card.Title>
+                        <Card.Title>Light Novels Requested By...</Card.Title>
                     </Col>
                     <Col xs={4}>
                         <Link to="/light-novel/huron/"><img src={profileHuron} class="profile-request mt-4 mb-4" variant="top" alt="Señor Huron"/></Link>

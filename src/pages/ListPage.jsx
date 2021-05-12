@@ -1,15 +1,16 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
-import { Container, Row, Col } from 'react-bootstrap';
-import RequestHuron from '../components/RequestHuron';
-import RequestKuervo from '../components/RequestKuervo';
+import { Container, Row, Col, Card} from 'react-bootstrap';
+import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import ngnl01 from '../assets/images/ngnl/01.jpg';
+import mushoku01 from '../assets/images/mushoku/01.jpg';
 
-function RequestPage(props) {
+function ListPage(props) {
 
     return(
         <div>
             <Helmet>
-                <title>Light Novels || Request Page</title>
+                <title>Light Novels || List Page</title>
             </Helmet>
             <Container className="bg-white border">
                 <Row className="justify-content-center py-5">
@@ -19,10 +20,12 @@ function RequestPage(props) {
                         { props.text && <h3 className="lead font-weight-bold">{props.text}</h3> }
                     </Col>
                     <Col lg={6} md={6} sm={6} xs={6}>
-                        <RequestHuron />                        
+                        <Link to="/light-novel/mushoku/"><img src={mushoku01} class="profile-request mt-4 mb-4" variant="top" alt="Mushoku Tensei"/></Link>
+                        <Card.Title>Mushoku Tensei: Isekai Ittara Honki Dasu</Card.Title>             
                     </Col>
                     <Col lg={6} md={6} sm={6} xs={6}>
-                        <RequestKuervo />                        
+                        <Link to="/light-novel/ngnl/"><img src={ngnl01} class="profile-request mt-4 mb-4" variant="top" alt="No Game No Life"/></Link>
+                        <Card.Title>No Game No Life</Card.Title>                 
                     </Col>
                 </Row>
             </Container>
@@ -31,4 +34,4 @@ function RequestPage(props) {
     );
 }
 
-export default RequestPage;
+export default ListPage;

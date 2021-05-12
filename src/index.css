@@ -17,6 +17,29 @@ code {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-attachment: fixed;
+}
+
+.btn-dark {
+    background-color: #1F2833;
+    border: 3px solid-transparent;
+    border-radius: 100px;
+}
+
+.btn-dark:hover {
+  background-color: #1F2833;
+  border: 3px solid-transparent;
+  border-radius: 100px;
+}
+
+.btn-dark-text {
+  color: white;
+  text-decoration: none;
+}
+
+.btn-dark-text:hover {
+  color: white;
+  text-decoration: none;
 }
 
 .bg-white {
@@ -27,8 +50,8 @@ code {
   background-image: url('./assets/images/bg-jumbotron.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
+  background-attachment: fixed;
   height: 300px;
 }
 
