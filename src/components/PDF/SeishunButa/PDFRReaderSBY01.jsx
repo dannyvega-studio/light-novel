@@ -20,9 +20,9 @@ const PDFReader = () => {
                 <PDFReaderControlsZoom 
                     scale={scale}
                     setScale={setScale}
-                    file="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/027831631c2343928344941d38cb31970a775615/MushoTensei/mt01.pdf" />
+                    file="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/SBY/sbys01.pdf" />
                 <Document
-                    file="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/027831631c2343928344941d38cb31970a775615/MushoTensei/mt01.pdf"
+                    file="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/SBY/sbys01.pdf"
                     onLoadSuccess={onDocumentLoadSuccess}
                 >
                 <Page pageNumber={pageNumber} scale={scale} />
@@ -31,7 +31,7 @@ const PDFReader = () => {
                     numPages={numPages} 
                     pageNumber={pageNumber} 
                     setPageNumber={setPageNumber} 
-                    file="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/027831631c2343928344941d38cb31970a775615/MushoTensei/mt01.pdf" />
+                    file="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/SBY/sbys01.pdf" />
             </section>
         </div>
     )

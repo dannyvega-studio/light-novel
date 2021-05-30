@@ -27,5 +27,4 @@ class CarouselNGNL extends React.Component {
     }
 };
 
-
 export default CarouselNGNL;
