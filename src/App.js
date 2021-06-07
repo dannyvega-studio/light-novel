@@ -96,9 +96,9 @@ class App extends React.Component {
       headerLinks: [
         { title: 'Home', path: '/light-novel/' },
         { title: 'Novel List', path: '/light-novel/list/' },
+        { title: 'Spin Off List', path: '/light-novel/solist/' },
         { title: 'Request', path: '/light-novel/request/' },
         { title: 'Sr Huron Requests', path: '/light-novel/huron/' },
-        { title: 'Top Tier', path: '/light-novel/tier/' },
         { title: 'About', path: '/light-novel/about/' },
         { title: 'No Game No Life', path: '/light-novel/ngnl/' },
         { title: 'No Game No Life volume 01', path: '/light-novel/ngnl/01/' },
@@ -163,7 +163,7 @@ class App extends React.Component {
       home: {
         title: 'Light Novels',
         subTitle: "Currently Reading...",
-        text: "Hello there and welcome, I'm Danny Vega and this is my personal website that I have created to share with you one of my favorite hobbies, LIGHT NOVELS, so in GoogleDrive I'll upload the ones that I like (BTW, some do I have finished reading them and others have not)"
+        text: "Hello there and welcome, I'm Danny Vega and this is my personal website that I have created to share with you one of my favorite hobbies, LIGHT NOVELS, so in Mega and GoogleDrive I'll upload the ones that I like (BTW, some do I have finished reading them and others have not)"
       },
       request: {
         title: "Light Novels Requested By...",
@@ -228,9 +228,9 @@ render() {
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="mr-auto">
                 <Link className="nav-link" to="/light-novel/">Home</Link>
-                <Link className="nav-link" to="/light-novel/list/">Novel List</Link>
+                <Link className="nav-link" to="/light-novel/list/">Novels</Link>
+                <Link className="nav-link" to="/light-novel/solist/">Spin Off</Link>
                 <Link className="nav-link" to="/light-novel/request/">Request</Link>
-                <Link className="nav-link" to="/light-novel/tier/">Top Tier</Link>
                 <Link className="nav-link" to="/light-novel/about/">About</Link>
               </Nav>
               <Nav className="ml-auto">

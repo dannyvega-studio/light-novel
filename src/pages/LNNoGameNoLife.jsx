@@ -34,7 +34,7 @@ function LNNoGameNoLife(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4">{props.text}</h4> }
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 10" src={ngnl10} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 10" src={ngnl10} />
                         <Card.Body>
                             <Card.Title> VOLUME 10</Card.Title>
                                 <Card.Text>
@@ -52,7 +52,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 09" src={ngnl09} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 09" src={ngnl09} />
                         <Card.Body>
                             <Card.Title> VOLUME 09</Card.Title>
                                 <Card.Text>
@@ -70,7 +70,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 08" src={ngnl08} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 08" src={ngnl08} />
                         <Card.Body>
                             <Card.Title> VOLUME 08</Card.Title>
                                 <Card.Text>
@@ -88,7 +88,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 07" src={ngnl07} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 07" src={ngnl07} />
                         <Card.Body>
                             <Card.Title> VOLUME 07</Card.Title>
                                 <Card.Text>
@@ -106,7 +106,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 06" src={ngnl06} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 06" src={ngnl06} />
                         <Card.Body>
                             <Card.Title> VOLUME 06</Card.Title>
                                 <Card.Text>
@@ -124,7 +124,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 05" src={ngnl05} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 05" src={ngnl05} />
                         <Card.Body>
                             <Card.Title> VOLUME 05</Card.Title>
                                 <Card.Text>
@@ -142,7 +142,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 04" src={ngnl04} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 04" src={ngnl04} />
                         <Card.Body>
                             <Card.Title> VOLUME 04</Card.Title>
                                 <Card.Text>
@@ -160,7 +160,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 03" src={ngnl03} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 03" src={ngnl03} />
                         <Card.Body>
                             <Card.Title> VOLUME 03</Card.Title>
                                 <Card.Text>
@@ -178,7 +178,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 02" src={ngnl02} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 02" src={ngnl02} />
                         <Card.Body>
                             <Card.Title> VOLUME 02</Card.Title>
                                 <Card.Text>
@@ -196,7 +196,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="No Game No Life 01" src={ngnl01} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 01" src={ngnl01} />
                         <Card.Body>
                             <Card.Title> VOLUME 01</Card.Title>
                                 <Card.Text>

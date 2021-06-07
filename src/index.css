@@ -89,12 +89,20 @@ code {
   border-radius: 100px;
 }
 
-.update-img {
+.ln-cover {
   width: 100%;
-  max-width: 100px;
-  height: 100%;
-  max-height: 150px;
-  border-radius: 10px;
+  max-width: 200px;
+  border-color: #e6e6ff;
+  border-radius: 25px;
+  border-style: outset;
+}
+
+.ln-cover:hover {
+  width: 100%;
+  max-width: 200px;
+  border-color: #b3b3ff;
+  border-radius: 25px;
+  border-style: outset;
 }
 
 .carousel {
@@ -104,6 +112,12 @@ code {
 }
 
 .pdf-controls {
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+}
+
+.pagination-controls {
   font-size: 16px;
   color: white;
   border-radius: 5px;

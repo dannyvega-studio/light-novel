@@ -48,7 +48,7 @@ function LNMushokuTensei(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4">{props.text}</h4> }
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 24" src={mushoku24} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 24" src={mushoku24} />
                         <Card.Body>
                             <Card.Title> VOLUME 24</Card.Title>
                                 <Card.Text>
@@ -66,7 +66,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 23" src={mushoku23} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 23" src={mushoku23} />
                         <Card.Body>
                             <Card.Title> VOLUME 23</Card.Title>
                                 <Card.Text>
@@ -84,7 +84,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 22" src={mushoku22} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 22" src={mushoku22} />
                         <Card.Body>
                             <Card.Title> VOLUME 22</Card.Title>
                                 <Card.Text>
@@ -102,7 +102,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 21" src={mushoku21} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 21" src={mushoku21} />
                         <Card.Body>
                             <Card.Title> VOLUME 21</Card.Title>
                                 <Card.Text>
@@ -120,7 +120,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 20" src={mushoku20} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 20" src={mushoku20} />
                         <Card.Body>
                             <Card.Title> VOLUME 20</Card.Title>
                                 <Card.Text>
@@ -138,7 +138,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 19" src={mushoku19} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 19" src={mushoku19} />
                         <Card.Body>
                             <Card.Title> VOLUME 19</Card.Title>
                                 <Card.Text>
@@ -156,7 +156,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 18" src={mushoku18} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 18" src={mushoku18} />
                         <Card.Body>
                             <Card.Title> VOLUME 18</Card.Title>
                                 <Card.Text>
@@ -174,7 +174,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 17" src={mushoku17} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 17" src={mushoku17} />
                         <Card.Body>
                             <Card.Title> VOLUME 17</Card.Title>
                                 <Card.Text>
@@ -192,7 +192,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 16" src={mushoku16} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 16" src={mushoku16} />
                         <Card.Body>
                             <Card.Title> VOLUME 16</Card.Title>
                                 <Card.Text>
@@ -210,7 +210,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 15" src={mushoku15} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 15" src={mushoku15} />
                         <Card.Body>
                             <Card.Title> VOLUME 15</Card.Title>
                                 <Card.Text>
@@ -228,7 +228,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 14" src={mushoku14} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 14" src={mushoku14} />
                         <Card.Body>
                             <Card.Title> VOLUME 14</Card.Title>
                                 <Card.Text>
@@ -246,7 +246,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 13" src={mushoku13} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 13" src={mushoku13} />
                         <Card.Body>
                             <Card.Title> VOLUME 13</Card.Title>
                                 <Card.Text>
@@ -264,7 +264,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 12" src={mushoku12} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 12" src={mushoku12} />
                         <Card.Body>
                             <Card.Title> VOLUME 12</Card.Title>
                                 <Card.Text>
@@ -282,7 +282,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 11" src={mushoku11} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 11" src={mushoku11} />
                         <Card.Body>
                             <Card.Title> VOLUME 11</Card.Title>
                                 <Card.Text>
@@ -300,7 +300,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 10" src={mushoku10} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 10" src={mushoku10} />
                         <Card.Body>
                             <Card.Title> VOLUME 10</Card.Title>
                                 <Card.Text>
@@ -318,7 +318,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 09" src={mushoku09} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 09" src={mushoku09} />
                         <Card.Body>
                             <Card.Title> VOLUME 09</Card.Title>
                                 <Card.Text>
@@ -336,7 +336,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 08" src={mushoku08} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 08" src={mushoku08} />
                         <Card.Body>
                             <Card.Title> VOLUME 08</Card.Title>
                                 <Card.Text>
@@ -354,7 +354,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 07" src={mushoku07} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 07" src={mushoku07} />
                         <Card.Body>
                             <Card.Title> VOLUME 07</Card.Title>
                                 <Card.Text>
@@ -372,7 +372,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 06" src={mushoku06} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 06" src={mushoku06} />
                         <Card.Body>
                             <Card.Title> VOLUME 06</Card.Title>
                                 <Card.Text>
@@ -390,7 +390,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 05" src={mushoku05} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 05" src={mushoku05} />
                         <Card.Body>
                             <Card.Title> VOLUME 05</Card.Title>
                                 <Card.Text>
@@ -408,7 +408,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 04" src={mushoku04} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 04" src={mushoku04} />
                         <Card.Body>
                             <Card.Title> VOLUME 04</Card.Title>
                                 <Card.Text>
@@ -426,7 +426,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 03" src={mushoku03} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 03" src={mushoku03} />
                         <Card.Body>
                             <Card.Title> VOLUME 03</Card.Title>
                                 <Card.Text>
@@ -444,7 +444,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 02" src={mushoku02} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 02" src={mushoku02} />
                         <Card.Body>
                             <Card.Title> VOLUME 02</Card.Title>
                                 <Card.Text>
@@ -462,7 +462,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img className="update-img mt-4 mb-4" variant="top" alt="Mushoku Tensei 01" src={mushoku01} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei 01" src={mushoku01} />
                         <Card.Body>
                             <Card.Title> VOLUME 01</Card.Title>
                                 <Card.Text>
