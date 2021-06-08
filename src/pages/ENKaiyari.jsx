@@ -38,7 +38,7 @@ function ENKaiyari(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="#" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/dkxlSCRR#DbM5MeMo94J7GJLmPmhy9bLIDMH4-s-smUgDe-D3W5I" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
@@ -56,7 +56,7 @@ function ENKaiyari(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="#" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/R9hyEA5J#oB0p8wQD8PWTAmeenItb8OVtxwaBvnfKNwsuh2XeErs" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
@@ -74,7 +74,7 @@ function ENKaiyari(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="#" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/R04iHK4J#L4NCi7vZU-FlCNGFNloLntASjz87kRD7WSq2BwTyy2g" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
@@ -92,7 +92,7 @@ function ENKaiyari(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="#" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/Akh20STB#O_yVbx8coa4InsrO8AtyLUk-f7lssZPO8maoKfCyywE" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
@@ -110,7 +110,7 @@ function ENKaiyari(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="#" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/UkwmESZA#-N3ukkmspz7RbuOaoZ15ho03Y6GgDIzD1AX2mo2Ce6A" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
@@ -128,7 +128,7 @@ function ENKaiyari(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="#" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/Ag5gXKjb#fb_lIhfnPY9SyJEG3QB19Df72cDPkcQtCuRlQwHxG6U" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
@@ -146,7 +146,7 @@ function ENKaiyari(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="#" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/I14w2QxI#CClw5euL3HCz74LDeVbCIPQn8FsyK4oCD68GFMyOliQ" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
@@ -164,7 +164,7 @@ function ENKaiyari(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="#" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/oxgiyIRQ#GuXogw0RIXQ5zmnSSuwTV1h-P0FBhPYEWFqmDKtwRaQ" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
