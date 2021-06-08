@@ -42,10 +42,10 @@ function LNSeishunButa(props) {
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/Ft5V1CrZ#qikpg5sYqrIbZ_MmC3W2viNZRho7USstMzDRaSOEUhU" target="_blank" rel="noreferrer">
-                                                Download</a>
+                                                Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/sby/03">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/sby/03">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -60,10 +60,10 @@ function LNSeishunButa(props) {
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/MsgXFA7I#i87-ep29sAwHOnRXH7qmfD7GVxpONJrA8oXFAwo-7is" target="_blank" rel="noreferrer">
-                                                Download</a>
+                                                Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/sby/02">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/sby/02">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -78,10 +78,10 @@ function LNSeishunButa(props) {
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/VoxFSAZI#q5-x37tVBDjq0ZqgDEoq8-DY-KBMFrafGA2AGERQL14" target="_blank" rel="noreferrer">
-                                                Download</a>    
+                                                Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/sby/01">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/sby/01">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>

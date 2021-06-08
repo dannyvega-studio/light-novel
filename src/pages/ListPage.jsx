@@ -41,8 +41,6 @@ function ListPage(props) {
                 <Row className="justify-content-center py-5">
                     <Col lg={12} md={12} sm={12}>
                         { props.title && <h1 className="display-2 font-weight-bolder mb-4">{props.title}</h1> }
-                        { props.subTitle && <h1 className="display-4 font-weight-bolder mb-4">{props.subTitle}</h1> }
-                        { props.text && <h3 className="lead font-weight-bold">{props.text}</h3> }
                     </Col>
                     <Col lg={4} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/gs/"><img src={gs01} class="ln-cover mt-4 mb-4" variant="top" alt="Goblin Slayer"/></Link>

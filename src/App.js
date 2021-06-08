@@ -14,7 +14,10 @@ import { Toggle } from './components/Toggle';
 import HomePage from './pages/HomePage';
 import RequestPage from './pages/RequestPage';
 import ListPage from './pages/ListPage';
+import ListEroPage from './pages/ListEroPage';
 import HuronRequestPage from './pages/HuronRequestPage';
+
+// START LIGHT NOVELS //
 
 import LNNoGameNoLife from './pages/LNNoGameNoLife.jsx';
 import PDFViewverNGNL01 from './pages/PDFViewver/PDFViewverNGNL01';
@@ -99,6 +102,18 @@ import PDFViewverKONOSUBA15 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA
 import PDFViewverKONOSUBA16 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA16';
 import PDFViewverKONOSUBA17 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA17';
 
+// START EROTIC NOVELS //
+
+import ENKaiyari from './pages/ENKaiyari';
+import PDFViewverKAIYARI01 from './pages/PDFViewver/KaiYari/PDFViewverKAIYARI01';
+import PDFViewverKAIYARI02 from './pages/PDFViewver/KaiYari/PDFViewverKAIYARI02';
+import PDFViewverKAIYARI03 from './pages/PDFViewver/KaiYari/PDFViewverKAIYARI03';
+import PDFViewverKAIYARI04 from './pages/PDFViewver/KaiYari/PDFViewverKAIYARI04';
+import PDFViewverKAIYARI05 from './pages/PDFViewver/KaiYari/PDFViewverKAIYARI05';
+import PDFViewverKAIYARI06 from './pages/PDFViewver/KaiYari/PDFViewverKAIYARI06';
+import PDFViewverKAIYARI07 from './pages/PDFViewver/KaiYari/PDFViewverKAIYARI07';
+import PDFViewverKAIYARI08 from './pages/PDFViewver/KaiYari/PDFViewverKAIYARI08';
+
 import logo from './assets/images/logo.png';
 
 /*function AppDarkLight() {
@@ -116,9 +131,13 @@ class App extends React.Component {
         { title: 'Home', path: '/light-novel/' },
         { title: 'Novel List', path: '/light-novel/list/' },
         { title: 'Spin Off List', path: '/light-novel/solist/' },
+        { title: 'Erotic List', path: '/light-novel/erolist/' },
         { title: 'Request', path: '/light-novel/request/' },
         { title: 'Sr Huron Requests', path: '/light-novel/huron/' },
         { title: 'About', path: '/light-novel/about/' },
+
+        // START LIGHT NOVELS //
+        
         { title: 'No Game No Life', path: '/light-novel/ngnl/' },
         { title: 'No Game No Life Volumen 01', path: '/light-novel/ngnl/01/' },
         { title: 'No Game No Life Volumen 02', path: '/light-novel/ngnl/02/' },
@@ -196,6 +215,18 @@ class App extends React.Component {
         { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 15', path: '/light-novel/konosuba/15/' },
         { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 16', path: '/light-novel/konosuba/16/' },
         { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 17', path: '/light-novel/konosuba/17/' },
+
+        // START EROTIC NOVELS //
+
+        { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen', path: '/light-novel/kaiyari/' },
+        { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 01', path: '/light-novel/kaiyari/01/' },
+        { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 02', path: '/light-novel/kaiyari/02/' },
+        { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 03', path: '/light-novel/kaiyari/03/' },
+        { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 04', path: '/light-novel/kaiyari/04/' },
+        { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 05', path: '/light-novel/kaiyari/05/' },
+        { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 06', path: '/light-novel/kaiyari/06/' },
+        { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 07', path: '/light-novel/kaiyari/07/' },
+        { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 08', path: '/light-novel/kaiyari/08/' },
       ],
       home: {
         title: 'Light Novels',
@@ -209,10 +240,16 @@ class App extends React.Component {
       list: {
         title: "Novelas Ligeras",
       },
+      erolist: {
+        title: "Novelas Eróticas",
+      },
       huronrequest: {
         title: 'Sr. Hurón',
         subTitle: "Thicc and LN are Top Tier",
       },
+
+      // START LIGHT NOVELS //
+      
       lnngnl: {
         title: 'No Game No Life',
         subTitle: "Volúmenes: 10 de 10",
@@ -242,6 +279,14 @@ class App extends React.Component {
         title: 'Kono Subarashii Sekai ni Shukufuku wo',
         subTitle: "Volúmenes: 17 de 17",
         text: "Kazuma Satou es un hikikomori que vive en un sector rural de Japón. Un día, decidido ir a comprar lo antes posible un videojuego, sale de casa y de regreso observa a una chica que sería atropellada por un camión y hace lo impensable para él, salvándola, y muriendo de forma heroica. O eso creía, puesto que realmente no fue atropellado y murió de un susto al pensar que lo había atropellado un camión, el cual ni siquiera era un camión y solo era un lento tractor que pasaba saludando a la joven que tampoco necesitaba ayuda, y solo la empujó violentamente. Su muerte fue tan patética que incluso los médicos que lo revisaron se burlaron de él, su familia también lo hizo, y todo en cuánto supo de su muerte se rio. Mágicamente, despierta en un salón increíble y desconocido, en el que encuentra a una hermosa diosa llamada Aqua, que le ofrece, luego de burlarse de su ridícula muerte, darle una nueva vida en un universo paralelo y de fantasía, en el que tendrá aventuras increíbles, enfrentará monstruos terribles, aprenderá poderosas magias, y deberá derrotar a un rey demonio que es el gobernante de ese mundo, alzándose como el héroe entre héroes, por lo cual le brindará un arma, habilidad u objeto (incluso ser) que lo ayude en su aventura."
+      },
+
+      // START EROTIC NOVELS //
+
+      enkaiyari: {
+        title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahō to Skill Copy no Chōetsu Heal',
+        subTitle: "Volúmenes: 08 de 09...",
+        text: "“Venganza ... Eso es lo que quiero ... Luego de 4 años de vejaciones; solo quiero venganza ... Me vengaré de todos ...” “Los hechiceros sanadores no pueden pelear solos”. Keyarga, quien siempre ha sido atormentado por esta lógica, fue explotado una y otra vez por otros. Un día notó lo que había más allá de la magia de curación, y se convenció de que los hechiceros sanadores son la clase más fuerte de todas. No obstante, cuando descubrió este potencial ya era demasiado tarde. Por lo tanto, decide retroceder en el tiempo por cuatro años, dispuesto a rehacer su vida. Esta es la historia heroica del hechicero sanador que se convirtió en el guerrero más fuerte, utilizando el conocimiento de su vida pasada y la magia de curación."
       }
     }
   } // Ends Constructor //
@@ -273,6 +318,7 @@ render() {
                 <Link className="nav-link" to="/light-novel/">Home</Link>
                 <Link className="nav-link" to="/light-novel/list/">Novelas</Link>
                 <Link className="nav-link" to="/light-novel/solist/">Spin Off</Link>
+                <Link className="nav-link" to="/light-novel/erolist/">Eróticas</Link>
                 <Link className="nav-link" to="/light-novel/request/">Usuarios</Link>
                 <Link className="nav-link" to="/light-novel/about/">Acerca</Link>
               </Nav>
@@ -291,6 +337,8 @@ render() {
                             text={this.state.request.text} />} />
           <Route path="/light-novel/list/" exact render={() => 
             <ListPage title={this.state.list.title} />} />
+          <Route path="/light-novel/erolist/" exact render={() => 
+            <ListEroPage title={this.state.erolist.title} />} />
           <Route path="/light-novel/huron/" exact render={() => 
             <HuronRequestPage title={this.state.huronrequest.title}
                             subTitle={this.state.huronrequest.subTitle} />} />
@@ -389,6 +437,18 @@ render() {
           <Route path="/light-novel/konosuba/15" exact render={() => <PDFViewverKONOSUBA15 />} />
           <Route path="/light-novel/konosuba/16" exact render={() => <PDFViewverKONOSUBA16 />} />
           <Route path="/light-novel/konosuba/17" exact render={() => <PDFViewverKONOSUBA17 />} />
+          <Route path="/light-novel/kaiyari/" exact render={() => 
+            <ENKaiyari title={this.state.enkaiyari.title}
+                            subTitle={this.state.enkaiyari.subTitle} 
+                            text={this.state.enkaiyari.text} />} />
+          <Route path="/light-novel/kaiyari/01" exact render={() => <PDFViewverKAIYARI01 />} />
+          <Route path="/light-novel/kaiyari/02" exact render={() => <PDFViewverKAIYARI02 />} />
+          <Route path="/light-novel/kaiyari/03" exact render={() => <PDFViewverKAIYARI03 />} />
+          <Route path="/light-novel/kaiyari/04" exact render={() => <PDFViewverKAIYARI04 />} />
+          <Route path="/light-novel/kaiyari/05" exact render={() => <PDFViewverKAIYARI05 />} />
+          <Route path="/light-novel/kaiyari/06" exact render={() => <PDFViewverKAIYARI06 />} />
+          <Route path="/light-novel/kaiyari/07" exact render={() => <PDFViewverKAIYARI07 />} />
+          <Route path="/light-novel/kaiyari/08" exact render={() => <PDFViewverKAIYARI08 />} />
           
         </Container>
       </Router>
