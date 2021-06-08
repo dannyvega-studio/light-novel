@@ -30,21 +30,21 @@ function LNNoGameNoLife(props) {
                         <CarouselNGNL />
                     </Col>
                     <Col sm={12}>
-                        { props.subTitle && <h3 className="display-4 font-weight-light">{props.subTitle}</h3> }
-                        { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4">{props.text}</h4> }
+                        { props.subTitle && <h3 className="display-4 font-weight-light mb-4">{props.subTitle}</h3> }
+                        { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 10" src={ngnl10} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 10" src={ngnl10} />
                         <Card.Body>
-                            <Card.Title> VOLUME 10</Card.Title>
+                            <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/p4o0lChJ#6AHv2G7cekROyC5rAMJRK6ACy44UHZiXB3LREW0UbuA" target="_blank" rel="noreferrer">
-                                                Download</a>
+                                                Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/10">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/ngnl/10">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -52,17 +52,17 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 09" src={ngnl09} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 09" src={ngnl09} />
                         <Card.Body>
-                            <Card.Title> VOLUME 09</Card.Title>
+                            <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/lwoQAKBa#2vexo96i8jO4sgHebgVhRV9ZOf8psCdoDQiOuqdsToQ" target="_blank" rel="noreferrer">
-                                                Download</a>
+                                                Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/09">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/ngnl/09">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -70,17 +70,17 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 08" src={ngnl08} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 08" src={ngnl08} />
                         <Card.Body>
-                            <Card.Title> VOLUME 08</Card.Title>
+                            <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/klpyGYJA#LnoHI92JqUTWB-mKCd_MYLhx-empsU1zEFwHPmen9xs" target="_blank" rel="noreferrer">
-                                                Download</a>
+                                                Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/08">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/ngnl/08">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -88,17 +88,17 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 07" src={ngnl07} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 07" src={ngnl07} />
                         <Card.Body>
-                            <Card.Title> VOLUME 07</Card.Title>
+                            <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/ZwhgyQoR#aXsbPuOFtTwYAMMLqzwZSutSN8yjHJmwQJiD02Okp1U" target="_blank" rel="noreferrer">
-                                                Download</a>
+                                                Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/07">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/ngnl/07">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -106,17 +106,17 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 06" src={ngnl06} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 06" src={ngnl06} />
                         <Card.Body>
-                            <Card.Title> VOLUME 06</Card.Title>
+                            <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/tkgAEaaA#OESQQCp6XnyQSClG_FoCi4QYvyaEBkUCm3DY8A11__E" target="_blank" rel="noreferrer">
-                                                Download</a>
+                                                Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/06">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/ngnl/06">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -124,17 +124,17 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 05" src={ngnl05} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 05" src={ngnl05} />
                         <Card.Body>
-                            <Card.Title> VOLUME 05</Card.Title>
+                            <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/wgxWjCAL#kpijRLyS0fiYytTHUOU05GwgmA2gxTUF9uSTiPz52lE" target="_blank" rel="noreferrer">
-                                                Download</a>
+                                                Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/05">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/ngnl/05">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -142,17 +142,17 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 04" src={ngnl04} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 04" src={ngnl04} />
                         <Card.Body>
-                            <Card.Title> VOLUME 04</Card.Title>
+                            <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/VgoQwYQI#gdDIE4Uo7UZ-SM5DtvYKFtjGHasrWTQDlQ7b_PYQMa4" target="_blank" rel="noreferrer">
-                                                Download</a>
+                                                Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/04">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/ngnl/04">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -160,17 +160,17 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 03" src={ngnl03} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 03" src={ngnl03} />
                         <Card.Body>
-                            <Card.Title> VOLUME 03</Card.Title>
+                            <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/RpAigBiB#EybAUZVGMmXv-aKpjJA4FvS47X5LzEPMtRHPF0ABQ5g" target="_blank" rel="noreferrer">
-                                                Download</a>
+                                                Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/03">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/ngnl/03">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -178,17 +178,17 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 02" src={ngnl02} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 02" src={ngnl02} />
                         <Card.Body>
-                            <Card.Title> VOLUME 02</Card.Title>
+                            <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/95ZQ0brI#zqiZYF8e2uV7X1kuWDrJZ8G9R3bvEfZi1-yor222Ebs" target="_blank" rel="noreferrer">
-                                                Download</a>
+                                                Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/02">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/ngnl/02">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -196,17 +196,17 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life 01" src={ngnl01} />
+                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 01" src={ngnl01} />
                         <Card.Body>
-                            <Card.Title> VOLUME 01</Card.Title>
+                            <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/AgpSBAgA#fhowhYVNiSe6YRWsJXNM8D023PRL47sFNTmpyccR7MY" target="_blank" rel="noreferrer">
-                                                Download</a>    
+                                                Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/01">Read</Link>
+                                            <Link className="btn-dark-text" to="/light-novel/ngnl/01">Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>

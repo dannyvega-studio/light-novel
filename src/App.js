@@ -80,6 +80,25 @@ import PDFViewverSBY01 from './pages/PDFViewver/SeishunButa/PDFViewverSBY01';
 import PDFViewverSBY02 from './pages/PDFViewver/SeishunButa/PDFViewverSBY02';
 import PDFViewverSBY03 from './pages/PDFViewver/SeishunButa/PDFViewverSBY03';
 
+import LNKonosuba from './pages/LNKonosuba';
+import PDFViewverKONOSUBA01 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA01';
+import PDFViewverKONOSUBA02 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA02';
+import PDFViewverKONOSUBA03 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA03';
+import PDFViewverKONOSUBA04 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA04';
+import PDFViewverKONOSUBA05 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA05';
+import PDFViewverKONOSUBA06 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA06';
+import PDFViewverKONOSUBA07 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA07';
+import PDFViewverKONOSUBA08 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA08';
+import PDFViewverKONOSUBA09 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA09';
+import PDFViewverKONOSUBA10 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA10';
+import PDFViewverKONOSUBA11 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA11';
+import PDFViewverKONOSUBA12 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA12';
+import PDFViewverKONOSUBA13 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA13';
+import PDFViewverKONOSUBA14 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA14';
+import PDFViewverKONOSUBA15 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA15';
+import PDFViewverKONOSUBA16 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA16';
+import PDFViewverKONOSUBA17 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA17';
+
 import logo from './assets/images/logo.png';
 
 /*function AppDarkLight() {
@@ -101,16 +120,16 @@ class App extends React.Component {
         { title: 'Sr Huron Requests', path: '/light-novel/huron/' },
         { title: 'About', path: '/light-novel/about/' },
         { title: 'No Game No Life', path: '/light-novel/ngnl/' },
-        { title: 'No Game No Life volume 01', path: '/light-novel/ngnl/01/' },
-        { title: 'No Game No Life volume 02', path: '/light-novel/ngnl/02/' },
-        { title: 'No Game No Life volume 03', path: '/light-novel/ngnl/03/' },
-        { title: 'No Game No Life volume 04', path: '/light-novel/ngnl/04/' },
-        { title: 'No Game No Life volume 05', path: '/light-novel/ngnl/05/' },
-        { title: 'No Game No Life volume 06', path: '/light-novel/ngnl/06/' },
-        { title: 'No Game No Life volume 07', path: '/light-novel/ngnl/07/' },
-        { title: 'No Game No Life volume 08', path: '/light-novel/ngnl/08/' },
-        { title: 'No Game No Life volume 09', path: '/light-novel/ngnl/09/' },
-        { title: 'No Game No Life volume 10', path: '/light-novel/ngnl/10/' },
+        { title: 'No Game No Life Volumen 01', path: '/light-novel/ngnl/01/' },
+        { title: 'No Game No Life Volumen 02', path: '/light-novel/ngnl/02/' },
+        { title: 'No Game No Life Volumen 03', path: '/light-novel/ngnl/03/' },
+        { title: 'No Game No Life Volumen 04', path: '/light-novel/ngnl/04/' },
+        { title: 'No Game No Life Volumen 05', path: '/light-novel/ngnl/05/' },
+        { title: 'No Game No Life Volumen 06', path: '/light-novel/ngnl/06/' },
+        { title: 'No Game No Life Volumen 07', path: '/light-novel/ngnl/07/' },
+        { title: 'No Game No Life Volumen 08', path: '/light-novel/ngnl/08/' },
+        { title: 'No Game No Life Volumen 09', path: '/light-novel/ngnl/09/' },
+        { title: 'No Game No Life Volumen 10', path: '/light-novel/ngnl/10/' },
         { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/' },
         { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/01/' },
         { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/02/' },
@@ -137,68 +156,92 @@ class App extends React.Component {
         { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/23/' },
         { title: 'Mushoku Tensei: Isekai Ittara Honki Dasu', path: '/light-novel/mushoku/24/' },
         { title: 'Kumo Desu Ga, Nani Ka?', path: '/light-novel/kdgnk/' },
-        { title: 'Kumo Desu Ga, Nani Ka? volume 01', path: '/light-novel/kdgnk/01/' },
-        { title: 'Kumo Desu Ga, Nani Ka? volume 02', path: '/light-novel/kdgnk/02/' },
-        { title: 'Kumo Desu Ga, Nani Ka? volume 03', path: '/light-novel/kdgnk/03/' },
-        { title: 'Kumo Desu Ga, Nani Ka? volume 04', path: '/light-novel/kdgnk/04/' },
-        { title: 'Kumo Desu Ga, Nani Ka? volume 05', path: '/light-novel/kdgnk/05/' },
-        { title: 'Kumo Desu Ga, Nani Ka? volume 06', path: '/light-novel/kdgnk/06/' },
-        { title: 'Kumo Desu Ga, Nani Ka? volume 07', path: '/light-novel/kdgnk/07/' },
-        { title: 'Kumo Desu Ga, Nani Ka? volume 08', path: '/light-novel/kdgnk/08/' },
-        { title: 'Kumo Desu Ga, Nani Ka? volume 09', path: '/light-novel/kdgnk/09/' },
-        { title: 'Kumo Desu Ga, Nani Ka? volume 10', path: '/light-novel/kdgnk/10/' },
-        { title: 'Kumo Desu Ga, Nani Ka? volume 11', path: '/light-novel/kdgnk/11/' },
+        { title: 'Kumo Desu Ga, Nani Ka? Volumen 01', path: '/light-novel/kdgnk/01/' },
+        { title: 'Kumo Desu Ga, Nani Ka? Volumen 02', path: '/light-novel/kdgnk/02/' },
+        { title: 'Kumo Desu Ga, Nani Ka? Volumen 03', path: '/light-novel/kdgnk/03/' },
+        { title: 'Kumo Desu Ga, Nani Ka? Volumen 04', path: '/light-novel/kdgnk/04/' },
+        { title: 'Kumo Desu Ga, Nani Ka? Volumen 05', path: '/light-novel/kdgnk/05/' },
+        { title: 'Kumo Desu Ga, Nani Ka? Volumen 06', path: '/light-novel/kdgnk/06/' },
+        { title: 'Kumo Desu Ga, Nani Ka? Volumen 07', path: '/light-novel/kdgnk/07/' },
+        { title: 'Kumo Desu Ga, Nani Ka? Volumen 08', path: '/light-novel/kdgnk/08/' },
+        { title: 'Kumo Desu Ga, Nani Ka? Volumen 09', path: '/light-novel/kdgnk/09/' },
+        { title: 'Kumo Desu Ga, Nani Ka? Volumen 10', path: '/light-novel/kdgnk/10/' },
+        { title: 'Kumo Desu Ga, Nani Ka? Volumen 11', path: '/light-novel/kdgnk/11/' },
         { title: 'Goblin Slayer', path: '/light-novel/gs/' },
-        { title: 'Goblin Slayer volume 01', path: '/light-novel/gs/01/' },
-        { title: 'Goblin Slayer volume 02', path: '/light-novel/gs/02/' },
-        { title: 'Goblin Slayer volume 03', path: '/light-novel/gs/03/' },
-        { title: 'Goblin Slayer volume 04', path: '/light-novel/gs/04/' },
-        { title: 'Goblin Slayer volume 05', path: '/light-novel/gs/05/' },
-        { title: 'Goblin Slayer volume 06', path: '/light-novel/gs/06/' },
+        { title: 'Goblin Slayer Volumen 01', path: '/light-novel/gs/01/' },
+        { title: 'Goblin Slayer Volumen 02', path: '/light-novel/gs/02/' },
+        { title: 'Goblin Slayer Volumen 03', path: '/light-novel/gs/03/' },
+        { title: 'Goblin Slayer Volumen 04', path: '/light-novel/gs/04/' },
+        { title: 'Goblin Slayer Volumen 05', path: '/light-novel/gs/05/' },
+        { title: 'Goblin Slayer Volumen 06', path: '/light-novel/gs/06/' },
         { title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai', path: '/light-novel/sby/' },
-        { title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai volume 01', path: '/light-novel/sby/01/' },
-        { title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai volume 02', path: '/light-novel/sby/02/' },
-        { title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai volume 03', path: '/light-novel/sby/03/' },
+        { title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Volumen 01', path: '/light-novel/sby/01/' },
+        { title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Volumen 02', path: '/light-novel/sby/02/' },
+        { title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Volumen 03', path: '/light-novel/sby/03/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo!', path: '/light-novel/konosuba/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 01', path: '/light-novel/konosuba/01/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 02', path: '/light-novel/konosuba/02/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 03', path: '/light-novel/konosuba/03/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 04', path: '/light-novel/konosuba/04/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 05', path: '/light-novel/konosuba/05/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 06', path: '/light-novel/konosuba/06/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 07', path: '/light-novel/konosuba/07/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 08', path: '/light-novel/konosuba/08/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 09', path: '/light-novel/konosuba/09/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 10', path: '/light-novel/konosuba/10/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 11', path: '/light-novel/konosuba/11/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 12', path: '/light-novel/konosuba/12/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 13', path: '/light-novel/konosuba/13/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 14', path: '/light-novel/konosuba/14/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 15', path: '/light-novel/konosuba/15/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 16', path: '/light-novel/konosuba/16/' },
+        { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 17', path: '/light-novel/konosuba/17/' },
       ],
       home: {
         title: 'Light Novels',
-        subTitle: "Currently Reading...",
-        text: "Hello there and welcome, I'm Danny Vega and this is my personal website that I have created to share with you one of my favorite hobbies, LIGHT NOVELS, so in Mega and GoogleDrive I'll upload the ones that I like (BTW, some do I have finished reading them and others have not)"
+        subTitle: "Mi Última Lectura...",
+        text: "Bienvenidos~! Mi nombre es Danny Vega y este es un pequeño proyecto que estoy realizando como hobby titulado LIGHT NOVELS, en el cual realizo respaldos en la nube de algunas Novelas Ligeras que son de mi agrado (algunas ya las terminé de leer y algunas otras no jaja), estos archivos pueden descargarlos desde Mega y/o GoogleDrive (sin acortadores ni nada por el estilo) y de la misma manera para su comodidad los dejare para lectura en linea. Asi que a distrutar~!"
       },
       request: {
-        title: "Light Novels Requested By...",
-        text: "If you'r a Weeb like me just contact me and I'll add u in this section like a weeb user for any LN request you could have, and with that someday I'll upload the .pdf files"
+        title: "Mis Amigos Weebs",
+        text: "Aqui dejo algunos usuarios y sus colecciones de Novelas Ligeras que han leido a la fecha."
       },
       list: {
-        title: "Light Novels List",
+        title: "Novelas Ligeras",
       },
       huronrequest: {
         title: 'Sr. Hurón',
-        subTitle: "Thicc and LN are Top Tier",},
+        subTitle: "Thicc and LN are Top Tier",
+      },
       lnngnl: {
         title: 'No Game No Life',
-        subTitle: "Volumes: 10 of 10",
-        text: "Sora and Shiro are two hikikomori step-siblings who are known in the online gaming world as Blank, an undefeated group of gamers. One day, they are challenged to a game of chess by Tet, a god from another reality. The two are victorious and are offered to live in a world that centers around games. They accept, believing it to be a joke, and are summoned to a reality known as Disboard. There, a spell known as the Ten Pledges prevents the citizens of Disboard from inflicting harm on one another, forcing them to resolve their differences by gambling with games whose rules and rewards are magically enforced. In-game, rule enforcement only occurs when the method of cheating is acknowledged and outed by the opponent, allowing players to cheat through discreet methods. Sora and Shiro traverse to Elkia, the nation inhabited by humans, and befriend the duchess Stephanie Dola. Learning about Elkia's decline, the two participate in a tournament to determine the next ruler; after winning the crown, they earn the right to challenge the Disboard's other species as humanity's representative. Their next goal is to conquer all sixteen species in order to challenge Tet to a game; as of the sixth volume, five of the sixteen are under their control."
+        subTitle: "Volúmenes: 10 de 10",
+        text: "Los hermanos Sora y Shiro son un par de NEETs (ninis por sus siglas en inglés), definidos como hikikomori, quienes juntos forman a 'espacio en blanco', llamados así porque su nombre de usuario está en blanco. Entre los dos tienen 4 jugadores y en el primer capítulo, sin hacer trampas, logran vencer a 1200 jugadores ellos solos. Son considerados una leyenda urbana. Ambos coinciden en que el mundo real es como un juego basura. Un día reciben un e-mail de un desconocido que dice algo así como: '¿Alguna vez los hermanos se han preguntado si no son de este mundo?. En ese momento solo se preguntan el cómo sabe que son hermanos ya que nunca lo han dicho. Junto al mensaje hay un enlace, Sora decide darle al enlace que hay adjunto con el e-mail y les lleva a un juego de ajedrez. Shiro, a pesar de tener 11 años es una genio y se sabe todos los estados posibles del tablero. Con muchos esfuerzos y la ayuda de su hermano, consiguen vencerle. Luego les envía otro e-mail diciendo: 'Si hubiera un mundo donde todo se resuelve con juegos... un mundo en un tablero, donde las reglas y el objetivo estuvieran claros ¿Qué pensarían de eso?', y en ese momento, Sora responde: 'Si existe un mundo así, entonces, nosotros claramente hemos nacido en un mundo equivocado' En ese momento todo se apaga y se encuentran cayendo en picado. Un niño aparece con ellos y comienza a explicarles los 10 mandamientos del extraño mundo y les dice que se llama Tet, que es el único dios, y que ese mundo se llama Disboard. En Disboard hay 16 clases Exceed (la posición que ocupa cada una de las razas), en la que los humanos somos la última por no poder utilizar la magia."
       },
       lnmushoku: {
         title: 'Mushoku Tensei: Isekai Ittara Honki Dasu',
-        subTitle: "Volumes: 24 of 24",
-        text: "A 34-year-old Japanese NEET is kicked out of his house following the death of his parents. He intercepts a speeding truck heading towards a group of teenagers and pulls one of them out of the way before dying. Awakening in a baby's body, he realizes he has been reincarnated in a world of sword and sorcery. While initially indulging in his perversion, he resolves to become successful in his new life, discarding his past identity for his new life as Rudeus Greyrat."
+        subTitle: "Volúmenes: 24 de 24",
+        text: "Un Otaku de 34 años de edad es expulsado de su casa por su familia por ser un 'nini'. Poco atractivo y sin dinero, descubre que llegó a un callejón sin salida, es ahí cuando se lamenta de no haberse esforzado mucho más. Arrepintiéndose de todos sus errores, de los que siempre estuvo escapando, piensa que su vida hubiera sido mucho mejor de haber tomado mejores decisiones en el pasado. Justo cuando estaba a punto de rendirse, vio un camión que circulaba a gran velocidad hacia tres estudiantes de secundaria en su camino. Reuniendo toda la fuerza que tenía, trató de salvarlos pero terminó siendo atropellado por el camión, perdiendo la vida. Al abrir sus ojos descubrió que había reencarnado en un mundo de espadas y magia, llamado ahora Rudeus Greyrat. Nacido en un mundo nuevo, con una vida nueva, Rudeus decide que ¡Esta vez, realmente viviré mi vida al máximo sin ningún arrepentimiento! Así, comienza el viaje de un hombre anhelando reiniciar su vida."
       },
       lnkdgnk: {
         title: 'Kumo Desu Ga, Nani Ka?',
-        subTitle: "Volumes: 11 of 14...",
-        text: "In a world where the battle between Hero and Demon Lord repeated itself time and time again, an enormous space-time spell misfired and hit a certain Japanese high school class on Earth, killing everyone in it. However, guided by what seemed to be a miracle, the students were all reincarnated into that other world. While a handful was fortunate enough to become royalty, nobles, and other kinds of influential people, one girl was not so lucky. Being reborn as a spider monster of the weakest kind in a dungeon filled with vicious beasts, she is forced to experience extreme hardship. Even so, armed with nothing but her human knowledge and overwhelming positivity, she continues to press on and survive against creatures much stronger than herself."
+        subTitle: "Volúmenes: 11 de 14...",
+        text: "La historia comienza con la protagonista una estudiante de preparatoria, hasta que una misteriosa explosión asesina a su clase entera y estos reencarnan en un mundo de fantasía. Mientras que algunos reencarnaron como príncipes o prodigios, otros no fueron tan afortunados. Nuestra heroína, quien era la más antisocial del grupo, descubre que reencarno como una araña. Ahora al fondo de la cadena alimenticia, para sobrevivir necesitara adaptarse a esta nueva situación con pura fuerza de voluntad mientras esta atrapada en un laberinto lleno de monstruos, ¡Es comer o ser comido! Esta es la historia de una araña haciendo todo lo posible para sobrevivir."
       },
       lngs: {
         title: 'Goblin Slayer',
-        subTitle: "Volumes: 06 of 14...",
-        text: "In a world of fantasy, adventurers come from far and wide to join the Guild. They complete contracts to earn gold and glory. An inexperienced priestess joins her first adventuring party, but comes into danger after her first contract involving goblins goes wrong. As the rest of her party is either wiped out or taken out of commission, she is saved by a man known as Goblin Slayer, an adventurer whose only purpose is the eradication of goblins with extreme prejudice."
+        subTitle: "Volúmenes: 06 de 14...",
+        text: "En un mundo de fantasía, los aventureros de todas partes se unen al Gremio, a fin de completar contratos de cualquier trabajo disponible que incluya la caza de diversos tipos de monstruos que vagan por la tierra u otro tipo de misión que sea ofrecida. Una sacerdotisa inexperta junto a un grupo de novatos forman su primer grupo de aventuras, aceptando un contrato para destruir un nido de goblins, sin embargo la falta de experiencia y exceso de confianza de los integrantes les juega una mala pasada y el resto de su grupo es eliminado. Sorpresivamente, ella es salvada por un hombre conocido como Goblin Slayer, un aventurero cuyo único propósito es la erradicación de los goblins con una dedicación extrema."
       },
       lnsby: {
         title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai',
-        subTitle: "Volumes: 03 of 11",
-        text: "Sakuta Azusagawa's life takes a turn for the unexpected when he meets teenage actress Mai Sakurajima, dressed as a bunny girl, wandering through a library and not being noticed by anyone else there. Mai is intrigued that Sakuta is the only one who can see her, as other people are unable to see her, even when she is dressing normally or attempting to stay away from celebrity life. Calling this phenomenon 'Adolescence Syndrome', Sakuta decides to solve this mystery, while continuing to get closer to Mai and meeting other girls who suffer from 'Adolescence Syndrome' as well."
+        subTitle: "Volúmenes: 03 de 11",
+        text: "La vida de Sakuta Azusagawa da un giro inesperado cuando conoce a la actriz adolescente Mai Sakurajima, quien se pasea por una biblioteca vestida como una conejita. Mai está intrigada de que Sakuta sea el único que puede verla, ya que otras personas no pueden, incluso cuando se viste normalmente o intenta mantenerse alejada de la vida de las celebridades. Llamando a este fenómeno 'Síndrome de la Pubertad', Sakuta decide resolver este misterio, mientras continúa acercándose a Mai y conoce a otras chicas que también sufren el 'Síndrome de la Pubertad'."
+      },
+      lnkonosuba: {
+        title: 'Kono Subarashii Sekai ni Shukufuku wo',
+        subTitle: "Volúmenes: 17 de 17",
+        text: "Kazuma Satou es un hikikomori que vive en un sector rural de Japón. Un día, decidido ir a comprar lo antes posible un videojuego, sale de casa y de regreso observa a una chica que sería atropellada por un camión y hace lo impensable para él, salvándola, y muriendo de forma heroica. O eso creía, puesto que realmente no fue atropellado y murió de un susto al pensar que lo había atropellado un camión, el cual ni siquiera era un camión y solo era un lento tractor que pasaba saludando a la joven que tampoco necesitaba ayuda, y solo la empujó violentamente. Su muerte fue tan patética que incluso los médicos que lo revisaron se burlaron de él, su familia también lo hizo, y todo en cuánto supo de su muerte se rio. Mágicamente, despierta en un salón increíble y desconocido, en el que encuentra a una hermosa diosa llamada Aqua, que le ofrece, luego de burlarse de su ridícula muerte, darle una nueva vida en un universo paralelo y de fantasía, en el que tendrá aventuras increíbles, enfrentará monstruos terribles, aprenderá poderosas magias, y deberá derrotar a un rey demonio que es el gobernante de ese mundo, alzándose como el héroe entre héroes, por lo cual le brindará un arma, habilidad u objeto (incluso ser) que lo ayude en su aventura."
       }
     }
   } // Ends Constructor //
@@ -228,10 +271,10 @@ render() {
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="mr-auto">
                 <Link className="nav-link" to="/light-novel/">Home</Link>
-                <Link className="nav-link" to="/light-novel/list/">Novels</Link>
+                <Link className="nav-link" to="/light-novel/list/">Novelas</Link>
                 <Link className="nav-link" to="/light-novel/solist/">Spin Off</Link>
-                <Link className="nav-link" to="/light-novel/request/">Request</Link>
-                <Link className="nav-link" to="/light-novel/about/">About</Link>
+                <Link className="nav-link" to="/light-novel/request/">Usuarios</Link>
+                <Link className="nav-link" to="/light-novel/about/">Acerca</Link>
               </Nav>
               <Nav className="ml-auto">
                 {/*<Toggle theme={theme} toggleTheme={toggleTheme} />*/}
@@ -325,6 +368,27 @@ render() {
           <Route path="/light-novel/sby/01" exact render={() => <PDFViewverSBY01 />} />
           <Route path="/light-novel/sby/02" exact render={() => <PDFViewverSBY02 />} />
           <Route path="/light-novel/sby/03" exact render={() => <PDFViewverSBY03 />} />
+          <Route path="/light-novel/konosuba/" exact render={() => 
+            <LNKonosuba title={this.state.lnkonosuba.title}
+                            subTitle={this.state.lnkonosuba.subTitle} 
+                            text={this.state.lnkonosuba.text} />} />
+          <Route path="/light-novel/konosuba/01" exact render={() => <PDFViewverKONOSUBA01 />} />
+          <Route path="/light-novel/konosuba/02" exact render={() => <PDFViewverKONOSUBA02 />} />
+          <Route path="/light-novel/konosuba/03" exact render={() => <PDFViewverKONOSUBA03 />} />
+          <Route path="/light-novel/konosuba/04" exact render={() => <PDFViewverKONOSUBA04 />} />
+          <Route path="/light-novel/konosuba/05" exact render={() => <PDFViewverKONOSUBA05 />} />
+          <Route path="/light-novel/konosuba/06" exact render={() => <PDFViewverKONOSUBA06 />} />
+          <Route path="/light-novel/konosuba/07" exact render={() => <PDFViewverKONOSUBA07 />} />
+          <Route path="/light-novel/konosuba/08" exact render={() => <PDFViewverKONOSUBA08 />} />
+          <Route path="/light-novel/konosuba/09" exact render={() => <PDFViewverKONOSUBA09 />} />
+          <Route path="/light-novel/konosuba/10" exact render={() => <PDFViewverKONOSUBA10 />} />
+          <Route path="/light-novel/konosuba/11" exact render={() => <PDFViewverKONOSUBA11 />} />
+          <Route path="/light-novel/konosuba/12" exact render={() => <PDFViewverKONOSUBA12 />} />
+          <Route path="/light-novel/konosuba/13" exact render={() => <PDFViewverKONOSUBA13 />} />
+          <Route path="/light-novel/konosuba/14" exact render={() => <PDFViewverKONOSUBA14 />} />
+          <Route path="/light-novel/konosuba/15" exact render={() => <PDFViewverKONOSUBA15 />} />
+          <Route path="/light-novel/konosuba/16" exact render={() => <PDFViewverKONOSUBA16 />} />
+          <Route path="/light-novel/konosuba/17" exact render={() => <PDFViewverKONOSUBA17 />} />
           
         </Container>
       </Router>

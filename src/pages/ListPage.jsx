@@ -6,6 +6,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Pagination from '@material-ui/lab/Pagination';
 import Typography from '@material-ui/core/Typography';
 import gs01 from '../assets/images/goblinslayer/01.jpg';
+import konosuba01 from '../assets/images/konosuba/01.png';
 import kdgnk01 from '../assets/images/kumodesuga/01.jpg';
 import ngnl01 from '../assets/images/ngnl/01.jpg';
 import mushoku01 from '../assets/images/mushoku/01.jpg';
@@ -48,6 +49,10 @@ function ListPage(props) {
                         <Card.Title>Goblin Slayer</Card.Title>             
                     </Col>
                     <Col lg={4} md={4} sm={6} xs={6}>
+                        <Link to="/light-novel/konosuba/"><img src={konosuba01} class="ln-cover mt-4 mb-4" variant="top" alt="KonoSuba"/></Link>
+                        <Card.Title>Kono Subarashii Sekai ni Shukufuku wo!</Card.Title>             
+                    </Col>
+                    <Col lg={4} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/kdgnk/"><img src={kdgnk01} class="ln-cover mt-4 mb-4" variant="top" alt="Kumo Desu Ga"/></Link>
                         <Card.Title>Kumo Desu Ga, Nani Ka?</Card.Title>             
                     </Col>
@@ -74,7 +79,7 @@ function ListPage(props) {
                             size="large" 
                             page={page} onChange={handleChange}
                         />
-                        <Typography className="mt-4 mb-1">Page: {page}</Typography>
+                        <Typography className="mt-4 mb-1">Página: {page}</Typography>
                     </Col>
                 </Row>
 
