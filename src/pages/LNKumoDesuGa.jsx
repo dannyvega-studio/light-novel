@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import CarouselKDGNK from '../components/CarouselKDGNK';
@@ -17,6 +18,8 @@ import kdgnk11 from '../assets/images/kumodesuga/11.png';
 import kdgnk12 from '../assets/images/kumodesuga/12.png';
 import kdgnk13 from '../assets/images/kumodesuga/13.jpg';
 import kdgnk14 from '../assets/images/kumodesuga/14.jpg';
+export {kdgnk01, kdgnk02, kdgnk03, kdgnk04, kdgnk05, kdgnk06, kdgnk07, kdgnk08,
+        kdgnk09, kdgnk10, kdgnk11}
 
 function LNKumoDesuGa(props) {
 
@@ -38,7 +41,7 @@ function LNKumoDesuGa(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kumo Desu Ga, Nani Ka 11" src={kdgnk11} />
+                        <ModalImage className="ln-cover" small={kdgnk11} large={kdgnk11} alt="Kumo Desu Ga, Nani Ka Volumen 11" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 11</Card.Title>
                                 <Card.Text>
@@ -56,7 +59,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kumo Desu Ga, Nani Ka 10" src={kdgnk10} />
+                        <ModalImage className="ln-cover" small={kdgnk10} large={kdgnk10} alt="Kumo Desu Ga, Nani Ka Volumen 10" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
@@ -74,7 +77,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kumo Desu Ga, Nani Ka 09" src={kdgnk09} />
+                        <ModalImage className="ln-cover" small={kdgnk09} large={kdgnk09} alt="Kumo Desu Ga, Nani Ka Volumen 09" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
@@ -92,7 +95,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kumo Desu Ga, Nani Ka 08" src={kdgnk08} />
+                        <ModalImage className="ln-cover" small={kdgnk08} large={kdgnk08} alt="Kumo Desu Ga, Nani Ka Volumen 08" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
@@ -110,7 +113,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kumo Desu Ga, Nani Ka 07" src={kdgnk07} />
+                        <ModalImage className="ln-cover" small={kdgnk07} large={kdgnk07} alt="Kumo Desu Ga, Nani Ka Volumen 07" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
@@ -128,7 +131,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kumo Desu Ga, Nani Ka 06" src={kdgnk06} />
+                        <ModalImage className="ln-cover" small={kdgnk06} large={kdgnk06} alt="Kumo Desu Ga, Nani Ka Volumen 06" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -146,7 +149,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kumo Desu Ga, Nani Ka 05" src={kdgnk05} />
+                        <ModalImage className="ln-cover" small={kdgnk05} large={kdgnk05} alt="Kumo Desu Ga, Nani Ka Volumen 05" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -164,7 +167,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kumo Desu Ga, Nani Ka 04" src={kdgnk04} />
+                        <ModalImage className="ln-cover" small={kdgnk04} large={kdgnk04} alt="Kumo Desu Ga, Nani Ka Volumen 04" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -182,7 +185,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kumo Desu Ga, Nani Ka 03" src={kdgnk03} />
+                        <ModalImage className="ln-cover" small={kdgnk03} large={kdgnk03} alt="Kumo Desu Ga, Nani Ka Volumen 03" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -200,7 +203,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kumo Desu Ga, Nani Ka 02" src={kdgnk02} />
+                        <ModalImage className="ln-cover" small={kdgnk02} large={kdgnk02} alt="Kumo Desu Ga, Nani Ka Volumen 02" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -218,7 +221,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kumo Desu Ga, Nani Ka 01" src={kdgnk01} />
+                        <ModalImage className="ln-cover" small={kdgnk01} large={kdgnk01} alt="Kumo Desu Ga, Nani Ka Volumen 01" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>

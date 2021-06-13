@@ -1,19 +1,13 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import CarouselSBY from '../components/CarouselSBY';
 import seishun01 from '../assets/images/seishunbuta/01.jpg';
 import seishun02 from '../assets/images/seishunbuta/02.jpg';
 import seishun03 from '../assets/images/seishunbuta/03.jpg';
-import seishun04 from '../assets/images/seishunbuta/04.jpg';
-import seishun05 from '../assets/images/seishunbuta/05.jpg';
-import seishun06 from '../assets/images/seishunbuta/06.png';
-import seishun07 from '../assets/images/seishunbuta/07.png';
-import seishun08 from '../assets/images/seishunbuta/08.png';
-import seishun09 from '../assets/images/seishunbuta/09.png';
-import seishun10 from '../assets/images/seishunbuta/10.jpg';
-import seishun11 from '../assets/images/seishunbuta/11.jpg';
+export {seishun01, seishun02, seishun03};
 
 function LNSeishunButa(props) {
 
@@ -35,7 +29,7 @@ function LNSeishunButa(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Seishun Buta Yarou wa Bunny Girl Senpai 03" src={seishun03} />
+                        <ModalImage className="ln-cover" small={seishun03} large={seishun03} alt="Seishun Buta Yarou Volumen 03" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -53,7 +47,7 @@ function LNSeishunButa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Seishun Buta Yarou wa Bunny Girl Senpai 02" src={seishun02} />
+                        <ModalImage className="ln-cover" small={seishun02} large={seishun02} alt="Seishun Buta Yarou Volumen 02" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -71,7 +65,7 @@ function LNSeishunButa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Seishun Buta Yarou wa Bunny Girl Senpai 01" src={seishun01} />
+                        <ModalImage className="ln-cover" small={seishun01} large={seishun01} alt="Seishun Buta Yarou Volumen 01" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>

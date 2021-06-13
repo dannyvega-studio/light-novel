@@ -91,7 +91,8 @@ code {
 
 .ln-cover {
   width: 100%;
-  max-width: 200px;
+  max-width: 300px;
+  max-height: 360px;
   border-color: #e6e6ff;
   border-radius: 25px;
   border-style: outset;
@@ -99,7 +100,8 @@ code {
 
 .ln-cover:hover {
   width: 100%;
-  max-width: 200px;
+  max-width: 300px;
+  max-height: 360px;
   border-color: #b3b3ff;
   border-radius: 25px;
   border-style: outset;

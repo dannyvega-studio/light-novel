@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import CarouselGS from '../components/CarouselGS';
@@ -17,6 +18,7 @@ import gs11 from '../assets/images/goblinslayer/11.jpg';
 import gs12 from '../assets/images/goblinslayer/12.jpg';
 import gs13 from '../assets/images/goblinslayer/13.png';
 import gs14 from '../assets/images/goblinslayer/14.jpg';
+export {gs01, gs02, gs03, gs04, gs05, gs06}
 
 function LNGoblinSlayer(props) {
 
@@ -38,7 +40,7 @@ function LNGoblinSlayer(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Goblin Slayer 06" src={gs06} />
+                        <ModalImage className="ln-cover" small={gs06} large={gs06} alt="Goblin Slayer Volumen 06" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -56,7 +58,7 @@ function LNGoblinSlayer(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Goblin Slayer 05" src={gs05} />
+                        <ModalImage className="ln-cover" small={gs05} large={gs05} alt="Goblin Slayer Volumen 05" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -74,7 +76,7 @@ function LNGoblinSlayer(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Goblin Slayer 04" src={gs04} />
+                        <ModalImage className="ln-cover" small={gs04} large={gs04} alt="Goblin Slayer Volumen 04" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -92,7 +94,7 @@ function LNGoblinSlayer(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Goblin Slayer 03" src={gs03} />
+                        <ModalImage className="ln-cover" small={gs03} large={gs03} alt="Goblin Slayer Volumen 03" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -110,7 +112,7 @@ function LNGoblinSlayer(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Goblin Slayer 02" src={gs02} />
+                        <ModalImage className="ln-cover" small={gs02} large={gs02} alt="Goblin Slayer Volumen 02" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -128,7 +130,7 @@ function LNGoblinSlayer(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Goblin Slayer 01" src={gs01} />
+                        <ModalImage className="ln-cover" small={gs01} large={gs01} alt="Goblin Slayer Volumen 01" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>

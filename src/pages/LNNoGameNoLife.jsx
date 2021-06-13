@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import CarouselNGNL from '../components/CarouselNGNL';
@@ -13,6 +14,7 @@ import ngnl07 from '../assets/images/ngnl/07.jpg';
 import ngnl08 from '../assets/images/ngnl/08.jpg';
 import ngnl09 from '../assets/images/ngnl/09.jpg';
 import ngnl10 from '../assets/images/ngnl/10.jpg';
+export {ngnl01, ngnl02, ngnl03, ngnl04, ngnl05, ngnl06, ngnl07, ngnl08, ngnl09, ngnl10};
 
 function LNNoGameNoLife(props) {
 
@@ -34,7 +36,7 @@ function LNNoGameNoLife(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 10" src={ngnl10} />
+                        <ModalImage className="ln-cover" small={ngnl10} large={ngnl10} alt="No Game No Life Volumen 10" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
@@ -52,7 +54,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 09" src={ngnl09} />
+                        <ModalImage className="ln-cover" small={ngnl09} large={ngnl09} alt="No Game No Life Volumen 09" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
@@ -70,7 +72,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 08" src={ngnl08} />
+                        <ModalImage className="ln-cover" small={ngnl08} large={ngnl08} alt="No Game No Life Volumen 08" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
@@ -88,7 +90,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 07" src={ngnl07} />
+                        <ModalImage className="ln-cover" small={ngnl07} large={ngnl07} alt="No Game No Life Volumen 07" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
@@ -106,7 +108,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 06" src={ngnl06} />
+                        <ModalImage className="ln-cover" small={ngnl06} large={ngnl06} alt="No Game No Life Volumen 06" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -124,7 +126,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 05" src={ngnl05} />
+                        <ModalImage className="ln-cover" small={ngnl05} large={ngnl05} alt="No Game No Life Volumen 05" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -142,7 +144,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 04" src={ngnl04} />
+                        <ModalImage className="ln-cover" small={ngnl04} large={ngnl04} alt="No Game No Life Volumen 04" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -160,7 +162,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 03" src={ngnl03} />
+                        <ModalImage className="ln-cover" small={ngnl03} large={ngnl03} alt="No Game No Life Volumen 03" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -178,7 +180,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 02" src={ngnl02} />
+                        <ModalImage className="ln-cover" small={ngnl02} large={ngnl02} alt="No Game No Life Volumen 02" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -196,7 +198,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="No Game No Life 01" src={ngnl01} />
+                        <ModalImage className="ln-cover" small={ngnl01} large={ngnl01} alt="No Game No Life Volumen 01" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>

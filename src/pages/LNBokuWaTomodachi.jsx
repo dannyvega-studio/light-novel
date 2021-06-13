@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import CarouselBWTGS from '../components/CarouselBWTGS';
@@ -14,6 +15,8 @@ import bwtgs08 from '../assets/images/bokuwatomodachi/08.jpg';
 import bwtgs09 from '../assets/images/bokuwatomodachi/09.jpg';
 import bwtgs10 from '../assets/images/bokuwatomodachi/10.jpg';
 import bwtgs11 from '../assets/images/bokuwatomodachi/11.png';
+export {bwtgs01, bwtgs02, bwtgs03, bwtgs04, bwtgs05, bwtgs06, bwtgs07,
+        bwtgs08, bwtgs09, bwtgs10}
 
 function LNBokuWaTomodachi(props) {
 
@@ -35,7 +38,7 @@ function LNBokuWaTomodachi(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Boku wa Tomodachi ga Sukunai 10" src={bwtgs10} />
+                        <ModalImage className="ln-cover" small={bwtgs10} large={bwtgs10} alt="Boku wa Tomodachi ga Sukunai Volumen 10" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
@@ -53,7 +56,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Boku wa Tomodachi ga Sukunai 09" src={bwtgs09} />
+                        <ModalImage className="ln-cover" small={bwtgs09} large={bwtgs09} alt="Boku wa Tomodachi ga Sukunai Volumen 09" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
@@ -71,7 +74,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Boku wa Tomodachi ga Sukunai 08" src={bwtgs08} />
+                        <ModalImage className="ln-cover" small={bwtgs08} large={bwtgs08} alt="Boku wa Tomodachi ga Sukunai Volumen 08" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
@@ -89,7 +92,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Boku wa Tomodachi ga Sukunai 07" src={bwtgs07} />
+                        <ModalImage className="ln-cover" small={bwtgs07} large={bwtgs07} alt="Boku wa Tomodachi ga Sukunai Volumen 07" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
@@ -107,7 +110,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Boku wa Tomodachi ga Sukunai 06" src={bwtgs06} />
+                        <ModalImage className="ln-cover" small={bwtgs06} large={bwtgs06} alt="Boku wa Tomodachi ga Sukunai Volumen 06" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -125,7 +128,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Boku wa Tomodachi ga Sukunai 05" src={bwtgs05} />
+                        <ModalImage className="ln-cover" small={bwtgs05} large={bwtgs05} alt="Boku wa Tomodachi ga Sukunai Volumen 05" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -143,7 +146,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Boku wa Tomodachi ga Sukunai 04" src={bwtgs04} />
+                        <ModalImage className="ln-cover" small={bwtgs04} large={bwtgs04} alt="Boku wa Tomodachi ga Sukunai Volumen 04" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -161,7 +164,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Boku wa Tomodachi ga Sukunai 03" src={bwtgs03} />
+                        <ModalImage className="ln-cover" small={bwtgs03} large={bwtgs03} alt="Boku wa Tomodachi ga Sukunai Volumen 03" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -179,7 +182,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Boku wa Tomodachi ga Sukunai 02" src={bwtgs02} />
+                        <ModalImage className="ln-cover" small={bwtgs02} large={bwtgs02} alt="Boku wa Tomodachi ga Sukunai Volumen 02" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -197,7 +200,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Boku wa Tomodachi ga Sukunai 01" src={bwtgs01} />
+                        <ModalImage className="ln-cover" small={bwtgs01} large={bwtgs01} alt="Boku wa Tomodachi ga Sukunai Volumen 01" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>

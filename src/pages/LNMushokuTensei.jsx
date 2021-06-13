@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import CarouselMushokuTensei from '../components/CarouselMushokuTensei';
@@ -18,15 +19,18 @@ import mushoku12 from '../assets/images/mushoku/12.jpg';
 import mushoku13 from '../assets/images/mushoku/13.jpg';
 import mushoku14 from '../assets/images/mushoku/14.jpg';
 import mushoku15 from '../assets/images/mushoku/15.jpg';
-import mushoku16 from '../assets/images/mushoku/16.jpg';
+import mushoku16 from '../assets/images/mushoku/16.png';
 import mushoku17 from '../assets/images/mushoku/17.jpg';
 import mushoku18 from '../assets/images/mushoku/18.jpg';
 import mushoku19 from '../assets/images/mushoku/19.jpg';
 import mushoku20 from '../assets/images/mushoku/20.jpg';
-import mushoku21 from '../assets/images/mushoku/21.jpg';
+import mushoku21 from '../assets/images/mushoku/21.png';
 import mushoku22 from '../assets/images/mushoku/22.jpg';
 import mushoku23 from '../assets/images/mushoku/23.jpg';
 import mushoku24 from '../assets/images/mushoku/24.jpg';
+export {mushoku01, mushoku02, mushoku03, mushoku04, mushoku05, mushoku06, mushoku07, mushoku08,
+        mushoku09, mushoku10, mushoku11, mushoku12, mushoku13, mushoku14, mushoku15, mushoku16,
+        mushoku17, mushoku18, mushoku19, mushoku20, mushoku21, mushoku22, mushoku23, mushoku24}
 
 function LNMushokuTensei(props) {
 
@@ -48,7 +52,7 @@ function LNMushokuTensei(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 24" src={mushoku24} />
+                        <ModalImage className="ln-cover" small={mushoku24} large={mushoku24} alt="Mushoku Tensei Volumen 24" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 24</Card.Title>
                                 <Card.Text>
@@ -66,7 +70,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 23" src={mushoku23} />
+                        <ModalImage className="ln-cover" small={mushoku23} large={mushoku23} alt="Mushoku Tensei Volumen 23" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 23</Card.Title>
                                 <Card.Text>
@@ -84,7 +88,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 22" src={mushoku22} />
+                        <ModalImage className="ln-cover" small={mushoku22} large={mushoku22} alt="Mushoku Tensei Volumen 22" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 22</Card.Title>
                                 <Card.Text>
@@ -102,7 +106,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 21" src={mushoku21} />
+                        <ModalImage className="ln-cover" small={mushoku21} large={mushoku21} alt="Mushoku Tensei Volumen 21" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 21</Card.Title>
                                 <Card.Text>
@@ -120,7 +124,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 20" src={mushoku20} />
+                        <ModalImage className="ln-cover" small={mushoku20} large={mushoku20} alt="Mushoku Tensei Volumen 20" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 20</Card.Title>
                                 <Card.Text>
@@ -138,7 +142,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 19" src={mushoku19} />
+                        <ModalImage className="ln-cover" small={mushoku19} large={mushoku19} alt="Mushoku Tensei Volumen 19" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 19</Card.Title>
                                 <Card.Text>
@@ -156,7 +160,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 18" src={mushoku18} />
+                        <ModalImage className="ln-cover" small={mushoku18} large={mushoku18} alt="Mushoku Tensei Volumen 18" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 18</Card.Title>
                                 <Card.Text>
@@ -174,7 +178,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 17" src={mushoku17} />
+                        <ModalImage className="ln-cover" small={mushoku17} large={mushoku17} alt="Mushoku Tensei Volumen 17" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 17</Card.Title>
                                 <Card.Text>
@@ -192,7 +196,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 16" src={mushoku16} />
+                        <ModalImage className="ln-cover" small={mushoku16} large={mushoku16} alt="Mushoku Tensei Volumen 16" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 16</Card.Title>
                                 <Card.Text>
@@ -210,7 +214,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 15" src={mushoku15} />
+                        <ModalImage className="ln-cover" small={mushoku15} large={mushoku15} alt="Mushoku Tensei Volumen 15" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 15</Card.Title>
                                 <Card.Text>
@@ -228,7 +232,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 14" src={mushoku14} />
+                        <ModalImage className="ln-cover" small={mushoku14} large={mushoku14} alt="Mushoku Tensei Volumen 14" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 14</Card.Title>
                                 <Card.Text>
@@ -246,7 +250,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 13" src={mushoku13} />
+                        <ModalImage className="ln-cover" small={mushoku13} large={mushoku13} alt="Mushoku Tensei Volumen 13" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 13</Card.Title>
                                 <Card.Text>
@@ -264,7 +268,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 12" src={mushoku12} />
+                        <ModalImage className="ln-cover" small={mushoku12} large={mushoku12} alt="Mushoku Tensei Volumen 12" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 12</Card.Title>
                                 <Card.Text>
@@ -282,7 +286,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 11" src={mushoku11} />
+                        <ModalImage className="ln-cover" small={mushoku11} large={mushoku11} alt="Mushoku Tensei Volumen 11" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 11</Card.Title>
                                 <Card.Text>
@@ -300,7 +304,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 10" src={mushoku10} />
+                        <ModalImage className="ln-cover" small={mushoku10} large={mushoku10} alt="Mushoku Tensei Volumen 10" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
@@ -318,7 +322,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 09" src={mushoku09} />
+                        <ModalImage className="ln-cover" small={mushoku09} large={mushoku09} alt="Mushoku Tensei Volumen 09" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
@@ -336,7 +340,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 08" src={mushoku08} />
+                        <ModalImage className="ln-cover" small={mushoku08} large={mushoku08} alt="Mushoku Tensei Volumen 08" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
@@ -354,7 +358,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 07" src={mushoku07} />
+                        <ModalImage className="ln-cover" small={mushoku07} large={mushoku07} alt="Mushoku Tensei Volumen 07" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
@@ -372,7 +376,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 06" src={mushoku06} />
+                        <ModalImage className="ln-cover" small={mushoku06} large={mushoku06} alt="Mushoku Tensei Volumen 06" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -390,7 +394,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 05" src={mushoku05} />
+                        <ModalImage className="ln-cover" small={mushoku05} large={mushoku05} alt="Mushoku Tensei Volumen 05" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -408,7 +412,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 04" src={mushoku04} />
+                        <ModalImage className="ln-cover" small={mushoku04} large={mushoku04} alt="Mushoku Tensei Volumen 04" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -426,7 +430,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 03" src={mushoku03} />
+                        <ModalImage className="ln-cover" small={mushoku03} large={mushoku03} alt="Mushoku Tensei Volumen 03" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -444,7 +448,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 02" src={mushoku02} />
+                        <ModalImage className="ln-cover" small={mushoku02} large={mushoku02} alt="Mushoku Tensei Volumen 02" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -462,7 +466,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Mushoku Tensei 01" src={mushoku01} />
+                        <ModalImage className="ln-cover" small={mushoku01} large={mushoku01} alt="Mushoku Tensei Volumen 01" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>

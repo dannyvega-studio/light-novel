@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import CarouselISEKAIMAOU from '../components/CarouselISEKAIMAOU';
@@ -17,6 +18,8 @@ import isekaimaou11 from '../assets/images/isekaimaou/11.png';
 import isekaimaou12 from '../assets/images/isekaimaou/12.jpg';
 import isekaimaou13 from '../assets/images/isekaimaou/13.png';
 import isekaimaou14 from '../assets/images/isekaimaou/14.png';
+export {isekaimaou01, isekaimaou02, isekaimaou03, isekaimaou04, isekaimaou05, isekaimaou06, isekaimaou07,
+        isekaimaou08, isekaimaou09, isekaimaou10, isekaimaou11, isekaimaou12, isekaimaou13}
 
 function LNIsekaiMaou(props) {
 
@@ -38,7 +41,7 @@ function LNIsekaiMaou(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 13" src={isekaimaou13} />
+                        <ModalImage className="ln-cover" small={isekaimaou13} large={isekaimaou13} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 13" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 13</Card.Title>
                                 <Card.Text>
@@ -56,7 +59,7 @@ function LNIsekaiMaou(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 12" src={isekaimaou12} />
+                        <ModalImage className="ln-cover" small={isekaimaou12} large={isekaimaou12} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 12" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 12</Card.Title>
                                 <Card.Text>
@@ -74,7 +77,7 @@ function LNIsekaiMaou(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 11" src={isekaimaou11} />
+                        <ModalImage className="ln-cover" small={isekaimaou11} large={isekaimaou11} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 11" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 11</Card.Title>
                                 <Card.Text>
@@ -92,7 +95,7 @@ function LNIsekaiMaou(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 10" src={isekaimaou10} />
+                        <ModalImage className="ln-cover" small={isekaimaou10} large={isekaimaou10} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 10" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
@@ -110,7 +113,7 @@ function LNIsekaiMaou(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 09" src={isekaimaou09} />
+                        <ModalImage className="ln-cover" small={isekaimaou09} large={isekaimaou09} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 09" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
@@ -128,7 +131,7 @@ function LNIsekaiMaou(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 08" src={isekaimaou08} />
+                        <ModalImage className="ln-cover" small={isekaimaou08} large={isekaimaou08} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 08" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
@@ -146,7 +149,7 @@ function LNIsekaiMaou(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 07" src={isekaimaou07} />
+                        <ModalImage className="ln-cover" small={isekaimaou07} large={isekaimaou07} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 07" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
@@ -164,7 +167,7 @@ function LNIsekaiMaou(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 06" src={isekaimaou06} />
+                        <ModalImage className="ln-cover" small={isekaimaou06} large={isekaimaou06} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 06" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -182,7 +185,7 @@ function LNIsekaiMaou(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 05" src={isekaimaou05} />
+                        <ModalImage className="ln-cover" small={isekaimaou05} large={isekaimaou05} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 05" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -200,7 +203,7 @@ function LNIsekaiMaou(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 04" src={isekaimaou04} />
+                        <ModalImage className="ln-cover" small={isekaimaou04} large={isekaimaou04} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 04" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -218,7 +221,7 @@ function LNIsekaiMaou(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 03" src={isekaimaou03} />
+                        <ModalImage className="ln-cover" small={isekaimaou03} large={isekaimaou03} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 03" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -236,7 +239,7 @@ function LNIsekaiMaou(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 02" src={isekaimaou02} />
+                        <ModalImage className="ln-cover" small={isekaimaou02} large={isekaimaou02} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 02" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -254,7 +257,7 @@ function LNIsekaiMaou(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 01" src={isekaimaou01} />
+                        <ModalImage className="ln-cover" small={isekaimaou01} large={isekaimaou01} alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 01" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>

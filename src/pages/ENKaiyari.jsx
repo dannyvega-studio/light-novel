@@ -1,5 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import CarouselKAIYARI from '../components/CarouselKAIYARI';
@@ -11,6 +12,8 @@ import kaiyari05 from '../assets/images/kaiyari/05.jpg';
 import kaiyari06 from '../assets/images/kaiyari/06.jpg';
 import kaiyari07 from '../assets/images/kaiyari/07.jpg';
 import kaiyari08 from '../assets/images/kaiyari/08.jpg';
+export {kaiyari01, kaiyari02, kaiyari03, kaiyari04, kaiyari05, kaiyari06,
+        kaiyari07, kaiyari08}
 
 function ENKaiyari(props) {
 
@@ -32,7 +35,7 @@ function ENKaiyari(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 08" src={kaiyari08} />
+                        <ModalImage className="ln-cover" small={kaiyari08} large={kaiyari08} alt="Kaifuku Jutsushi no Yarinaoshi Volumen 08" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
@@ -50,7 +53,7 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 07" src={kaiyari07} />
+                        <ModalImage className="ln-cover" small={kaiyari07} large={kaiyari07} alt="Kaifuku Jutsushi no Yarinaoshi Volumen 07" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
@@ -68,7 +71,7 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 06" src={kaiyari06} />
+                        <ModalImage className="ln-cover" small={kaiyari06} large={kaiyari06} alt="Kaifuku Jutsushi no Yarinaoshi Volumen 06" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -86,7 +89,7 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 05" src={kaiyari05} />
+                        <ModalImage className="ln-cover" small={kaiyari05} large={kaiyari05} alt="Kaifuku Jutsushi no Yarinaoshi Volumen 05" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -104,7 +107,7 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 04" src={kaiyari04} />
+                        <ModalImage className="ln-cover" small={kaiyari04} large={kaiyari04} alt="Kaifuku Jutsushi no Yarinaoshi Volumen 04" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -122,7 +125,7 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 03" src={kaiyari03} />
+                        <ModalImage className="ln-cover" small={kaiyari03} large={kaiyari03} alt="Kaifuku Jutsushi no Yarinaoshi Volumen 03" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -140,7 +143,7 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 02" src={kaiyari02} />
+                        <ModalImage className="ln-cover" small={kaiyari02} large={kaiyari02} alt="Kaifuku Jutsushi no Yarinaoshi Volumen 02" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -158,7 +161,7 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 01" src={kaiyari01} />
+                        <ModalImage className="ln-cover" small={kaiyari01} large={kaiyari01} alt="Kaifuku Jutsushi no Yarinaoshi Volumen 01" />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
