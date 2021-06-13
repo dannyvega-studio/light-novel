@@ -25,7 +25,7 @@ function ENKaiyari(props) {
             <Container className="bg-white border">
                 <Row className="justify-content-center py-5">
                     <Col sm={12}>
-                        { props.title && <h1 className="font-weight-bolder mb-4">{props.title}</h1> }
+                        { props.title && <h1 className="display-4 font-weight-bolder mb-4">{props.title}</h1> }
                     </Col>
                     <Col sm={8}>
                         <CarouselKAIYARI />
