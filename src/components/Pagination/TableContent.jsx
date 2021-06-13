@@ -33,24 +33,12 @@ const useStyles = makeStyles((theme) => ({
 
 const rowInformation = [
     {"name": "Goblin Slayer", "estado": "En Publicación"},
+    {"name": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu", "estado": "En Publicación"},
     {"name": "Kono Subarashii Sekai ni Shukufuku wo!", "estado": "Finalizado"},
     {"name": "Kumo Desu Ga, Nani Ka?", "estado": "En Publicación"},
     {"name": "Mushoku Tensei: Isekai Ittara Honki Dasu", "estado": "Finalizado"},
     {"name": "No Game No Life", "estado": "Finalizado"},
     {"name": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
     {"name": "Novela", "estado": "En Publicación"},
 ]
 

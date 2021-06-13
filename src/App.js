@@ -102,6 +102,21 @@ import PDFViewverKONOSUBA15 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA
 import PDFViewverKONOSUBA16 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA16';
 import PDFViewverKONOSUBA17 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA17';
 
+import LNIsekaiMaou from './pages/LNIsekaiMaou';
+import PDFViewverISEKAIMAOU01 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU01';
+import PDFViewverISEKAIMAOU02 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU02';
+import PDFViewverISEKAIMAOU03 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU03';
+import PDFViewverISEKAIMAOU04 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU04';
+import PDFViewverISEKAIMAOU05 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU05';
+import PDFViewverISEKAIMAOU06 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU06';
+import PDFViewverISEKAIMAOU07 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU07';
+import PDFViewverISEKAIMAOU08 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU08';
+import PDFViewverISEKAIMAOU09 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU09';
+import PDFViewverISEKAIMAOU10 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU10';
+import PDFViewverISEKAIMAOU11 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU11';
+import PDFViewverISEKAIMAOU12 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU12';
+import PDFViewverISEKAIMAOU13 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU13';
+
 // START EROTIC NOVELS //
 
 import ENKaiyari from './pages/ENKaiyari';
@@ -215,6 +230,20 @@ class App extends React.Component {
         { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 15', path: '/light-novel/konosuba/15/' },
         { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 16', path: '/light-novel/konosuba/16/' },
         { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 17', path: '/light-novel/konosuba/17/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu', path: '/light-novel/isekaimaou/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 01', path: '/light-novel/isekaimaou/01/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 02', path: '/light-novel/isekaimaou/02/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 03', path: '/light-novel/isekaimaou/03/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 04', path: '/light-novel/isekaimaou/04/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 05', path: '/light-novel/isekaimaou/05/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 06', path: '/light-novel/isekaimaou/06/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 07', path: '/light-novel/isekaimaou/07/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 08', path: '/light-novel/isekaimaou/08/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 09', path: '/light-novel/isekaimaou/09/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 10', path: '/light-novel/isekaimaou/10/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 11', path: '/light-novel/isekaimaou/11/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 12', path: '/light-novel/isekaimaou/12/' },
+        { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 13', path: '/light-novel/isekaimaou/13/' },
 
         // START EROTIC NOVELS //
 
@@ -279,6 +308,11 @@ class App extends React.Component {
         title: 'Kono Subarashii Sekai ni Shukufuku wo',
         subTitle: "Volúmenes: 17 de 17",
         text: "Kazuma Satou es un hikikomori que vive en un sector rural de Japón. Un día, decidido ir a comprar lo antes posible un videojuego, sale de casa y de regreso observa a una chica que sería atropellada por un camión y hace lo impensable para él, salvándola, y muriendo de forma heroica. O eso creía, puesto que realmente no fue atropellado y murió de un susto al pensar que lo había atropellado un camión, el cual ni siquiera era un camión y solo era un lento tractor que pasaba saludando a la joven que tampoco necesitaba ayuda, y solo la empujó violentamente. Su muerte fue tan patética que incluso los médicos que lo revisaron se burlaron de él, su familia también lo hizo, y todo en cuánto supo de su muerte se rio. Mágicamente, despierta en un salón increíble y desconocido, en el que encuentra a una hermosa diosa llamada Aqua, que le ofrece, luego de burlarse de su ridícula muerte, darle una nueva vida en un universo paralelo y de fantasía, en el que tendrá aventuras increíbles, enfrentará monstruos terribles, aprenderá poderosas magias, y deberá derrotar a un rey demonio que es el gobernante de ese mundo, alzándose como el héroe entre héroes, por lo cual le brindará un arma, habilidad u objeto (incluso ser) que lo ayude en su aventura."
+      },
+      lnisekaimou: {
+        title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu',
+        subTitle: "Volúmenes: 13 de 14...",
+        text: "En el MMORPG Cross Reverie, Takuma Sakamoto es tan poderoso que es llamado 'Diablo', una especie de 'Supremo demonio' por los otros jugadores. Un día es invocado a un mundo paralelo, pero llega a éste con la misma apariencia que tenía en la última actuación suya en el juego. Ya allí conoce a dos chicas que se proclaman a sí mismas como sus Invocadoras, y como forma de asegurarse su fidelidad, tratan de realizar un ritual de esclavitud para convertirlo en su familiar, pero cuando la habilidad pasiva de Takuma ('Reflexión mágica') se activa, son las chicas las que quedan esclavizadas. Aunque Takuma puede ser el hechicero más fuerte que existe, no tiene idea de cómo interactuar y/o relacionarse con otras personas. Es aquí donde él hace su elección: actuar basándose en la personalidad de su rol en el juego."
       },
 
       // START EROTIC NOVELS //
@@ -437,6 +471,25 @@ render() {
           <Route path="/light-novel/konosuba/15" exact render={() => <PDFViewverKONOSUBA15 />} />
           <Route path="/light-novel/konosuba/16" exact render={() => <PDFViewverKONOSUBA16 />} />
           <Route path="/light-novel/konosuba/17" exact render={() => <PDFViewverKONOSUBA17 />} />
+          <Route path="/light-novel/isekaimaou/" exact render={() => 
+            <LNIsekaiMaou title={this.state.lnisekaimou.title}
+                            subTitle={this.state.lnisekaimou.subTitle} 
+                            text={this.state.lnisekaimou.text} />} />
+          <Route path="/light-novel/isekaimaou/01" exact render={() => <PDFViewverISEKAIMAOU01 />} />
+          <Route path="/light-novel/isekaimaou/02" exact render={() => <PDFViewverISEKAIMAOU02 />} />
+          <Route path="/light-novel/isekaimaou/03" exact render={() => <PDFViewverISEKAIMAOU03 />} />
+          <Route path="/light-novel/isekaimaou/04" exact render={() => <PDFViewverISEKAIMAOU04 />} />
+          <Route path="/light-novel/isekaimaou/05" exact render={() => <PDFViewverISEKAIMAOU05 />} />
+          <Route path="/light-novel/isekaimaou/06" exact render={() => <PDFViewverISEKAIMAOU06 />} />
+          <Route path="/light-novel/isekaimaou/07" exact render={() => <PDFViewverISEKAIMAOU07 />} />
+          <Route path="/light-novel/isekaimaou/08" exact render={() => <PDFViewverISEKAIMAOU08 />} />
+          <Route path="/light-novel/isekaimaou/09" exact render={() => <PDFViewverISEKAIMAOU09 />} />
+          <Route path="/light-novel/isekaimaou/10" exact render={() => <PDFViewverISEKAIMAOU10 />} />
+          <Route path="/light-novel/isekaimaou/11" exact render={() => <PDFViewverISEKAIMAOU11 />} />
+          <Route path="/light-novel/isekaimaou/12" exact render={() => <PDFViewverISEKAIMAOU12 />} />
+          <Route path="/light-novel/isekaimaou/13" exact render={() => <PDFViewverISEKAIMAOU13 />} />
+
+          
           <Route path="/light-novel/kaiyari/" exact render={() => 
             <ENKaiyari title={this.state.enkaiyari.title}
                             subTitle={this.state.enkaiyari.subTitle} 

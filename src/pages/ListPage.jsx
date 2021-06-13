@@ -12,6 +12,7 @@ import kdgnk01 from '../assets/images/kumodesuga/01.jpg';
 import ngnl01 from '../assets/images/ngnl/01.jpg';
 import mushoku01 from '../assets/images/mushoku/01.jpg';
 import seishun01 from '../assets/images/seishunbuta/01.jpg';
+import isekaimaou01 from '../assets/images/isekaimaou/01.jpg';
 
 // Override CSS Styles in pagination //
 const useStyles = makeStyles(() => ({
@@ -46,6 +47,10 @@ function ListPage(props) {
                     <Col lg={4} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/gs/"><img src={gs01} class="ln-cover mt-4 mb-4" variant="top" alt="Goblin Slayer"/></Link>
                         <Card.Title>Goblin Slayer</Card.Title>             
+                    </Col>
+                    <Col lg={4} md={4} sm={6} xs={6}>
+                        <Link to="/light-novel/isekaimaou/"><img src={isekaimaou01} class="ln-cover mt-4 mb-4" variant="top" alt="Isekai Maou Diablo"/></Link>
+                        <Card.Title>Isekai Maou to Shoukan Shoujo no Dorei Majutsu</Card.Title>             
                     </Col>
                     <Col lg={4} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/konosuba/"><img src={konosuba01} class="ln-cover mt-4 mb-4" variant="top" alt="KonoSuba"/></Link>
