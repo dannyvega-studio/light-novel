@@ -40,7 +40,7 @@ function LNKonosuba(props) {
                         { props.subTitle && <h3 className="display-4 font-weight-light mb-4">{props.subTitle}</h3> }
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 17" src={konosuba17} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 17</Card.Title>
@@ -58,7 +58,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 16" src={konosuba16} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 16 </Card.Title>
@@ -76,7 +76,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 15" src={konosuba15} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 15</Card.Title>
@@ -94,7 +94,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 02" src={konosuba14} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 14</Card.Title>
@@ -112,7 +112,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 13" src={konosuba13} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 13</Card.Title>
@@ -130,7 +130,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 12" src={konosuba12} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 12</Card.Title>
@@ -148,7 +148,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 11" src={konosuba11} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 11</Card.Title>
@@ -166,7 +166,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 10" src={konosuba10} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
@@ -184,7 +184,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 09" src={konosuba09} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
@@ -202,7 +202,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 08" src={konosuba08} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
@@ -220,7 +220,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 07" src={konosuba07} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
@@ -238,7 +238,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 06" src={konosuba06} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
@@ -256,7 +256,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 05" src={konosuba05} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
@@ -274,7 +274,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 04" src={konosuba04} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
@@ -292,7 +292,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 03" src={konosuba03} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
@@ -310,7 +310,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 02" src={konosuba02} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
@@ -328,7 +328,7 @@ function LNKonosuba(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kono Subarashii Sekai ni Shukufuku wo! 01" src={konosuba01} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>

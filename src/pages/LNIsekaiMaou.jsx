@@ -37,7 +37,7 @@ function LNIsekaiMaou(props) {
                         { props.subTitle && <h3 className="display-4 font-weight-light mb-4">{props.subTitle}</h3> }
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 13" src={isekaimaou13} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 13</Card.Title>
@@ -55,7 +55,7 @@ function LNIsekaiMaou(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 12" src={isekaimaou12} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 12</Card.Title>
@@ -73,7 +73,7 @@ function LNIsekaiMaou(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 11" src={isekaimaou11} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 11</Card.Title>
@@ -91,7 +91,7 @@ function LNIsekaiMaou(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 10" src={isekaimaou10} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
@@ -109,7 +109,7 @@ function LNIsekaiMaou(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 09" src={isekaimaou09} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
@@ -127,7 +127,7 @@ function LNIsekaiMaou(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 08" src={isekaimaou08} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
@@ -145,7 +145,7 @@ function LNIsekaiMaou(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 07" src={isekaimaou07} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
@@ -163,7 +163,7 @@ function LNIsekaiMaou(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 06" src={isekaimaou06} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
@@ -181,7 +181,7 @@ function LNIsekaiMaou(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 05" src={isekaimaou05} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
@@ -199,7 +199,7 @@ function LNIsekaiMaou(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 04" src={isekaimaou04} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
@@ -217,7 +217,7 @@ function LNIsekaiMaou(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 03" src={isekaimaou03} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
@@ -235,7 +235,7 @@ function LNIsekaiMaou(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 02" src={isekaimaou02} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
@@ -253,7 +253,7 @@ function LNIsekaiMaou(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Isekai Maou to Shoukan Shoujo no Dorei Majutsu 01" src={isekaimaou01} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>

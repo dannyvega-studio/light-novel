@@ -37,7 +37,7 @@ function LNGoblinSlayer(props) {
                         { props.subTitle && <h3 className="display-4 font-weight-light mb-4">{props.subTitle}</h3> }
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Goblin Slayer 06" src={gs06} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
@@ -55,7 +55,7 @@ function LNGoblinSlayer(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Goblin Slayer 05" src={gs05} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
@@ -73,7 +73,7 @@ function LNGoblinSlayer(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Goblin Slayer 04" src={gs04} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
@@ -91,7 +91,7 @@ function LNGoblinSlayer(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Goblin Slayer 03" src={gs03} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
@@ -109,7 +109,7 @@ function LNGoblinSlayer(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Goblin Slayer 02" src={gs02} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
@@ -127,7 +127,7 @@ function LNGoblinSlayer(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Goblin Slayer 01" src={gs01} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>

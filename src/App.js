@@ -117,6 +117,18 @@ import PDFViewverISEKAIMAOU11 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEK
 import PDFViewverISEKAIMAOU12 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU12';
 import PDFViewverISEKAIMAOU13 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU13';
 
+import LNBokuWaTomodachi from './pages/LNBokuWaTomodachi';
+import PDFViewverBWTGS01 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS01';
+import PDFViewverBWTGS02 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS02';
+import PDFViewverBWTGS03 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS03';
+import PDFViewverBWTGS04 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS04';
+import PDFViewverBWTGS05 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS05';
+import PDFViewverBWTGS06 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS06';
+import PDFViewverBWTGS07 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS07';
+import PDFViewverBWTGS08 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS08';
+import PDFViewverBWTGS09 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS09';
+import PDFViewverBWTGS10 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS10';
+
 // START EROTIC NOVELS //
 
 import ENKaiyari from './pages/ENKaiyari';
@@ -244,6 +256,17 @@ class App extends React.Component {
         { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 11', path: '/light-novel/isekaimaou/11/' },
         { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 12', path: '/light-novel/isekaimaou/12/' },
         { title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu Volumen 13', path: '/light-novel/isekaimaou/13/' },
+        { title: 'Boku wa Tomodachi ga Sukunai', path: '/light-novel/bwtgs/' },
+        { title: 'Boku wa Tomodachi ga Sukunai Volumen 01', path: '/light-novel/bwtgs/01/' },
+        { title: 'Boku wa Tomodachi ga Sukunai Volumen 02', path: '/light-novel/bwtgs/02/' },
+        { title: 'Boku wa Tomodachi ga Sukunai Volumen 03', path: '/light-novel/bwtgs/03/' },
+        { title: 'Boku wa Tomodachi ga Sukunai Volumen 04', path: '/light-novel/bwtgs/04/' },
+        { title: 'Boku wa Tomodachi ga Sukunai Volumen 05', path: '/light-novel/bwtgs/05/' },
+        { title: 'Boku wa Tomodachi ga Sukunai Volumen 06', path: '/light-novel/bwtgs/06/' },
+        { title: 'Boku wa Tomodachi ga Sukunai Volumen 07', path: '/light-novel/bwtgs/07/' },
+        { title: 'Boku wa Tomodachi ga Sukunai Volumen 08', path: '/light-novel/bwtgs/08/' },
+        { title: 'Boku wa Tomodachi ga Sukunai Volumen 09', path: '/light-novel/bwtgs/09/' },
+        { title: 'Boku wa Tomodachi ga Sukunai Volumen 10', path: '/light-novel/bwtgs/10/' },
 
         // START EROTIC NOVELS //
 
@@ -313,6 +336,11 @@ class App extends React.Component {
         title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu',
         subTitle: "Volúmenes: 13 de 14...",
         text: "En el MMORPG Cross Reverie, Takuma Sakamoto es tan poderoso que es llamado 'Diablo', una especie de 'Supremo demonio' por los otros jugadores. Un día es invocado a un mundo paralelo, pero llega a éste con la misma apariencia que tenía en la última actuación suya en el juego. Ya allí conoce a dos chicas que se proclaman a sí mismas como sus Invocadoras, y como forma de asegurarse su fidelidad, tratan de realizar un ritual de esclavitud para convertirlo en su familiar, pero cuando la habilidad pasiva de Takuma ('Reflexión mágica') se activa, son las chicas las que quedan esclavizadas. Aunque Takuma puede ser el hechicero más fuerte que existe, no tiene idea de cómo interactuar y/o relacionarse con otras personas. Es aquí donde él hace su elección: actuar basándose en la personalidad de su rol en el juego."
+      },
+      lnbwtgs: {
+        title: 'Boku wa Tomodachi ga Sukunai',
+        subTitle: "Volúmenes: 10 de 11",
+        text: "En la escuela católica de Santa Crónica, Kodaka Hasegawa es un amable chico que lleva sólo un mes en el colegio y que no ha tenido mucha suerte haciendo amigos debido a su apariencia de delincuente, la cual incluye cabello rubio natural y ojos fieros; rasgos que heredó de su padre japonés y de su difunta madre inglesa. Un día, se encuentra a una compañera de clase, llamada Yozora, hablando sola. Ella es famosa en la escuela por ser hermosa y lista, pero asocial. Yozora le explica que habla con su amiga imaginaria ya que siempre ha tenido dificultad para sociabilizar. Varios días después le revela a Kodaka que gracias a su charla se inspiró para crear un club después de la escuela con el único propósito de hacer amigos en el cual es obligado a ingresar en contra su voluntad, y así, el 'Club de los vecinos' es creado oficialmente. Otros cinco miembros se unen pronto al club, comenzando con la ídolo de la escuela, Sena Kashiwazaki, quien tiene un montón de admiradores masculinos, pero ninguna amiga. La hermana menor de Kodaka, Kobato, quien está en la división de la escuela media de Santa Crónica y es una fan del anime oscuro. Kusunoki Yukimura es un estudiante de un año inferior a Kodaka, quien trata de convertirse en un hombre varonil a pesar de ser en realidad una chica. Maria Takayama, una maestra de 10 años de edad y monja en la academia que se convierte en la consejera del club. Rika Shiguma una estudiante de año inferior y un genio reconocido, aunque tiene un lado extremadamente pervertido."
       },
 
       // START EROTIC NOVELS //
@@ -488,6 +516,20 @@ render() {
           <Route path="/light-novel/isekaimaou/11" exact render={() => <PDFViewverISEKAIMAOU11 />} />
           <Route path="/light-novel/isekaimaou/12" exact render={() => <PDFViewverISEKAIMAOU12 />} />
           <Route path="/light-novel/isekaimaou/13" exact render={() => <PDFViewverISEKAIMAOU13 />} />
+          <Route path="/light-novel/bwtgs/" exact render={() => 
+            <LNBokuWaTomodachi title={this.state.lnbwtgs.title}
+                            subTitle={this.state.lnbwtgs.subTitle} 
+                            text={this.state.lnbwtgs.text} />} />
+          <Route path="/light-novel/bwtgs/01" exact render={() => <PDFViewverBWTGS01 />} />
+          <Route path="/light-novel/bwtgs/02" exact render={() => <PDFViewverBWTGS02 />} />
+          <Route path="/light-novel/bwtgs/03" exact render={() => <PDFViewverBWTGS03 />} />
+          <Route path="/light-novel/bwtgs/04" exact render={() => <PDFViewverBWTGS04 />} />
+          <Route path="/light-novel/bwtgs/05" exact render={() => <PDFViewverBWTGS05 />} />
+          <Route path="/light-novel/bwtgs/06" exact render={() => <PDFViewverBWTGS06 />} />
+          <Route path="/light-novel/bwtgs/07" exact render={() => <PDFViewverBWTGS07 />} />
+          <Route path="/light-novel/bwtgs/08" exact render={() => <PDFViewverBWTGS08 />} />
+          <Route path="/light-novel/bwtgs/09" exact render={() => <PDFViewverBWTGS09 />} />
+          <Route path="/light-novel/bwtgs/10" exact render={() => <PDFViewverBWTGS10 />} />
 
           
           <Route path="/light-novel/kaiyari/" exact render={() => 

@@ -13,6 +13,7 @@ import ngnl01 from '../assets/images/ngnl/01.jpg';
 import mushoku01 from '../assets/images/mushoku/01.jpg';
 import seishun01 from '../assets/images/seishunbuta/01.jpg';
 import isekaimaou01 from '../assets/images/isekaimaou/01.jpg';
+import bwtgs01 from '../assets/images/bokuwatomodachi/01.png';
 
 // Override CSS Styles in pagination //
 const useStyles = makeStyles(() => ({
@@ -44,31 +45,35 @@ function ListPage(props) {
                     <Col lg={12} md={12} sm={12}>
                         { props.title && <h1 className="display-2 font-weight-bolder mb-4">{props.title}</h1> }
                     </Col>
-                    <Col lg={4} md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
+                        <Link to="/light-novel/bwtgs/"><img src={bwtgs01} class="ln-cover mt-4 mb-4" variant="top" alt="Boku wa Tomodachi ga Sukunai"/></Link>
+                        <Card.Title>Boku wa Tomodachi ga Sukunai</Card.Title>             
+                    </Col>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/gs/"><img src={gs01} class="ln-cover mt-4 mb-4" variant="top" alt="Goblin Slayer"/></Link>
                         <Card.Title>Goblin Slayer</Card.Title>             
                     </Col>
-                    <Col lg={4} md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/isekaimaou/"><img src={isekaimaou01} class="ln-cover mt-4 mb-4" variant="top" alt="Isekai Maou Diablo"/></Link>
                         <Card.Title>Isekai Maou to Shoukan Shoujo no Dorei Majutsu</Card.Title>             
                     </Col>
-                    <Col lg={4} md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/konosuba/"><img src={konosuba01} class="ln-cover mt-4 mb-4" variant="top" alt="KonoSuba"/></Link>
                         <Card.Title>Kono Subarashii Sekai ni Shukufuku wo!</Card.Title>             
                     </Col>
-                    <Col lg={4} md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/kdgnk/"><img src={kdgnk01} class="ln-cover mt-4 mb-4" variant="top" alt="Kumo Desu Ga"/></Link>
                         <Card.Title>Kumo Desu Ga, Nani Ka?</Card.Title>             
                     </Col>
-                    <Col lg={4} md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/mushoku/"><img src={mushoku01} class="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei"/></Link>
                         <Card.Title>Mushoku Tensei: Isekai Ittara Honki Dasu</Card.Title>             
                     </Col>
-                    <Col lg={4} md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/ngnl/"><img src={ngnl01} class="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life"/></Link>
                         <Card.Title>No Game No Life</Card.Title>                 
                     </Col>
-                    <Col lg={4} md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/sby/"><img src={seishun01} class="ln-cover mt-4 mb-4" variant="top" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"/></Link>
                         <Card.Title>Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai</Card.Title>             
                     </Col>

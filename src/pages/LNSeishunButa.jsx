@@ -34,7 +34,7 @@ function LNSeishunButa(props) {
                         { props.subTitle && <h3 className="display-4 font-weight-light mb-4">{props.subTitle}</h3> }
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Seishun Buta Yarou wa Bunny Girl Senpai 03" src={seishun03} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
@@ -52,7 +52,7 @@ function LNSeishunButa(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Seishun Buta Yarou wa Bunny Girl Senpai 02" src={seishun02} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
@@ -70,7 +70,7 @@ function LNSeishunButa(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Seishun Buta Yarou wa Bunny Girl Senpai 01" src={seishun01} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>

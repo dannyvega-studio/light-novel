@@ -31,7 +31,7 @@ function ENKaiyari(props) {
                         { props.subTitle && <h3 className="display-4 font-weight-light mb-4">{props.subTitle}</h3> }
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 08" src={kaiyari08} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
@@ -49,7 +49,7 @@ function ENKaiyari(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 07" src={kaiyari07} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
@@ -67,7 +67,7 @@ function ENKaiyari(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 06" src={kaiyari06} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
@@ -85,7 +85,7 @@ function ENKaiyari(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 05" src={kaiyari05} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
@@ -103,7 +103,7 @@ function ENKaiyari(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 04" src={kaiyari04} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
@@ -121,7 +121,7 @@ function ENKaiyari(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 03" src={kaiyari03} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
@@ -139,7 +139,7 @@ function ENKaiyari(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 02" src={kaiyari02} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
@@ -157,7 +157,7 @@ function ENKaiyari(props) {
                         </Card.Body>
                         <Card.Img />
                     </Col>
-                    <Col md={4} sm={6} xs={6}>
+                    <Col lg={3} md={4} sm={6} xs={6}>
                         <Card.Img bsPrefix="ln-cover" className="ln-cover" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi 01" src={kaiyari01} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>

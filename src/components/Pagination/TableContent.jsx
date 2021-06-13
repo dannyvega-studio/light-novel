@@ -32,8 +32,10 @@ const useStyles = makeStyles((theme) => ({
 // Ends Override CSS Styles in Table //
 
 const rowInformation = [
+    {"name": "Boku wa Tomodachi ga Sukunai ", "estado": "En Traducción"},
     {"name": "Goblin Slayer", "estado": "En Publicación"},
     {"name": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu", "estado": "En Publicación"},
+    {"name": "Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahō to Skill Copy no Chōetsu Heal", "estado": "En Publicación"},
     {"name": "Kono Subarashii Sekai ni Shukufuku wo!", "estado": "Finalizado"},
     {"name": "Kumo Desu Ga, Nani Ka?", "estado": "En Publicación"},
     {"name": "Mushoku Tensei: Isekai Ittara Honki Dasu", "estado": "Finalizado"},
@@ -117,6 +119,8 @@ export default function TableContent(props) {
                                     style={{
                                         backgroundColor: 
                                         ((novela.estado === 'En Publicación' && 'green') ||
+                                        (novela.estado === 'En Traducción' && 'orange')||
+                                        (novela.estado === 'Pausado' && 'maroon')||
                                         (novela.estado === 'Finalizado' && 'grey'))
                                     }}
                                     >{novela.estado}
