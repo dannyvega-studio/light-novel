@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import Pagination from '@material-ui/lab/Pagination';
 import Typography from '@material-ui/core/Typography';
+
 import gs01 from '../assets/images/goblinslayer/01.jpg';
 import konosuba01 from '../assets/images/konosuba/01.png';
 import kdgnk01 from '../assets/images/kumodesuga/01.jpg';

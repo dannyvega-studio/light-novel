@@ -230,7 +230,7 @@ class App extends React.Component {
       ],
       home: {
         title: 'Light Novels',
-        subTitle: "Mi Última Lectura...",
+        subTitle: "Lista de Novelas",
         text: "Bienvenidos~! Mi nombre es Danny Vega y este es un pequeño proyecto que estoy realizando como hobby titulado LIGHT NOVELS, en el cual realizo respaldos en la nube de algunas Novelas Ligeras que son de mi agrado (algunas ya las terminé de leer y algunas otras no jaja), estos archivos pueden descargarlos desde Mega y/o GoogleDrive (sin acortadores ni nada por el estilo) y de la misma manera para su comodidad los dejare para lectura en linea. Asi que a distrutar~!"
       },
       request: {
