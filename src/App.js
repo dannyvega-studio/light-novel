@@ -129,6 +129,20 @@ import PDFViewverBWTGS08 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTG
 import PDFViewverBWTGS09 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS09';
 import PDFViewverBWTGS10 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS10';
 
+import LNMondaiji from './pages/LNMondaiji';
+import PDFViewverMONDAIJI01 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI01';
+import PDFViewverMONDAIJI02 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI02';
+import PDFViewverMONDAIJI03 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI03';
+import PDFViewverMONDAIJI04 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI04';
+import PDFViewverMONDAIJI05 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI05';
+import PDFViewverMONDAIJI06 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI06';
+import PDFViewverMONDAIJI07 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI07';
+import PDFViewverMONDAIJI08 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI08';
+import PDFViewverMONDAIJI09 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI09';
+import PDFViewverMONDAIJI10 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI10';
+import PDFViewverMONDAIJI11 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI11';
+import PDFViewverMONDAIJI12 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI12';
+
 // START EROTIC NOVELS //
 
 import ENKaiyari from './pages/ENKaiyari';
@@ -267,6 +281,19 @@ class App extends React.Component {
         { title: 'Boku wa Tomodachi ga Sukunai Volumen 08', path: '/light-novel/bwtgs/08/' },
         { title: 'Boku wa Tomodachi ga Sukunai Volumen 09', path: '/light-novel/bwtgs/09/' },
         { title: 'Boku wa Tomodachi ga Sukunai Volumen 10', path: '/light-novel/bwtgs/10/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?', path: '/light-novel/gs/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 01', path: '/light-novel/mondaiji/01/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 02', path: '/light-novel/mondaiji/02/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 03', path: '/light-novel/mondaiji/03/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 04', path: '/light-novel/mondaiji/04/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 05', path: '/light-novel/mondaiji/05/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 06', path: '/light-novel/mondaiji/06/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 07', path: '/light-novel/mondaiji/07/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 08', path: '/light-novel/mondaiji/08/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 09', path: '/light-novel/mondaiji/09/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 10', path: '/light-novel/mondaiji/10/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 11', path: '/light-novel/mondaiji/11/' },
+        { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 12', path: '/light-novel/mondaiji/12/' },
 
         // START EROTIC NOVELS //
 
@@ -341,6 +368,11 @@ class App extends React.Component {
         title: 'Boku wa Tomodachi ga Sukunai',
         subTitle: "Volúmenes: 10 de 11",
         text: "En la escuela católica de Santa Crónica, Kodaka Hasegawa es un amable chico que lleva sólo un mes en el colegio y que no ha tenido mucha suerte haciendo amigos debido a su apariencia de delincuente, la cual incluye cabello rubio natural y ojos fieros; rasgos que heredó de su padre japonés y de su difunta madre inglesa. Un día, se encuentra a una compañera de clase, llamada Yozora, hablando sola. Ella es famosa en la escuela por ser hermosa y lista, pero asocial. Yozora le explica que habla con su amiga imaginaria ya que siempre ha tenido dificultad para sociabilizar. Varios días después le revela a Kodaka que gracias a su charla se inspiró para crear un club después de la escuela con el único propósito de hacer amigos en el cual es obligado a ingresar en contra su voluntad, y así, el 'Club de los vecinos' es creado oficialmente. Otros cinco miembros se unen pronto al club, comenzando con la ídolo de la escuela, Sena Kashiwazaki, quien tiene un montón de admiradores masculinos, pero ninguna amiga. La hermana menor de Kodaka, Kobato, quien está en la división de la escuela media de Santa Crónica y es una fan del anime oscuro. Kusunoki Yukimura es un estudiante de un año inferior a Kodaka, quien trata de convertirse en un hombre varonil a pesar de ser en realidad una chica. Maria Takayama, una maestra de 10 años de edad y monja en la academia que se convierte en la consejera del club. Rika Shiguma una estudiante de año inferior y un genio reconocido, aunque tiene un lado extremadamente pervertido."
+      },
+      lnmondaiji: {
+        title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?',
+        subTitle: "Volúmenes: 12 de 12",
+        text: "Sakamaki Izayoi, Asuka Kudo, y You Kasukabe tienen enormes poderes que los hacen personas diferentes a las demás. Todos ellos se encuentran aburridos del mundo en el que viven. Un día cualquiera, cada uno de ellos encuentran una carta que va dirigida hacia ellos, al momento en que la abren son mandados al Pequeño Mundo, un sitio donde sus poderes no son sobrenaturales. Se dan cuenta de que fueron convocados por Coneja Negra que es una habitante de ese mundo y ella quiere que los tres la ayuden a una comunidad que fue destruida y fue obligada a llevar el nombre de 'No Names' y a partir de esto comienzan sus múltiples aventuras y deciden derrocar a todos los Reyes Demonio."
       },
 
       // START EROTIC NOVELS //
@@ -530,6 +562,22 @@ render() {
           <Route path="/light-novel/bwtgs/08" exact render={() => <PDFViewverBWTGS08 />} />
           <Route path="/light-novel/bwtgs/09" exact render={() => <PDFViewverBWTGS09 />} />
           <Route path="/light-novel/bwtgs/10" exact render={() => <PDFViewverBWTGS10 />} />
+          <Route path="/light-novel/mondaiji/" exact render={() => 
+            <LNMondaiji title={this.state.lnmondaiji.title}
+                            subTitle={this.state.lnmondaiji.subTitle} 
+                            text={this.state.lnmondaiji.text} />} />
+          <Route path="/light-novel/mondaiji/01" exact render={() => <PDFViewverMONDAIJI01 />} />
+          <Route path="/light-novel/mondaiji/02" exact render={() => <PDFViewverMONDAIJI02 />} />
+          <Route path="/light-novel/mondaiji/03" exact render={() => <PDFViewverMONDAIJI03 />} />
+          <Route path="/light-novel/mondaiji/04" exact render={() => <PDFViewverMONDAIJI04 />} />
+          <Route path="/light-novel/mondaiji/05" exact render={() => <PDFViewverMONDAIJI05 />} />
+          <Route path="/light-novel/mondaiji/06" exact render={() => <PDFViewverMONDAIJI06 />} />
+          <Route path="/light-novel/mondaiji/07" exact render={() => <PDFViewverMONDAIJI07 />} />
+          <Route path="/light-novel/mondaiji/08" exact render={() => <PDFViewverMONDAIJI08 />} />
+          <Route path="/light-novel/mondaiji/09" exact render={() => <PDFViewverMONDAIJI09 />} />
+          <Route path="/light-novel/mondaiji/10" exact render={() => <PDFViewverMONDAIJI10 />} />
+          <Route path="/light-novel/mondaiji/11" exact render={() => <PDFViewverMONDAIJI11 />} />
+          <Route path="/light-novel/mondaiji/12" exact render={() => <PDFViewverMONDAIJI12 />} />
 
           
           <Route path="/light-novel/kaiyari/" exact render={() => 

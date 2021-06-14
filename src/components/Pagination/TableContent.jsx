@@ -38,6 +38,7 @@ const rowInformation = [
     {"name": "Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahō to Skill Copy no Chōetsu Heal", "estado": "En Publicación"},
     {"name": "Kono Subarashii Sekai ni Shukufuku wo!", "estado": "Finalizado"},
     {"name": "Kumo Desu Ga, Nani Ka?", "estado": "En Publicación"},
+    {"name": "Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?", "estado": "Finalizado"},
     {"name": "Mushoku Tensei: Isekai Ittara Honki Dasu", "estado": "Finalizado"},
     {"name": "No Game No Life", "estado": "Finalizado"},
     {"name": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai", "estado": "En Publicación"},

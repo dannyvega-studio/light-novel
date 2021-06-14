@@ -14,6 +14,7 @@ import mushoku01 from '../assets/images/mushoku/01.jpg';
 import seishun01 from '../assets/images/seishunbuta/01.jpg';
 import isekaimaou01 from '../assets/images/isekaimaou/01.jpg';
 import bwtgs01 from '../assets/images/bokuwatomodachi/01.png';
+import mondaiji01 from '../assets/images/mondaiji/01.jpg';
 
 // Override CSS Styles in pagination //
 const useStyles = makeStyles(() => ({
@@ -64,6 +65,10 @@ function ListPage(props) {
                     <Col lg={3} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/kdgnk/"><img src={kdgnk01} class="ln-cover mt-4 mb-4" variant="top" alt="Kumo Desu Ga"/></Link>
                         <Card.Title>Kumo Desu Ga, Nani Ka?</Card.Title>             
+                    </Col>
+                    <Col lg={3} md={4} sm={6} xs={6}>
+                        <Link to="/light-novel/mondaiji/"><img src={mondaiji01} class="ln-cover mt-4 mb-4" variant="top" alt="Mondaiji Tachi"/></Link>
+                        <Card.Title>Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?</Card.Title>             
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/mushoku/"><img src={mushoku01} class="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei"/></Link>
