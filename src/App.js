@@ -143,6 +143,23 @@ import PDFViewverMONDAIJI10 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI
 import PDFViewverMONDAIJI11 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI11';
 import PDFViewverMONDAIJI12 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI12';
 
+import LNReZero from './pages/LNReZero';
+import PDFViewverRZ01 from './pages/PDFViewver/ReZero/PDFViewverRZ01';
+import PDFViewverRZ02 from './pages/PDFViewver/ReZero/PDFViewverRZ02';
+import PDFViewverRZ03 from './pages/PDFViewver/ReZero/PDFViewverRZ03';
+import PDFViewverRZ04 from './pages/PDFViewver/ReZero/PDFViewverRZ04';
+import PDFViewverRZ05 from './pages/PDFViewver/ReZero/PDFViewverRZ05';
+import PDFViewverRZ06 from './pages/PDFViewver/ReZero/PDFViewverRZ06';
+import PDFViewverRZ07 from './pages/PDFViewver/ReZero/PDFViewverRZ07';
+import PDFViewverRZ08 from './pages/PDFViewver/ReZero/PDFViewverRZ08';
+import PDFViewverRZ09 from './pages/PDFViewver/ReZero/PDFViewverRZ09';
+import PDFViewverRZ10 from './pages/PDFViewver/ReZero/PDFViewverRZ10';
+import PDFViewverRZ11 from './pages/PDFViewver/ReZero/PDFViewverRZ11';
+import PDFViewverRZ12 from './pages/PDFViewver/ReZero/PDFViewverRZ12';
+import PDFViewverRZ13 from './pages/PDFViewver/ReZero/PDFViewverRZ13';
+import PDFViewverRZ14 from './pages/PDFViewver/ReZero/PDFViewverRZ14';
+import PDFViewverRZ15 from './pages/PDFViewver/ReZero/PDFViewverRZ15';
+
 // START EROTIC NOVELS //
 
 import ENKaiyari from './pages/ENKaiyari';
@@ -294,6 +311,22 @@ class App extends React.Component {
         { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 10', path: '/light-novel/mondaiji/10/' },
         { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 11', path: '/light-novel/mondaiji/11/' },
         { title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? Volumen 12', path: '/light-novel/mondaiji/12/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu', path: '/light-novel/rz/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 01', path: '/light-novel/rz/01/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 02', path: '/light-novel/rz/02/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 03', path: '/light-novel/rz/03/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 04', path: '/light-novel/rz/04/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 05', path: '/light-novel/rz/05/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 06', path: '/light-novel/rz/06/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 07', path: '/light-novel/rz/07/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 08', path: '/light-novel/rz/08/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 09', path: '/light-novel/rz/09/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 10', path: '/light-novel/rz/10/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 11', path: '/light-novel/rz/11/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 12', path: '/light-novel/rz/12/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 13', path: '/light-novel/rz/13/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 14', path: '/light-novel/rz/14/' },
+        { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 15', path: '/light-novel/rz/15/' },
 
         // START EROTIC NOVELS //
 
@@ -366,13 +399,18 @@ class App extends React.Component {
       },
       lnbwtgs: {
         title: 'Boku wa Tomodachi ga Sukunai',
-        subTitle: "Volúmenes: 10 de 11",
+        subTitle: "Volúmenes: 10 de 11...",
         text: "En la escuela católica de Santa Crónica, Kodaka Hasegawa es un amable chico que lleva sólo un mes en el colegio y que no ha tenido mucha suerte haciendo amigos debido a su apariencia de delincuente, la cual incluye cabello rubio natural y ojos fieros; rasgos que heredó de su padre japonés y de su difunta madre inglesa. Un día, se encuentra a una compañera de clase, llamada Yozora, hablando sola. Ella es famosa en la escuela por ser hermosa y lista, pero asocial. Yozora le explica que habla con su amiga imaginaria ya que siempre ha tenido dificultad para sociabilizar. Varios días después le revela a Kodaka que gracias a su charla se inspiró para crear un club después de la escuela con el único propósito de hacer amigos en el cual es obligado a ingresar en contra su voluntad, y así, el 'Club de los vecinos' es creado oficialmente. Otros cinco miembros se unen pronto al club, comenzando con la ídolo de la escuela, Sena Kashiwazaki, quien tiene un montón de admiradores masculinos, pero ninguna amiga. La hermana menor de Kodaka, Kobato, quien está en la división de la escuela media de Santa Crónica y es una fan del anime oscuro. Kusunoki Yukimura es un estudiante de un año inferior a Kodaka, quien trata de convertirse en un hombre varonil a pesar de ser en realidad una chica. Maria Takayama, una maestra de 10 años de edad y monja en la academia que se convierte en la consejera del club. Rika Shiguma una estudiante de año inferior y un genio reconocido, aunque tiene un lado extremadamente pervertido."
       },
       lnmondaiji: {
         title: 'Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?',
         subTitle: "Volúmenes: 12 de 12",
         text: "Sakamaki Izayoi, Asuka Kudo, y You Kasukabe tienen enormes poderes que los hacen personas diferentes a las demás. Todos ellos se encuentran aburridos del mundo en el que viven. Un día cualquiera, cada uno de ellos encuentran una carta que va dirigida hacia ellos, al momento en que la abren son mandados al Pequeño Mundo, un sitio donde sus poderes no son sobrenaturales. Se dan cuenta de que fueron convocados por Coneja Negra que es una habitante de ese mundo y ella quiere que los tres la ayuden a una comunidad que fue destruida y fue obligada a llevar el nombre de 'No Names' y a partir de esto comienzan sus múltiples aventuras y deciden derrocar a todos los Reyes Demonio."
+      },
+      lnrz: {
+        title: 'Re:Zero kara Hajimeru Isekai Seikatsu',
+        subTitle: "Volúmenes: 15 de 26...",
+        text: "Subaru Natsuki es un hikikomori que saliendo de una tienda de conveniencia es transportado misteriosamente a un reino de otro mundo, en donde lo primero que le ocurre es encontrarse con unos bandidos, sin embargo, él es rescatado por una hermosa chica medio-elfo de cabello plateado, llamada 'Satella' y como pago decide ayudarla con un problema que ignoró por ayudarle. Sin embargo, pronto la chica muere y el mismo Subaru es herido mortalmente cuando le dice: 'Te prometo que te salvaré', entonces el chico muere pero de pronto el tiempo se rebobina y se encuentra en el mismo punto en el que comenzó, lo que nombra 'Retorno de la Muerte'. Sin embargo, al reencontrarse con 'Satella' ella le reclama no llamarla como la Bruja de los Celos, por lo que allí es cuando, Subaru vuelve a querer ayudarla, pero confundido termina haciendo todo por su cuenta intentando salvar a la chica de su atacante, ¿Quien es 'Satella'? ¿Por qué Subaru fue transportado a ese mundo? ¿Por qué solo el recuerda lo ocurrido en bucles anteriores? Él mismo tendrá que volver una y otra vez de la muerte para descubrirlo y además salvar a los que quiere con el poder otorgado por la Bruja que quiere mantener sus retornos como un secreto entre ambos."
       },
 
       // START EROTIC NOVELS //
@@ -578,6 +616,25 @@ render() {
           <Route path="/light-novel/mondaiji/10" exact render={() => <PDFViewverMONDAIJI10 />} />
           <Route path="/light-novel/mondaiji/11" exact render={() => <PDFViewverMONDAIJI11 />} />
           <Route path="/light-novel/mondaiji/12" exact render={() => <PDFViewverMONDAIJI12 />} />
+          <Route path="/light-novel/rz/" exact render={() => 
+            <LNReZero title={this.state.lnrz.title}
+                            subTitle={this.state.lnrz.subTitle} 
+                            text={this.state.lnrz.text} />} />
+          <Route path="/light-novel/rz/01" exact render={() => <PDFViewverRZ01 />} />
+          <Route path="/light-novel/rz/02" exact render={() => <PDFViewverRZ02 />} />
+          <Route path="/light-novel/rz/03" exact render={() => <PDFViewverRZ03 />} />
+          <Route path="/light-novel/rz/04" exact render={() => <PDFViewverRZ04 />} />
+          <Route path="/light-novel/rz/05" exact render={() => <PDFViewverRZ05 />} />
+          <Route path="/light-novel/rz/06" exact render={() => <PDFViewverRZ06 />} />
+          <Route path="/light-novel/rz/07" exact render={() => <PDFViewverRZ07 />} />
+          <Route path="/light-novel/rz/08" exact render={() => <PDFViewverRZ08 />} />
+          <Route path="/light-novel/rz/09" exact render={() => <PDFViewverRZ09 />} />
+          <Route path="/light-novel/rz/10" exact render={() => <PDFViewverRZ10 />} />
+          <Route path="/light-novel/rz/11" exact render={() => <PDFViewverRZ11 />} />
+          <Route path="/light-novel/rz/12" exact render={() => <PDFViewverRZ12 />} />
+          <Route path="/light-novel/rz/13" exact render={() => <PDFViewverRZ13 />} />
+          <Route path="/light-novel/rz/14" exact render={() => <PDFViewverRZ14 />} />
+          <Route path="/light-novel/rz/15" exact render={() => <PDFViewverRZ15 />} />
 
           
           <Route path="/light-novel/kaiyari/" exact render={() => 

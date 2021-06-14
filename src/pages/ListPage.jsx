@@ -15,6 +15,8 @@ import seishun01 from '../assets/images/seishunbuta/01.jpg';
 import isekaimaou01 from '../assets/images/isekaimaou/01.jpg';
 import bwtgs01 from '../assets/images/bokuwatomodachi/01.png';
 import mondaiji01 from '../assets/images/mondaiji/01.jpg';
+import rz01 from '../assets/images/rezero/01.png';
+
 
 // Override CSS Styles in pagination //
 const useStyles = makeStyles(() => ({
@@ -77,6 +79,10 @@ function ListPage(props) {
                     <Col lg={3} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/ngnl/"><img src={ngnl01} class="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life"/></Link>
                         <Card.Title>No Game No Life</Card.Title>                 
+                    </Col>
+                    <Col lg={3} md={4} sm={6} xs={6}>
+                        <Link to="/light-novel/rz/"><img src={rz01} class="ln-cover mt-4 mb-4" variant="top" alt="Re:Zero kara Hajimeru Isekai Seikatsu"/></Link>
+                        <Card.Title>Re:Zero kara Hajimeru Isekai Seikatsu</Card.Title>             
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
                         <Link to="/light-novel/sby/"><img src={seishun01} class="ln-cover mt-4 mb-4" variant="top" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"/></Link>

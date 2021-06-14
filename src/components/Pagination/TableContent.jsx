@@ -41,6 +41,7 @@ const rowInformation = [
     {"name": "Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?", "estado": "Finalizado"},
     {"name": "Mushoku Tensei: Isekai Ittara Honki Dasu", "estado": "Finalizado"},
     {"name": "No Game No Life", "estado": "Finalizado"},
+    {"name": "Re:Zero kara Hajimeru Isekai Seikatsu", "estado": "En Publicación"},
     {"name": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai", "estado": "En Publicación"},
     {"name": "Novela", "estado": "En Publicación"},
 ]
