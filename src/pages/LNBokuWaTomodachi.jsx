@@ -2,7 +2,7 @@ import React from 'react';
 import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
-import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import CarouselBWTGS from '../components/CarouselBWTGS';
 import bwtgs01 from '../assets/images/bokuwatomodachi/01.png';
 import bwtgs02 from '../assets/images/bokuwatomodachi/02.png';
@@ -20,10 +20,13 @@ export {bwtgs01, bwtgs02, bwtgs03, bwtgs04, bwtgs05, bwtgs06, bwtgs07,
 
 function LNBokuWaTomodachi(props) {
 
+    const Titulo = "Boku wa Tomodachi ga Sukunai"
+    const linkNav = "bwtgs"
+
     return(
         <div>
             <Helmet>
-                <title>Light Novels || Boku wa Tomodachi ga Sukunai</title>
+                <title>Light Novels || {Titulo}</title>
             </Helmet>
             <Container className="bg-white border">
                 <Row className="justify-content-center py-5">
@@ -38,7 +41,7 @@ function LNBokuWaTomodachi(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={bwtgs10} large={bwtgs10} alt="Boku wa Tomodachi ga Sukunai Volumen 10" />
+                        <ModalImage className="ln-cover" small={bwtgs10} large={bwtgs10} alt={`${Titulo} Volumen 10`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
@@ -48,7 +51,7 @@ function LNBokuWaTomodachi(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/bwtgs/10">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/10`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -56,7 +59,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={bwtgs09} large={bwtgs09} alt="Boku wa Tomodachi ga Sukunai Volumen 09" />
+                        <ModalImage className="ln-cover" small={bwtgs09} large={bwtgs09} alt={`${Titulo} Volumen 09`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
@@ -66,7 +69,7 @@ function LNBokuWaTomodachi(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/bwtgs/09">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/09`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -74,7 +77,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={bwtgs08} large={bwtgs08} alt="Boku wa Tomodachi ga Sukunai Volumen 08" />
+                        <ModalImage className="ln-cover" small={bwtgs08} large={bwtgs08} alt={`${Titulo} Volumen 08`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
@@ -84,7 +87,7 @@ function LNBokuWaTomodachi(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/bwtgs/08">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/08`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -92,7 +95,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={bwtgs07} large={bwtgs07} alt="Boku wa Tomodachi ga Sukunai Volumen 07" />
+                        <ModalImage className="ln-cover" small={bwtgs07} large={bwtgs07} alt={`${Titulo} Volumen 07`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
@@ -102,7 +105,7 @@ function LNBokuWaTomodachi(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/bwtgs/07">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/07`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -110,7 +113,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={bwtgs06} large={bwtgs06} alt="Boku wa Tomodachi ga Sukunai Volumen 06" />
+                        <ModalImage className="ln-cover" small={bwtgs06} large={bwtgs06} alt={`${Titulo} Volumen 06`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -120,7 +123,7 @@ function LNBokuWaTomodachi(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/bwtgs/06">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/06`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -128,7 +131,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={bwtgs05} large={bwtgs05} alt="Boku wa Tomodachi ga Sukunai Volumen 05" />
+                        <ModalImage className="ln-cover" small={bwtgs05} large={bwtgs05} alt={`${Titulo} Volumen 05`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -138,7 +141,7 @@ function LNBokuWaTomodachi(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/bwtgs/05">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/05`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -146,7 +149,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={bwtgs04} large={bwtgs04} alt="Boku wa Tomodachi ga Sukunai Volumen 04" />
+                        <ModalImage className="ln-cover" small={bwtgs04} large={bwtgs04} alt={`${Titulo} Volumen 04`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -156,7 +159,7 @@ function LNBokuWaTomodachi(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/bwtgs/04">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/04`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -164,7 +167,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={bwtgs03} large={bwtgs03} alt="Boku wa Tomodachi ga Sukunai Volumen 03" />
+                        <ModalImage className="ln-cover" small={bwtgs03} large={bwtgs03} alt={`${Titulo} Volumen 03`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -174,7 +177,7 @@ function LNBokuWaTomodachi(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/bwtgs/03">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/03`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -182,7 +185,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={bwtgs02} large={bwtgs02} alt="Boku wa Tomodachi ga Sukunai Volumen 02" />
+                        <ModalImage className="ln-cover" small={bwtgs02} large={bwtgs02} alt={`${Titulo} Volumen 02`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -192,7 +195,7 @@ function LNBokuWaTomodachi(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/bwtgs/02">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/02`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -200,7 +203,7 @@ function LNBokuWaTomodachi(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={bwtgs01} large={bwtgs01} alt="Boku wa Tomodachi ga Sukunai Volumen 01" />
+                        <ModalImage className="ln-cover" small={bwtgs01} large={bwtgs01} alt={`${Titulo} Volumen 01`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
@@ -210,7 +213,7 @@ function LNBokuWaTomodachi(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/bwtgs/01">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/01`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>

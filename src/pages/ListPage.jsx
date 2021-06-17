@@ -1,7 +1,7 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 import { Container, Row, Col, Card} from 'react-bootstrap';
-import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import Pagination from '@material-ui/lab/Pagination';
 import Typography from '@material-ui/core/Typography';

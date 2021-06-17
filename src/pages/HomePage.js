@@ -1,10 +1,7 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
-import { Container, Row, Col, Card, Button} from 'react-bootstrap';
-import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { FaCloudDownloadAlt, FaReadme, FaBook } from 'react-icons/fa';
-
-import ngnl01 from '../assets/images/ngnl/01.jpg';
+import { Container, Row, Col } from 'react-bootstrap';
+import { Route } from 'react-router-dom';
 
 import HomeUpdates from '../components/HomeUpdates';
 import RequestWeebs from '../components/RequestWeebs';

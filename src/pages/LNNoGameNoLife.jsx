@@ -2,7 +2,7 @@ import React from 'react';
 import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
-import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import CarouselNGNL from '../components/CarouselNGNL';
 import ngnl01 from '../assets/images/ngnl/01.jpg';
 import ngnl02 from '../assets/images/ngnl/02.jpg';
@@ -18,10 +18,13 @@ export {ngnl01, ngnl02, ngnl03, ngnl04, ngnl05, ngnl06, ngnl07, ngnl08, ngnl09, 
 
 function LNNoGameNoLife(props) {
 
+    const Titulo = "No Game No Life"
+    const linkNav = "ngnl"
+
     return(
         <div>
             <Helmet>
-                <title>Light Novels || No Game No Life</title>
+                <title>Light Novels ||{Titulo}</title>
             </Helmet>
             <Container className="bg-white border">
                 <Row className="justify-content-center py-5">
@@ -36,7 +39,7 @@ function LNNoGameNoLife(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={ngnl10} large={ngnl10} alt="No Game No Life Volumen 10" />
+                        <ModalImage className="ln-cover" small={ngnl10} large={ngnl10} alt={`${Titulo} Volumen 10`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
@@ -46,7 +49,7 @@ function LNNoGameNoLife(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/10">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/10`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -54,7 +57,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={ngnl09} large={ngnl09} alt="No Game No Life Volumen 09" />
+                        <ModalImage className="ln-cover" small={ngnl09} large={ngnl09} alt={`${Titulo} Volumen 09`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
@@ -64,7 +67,7 @@ function LNNoGameNoLife(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/09">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/09`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -72,7 +75,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={ngnl08} large={ngnl08} alt="No Game No Life Volumen 08" />
+                        <ModalImage className="ln-cover" small={ngnl08} large={ngnl08} alt={`${Titulo} Volumen 08`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
@@ -82,7 +85,7 @@ function LNNoGameNoLife(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/08">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/08`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -90,7 +93,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={ngnl07} large={ngnl07} alt="No Game No Life Volumen 07" />
+                        <ModalImage className="ln-cover" small={ngnl07} large={ngnl07} alt={`${Titulo} Volumen 07`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
@@ -100,7 +103,7 @@ function LNNoGameNoLife(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/07">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/07`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -108,7 +111,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={ngnl06} large={ngnl06} alt="No Game No Life Volumen 06" />
+                        <ModalImage className="ln-cover" small={ngnl06} large={ngnl06} alt={`${Titulo} Volumen 06`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -118,7 +121,7 @@ function LNNoGameNoLife(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/06">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/06`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -126,7 +129,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={ngnl05} large={ngnl05} alt="No Game No Life Volumen 05" />
+                        <ModalImage className="ln-cover" small={ngnl05} large={ngnl05} alt={`${Titulo} Volumen 05`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -136,7 +139,7 @@ function LNNoGameNoLife(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/05">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/05`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -144,7 +147,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={ngnl04} large={ngnl04} alt="No Game No Life Volumen 04" />
+                        <ModalImage className="ln-cover" small={ngnl04} large={ngnl04} alt={`${Titulo} Volumen 04`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -154,7 +157,7 @@ function LNNoGameNoLife(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/04">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/04`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -162,7 +165,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={ngnl03} large={ngnl03} alt="No Game No Life Volumen 03" />
+                        <ModalImage className="ln-cover" small={ngnl03} large={ngnl03} alt={`${Titulo} Volumen 03`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -172,7 +175,7 @@ function LNNoGameNoLife(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/03">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/03`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -180,7 +183,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={ngnl02} large={ngnl02} alt="No Game No Life Volumen 02" />
+                        <ModalImage className="ln-cover" small={ngnl02} large={ngnl02} alt={`${Titulo} Volumen 02`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -190,7 +193,7 @@ function LNNoGameNoLife(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/02">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/02`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -198,7 +201,7 @@ function LNNoGameNoLife(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={ngnl01} large={ngnl01} alt="No Game No Life Volumen 01" />
+                        <ModalImage className="ln-cover" small={ngnl01} large={ngnl01} alt={`${Titulo} Volumen 01`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
@@ -208,7 +211,7 @@ function LNNoGameNoLife(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/ngnl/01">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/01`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>

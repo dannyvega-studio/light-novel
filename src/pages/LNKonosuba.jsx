@@ -2,7 +2,7 @@ import React from 'react';
 import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
-import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import CarouselKONOSUBA from '../components/CarouselKONOSUBA';
 import konosuba01 from '../assets/images/konosuba/01.png';
 import konosuba02 from '../assets/images/konosuba/02.png';
@@ -27,10 +27,13 @@ export {konosuba01, konosuba02, konosuba03, konosuba04, konosuba05, konosuba06,
 
 function LNKonosuba(props) {
 
+    const Titulo = "Kono Subarashii Sekai ni Shukufuku wo!"
+    const linkNav = "konosuba"
+
     return(
         <div>
             <Helmet>
-                <title>Light Novels || Kono Subarashii Sekai ni Shukufuku wo!</title>
+                <title>Light Novels || {Titulo}</title>
             </Helmet>
             <Container className="bg-white border">
                 <Row className="justify-content-center py-5">
@@ -45,7 +48,7 @@ function LNKonosuba(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba17} large={konosuba17} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 17" />
+                        <ModalImage className="ln-cover" small={konosuba17} large={konosuba17} alt={`${Titulo} Volumen 17`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 17</Card.Title>
                                 <Card.Text>
@@ -55,7 +58,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/17">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/17`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -63,7 +66,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba16} large={konosuba16} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 16" />
+                        <ModalImage className="ln-cover" small={konosuba16} large={konosuba16} alt={`${Titulo} Volumen 16`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 16 </Card.Title>
                                 <Card.Text>
@@ -73,7 +76,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/16">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/16`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -81,7 +84,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba15} large={konosuba15} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 15" />
+                        <ModalImage className="ln-cover" small={konosuba15} large={konosuba15} alt={`${Titulo} Volumen 15`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 15</Card.Title>
                                 <Card.Text>
@@ -91,7 +94,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/15">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/15`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -99,7 +102,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba14} large={konosuba14} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 14" />
+                        <ModalImage className="ln-cover" small={konosuba14} large={konosuba14} alt={`${Titulo} Volumen 14`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 14</Card.Title>
                                 <Card.Text>
@@ -109,7 +112,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/14">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/14`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -117,7 +120,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba13} large={konosuba13} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 13" />
+                        <ModalImage className="ln-cover" small={konosuba13} large={konosuba13} alt={`${Titulo} Volumen 13`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 13</Card.Title>
                                 <Card.Text>
@@ -127,7 +130,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/13">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/13`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -135,7 +138,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba12} large={konosuba12} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 12" />
+                        <ModalImage className="ln-cover" small={konosuba12} large={konosuba12} alt={`${Titulo} Volumen 12`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 12</Card.Title>
                                 <Card.Text>
@@ -145,7 +148,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/12">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/12`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -153,7 +156,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba11} large={konosuba11} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 11" />
+                        <ModalImage className="ln-cover" small={konosuba11} large={konosuba11} alt={`${Titulo} Volumen 11`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 11</Card.Title>
                                 <Card.Text>
@@ -163,7 +166,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/1">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/11`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -171,7 +174,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba10} large={konosuba10} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 10" />
+                        <ModalImage className="ln-cover" small={konosuba10} large={konosuba10} alt={`${Titulo} Volumen 10`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
@@ -181,7 +184,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/10">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/10`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -189,7 +192,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba09} large={konosuba09} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 09" />
+                        <ModalImage className="ln-cover" small={konosuba09} large={konosuba09} alt={`${Titulo} Volumen 09`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
@@ -199,7 +202,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/09">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/09`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -207,7 +210,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba08} large={konosuba08} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 08" />
+                        <ModalImage className="ln-cover" small={konosuba08} large={konosuba08} alt={`${Titulo} Volumen 08`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
@@ -217,7 +220,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/08">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/08`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -225,7 +228,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba07} large={konosuba07} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 07" />
+                        <ModalImage className="ln-cover" small={konosuba07} large={konosuba07} alt={`${Titulo} Volumen 07`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
@@ -235,7 +238,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/07">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/07`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -243,7 +246,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba06} large={konosuba06} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 06" />
+                        <ModalImage className="ln-cover" small={konosuba06} large={konosuba06} alt={`${Titulo} Volumen 06`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -253,7 +256,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/06">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/06`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -261,7 +264,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba05} large={konosuba05} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 05" />
+                        <ModalImage className="ln-cover" small={konosuba05} large={konosuba05} alt={`${Titulo} Volumen 05`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -271,7 +274,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/05">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/05`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -279,7 +282,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba04} large={konosuba04} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 04" />
+                        <ModalImage className="ln-cover" small={konosuba04} large={konosuba04} alt={`${Titulo} Volumen 04`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -289,7 +292,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/04">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/04`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -297,7 +300,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba03} large={konosuba03} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 03" />
+                        <ModalImage className="ln-cover" small={konosuba03} large={konosuba03} alt={`${Titulo} Volumen 03`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -307,7 +310,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/03">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/03`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -315,7 +318,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba02} large={konosuba02} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 02" />
+                        <ModalImage className="ln-cover" small={konosuba02} large={konosuba02} alt={`${Titulo} Volumen 02`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -325,7 +328,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/02">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/02`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -333,7 +336,7 @@ function LNKonosuba(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={konosuba01} large={konosuba01} alt="Kono Subarashii Sekai ni Shukufuku wo! Volumen 01" />
+                        <ModalImage className="ln-cover" small={konosuba01} large={konosuba01} alt={`${Titulo} Volumen 01`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
@@ -343,7 +346,7 @@ function LNKonosuba(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/konosuba/01">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/01`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>

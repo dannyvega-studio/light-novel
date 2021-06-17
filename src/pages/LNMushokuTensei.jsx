@@ -2,7 +2,7 @@ import React from 'react';
 import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button } from 'react-bootstrap';
-import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import CarouselMushokuTensei from '../components/CarouselMushokuTensei';
 import mushoku01 from '../assets/images/mushoku/01.jpg';
 import mushoku02 from '../assets/images/mushoku/02.jpg';
@@ -34,10 +34,13 @@ export {mushoku01, mushoku02, mushoku03, mushoku04, mushoku05, mushoku06, mushok
 
 function LNMushokuTensei(props) {
 
+    const Titulo = "Mushoku Tensei: Isekai Ittara Honki Dasu"
+    const linkNav = "mushoku"
+
     return(
         <div>
             <Helmet>
-                <title>Light Novels || Mushoku Tensei</title>
+                <title>Light Novels || {Titulo}}</title>
             </Helmet>
             <Container className="bg-white border">
                 <Row className="justify-content-center py-5">
@@ -52,7 +55,7 @@ function LNMushokuTensei(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku24} large={mushoku24} alt="Mushoku Tensei Volumen 24" />
+                        <ModalImage className="ln-cover" small={mushoku24} large={mushoku24} alt={`${Titulo} Volumen 24`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 24</Card.Title>
                                 <Card.Text>
@@ -62,7 +65,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/24">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/24`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -70,7 +73,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku23} large={mushoku23} alt="Mushoku Tensei Volumen 23" />
+                        <ModalImage className="ln-cover" small={mushoku23} large={mushoku23} alt={`${Titulo} Volumen 23`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 23</Card.Title>
                                 <Card.Text>
@@ -80,7 +83,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/23">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/23`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -88,7 +91,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku22} large={mushoku22} alt="Mushoku Tensei Volumen 22" />
+                        <ModalImage className="ln-cover" small={mushoku22} large={mushoku22} alt={`${Titulo} Volumen 22`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 22</Card.Title>
                                 <Card.Text>
@@ -98,7 +101,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/22">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/22`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -106,7 +109,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku21} large={mushoku21} alt="Mushoku Tensei Volumen 21" />
+                        <ModalImage className="ln-cover" small={mushoku21} large={mushoku21} alt={`${Titulo} Volumen 21`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 21</Card.Title>
                                 <Card.Text>
@@ -116,7 +119,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/21">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/21`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -124,7 +127,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku20} large={mushoku20} alt="Mushoku Tensei Volumen 20" />
+                        <ModalImage className="ln-cover" small={mushoku20} large={mushoku20} alt={`${Titulo} Volumen 20`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 20</Card.Title>
                                 <Card.Text>
@@ -134,7 +137,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/20">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/20`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -142,7 +145,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku19} large={mushoku19} alt="Mushoku Tensei Volumen 19" />
+                        <ModalImage className="ln-cover" small={mushoku19} large={mushoku19} alt={`${Titulo} Volumen 19`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 19</Card.Title>
                                 <Card.Text>
@@ -152,7 +155,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/19">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/19`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -160,7 +163,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku18} large={mushoku18} alt="Mushoku Tensei Volumen 18" />
+                        <ModalImage className="ln-cover" small={mushoku18} large={mushoku18} alt={`${Titulo} Volumen 18`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 18</Card.Title>
                                 <Card.Text>
@@ -170,7 +173,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/18">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/18`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -178,7 +181,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku17} large={mushoku17} alt="Mushoku Tensei Volumen 17" />
+                        <ModalImage className="ln-cover" small={mushoku17} large={mushoku17} alt={`${Titulo} Volumen 17`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 17</Card.Title>
                                 <Card.Text>
@@ -188,7 +191,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/17">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/17`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -196,7 +199,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku16} large={mushoku16} alt="Mushoku Tensei Volumen 16" />
+                        <ModalImage className="ln-cover" small={mushoku16} large={mushoku16} alt={`${Titulo} Volumen 16`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 16</Card.Title>
                                 <Card.Text>
@@ -206,7 +209,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/16">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/16`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -214,7 +217,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku15} large={mushoku15} alt="Mushoku Tensei Volumen 15" />
+                        <ModalImage className="ln-cover" small={mushoku15} large={mushoku15} alt={`${Titulo} Volumen 15`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 15</Card.Title>
                                 <Card.Text>
@@ -224,7 +227,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/15">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/15`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -232,7 +235,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku14} large={mushoku14} alt="Mushoku Tensei Volumen 14" />
+                        <ModalImage className="ln-cover" small={mushoku14} large={mushoku14} alt={`${Titulo} Volumen 14`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 14</Card.Title>
                                 <Card.Text>
@@ -242,7 +245,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/14">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/14`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -250,7 +253,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku13} large={mushoku13} alt="Mushoku Tensei Volumen 13" />
+                        <ModalImage className="ln-cover" small={mushoku13} large={mushoku13} alt={`${Titulo} Volumen 13`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 13</Card.Title>
                                 <Card.Text>
@@ -260,7 +263,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/13">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/13`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -268,7 +271,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku12} large={mushoku12} alt="Mushoku Tensei Volumen 12" />
+                        <ModalImage className="ln-cover" small={mushoku12} large={mushoku12} alt={`${Titulo} Volumen 12`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 12</Card.Title>
                                 <Card.Text>
@@ -278,7 +281,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/12">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/12`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -286,7 +289,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku11} large={mushoku11} alt="Mushoku Tensei Volumen 11" />
+                        <ModalImage className="ln-cover" small={mushoku11} large={mushoku11} alt={`${Titulo} Volumen 11`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 11</Card.Title>
                                 <Card.Text>
@@ -296,7 +299,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/11">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/11`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -304,7 +307,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku10} large={mushoku10} alt="Mushoku Tensei Volumen 10" />
+                        <ModalImage className="ln-cover" small={mushoku10} large={mushoku10} alt={`${Titulo} Volumen 10`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
@@ -314,7 +317,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/10">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/10`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -322,7 +325,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku09} large={mushoku09} alt="Mushoku Tensei Volumen 09" />
+                        <ModalImage className="ln-cover" small={mushoku09} large={mushoku09} alt={`${Titulo} Volumen 09`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
@@ -332,7 +335,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/09">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/09`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -340,7 +343,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku08} large={mushoku08} alt="Mushoku Tensei Volumen 08" />
+                        <ModalImage className="ln-cover" small={mushoku08} large={mushoku08} alt={`${Titulo} Volumen 08`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
@@ -350,7 +353,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/08">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/08`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -358,7 +361,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku07} large={mushoku07} alt="Mushoku Tensei Volumen 07" />
+                        <ModalImage className="ln-cover" small={mushoku07} large={mushoku07} alt={`${Titulo} Volumen 07`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
@@ -368,7 +371,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/07">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/07`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -376,7 +379,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku06} large={mushoku06} alt="Mushoku Tensei Volumen 06" />
+                        <ModalImage className="ln-cover" small={mushoku06} large={mushoku06} alt={`${Titulo} Volumen 06`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -386,7 +389,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/06">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/06`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -394,7 +397,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku05} large={mushoku05} alt="Mushoku Tensei Volumen 05" />
+                        <ModalImage className="ln-cover" small={mushoku05} large={mushoku05} alt={`${Titulo} Volumen 05`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -404,7 +407,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/05">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/05`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -412,7 +415,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku04} large={mushoku04} alt="Mushoku Tensei Volumen 04" />
+                        <ModalImage className="ln-cover" small={mushoku04} large={mushoku04} alt={`${Titulo} Volumen 04`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -422,7 +425,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/04">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/04`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -430,7 +433,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku03} large={mushoku03} alt="Mushoku Tensei Volumen 03" />
+                        <ModalImage className="ln-cover" small={mushoku03} large={mushoku03} alt={`${Titulo} Volumen 03`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -440,7 +443,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/03">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/03`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -448,7 +451,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku02} large={mushoku02} alt="Mushoku Tensei Volumen 02" />
+                        <ModalImage className="ln-cover" small={mushoku02} large={mushoku02} alt={`${Titulo} Volumen 02`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -458,7 +461,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/02">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/02`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -466,7 +469,7 @@ function LNMushokuTensei(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mushoku01} large={mushoku01} alt="Mushoku Tensei Volumen 01" />
+                        <ModalImage className="ln-cover" small={mushoku01} large={mushoku01} alt={`${Titulo} Volumen 01`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
@@ -476,7 +479,7 @@ function LNMushokuTensei(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mushoku/01">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/01`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>

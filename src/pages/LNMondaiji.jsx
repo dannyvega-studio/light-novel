@@ -2,7 +2,7 @@ import React from 'react';
 import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
-import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import CarouselMONDAIJI from '../components/CarouselMONDAIJI';
 import mondaiji01 from '../assets/images/mondaiji/01.jpg';
 import mondaiji02 from '../assets/images/mondaiji/02.jpg';
@@ -21,10 +21,13 @@ export {mondaiji01, mondaiji02, mondaiji03, mondaiji04, mondaiji05, mondaiji06,
 
 function LNMondaiji(props) {
 
+    const Titulo = "Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?"
+    const linkNav = "mondaiji"
+
     return(
         <div>
             <Helmet>
-                <title>Light Novels || Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?</title>
+                <title>Light Novels || {Titulo}</title>
             </Helmet>
             <Container className="bg-white border">
                 <Row className="justify-content-center py-5">
@@ -39,7 +42,7 @@ function LNMondaiji(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mondaiji12} large={mondaiji12} alt="Mondaiji Tachi Volumen 12" />
+                        <ModalImage className="ln-cover" small={mondaiji12} large={mondaiji12} alt={`${Titulo} Volumen 12`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 12</Card.Title>
                                 <Card.Text>
@@ -49,7 +52,7 @@ function LNMondaiji(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mondaiji/12">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/12`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -57,7 +60,7 @@ function LNMondaiji(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mondaiji11} large={mondaiji11} alt="Mondaiji Tachi Volumen 11" />
+                        <ModalImage className="ln-cover" small={mondaiji11} large={mondaiji11} alt={`${Titulo} Volumen 11`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 11</Card.Title>
                                 <Card.Text>
@@ -67,7 +70,7 @@ function LNMondaiji(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mondaiji/11">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/11`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -75,7 +78,7 @@ function LNMondaiji(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mondaiji10} large={mondaiji10} alt="Mondaiji Tachi Volumen 10" />
+                        <ModalImage className="ln-cover" small={mondaiji10} large={mondaiji10} alt={`${Titulo} Volumen 10`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
@@ -85,7 +88,7 @@ function LNMondaiji(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mondaiji/10">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/10`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -93,7 +96,7 @@ function LNMondaiji(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mondaiji09} large={mondaiji09} alt="Mondaiji Tachi Volumen 09" />
+                        <ModalImage className="ln-cover" small={mondaiji09} large={mondaiji09} alt={`${Titulo} Volumen 09`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
@@ -103,7 +106,7 @@ function LNMondaiji(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mondaiji/09">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/09`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -111,7 +114,7 @@ function LNMondaiji(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mondaiji08} large={mondaiji08} alt="Mondaiji Tachi Volumen 08" />
+                        <ModalImage className="ln-cover" small={mondaiji08} large={mondaiji08} alt={`${Titulo} Volumen 08`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
@@ -121,7 +124,7 @@ function LNMondaiji(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mondaiji/08">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/08`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -129,7 +132,7 @@ function LNMondaiji(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mondaiji07} large={mondaiji07} alt="Mondaiji Tachi Volumen 07" />
+                        <ModalImage className="ln-cover" small={mondaiji07} large={mondaiji07} alt={`${Titulo} Volumen 07`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
@@ -139,7 +142,7 @@ function LNMondaiji(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mondaiji/07">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/07`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -147,7 +150,7 @@ function LNMondaiji(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mondaiji06} large={mondaiji06} alt="Mondaiji Tachi Volumen 06" />
+                        <ModalImage className="ln-cover" small={mondaiji06} large={mondaiji06} alt={`${Titulo} Volumen 06`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -157,7 +160,7 @@ function LNMondaiji(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mondaiji/06">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/06`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -165,7 +168,7 @@ function LNMondaiji(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mondaiji05} large={mondaiji05} alt="Mondaiji Tachi Volumen 05" />
+                        <ModalImage className="ln-cover" small={mondaiji05} large={mondaiji05} alt={`${Titulo} Volumen 05`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -175,7 +178,7 @@ function LNMondaiji(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mondaiji/05">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/05`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -183,7 +186,7 @@ function LNMondaiji(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mondaiji04} large={mondaiji04} alt="Mondaiji Tachi Volumen 04" />
+                        <ModalImage className="ln-cover" small={mondaiji04} large={mondaiji04} alt={`${Titulo} Volumen 04`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -193,7 +196,7 @@ function LNMondaiji(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mondaiji/04">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/04`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -201,7 +204,7 @@ function LNMondaiji(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mondaiji03} large={mondaiji03} alt="Mondaiji Tachi Volumen 03" />
+                        <ModalImage className="ln-cover" small={mondaiji03} large={mondaiji03} alt={`${Titulo} Volumen 03`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -211,7 +214,7 @@ function LNMondaiji(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mondaiji/03">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/03`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -219,7 +222,7 @@ function LNMondaiji(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mondaiji02} large={mondaiji02} alt="Mondaiji Tachi Volumen 02" />
+                        <ModalImage className="ln-cover" small={mondaiji02} large={mondaiji02} alt={`${Titulo} Volumen 02`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -229,7 +232,7 @@ function LNMondaiji(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mondaiji/02">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/02`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -237,7 +240,7 @@ function LNMondaiji(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={mondaiji01} large={mondaiji01} alt="Mondaiji Tachi Volumen 01" />
+                        <ModalImage className="ln-cover" small={mondaiji01} large={mondaiji01} alt={`${Titulo} Volumen 01`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
@@ -247,7 +250,7 @@ function LNMondaiji(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/mondaiji/01">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/01`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>

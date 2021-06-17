@@ -2,7 +2,7 @@ import React from 'react';
 import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
-import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { Route, Link } from 'react-router-dom';
 import CarouselKDGNK from '../components/CarouselKDGNK';
 import kdgnk01 from '../assets/images/kumodesuga/01.jpg';
 import kdgnk02 from '../assets/images/kumodesuga/02.jpg';
@@ -23,10 +23,13 @@ export {kdgnk01, kdgnk02, kdgnk03, kdgnk04, kdgnk05, kdgnk06, kdgnk07, kdgnk08,
 
 function LNKumoDesuGa(props) {
 
+    const Titulo = "Kumo Desu Ga, Nani Ka?"
+    const linkNav = "kdgnk"
+
     return(
         <div>
             <Helmet>
-                <title>Light Novels || Kumo Desu Ga, Nani Ka?</title>
+                <title>Light Novels || {Titulo}</title>
             </Helmet>
             <Container className="bg-white border">
                 <Row className="justify-content-center py-5">
@@ -41,7 +44,7 @@ function LNKumoDesuGa(props) {
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kdgnk11} large={kdgnk11} alt="Kumo Desu Ga, Nani Ka Volumen 11" />
+                        <ModalImage className="ln-cover" small={kdgnk11} large={kdgnk11} alt={`${Titulo} Volumen 11`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 11</Card.Title>
                                 <Card.Text>
@@ -51,7 +54,7 @@ function LNKumoDesuGa(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/kdgnk/11">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/11`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -59,7 +62,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kdgnk10} large={kdgnk10} alt="Kumo Desu Ga, Nani Ka Volumen 10" />
+                        <ModalImage className="ln-cover" small={kdgnk10} large={kdgnk10} alt={`${Titulo} Volumen 10`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
@@ -69,7 +72,7 @@ function LNKumoDesuGa(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/kdgnk/10">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/10`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -77,7 +80,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kdgnk09} large={kdgnk09} alt="Kumo Desu Ga, Nani Ka Volumen 09" />
+                        <ModalImage className="ln-cover" small={kdgnk09} large={kdgnk09} alt={`${Titulo} Volumen 09`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
@@ -87,7 +90,7 @@ function LNKumoDesuGa(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/kdgnk/09">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/09`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -95,7 +98,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kdgnk08} large={kdgnk08} alt="Kumo Desu Ga, Nani Ka Volumen 08" />
+                        <ModalImage className="ln-cover" small={kdgnk08} large={kdgnk08} alt={`${Titulo} Volumen 08`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
@@ -105,7 +108,7 @@ function LNKumoDesuGa(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/kdgnk/08">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/08`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -113,7 +116,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kdgnk07} large={kdgnk07} alt="Kumo Desu Ga, Nani Ka Volumen 07" />
+                        <ModalImage className="ln-cover" small={kdgnk07} large={kdgnk07} alt={`${Titulo} Volumen 07`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
@@ -123,7 +126,7 @@ function LNKumoDesuGa(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/kdgnk/07">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/07`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -131,7 +134,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kdgnk06} large={kdgnk06} alt="Kumo Desu Ga, Nani Ka Volumen 06" />
+                        <ModalImage className="ln-cover" small={kdgnk06} large={kdgnk06} alt={`${Titulo} Volumen 06`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
@@ -141,7 +144,7 @@ function LNKumoDesuGa(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/kdgnk/06">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/06`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -149,7 +152,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kdgnk05} large={kdgnk05} alt="Kumo Desu Ga, Nani Ka Volumen 05" />
+                        <ModalImage className="ln-cover" small={kdgnk05} large={kdgnk05} alt={`${Titulo} Volumen 05`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
@@ -159,7 +162,7 @@ function LNKumoDesuGa(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/kdgnk/05">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/05`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -167,7 +170,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kdgnk04} large={kdgnk04} alt="Kumo Desu Ga, Nani Ka Volumen 04" />
+                        <ModalImage className="ln-cover" small={kdgnk04} large={kdgnk04} alt={`${Titulo} Volumen 04`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
@@ -177,7 +180,7 @@ function LNKumoDesuGa(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/kdgnk/04">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/04`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -185,7 +188,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kdgnk03} large={kdgnk03} alt="Kumo Desu Ga, Nani Ka Volumen 03" />
+                        <ModalImage className="ln-cover" small={kdgnk03} large={kdgnk03} alt={`${Titulo} Volumen 03`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
@@ -195,7 +198,7 @@ function LNKumoDesuGa(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/kdgnk/03">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/03`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -203,7 +206,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kdgnk02} large={kdgnk02} alt="Kumo Desu Ga, Nani Ka Volumen 02" />
+                        <ModalImage className="ln-cover" small={kdgnk02} large={kdgnk02} alt={`${Titulo} Volumen 02`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
@@ -213,7 +216,7 @@ function LNKumoDesuGa(props) {
                                                 Descargar</a>
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/kdgnk/02">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/02`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>
@@ -221,7 +224,7 @@ function LNKumoDesuGa(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kdgnk01} large={kdgnk01} alt="Kumo Desu Ga, Nani Ka Volumen 01" />
+                        <ModalImage className="ln-cover" small={kdgnk01} large={kdgnk01} alt={`${Titulo} Volumen 01`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
@@ -231,7 +234,7 @@ function LNKumoDesuGa(props) {
                                                 Descargar</a>    
                                         </Button>
                                         <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <Link className="btn-dark-text" to="/light-novel/kdgnk/01">Leer</Link>
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/01`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
                                 </Card.Text>

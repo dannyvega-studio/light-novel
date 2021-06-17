@@ -3,7 +3,6 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Container, Nav, Navbar, Jumbotron, Button } from 'react-bootstrap';
-import { FaSun, FaMoon } from 'react-icons/fa';
 
 import { useDarkMode } from './styles/useDarkMode';
 import { GlobalStyles, lightTheme, darkTheme } from './styles/globalStyles';

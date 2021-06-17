@@ -1,4 +1,5 @@
 import React from 'react'
+import { Route, Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import TableHeader from '../Pagination/TableHeader.jsx'
 import Table from '@material-ui/core/Table'
@@ -32,18 +33,18 @@ const useStyles = makeStyles((theme) => ({
 // Ends Override CSS Styles in Table //
 
 const rowInformation = [
-    {"name": "Boku wa Tomodachi ga Sukunai ", "estado": "En Traducción"},
-    {"name": "Goblin Slayer", "estado": "En Publicación"},
-    {"name": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu", "estado": "En Publicación"},
-    {"name": "Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahō to Skill Copy no Chōetsu Heal", "estado": "En Publicación"},
-    {"name": "Kono Subarashii Sekai ni Shukufuku wo!", "estado": "Finalizado"},
-    {"name": "Kumo Desu Ga, Nani Ka?", "estado": "En Publicación"},
-    {"name": "Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?", "estado": "Finalizado"},
-    {"name": "Mushoku Tensei: Isekai Ittara Honki Dasu", "estado": "Finalizado"},
-    {"name": "No Game No Life", "estado": "Finalizado"},
-    {"name": "Re:Zero kara Hajimeru Isekai Seikatsu", "estado": "En Publicación"},
-    {"name": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai", "estado": "En Publicación"},
-    {"name": "Novela", "estado": "En Publicación"},
+    {"name": "Boku wa Tomodachi ga Sukunai ", "estado": "En Traducción" , "link": "bwtgs"},
+    {"name": "Goblin Slayer", "estado": "En Publicación", "link": "gs"},
+    {"name": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu", "estado": "En Publicación", "link": "isekaimaou"},
+    {"name": "Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahō to Skill Copy no Chōetsu Heal", "estado": "En Publicación", "link": "kaiyari"},
+    {"name": "Kono Subarashii Sekai ni Shukufuku wo!", "estado": "Finalizado", "link": "konosuba"},
+    {"name": "Kumo Desu Ga, Nani Ka?", "estado": "En Publicación", "link": "kdgnk"},
+    {"name": "Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?", "estado": "Finalizado", "link": "mondaiji"},
+    {"name": "Mushoku Tensei: Isekai Ittara Honki Dasu", "estado": "Finalizado", "link": "mushoku"},
+    {"name": "No Game No Life", "estado": "Finalizado", "link": "ngnl"},
+    {"name": "Re:Zero kara Hajimeru Isekai Seikatsu", "estado": "En Publicación", "link": "rz"},
+    {"name": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai", "estado": "En Publicación", "link": "sby"},
+    {"name": "Novela", "estado": "En Publicación", "link": "#"},
 ]
 
 function descendingComparator(a,b,orderBy) {
@@ -112,9 +113,11 @@ export default function TableContent(props) {
                     .slice(page * rowsPerPage, page * rowsPerPage + rowsPerPage)
                     .map((novela, index) => (
                         <TableRow key={index}>
-                            <TableCell>
-                                {novela.name}
-                            </TableCell>
+                                <TableCell>
+                                    <Link className="btn-light-text" to={`/light-novel/${novela.link}/`} key={novela.link}>
+                                        {novela.name}
+                                    </Link>
+                                </TableCell>
                             <TableCell>
                                 <Typography 
                                     className={classes.estado}
@@ -134,7 +137,7 @@ export default function TableContent(props) {
             </Table>
         </TableContainer>
         <TablePagination
-            rowsPerPageOptions={[5, 10, 15, 30]}
+            rowsPerPageOptions={[10, 15, 30]}
             component="div"
             count={rowInformation.length}
             rowsPerPage={rowsPerPage}
