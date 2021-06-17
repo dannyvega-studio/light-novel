@@ -33,10 +33,14 @@ const useStyles = makeStyles((theme) => ({
 // Ends Override CSS Styles in Table //
 
 const rowInformation = [
+    {"name": "Ano Orokamono ni mo Kyakkou wo!", "estado": "En Traducción", "link": "kyakko"},
     {"name": "Boku wa Tomodachi ga Sukunai ", "estado": "En Traducción" , "link": "bwtgs"},
     {"name": "Goblin Slayer", "estado": "En Publicación", "link": "gs"},
     {"name": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu", "estado": "En Publicación", "link": "isekaimaou"},
     {"name": "Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahō to Skill Copy no Chōetsu Heal", "estado": "En Publicación", "link": "kaiyari"},
+    {"name": "Kono Kamen no Akuma ni Soudan wo!", "estado": "Finalizado", "link": "kamen"},
+    {"name": "Kono Subarashii Sekai ni Bakuen wo!", "estado": "Finalizado", "link": "bakuen"},
+    {"name": "Kono Subarashii Sekai ni Bakuen wo! Zukko", "estado": "Finalizado", "link": "bakuenzukko"},
     {"name": "Kono Subarashii Sekai ni Shukufuku wo!", "estado": "Finalizado", "link": "konosuba"},
     {"name": "Kumo Desu Ga, Nani Ka?", "estado": "En Publicación", "link": "kdgnk"},
     {"name": "Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?", "estado": "Finalizado", "link": "mondaiji"},
@@ -44,7 +48,6 @@ const rowInformation = [
     {"name": "No Game No Life", "estado": "Finalizado", "link": "ngnl"},
     {"name": "Re:Zero kara Hajimeru Isekai Seikatsu", "estado": "En Publicación", "link": "rz"},
     {"name": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai", "estado": "En Publicación", "link": "sby"},
-    {"name": "Novela", "estado": "En Publicación", "link": "#"},
 ]
 
 function descendingComparator(a,b,orderBy) {

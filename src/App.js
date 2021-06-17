@@ -14,6 +14,7 @@ import HomePage from './pages/HomePage';
 import RequestPage from './pages/RequestPage';
 import ListPage from './pages/ListPage';
 import ListEroPage from './pages/ListEroPage';
+import ListSpinOff from './pages/ListSpinOff';
 import HuronRequestPage from './pages/HuronRequestPage';
 
 // START LIGHT NOVELS //
@@ -159,6 +160,25 @@ import PDFViewverRZ13 from './pages/PDFViewver/ReZero/PDFViewverRZ13';
 import PDFViewverRZ14 from './pages/PDFViewver/ReZero/PDFViewverRZ14';
 import PDFViewverRZ15 from './pages/PDFViewver/ReZero/PDFViewverRZ15';
 
+// START SPIN OFF NOVELS //
+
+import SOKonosubaBakuen from './pages/SpinOff/SOKonosubaBakuen';
+import PDFViewverBAKUEN01 from './pages/PDFViewver/Bakuen/PDFViewverBAKUEN01';
+import PDFViewverBAKUEN02 from './pages/PDFViewver/Bakuen/PDFViewverBAKUEN02';
+import PDFViewverBAKUEN03 from './pages/PDFViewver/Bakuen/PDFViewverBAKUEN03';
+import SOKonosubaBakuenZukko from './pages/SpinOff/SOKonosubaBakuenZukko';
+import PDFViewverBAKUENZUKKO01 from './pages/PDFViewver/BakuenZukko/PDFViewverBAKUENZUKKO01';
+import PDFViewverBAKUENZUKKO02 from './pages/PDFViewver/BakuenZukko/PDFViewverBAKUENZUKKO02';
+import SOKonosubaKamen from './pages/SpinOff/SOKonosubaKamen';
+import PDFViewverKAMEN01 from './pages/PDFViewver/Kamen/PDFViewverKAMEN01';
+import SOKonosubaKyakko from './pages/SpinOff/SOKonosubaKyakko';
+import PDFViewverKYAKKO01 from './pages/PDFViewver/Kyakko/PDFViewverKYAKKO01';
+import PDFViewverKYAKKO02 from './pages/PDFViewver/Kyakko/PDFViewverKYAKKO02';
+import PDFViewverKYAKKO03 from './pages/PDFViewver/Kyakko/PDFViewverKYAKKO03';
+import PDFViewverKYAKKO04 from './pages/PDFViewver/Kyakko/PDFViewverKYAKKO04';
+import PDFViewverKYAKKO05 from './pages/PDFViewver/Kyakko/PDFViewverKYAKKO05';
+import PDFViewverKYAKKO06 from './pages/PDFViewver/Kyakko/PDFViewverKYAKKO06';
+
 // START EROTIC NOVELS //
 
 import ENKaiyari from './pages/ENKaiyari';
@@ -189,6 +209,7 @@ class App extends React.Component {
         { title: 'Novel List', path: '/light-novel/list/' },
         { title: 'Spin Off List', path: '/light-novel/solist/' },
         { title: 'Erotic List', path: '/light-novel/erolist/' },
+        { title: 'SpinOff List', path: '/light-novel/solist/' },
         { title: 'Request', path: '/light-novel/request/' },
         { title: 'Sr Huron Requests', path: '/light-novel/huron/' },
         { title: 'About', path: '/light-novel/about/' },
@@ -327,9 +348,28 @@ class App extends React.Component {
         { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 14', path: '/light-novel/rz/14/' },
         { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 15', path: '/light-novel/rz/15/' },
 
+        // START SPIN OFF NOVELS //
+
+        { title: 'Kono Subarashii Sekai ni Bakuen wo!', path: '/light-novel/bakuen/' },
+        { title: 'Kono Subarashii Sekai ni Bakuen wo! Volumen 01', path: '/light-novel/bakuen/01/' },
+        { title: 'Kono Subarashii Sekai ni Bakuen wo! Volumen 02', path: '/light-novel/bakuen/02/' },
+        { title: 'Kono Subarashii Sekai ni Bakuen wo! Volumen 03', path: '/light-novel/bakuen/03/' },
+        { title: 'Kono Subarashii Sekai ni Bakuen wo!', path: '/light-novel/bakuenzukko/' },
+        { title: 'Kono Subarashii Sekai ni Bakuen wo! Zukko Volumen 01', path: '/light-novel/bakuenzukko/01/' },
+        { title: 'Kono Subarashii Sekai ni Bakuen wo! Zukko Volumen 02', path: '/light-novel/bakuenzukko/02/' },
+        { title: 'Kono Kamen no Akuma ni Soudan wo!', path: '/light-novel/kamen/' },
+        { title: 'Kono Kamen no Akuma ni Soudan wo! Volumen 01', path: '/light-novel/kamen/01/' },
+        { title: 'Ano Orokamono ni mo Kyakkou wo!', path: '/light-novel/kyakko/' },
+        { title: 'Ano Orokamono ni mo Kyakkou wo! Volumen 01', path: '/light-novel/kyakko/01/' },
+        { title: 'Ano Orokamono ni mo Kyakkou wo! Volumen 02', path: '/light-novel/kyakko/02/' },
+        { title: 'Ano Orokamono ni mo Kyakkou wo! Volumen 03', path: '/light-novel/kyakko/03/' },
+        { title: 'Ano Orokamono ni mo Kyakkou wo! Volumen 04', path: '/light-novel/kyakko/04/' },
+        { title: 'Ano Orokamono ni mo Kyakkou wo! Volumen 05', path: '/light-novel/kyakko/05/' },
+        { title: 'Ano Orokamono ni mo Kyakkou wo! Volumen 06', path: '/light-novel/kyakko/06/' },
+
         // START EROTIC NOVELS //
 
-        { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen', path: '/light-novel/kaiyari/' },
+        { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal', path: '/light-novel/kaiyari/' },
         { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 01', path: '/light-novel/kaiyari/01/' },
         { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 02', path: '/light-novel/kaiyari/02/' },
         { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 03', path: '/light-novel/kaiyari/03/' },
@@ -353,6 +393,9 @@ class App extends React.Component {
       },
       erolist: {
         title: "Novelas Eróticas",
+      },
+      solist: {
+        title: "Spin Off",
       },
       huronrequest: {
         title: 'Sr. Hurón',
@@ -412,6 +455,29 @@ class App extends React.Component {
         text: "Subaru Natsuki es un hikikomori que saliendo de una tienda de conveniencia es transportado misteriosamente a un reino de otro mundo, en donde lo primero que le ocurre es encontrarse con unos bandidos, sin embargo, él es rescatado por una hermosa chica medio-elfo de cabello plateado, llamada 'Satella' y como pago decide ayudarla con un problema que ignoró por ayudarle. Sin embargo, pronto la chica muere y el mismo Subaru es herido mortalmente cuando le dice: 'Te prometo que te salvaré', entonces el chico muere pero de pronto el tiempo se rebobina y se encuentra en el mismo punto en el que comenzó, lo que nombra 'Retorno de la Muerte'. Sin embargo, al reencontrarse con 'Satella' ella le reclama no llamarla como la Bruja de los Celos, por lo que allí es cuando, Subaru vuelve a querer ayudarla, pero confundido termina haciendo todo por su cuenta intentando salvar a la chica de su atacante, ¿Quien es 'Satella'? ¿Por qué Subaru fue transportado a ese mundo? ¿Por qué solo el recuerda lo ocurrido en bucles anteriores? Él mismo tendrá que volver una y otra vez de la muerte para descubrirlo y además salvar a los que quiere con el poder otorgado por la Bruja que quiere mantener sus retornos como un secreto entre ambos."
       },
 
+      // START LIGHT NOVELS //
+      
+      sobakuen: {
+        title: 'Kono Subarashii Sekai ni Bakuen wo!',
+        subTitle: "Volúmenes: 03 de 03",
+        text: "Ambientada dos años antes del comienzo de la serie principal, esta novela sigue la época de Megumin y Yunyun como estudiantes en la escuela de la aldea Crimson Demon. Cuando era niña, Megumin es salvada de una bestia negra por una mujer de grandes pechos que usa magia de explosión, que luego le sirve de inspiración para aprender el hechizo de alto poder. La bestia es encogida por la mujer y se convierte en un pequeño gato, que luego es adoptado por Megumin y apodado Chomusuke. En la escuela, Megumin y Yunyun compiten repetidamente entre sí para ser el mejor estudiante, y el primero espera obtener suficientes puntos de habilidad para aprender magia de explosión."
+      },
+      sobakuenzukko: {
+        title: 'Kono Subarashii Sekai ni Bakuen wo! Zukko',
+        subTitle: "Volúmenes: 02 de 02",
+        text: "Ambientada dos años antes del comienzo de la serie principal, esta novela sigue la época de Megumin y Yunyun como estudiantes en la escuela de la aldea Crimson Demon. Cuando era niña, Megumin es salvada de una bestia negra por una mujer de grandes pechos que usa magia de explosión, que luego le sirve de inspiración para aprender el hechizo de alto poder. La bestia es encogida por la mujer y se convierte en un pequeño gato, que luego es adoptado por Megumin y apodado Chomusuke. En la escuela, Megumin y Yunyun compiten repetidamente entre sí para ser el mejor estudiante, y el primero espera obtener suficientes puntos de habilidad para aprender magia de explosión."
+      },
+      sokamen: {
+        title: 'Kono Kamen no Akuma ni Soudan wo!',
+        subTitle: "Volúmenes: 01 de 01",
+        text: "Ambientada entre las novelas octava y novena de la serie principal, presenta una serie de viñetas que siguen la vida de Vanir en Axel. Queriendo recaudar más dinero mientras su tienda de magia y la de Wiz luchaban, Vanir abre un centro de consultoría en el gremio de aventureros. El spin-off también explora el pasado de aventuras de Wiz, incluidas sus batallas con Vanir y la decisión de convertirse en un lich."
+      },
+      sokyakko: {
+        title: 'Kono Kamen no Akuma ni Soudan wo!',
+        subTitle: "Volúmenes: 06 de 07",
+        text: "Un spin-off que presenta a Dust como el protagonista principal, con volúmenes anteriores que tienen lugar alrededor de los volúmenes 1-4 de la serie principal, y volúmenes posteriores que tienen lugar después del volumen 8. '¡Sin dinero, sin mujeres!' El (autoproclamado) portador de Axel, el delincuente Dust, sufre un caso crónico de billetera vacía. Mientras que el aventurero novato Kazuma continúa haciéndose un nombre, Dust está ocupado engañando a la gente en estafas, vendiendo productos robados, estafando a damas nobles y cosas por el estilo. '¡Vamos a ganar dinero hoy también!' Mientras lo hacía, el gran diablo Vanir le dijo una profecía siniestra: 'Tienes un futuro interesante por delante'."
+      },
+
       // START EROTIC NOVELS //
 
       enkaiyari: {
@@ -468,6 +534,8 @@ render() {
                             text={this.state.request.text} />} />
           <Route path="/light-novel/list/" exact render={() => 
             <ListPage title={this.state.list.title} />} />
+          <Route path="/light-novel/solist/" exact render={() => 
+            <ListSpinOff title={this.state.solist.title} />} />
           <Route path="/light-novel/erolist/" exact render={() => 
             <ListEroPage title={this.state.erolist.title} />} />
           <Route path="/light-novel/huron/" exact render={() => 
@@ -634,6 +702,36 @@ render() {
           <Route path="/light-novel/rz/13" exact render={() => <PDFViewverRZ13 />} />
           <Route path="/light-novel/rz/14" exact render={() => <PDFViewverRZ14 />} />
           <Route path="/light-novel/rz/15" exact render={() => <PDFViewverRZ15 />} />
+
+          
+          <Route path="/light-novel/bakuen/" exact render={() => 
+            <SOKonosubaBakuen title={this.state.sobakuen.title}
+                            subTitle={this.state.sobakuen.subTitle} 
+                            text={this.state.sobakuen.text} />} />
+          <Route path="/light-novel/bakuen/01" exact render={() => <PDFViewverBAKUEN01 />} />
+          <Route path="/light-novel/bakuen/02" exact render={() => <PDFViewverBAKUEN02 />} />
+          <Route path="/light-novel/bakuen/03" exact render={() => <PDFViewverBAKUEN03 />} />
+          <Route path="/light-novel/bakuenzukko/" exact render={() => 
+            <SOKonosubaBakuenZukko title={this.state.sobakuenzukko.title}
+                            subTitle={this.state.sobakuenzukko.subTitle} 
+                            text={this.state.sobakuenzukko.text} />} />
+          <Route path="/light-novel/bakuenzukko/01" exact render={() => <PDFViewverBAKUENZUKKO01 />} />
+          <Route path="/light-novel/bakuenzukko/02" exact render={() => <PDFViewverBAKUENZUKKO02 />} />
+          <Route path="/light-novel/kamen/" exact render={() => 
+            <SOKonosubaKamen title={this.state.sokamen.title}
+                            subTitle={this.state.sokamen.subTitle} 
+                            text={this.state.sokamen.text} />} />
+          <Route path="/light-novel/kamen/01" exact render={() => <PDFViewverKAMEN01 />} />
+          <Route path="/light-novel/kyakko/" exact render={() => 
+            <SOKonosubaKyakko title={this.state.sokyakko.title}
+                            subTitle={this.state.sokyakko.subTitle} 
+                            text={this.state.sokyakko.text} />} />
+          <Route path="/light-novel/kyakko/01" exact render={() => <PDFViewverKYAKKO01 />} />
+          <Route path="/light-novel/kyakko/02" exact render={() => <PDFViewverKYAKKO02 />} />
+          <Route path="/light-novel/kyakko/03" exact render={() => <PDFViewverKYAKKO03 />} />
+          <Route path="/light-novel/kyakko/04" exact render={() => <PDFViewverKYAKKO04 />} />
+          <Route path="/light-novel/kyakko/05" exact render={() => <PDFViewverKYAKKO05 />} />
+          <Route path="/light-novel/kyakko/06" exact render={() => <PDFViewverKYAKKO06 />} />
 
           
           <Route path="/light-novel/kaiyari/" exact render={() => 
