@@ -44,6 +44,7 @@ const rowInformation = [
     {"name": "Kono Subarashii Sekai ni Bakuen wo! Zukko", "estado": "Finalizado", "link": "bakuenzukko"},
     {"name": "Kono Subarashii Sekai ni Shukufuku wo!", "estado": "Finalizado", "link": "konosuba"},
     {"name": "Kumo Desu Ga, Nani Ka?", "estado": "En Publicación", "link": "kdgnk"},
+    {"name": "Musume Janakute Mama ga Suki nano!?", "estado": "En Publicación", "link": "mamasuki"},
     {"name": "Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?", "estado": "Finalizado", "link": "mondaiji"},
     {"name": "Mushoku Tensei: Isekai Ittara Honki Dasu", "estado": "Finalizado", "link": "mushoku"},
     {"name": "No Game No Life", "estado": "Finalizado", "link": "ngnl"},

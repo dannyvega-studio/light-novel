@@ -170,6 +170,12 @@ import PDFViewverBAKARINA06 from './pages/PDFViewver/Bakarina/PDFViewverBAKARINA
 import PDFViewverBAKARINA07 from './pages/PDFViewver/Bakarina/PDFViewverBAKARINA07';
 import PDFViewverBAKARINA08 from './pages/PDFViewver/Bakarina/PDFViewverBAKARINA08';
 
+import LNMamasuki from './pages/LightNovel/LNMamasuki';
+import PDFViewverMAMASUKI01 from './pages/PDFViewver/Mamasuki/PDFViewverMAMASUKI01';
+import PDFViewverMAMASUKI02 from './pages/PDFViewver/Mamasuki/PDFViewverMAMASUKI02';
+import PDFViewverMAMASUKI03 from './pages/PDFViewver/Mamasuki/PDFViewverMAMASUKI03';
+import PDFViewverMAMASUKI04 from './pages/PDFViewver/Mamasuki/PDFViewverMAMASUKI04';
+
 // START SPIN OFF NOVELS //
 
 import SOKonosubaBakuen from './pages/SpinOff/SOKonosubaBakuen';
@@ -366,6 +372,11 @@ class App extends React.Component {
         { title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta... Volumen 06', path: '/light-novel/bakarina/06/' },
         { title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta... Volumen 07', path: '/light-novel/bakarina/07/' },
         { title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta... Volumen 08', path: '/light-novel/bakarina/08/' },
+        { title: 'Musume Janakute Mama ga Suki nano!?', path: '/light-novel/mamasuki/' },
+        { title: 'Musume Janakute Mama ga Suki nano!? Volumen 01', path: '/light-novel/mamasuki/01/' },
+        { title: 'Musume Janakute Mama ga Suki nano!? Volumen 02', path: '/light-novel/mamasuki/02/' },
+        { title: 'Musume Janakute Mama ga Suki nano!? Volumen 03', path: '/light-novel/mamasuki/03/' },
+        { title: 'Musume Janakute Mama ga Suki nano!? Volumen 04', path: '/light-novel/mamasuki/04/' },
 
         // START SPIN OFF NOVELS //
 
@@ -474,9 +485,14 @@ class App extends React.Component {
         text: "Subaru Natsuki es un hikikomori que saliendo de una tienda de conveniencia es transportado misteriosamente a un reino de otro mundo, en donde lo primero que le ocurre es encontrarse con unos bandidos, sin embargo, él es rescatado por una hermosa chica medio-elfo de cabello plateado, llamada 'Satella' y como pago decide ayudarla con un problema que ignoró por ayudarle. Sin embargo, pronto la chica muere y el mismo Subaru es herido mortalmente cuando le dice: 'Te prometo que te salvaré', entonces el chico muere pero de pronto el tiempo se rebobina y se encuentra en el mismo punto en el que comenzó, lo que nombra 'Retorno de la Muerte'. Sin embargo, al reencontrarse con 'Satella' ella le reclama no llamarla como la Bruja de los Celos, por lo que allí es cuando, Subaru vuelve a querer ayudarla, pero confundido termina haciendo todo por su cuenta intentando salvar a la chica de su atacante, ¿Quien es 'Satella'? ¿Por qué Subaru fue transportado a ese mundo? ¿Por qué solo el recuerda lo ocurrido en bucles anteriores? Él mismo tendrá que volver una y otra vez de la muerte para descubrirlo y además salvar a los que quiere con el poder otorgado por la Bruja que quiere mantener sus retornos como un secreto entre ambos."
       },
       lnbakarina: {
-        title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta...',
+        title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta',
         subTitle: "Volúmenes: 08 de 09...",
         text: "La única hija del duque Claes, Catarina, era orgullosa y egoísta porque fue malcriada por sus padres. Sin embargo, a la edad de ocho años, su padre la llevó al castillo real donde ella golpea su cabeza contra una piedra al tropezarse. Después de esto, logra recuperar los recuerdos de su vida anterior como una joven otaku de Japón que perdió la vida en un accidente de tráfico. Este mundo le parece familiar, por lo que se da cuenta de que es el del juego otome, Fortune Lover, que ella misma jugó antes de su accidente y que en realidad, reencarnó como la rival de la heroína y antagonista del juego. También recuerda que todo lo que le esperaba a Catarina al final del juego era el camino a la destrucción que termina en su exilio lejos del reino o su ejecución. Por lo tanto, Catarina dedicará todos sus esfuerzos a evitar un final destructivo para pasar una vejez pacífica."
+      },
+      lnmamasuki: {
+        title: 'Musume Janakute Mama ga Suki nano!?',
+        subTitle: "Volúmenes: 04 de 05...",
+        text: "Soy Ayako Katsuragi, tengo 30 años. Han pasado 10 años desde que acogí a la hija de mi hermana fallecida. Mi hija se ha convertido en una estudiante de preparatoria y se lleva muy bien con su amigo de la infancia, Takumi Aterazawa. ¿Tal vez comiencen a salir? Ta-kun es un chico muy agradable y estoy a favor de ello. ¿Eh? ¿'Por favor, dame a tu hija' es lo que quiere decirme? Oh, Dios, eres tan correcto— 'Ayako-san. He estado enamorado de ti desde hace mucho tiempo. Por favor, sal conmigo.'…¡¿No estás enamorado de mi hija, sino de mí?!' Una mujer que crió a la hija de su hermana y un chico que estaba enamorado de ella. ¡Este es el comienzo de una comedia romántica de amor súper puro en el que estallan sentimientos de muchos años!"
       },
 
       // START LIGHT NOVELS //
@@ -738,6 +754,14 @@ render() {
           <Route path="/light-novel/bakarina/06" exact render={() => <PDFViewverBAKARINA06 />} />
           <Route path="/light-novel/bakarina/07" exact render={() => <PDFViewverBAKARINA07 />} />
           <Route path="/light-novel/bakarina/08" exact render={() => <PDFViewverBAKARINA08 />} />
+          <Route path="/light-novel/mamasuki/" exact render={() => 
+            <LNMamasuki title={this.state.lnmamasuki.title}
+                            subTitle={this.state.lnmamasuki.subTitle} 
+                            text={this.state.lnmamasuki.text} />} />
+          <Route path="/light-novel/mamasuki/01" exact render={() => <PDFViewverMAMASUKI01 />} />
+          <Route path="/light-novel/mamasuki/02" exact render={() => <PDFViewverMAMASUKI02 />} />
+          <Route path="/light-novel/mamasuki/03" exact render={() => <PDFViewverMAMASUKI03 />} />
+          <Route path="/light-novel/mamasuki/04" exact render={() => <PDFViewverMAMASUKI04 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 

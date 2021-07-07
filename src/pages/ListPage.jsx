@@ -18,6 +18,7 @@ import bwtgs01 from '../assets/images/bokuwatomodachi/01.png';
 import mondaiji01 from '../assets/images/mondaiji/01.jpg';
 import rz01 from '../assets/images/rezero/01.png';
 import bakarina01 from '../assets/images/bakarina/01.jpg';
+import mamasuki01 from '../assets/images/mamasuki/01.jpg';
 
 
 // Override CSS Styles in pagination //
@@ -132,6 +133,10 @@ function ListPage(props) {
                             </Col>
                             <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>                                    <Link to="/light-novel/mushoku/"><img src={mushoku01} class="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei"/></Link>
                                 <Card.Title>Mushoku Tensei: Isekai Ittara Honki Dasu</Card.Title>             
+                            </Col>
+                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                                <Link to="/light-novel/mamasuki/"><img src={mamasuki01} class="ln-cover mt-4 mb-4" variant="top" alt="Musume Janakute Mama ga Suki nano!?"/></Link>
+                                <Card.Title>Musume Janakute Mama ga Suki nano!?</Card.Title>             
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>            
