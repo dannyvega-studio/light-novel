@@ -197,6 +197,9 @@ import PDFViewverHENNEKO11 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO11'
 import PDFViewverHENNEKO12 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO12';
 import PDFViewverHENNEKO13 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO13';
 
+import LNBokunosensei from './pages/LightNovel/LNBokunosensei';
+import PDFViewverBOKUNOSENSEI01 from './pages/PDFViewver/Bokunosensei/PDFViewverBOKUNOSENSEI01';
+
 // START SPIN OFF NOVELS //
 
 import SOKonosubaBakuen from './pages/SpinOff/SOKonosubaBakuen';
@@ -417,6 +420,8 @@ class App extends React.Component {
         { title: 'Hentai Ouji to Warawanai Neko Volumen 11', path: '/light-novel/henneko/11/' },
         { title: 'Hentai Ouji to Warawanai Neko Volumen 12', path: '/light-novel/henneko/12/' },
         { title: 'Hentai Ouji to Warawanai Neko Volumen 13', path: '/light-novel/henneko/13/' },
+        { title: 'Boku no Sensei wa, Houkago Kawaii Konyakusha', path: '/light-novel/bokunosensei/' },
+        { title: 'Boku no Sensei wa, Houkago Kawaii Konyakusha Volumen 01', path: '/light-novel/bokunosensei/01/' },
 
         // START SPIN OFF NOVELS //
 
@@ -543,6 +548,11 @@ class App extends React.Component {
         title: 'Hentai Ouji to Warawanai Neko',
         subTitle: "Volúmenes: 13 de 13",
         text: "La historia se centra en Yōto Yokodera que es un estudiante de segundo año de secundaria quien se pasa la vida pensando en las chicas y posiblemente el mayor pervertido de la escuela, pero nadie piensa que sea un pervertido porque sus intenciones son mal entendidas. Su problemática es que no es bueno para mostrar sus verdaderas emociones. Un día, su igualmente pervertido mejor amigo se transforma por completo y se deshace de sus 'pensamientos impuros'; una hazaña que atribuye al poder de la estatua del 'Gato de Piedra'. Como sugieren los rumores, uno puede desear eliminar un rasgo de personalidad de sí mismo que ya no desea tener. Sin embargo, esto eliminará el rasgo no deseado y se lo dará a alguien que lo necesite y para concretar tu deseo debes entregar una ofrenda. Mientras Yōto hace su ofrenda a la estatua, una chica llamada Tsukiko Tsutsukakushi llega para hacer su deseo de poder ser más como una adulta y no mostrar sus emociones tan fácilmente. Ambos le desean al gato de piedra y para su sorpresa al día siguiente en la escuela, Yōto no puede decir mentiras, y Tsukiko no puede mostrar ninguna emoción en absoluto. Después de darse cuenta de que no les gusta el cambio que sucedió, trabajan juntos para tratar de averiguar quién recibió el rasgo que les quitaron para recuperarlo. Conocen a Azusa Azuki, una atractiva chica de segundo año que acaba de trasladarse a su escuela. Muchos chicos de la escuela siempre se confiesan con ella, pero no tiene amigos y siempre está sola. Yōto descubre que Azusa es el que recibió su rasgo de personalidad no deseado y trata de recuperarlo. A medida que los dos intentan recuperar el rasgo no deseado, desarrollan sentimientos el uno por el otro."
+      },
+      lnbokunosensei: {
+        title: 'Boku no Sensei wa, Houkago Kawaii Konyakusha',
+        subTitle: "Volúmenes: 1 de ???",
+        text: "Mi profesora, Reina Sakurakouji, es la mujer más hermosa de la escuela, pero también es famosa por ser muy fría. Un día después de la escuela, me encontré con ella por casualidad, y allí, por alguna razón, me presentó a sus padres como su prometido (o como si lo fuera), “Él es Shirase-kun. En realidad, estamos comprometidos”, y después de eso, ¡¿terminamos viviendo juntos?! Y aunque tenía una imagen aterradora de ella, en realidad… “¡¿Pero qué estás diciendo?! ¡No te burles de mí!”, ella en casa es muy tímida, indefensa, se emborracha rápidamente y además de eso, es una lindura torpe. Pero esto es algo que solo yo sé. ¡Este es el comienzo del acuerdo secreto de convivencia entre un estudiante y su profesora!"
       },
 
       // START LIGHT NOVELS //
@@ -837,6 +847,11 @@ render() {
           <Route path="/light-novel/henneko/11" exact render={() => <PDFViewverHENNEKO11 />} />
           <Route path="/light-novel/henneko/12" exact render={() => <PDFViewverHENNEKO12 />} />
           <Route path="/light-novel/henneko/13" exact render={() => <PDFViewverHENNEKO13 />} />
+          <Route path="/light-novel/bokunosensei/" exact render={() => 
+            <LNBokunosensei title={this.state.lnbokunosensei.title}
+                            subTitle={this.state.lnbokunosensei.subTitle} 
+                            text={this.state.lnbokunosensei.text} />} />
+          <Route path="/light-novel/bokunosensei/01" exact render={() => <PDFViewverBOKUNOSENSEI01 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 
