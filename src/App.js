@@ -176,6 +176,12 @@ import PDFViewverMAMASUKI02 from './pages/PDFViewver/Mamasuki/PDFViewverMAMASUKI
 import PDFViewverMAMASUKI03 from './pages/PDFViewver/Mamasuki/PDFViewverMAMASUKI03';
 import PDFViewverMAMASUKI04 from './pages/PDFViewver/Mamasuki/PDFViewverMAMASUKI04';
 
+import LNHige from './pages/LightNovel/LNHige';
+import PDFViewverHIGE01 from './pages/PDFViewver/Hige/PDFViewverHIGE01';
+import PDFViewverHIGE02 from './pages/PDFViewver/Hige/PDFViewverHIGE02';
+import PDFViewverHIGE03 from './pages/PDFViewver/Hige/PDFViewverHIGE03';
+import PDFViewverHIGE04 from './pages/PDFViewver/Hige/PDFViewverHIGE04';
+
 // START SPIN OFF NOVELS //
 
 import SOKonosubaBakuen from './pages/SpinOff/SOKonosubaBakuen';
@@ -377,6 +383,11 @@ class App extends React.Component {
         { title: 'Musume Janakute Mama ga Suki nano!? Volumen 02', path: '/light-novel/mamasuki/02/' },
         { title: 'Musume Janakute Mama ga Suki nano!? Volumen 03', path: '/light-novel/mamasuki/03/' },
         { title: 'Musume Janakute Mama ga Suki nano!? Volumen 04', path: '/light-novel/mamasuki/04/' },
+        { title: 'Hige wo Soru. Soshite Joshi Kōsei wo Hirou', path: '/light-novel/hige/' },
+        { title: 'Hige wo Soru. Soshite Joshi Kōsei wo Hirou Volumen 01', path: '/light-novel/hige/01/' },
+        { title: 'Hige wo Soru. Soshite Joshi Kōsei wo Hirou Volumen 02', path: '/light-novel/hige/02/' },
+        { title: 'Hige wo Soru. Soshite Joshi Kōsei wo Hirou Volumen 03', path: '/light-novel/hige/03/' },
+        { title: 'Hige wo Soru. Soshite Joshi Kōsei wo Hirou Volumen 04', path: '/light-novel/hige/04/' },
 
         // START SPIN OFF NOVELS //
 
@@ -493,6 +504,11 @@ class App extends React.Component {
         title: 'Musume Janakute Mama ga Suki nano!?',
         subTitle: "Volúmenes: 04 de 05...",
         text: "Soy Ayako Katsuragi, tengo 30 años. Han pasado 10 años desde que acogí a la hija de mi hermana fallecida. Mi hija se ha convertido en una estudiante de preparatoria y se lleva muy bien con su amigo de la infancia, Takumi Aterazawa. ¿Tal vez comiencen a salir? Ta-kun es un chico muy agradable y estoy a favor de ello. ¿Eh? ¿'Por favor, dame a tu hija' es lo que quiere decirme? Oh, Dios, eres tan correcto— 'Ayako-san. He estado enamorado de ti desde hace mucho tiempo. Por favor, sal conmigo.'…¡¿No estás enamorado de mi hija, sino de mí?!' Una mujer que crió a la hija de su hermana y un chico que estaba enamorado de ella. ¡Este es el comienzo de una comedia romántica de amor súper puro en el que estallan sentimientos de muchos años!"
+      },
+      lnhige: {
+        title: 'Hige wo Soru. Soshite Joshi Kōsei wo Hirou',
+        subTitle: "Volúmenes: 04 de 05...",
+        text: "La historia comienza con Yoshida, un empleado de oficina masculino de 26 años especializado en tecnología de la información, quien fue rechazado por su colega Airi Gotou, que siempre quiso durante 5 años. A pesar de conseguir tener una cita con ella, su confesión es rechazada por esta. Deprimido y borracho, Yoshida vio a Sayu Ogiwara , una joshi kōsei errante (JK, chica de secundaria) sentada frente a su puerta. Sayu había estado fuera de casa durante 6 meses y decidió tener relaciones sexuales con varios hombres para quedarse en su casa. Sayu inicialmente le pidió a Yoshida que la dejara pasar la noche a cambio de que ella le hiciera el amor, pero Yoshida solo accedió a albergarla sin la necesidad de ese intercambio. Después de preguntarle sus antecedentes a Sayu, Yoshida decidió invitarla a vivir en su casa hasta que descubriera lo que valía y se hiciera más madura. Sayu estuvo de acuerdo y comenzó a trabajar a tiempo parcial en una tienda cerca de la casa de Yoshida. Y así, es como comienza esta historia de una relación entre un adulto desconsolado y una estudiante de secundaria fugitiva."
       },
 
       // START LIGHT NOVELS //
@@ -762,6 +778,14 @@ render() {
           <Route path="/light-novel/mamasuki/02" exact render={() => <PDFViewverMAMASUKI02 />} />
           <Route path="/light-novel/mamasuki/03" exact render={() => <PDFViewverMAMASUKI03 />} />
           <Route path="/light-novel/mamasuki/04" exact render={() => <PDFViewverMAMASUKI04 />} />
+          <Route path="/light-novel/hige/" exact render={() => 
+            <LNHige title={this.state.lnhige.title}
+                            subTitle={this.state.lnhige.subTitle} 
+                            text={this.state.lnhige.text} />} />
+          <Route path="/light-novel/hige/01" exact render={() => <PDFViewverHIGE01 />} />
+          <Route path="/light-novel/hige/02" exact render={() => <PDFViewverHIGE02 />} />
+          <Route path="/light-novel/hige/03" exact render={() => <PDFViewverHIGE03 />} />
+          <Route path="/light-novel/hige/04" exact render={() => <PDFViewverHIGE04 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 

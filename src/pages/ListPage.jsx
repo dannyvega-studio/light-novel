@@ -19,6 +19,7 @@ import mondaiji01 from '../assets/images/mondaiji/01.jpg';
 import rz01 from '../assets/images/rezero/01.png';
 import bakarina01 from '../assets/images/bakarina/01.jpg';
 import mamasuki01 from '../assets/images/mamasuki/01.jpg';
+import hige01 from '../assets/images/hige/01.jpg';
 
 
 // Override CSS Styles in pagination //
@@ -96,6 +97,16 @@ function ListPage(props) {
                             <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
                                 <Link to="/light-novel/gs/"><img src={gs01} class="ln-cover mt-4 mb-4" variant="top" alt="Goblin Slayer"/></Link>
                                 <Card.Title>Goblin Slayer</Card.Title>             
+                            </Col>
+                        </Row>
+                        <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>            
+                    </Col>
+                    <Col className="my-4 py-4" lg={12} md={12} sm={12} id="H">
+                        <Element name="letraH"><Card.Title>H</Card.Title></Element>
+                        <Row>
+                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                                <Link to="/light-novel/hige/"><img src={hige01} class="ln-cover mt-4 mb-4" variant="top" alt="Hige wo Soru. Soshite Joshi Kōsei wo Hirou"/></Link>
+                                <Card.Title>Hige wo Soru. Soshite Joshi Kōsei wo Hirou</Card.Title>             
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>            

@@ -37,6 +37,7 @@ const rowInformation = [
     {"name": "Ano Orokamono ni mo Kyakkou wo!", "estado": "En Traducción", "link": "kyakko"},
     {"name": "Boku wa Tomodachi ga Sukunai ", "estado": "En Traducción" , "link": "bwtgs"},
     {"name": "Goblin Slayer", "estado": "En Publicación", "link": "gs"},
+    {"name": "Hige wo Soru. Soshite Joshi Kōsei wo Hirou", "estado": "En Traducción", "link": "hige"},
     {"name": "Isekai Maou to Shoukan Shoujo no Dorei Majutsu", "estado": "En Publicación", "link": "isekaimaou"},
     {"name": "Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahō to Skill Copy no Chōetsu Heal", "estado": "En Publicación", "link": "kaiyari"},
     {"name": "Kono Kamen no Akuma ni Soudan wo!", "estado": "Finalizado", "link": "kamen"},
