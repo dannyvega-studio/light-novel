@@ -182,6 +182,21 @@ import PDFViewverHIGE02 from './pages/PDFViewver/Hige/PDFViewverHIGE02';
 import PDFViewverHIGE03 from './pages/PDFViewver/Hige/PDFViewverHIGE03';
 import PDFViewverHIGE04 from './pages/PDFViewver/Hige/PDFViewverHIGE04';
 
+import LNHenneko from './pages/LightNovel/LNHenneko';
+import PDFViewverHENNEKO01 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO01';
+import PDFViewverHENNEKO02 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO02';
+import PDFViewverHENNEKO03 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO03';
+import PDFViewverHENNEKO04 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO04';
+import PDFViewverHENNEKO05 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO05';
+import PDFViewverHENNEKO06 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO06';
+import PDFViewverHENNEKO07 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO07';
+import PDFViewverHENNEKO08 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO08';
+import PDFViewverHENNEKO09 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO09';
+import PDFViewverHENNEKO10 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO10';
+import PDFViewverHENNEKO11 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO11';
+import PDFViewverHENNEKO12 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO12';
+import PDFViewverHENNEKO13 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO13';
+
 // START SPIN OFF NOVELS //
 
 import SOKonosubaBakuen from './pages/SpinOff/SOKonosubaBakuen';
@@ -388,6 +403,20 @@ class App extends React.Component {
         { title: 'Hige wo Soru. Soshite Joshi Kōsei wo Hirou Volumen 02', path: '/light-novel/hige/02/' },
         { title: 'Hige wo Soru. Soshite Joshi Kōsei wo Hirou Volumen 03', path: '/light-novel/hige/03/' },
         { title: 'Hige wo Soru. Soshite Joshi Kōsei wo Hirou Volumen 04', path: '/light-novel/hige/04/' },
+        { title: 'Hentai Ouji to Warawanai Neko', path: '/light-novel/henneko/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 01', path: '/light-novel/henneko/01/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 02', path: '/light-novel/henneko/02/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 03', path: '/light-novel/henneko/03/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 04', path: '/light-novel/henneko/04/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 05', path: '/light-novel/henneko/05/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 06', path: '/light-novel/henneko/06/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 07', path: '/light-novel/henneko/07/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 08', path: '/light-novel/henneko/08/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 09', path: '/light-novel/henneko/09/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 10', path: '/light-novel/henneko/10/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 11', path: '/light-novel/henneko/11/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 12', path: '/light-novel/henneko/12/' },
+        { title: 'Hentai Ouji to Warawanai Neko Volumen 13', path: '/light-novel/henneko/13/' },
 
         // START SPIN OFF NOVELS //
 
@@ -421,13 +450,13 @@ class App extends React.Component {
         { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 08', path: '/light-novel/kaiyari/08/' },
       ],
       home: {
-        title: 'Light Novels',
-        subTitle: "Lista de Novelas",
-        text: "Bienvenidos~! Mi nombre es Danny Vega y este es un pequeño proyecto que estoy realizando como hobby titulado LIGHT NOVELS, en el cual realizo respaldos en la nube de algunas Novelas Ligeras que son de mi agrado (algunas ya las terminé de leer y algunas otras no jaja), estos archivos pueden descargarlos desde Mega y/o GoogleDrive (sin acortadores ni nada por el estilo) y de la misma manera para su comodidad los dejare para lectura en linea. Asi que a distrutar~!"
+        title: '¡Bienvenido!',
+        subTitle: "Busqueda",
+        text: "Mi nombre es Danny Vega y este es un pequeño proyecto que estoy realizando como hobby titulado LIGHT NOVELS, en el cual realizo respaldos en la nube de algunas Novelas Ligeras que son de mi agrado (algunas algun dia las leeré, algunas ya las terminé de leer, algunas otras no jaja), estos archivos pueden descargarlos desde Mega y/o GoogleDrive (sin acortadores ni nada por el estilo porque la verdad es algo molesto pasar tanto ad.fly) y de la misma manera para su comodidad en caso de que no sean de descargar archivos se los dejare para lectura en linea. Asi que a distrutar~!"
       },
       request: {
-        title: "Mis Amigos Weebs",
-        text: "Aqui dejo algunos usuarios y sus colecciones de Novelas Ligeras que han leido a la fecha."
+        title: "Amigos",
+        text: "Aqui dejo algunos resumenes y opiniones de mis amigos sobre las novelas que ellos ya han leido."
       },
       list: {
         title: "Novelas Ligeras",
@@ -510,6 +539,11 @@ class App extends React.Component {
         subTitle: "Volúmenes: 04 de 05...",
         text: "La historia comienza con Yoshida, un empleado de oficina masculino de 26 años especializado en tecnología de la información, quien fue rechazado por su colega Airi Gotou, que siempre quiso durante 5 años. A pesar de conseguir tener una cita con ella, su confesión es rechazada por esta. Deprimido y borracho, Yoshida vio a Sayu Ogiwara , una joshi kōsei errante (JK, chica de secundaria) sentada frente a su puerta. Sayu había estado fuera de casa durante 6 meses y decidió tener relaciones sexuales con varios hombres para quedarse en su casa. Sayu inicialmente le pidió a Yoshida que la dejara pasar la noche a cambio de que ella le hiciera el amor, pero Yoshida solo accedió a albergarla sin la necesidad de ese intercambio. Después de preguntarle sus antecedentes a Sayu, Yoshida decidió invitarla a vivir en su casa hasta que descubriera lo que valía y se hiciera más madura. Sayu estuvo de acuerdo y comenzó a trabajar a tiempo parcial en una tienda cerca de la casa de Yoshida. Y así, es como comienza esta historia de una relación entre un adulto desconsolado y una estudiante de secundaria fugitiva."
       },
+      lnhenneko: {
+        title: 'Hentai Ouji to Warawanai Neko',
+        subTitle: "Volúmenes: 13 de 13",
+        text: "La historia se centra en Yōto Yokodera que es un estudiante de segundo año de secundaria quien se pasa la vida pensando en las chicas y posiblemente el mayor pervertido de la escuela, pero nadie piensa que sea un pervertido porque sus intenciones son mal entendidas. Su problemática es que no es bueno para mostrar sus verdaderas emociones. Un día, su igualmente pervertido mejor amigo se transforma por completo y se deshace de sus 'pensamientos impuros'; una hazaña que atribuye al poder de la estatua del 'Gato de Piedra'. Como sugieren los rumores, uno puede desear eliminar un rasgo de personalidad de sí mismo que ya no desea tener. Sin embargo, esto eliminará el rasgo no deseado y se lo dará a alguien que lo necesite y para concretar tu deseo debes entregar una ofrenda. Mientras Yōto hace su ofrenda a la estatua, una chica llamada Tsukiko Tsutsukakushi llega para hacer su deseo de poder ser más como una adulta y no mostrar sus emociones tan fácilmente. Ambos le desean al gato de piedra y para su sorpresa al día siguiente en la escuela, Yōto no puede decir mentiras, y Tsukiko no puede mostrar ninguna emoción en absoluto. Después de darse cuenta de que no les gusta el cambio que sucedió, trabajan juntos para tratar de averiguar quién recibió el rasgo que les quitaron para recuperarlo. Conocen a Azusa Azuki, una atractiva chica de segundo año que acaba de trasladarse a su escuela. Muchos chicos de la escuela siempre se confiesan con ella, pero no tiene amigos y siempre está sola. Yōto descubre que Azusa es el que recibió su rasgo de personalidad no deseado y trata de recuperarlo. A medida que los dos intentan recuperar el rasgo no deseado, desarrollan sentimientos el uno por el otro."
+      },
 
       // START LIGHT NOVELS //
       
@@ -568,11 +602,11 @@ render() {
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="mr-auto">
-                <Link className="nav-link" to="/light-novel/">Home</Link>
-                <Link className="nav-link" to="/light-novel/list/">Novelas</Link>
+                <Link className="nav-link" to="/light-novel/">Inicio</Link>
+                <Link className="nav-link" to="/light-novel/list/">Novelas Ligeras</Link>
+                <Link className="nav-link" to="/light-novel/erolist/">Novelas 18+</Link>
                 <Link className="nav-link" to="/light-novel/solist/">Spin Off</Link>
-                <Link className="nav-link" to="/light-novel/erolist/">Eróticas</Link>
-                <Link className="nav-link" to="/light-novel/request/">Usuarios</Link>
+                <Link className="nav-link" to="/light-novel/request/">Reseñas</Link>
                 <Link className="nav-link" to="/light-novel/about/">Acerca</Link>
               </Nav>
               <Nav className="ml-auto">
@@ -786,6 +820,23 @@ render() {
           <Route path="/light-novel/hige/02" exact render={() => <PDFViewverHIGE02 />} />
           <Route path="/light-novel/hige/03" exact render={() => <PDFViewverHIGE03 />} />
           <Route path="/light-novel/hige/04" exact render={() => <PDFViewverHIGE04 />} />
+          <Route path="/light-novel/henneko/" exact render={() => 
+            <LNHenneko title={this.state.lnhenneko.title}
+                            subTitle={this.state.lnhenneko.subTitle} 
+                            text={this.state.lnhenneko.text} />} />
+          <Route path="/light-novel/henneko/01" exact render={() => <PDFViewverHENNEKO01 />} />
+          <Route path="/light-novel/henneko/02" exact render={() => <PDFViewverHENNEKO02 />} />
+          <Route path="/light-novel/henneko/03" exact render={() => <PDFViewverHENNEKO03 />} />
+          <Route path="/light-novel/henneko/04" exact render={() => <PDFViewverHENNEKO04 />} />
+          <Route path="/light-novel/henneko/05" exact render={() => <PDFViewverHENNEKO05 />} />
+          <Route path="/light-novel/henneko/06" exact render={() => <PDFViewverHENNEKO06 />} />
+          <Route path="/light-novel/henneko/07" exact render={() => <PDFViewverHENNEKO07 />} />
+          <Route path="/light-novel/henneko/08" exact render={() => <PDFViewverHENNEKO08 />} />
+          <Route path="/light-novel/henneko/09" exact render={() => <PDFViewverHENNEKO09 />} />
+          <Route path="/light-novel/henneko/10" exact render={() => <PDFViewverHENNEKO10 />} />
+          <Route path="/light-novel/henneko/11" exact render={() => <PDFViewverHENNEKO11 />} />
+          <Route path="/light-novel/henneko/12" exact render={() => <PDFViewverHENNEKO12 />} />
+          <Route path="/light-novel/henneko/13" exact render={() => <PDFViewverHENNEKO13 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 

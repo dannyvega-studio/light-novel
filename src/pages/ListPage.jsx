@@ -20,6 +20,7 @@ import rz01 from '../assets/images/rezero/01.png';
 import bakarina01 from '../assets/images/bakarina/01.jpg';
 import mamasuki01 from '../assets/images/mamasuki/01.jpg';
 import hige01 from '../assets/images/hige/01.jpg';
+import henneko01 from '../assets/images/henneko/01.jpg';
 
 
 // Override CSS Styles in pagination //
@@ -81,111 +82,115 @@ function ListPage(props) {
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroller.scrollTo('letraY', { duration: 1500, delay: 100, smooth: true, offset: -80 })}>Y</Button>
                         <Button className="bg-dark btn-dark px-2" onClick={() => scroller.scrollTo('letraZ', { duration: 1500, delay: 100, smooth: true, offset: -80 })}>Z</Button>
                     </Col>
-                    <Col className="my-4 py-4" lg={12} md={12} sm={12} id="B">
+                    <Col className="my-2 py-2" lg={12} md={12} sm={12} id="B">
                         <Element name="letraB"><Card.Title>B</Card.Title></Element>
-                        <Row>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                        <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/bwtgs/"><img src={bwtgs01} class="ln-cover mt-4 mb-4" variant="top" alt="Boku wa Tomodachi ga Sukunai"/></Link>
                                 <Card.Title>Boku wa Tomodachi ga Sukunai</Card.Title>             
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>            
                     </Col>
-                    <Col className="my-4 py-4" lg={12} md={12} sm={12} id="G">
+                    <Col className="my-2 py-2" lg={12} md={12} sm={12} id="G">
                         <Element name="letraG"><Card.Title>G</Card.Title></Element>
-                        <Row>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                        <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/gs/"><img src={gs01} class="ln-cover mt-4 mb-4" variant="top" alt="Goblin Slayer"/></Link>
                                 <Card.Title>Goblin Slayer</Card.Title>             
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>            
                     </Col>
-                    <Col className="my-4 py-4" lg={12} md={12} sm={12} id="H">
+                    <Col className="my-2 py-2" lg={12} md={12} sm={12} id="H">
                         <Element name="letraH"><Card.Title>H</Card.Title></Element>
-                        <Row>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                        <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
+                                <Link to="/light-novel/henneko/"><img src={henneko01} class="ln-cover mt-4 mb-4" variant="top" alt="Hentai Ouji to Warawanai Neko"/></Link>
+                                <Card.Title>Hentai Ouji to Warawanai Neko</Card.Title>             
+                            </Col>
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/hige/"><img src={hige01} class="ln-cover mt-4 mb-4" variant="top" alt="Hige wo Soru. Soshite Joshi Kōsei wo Hirou"/></Link>
                                 <Card.Title>Hige wo Soru. Soshite Joshi Kōsei wo Hirou</Card.Title>             
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>            
                     </Col>
-                    <Col className="my-4 py-4" lg={12} md={12} sm={12} id="I">
+                    <Col className="my-2 py-2" lg={12} md={12} sm={12} id="I">
                         <Element name="letraI"><Card.Title>I</Card.Title></Element>
-                        <Row>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                        <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/isekaimaou/"><img src={isekaimaou01} class="ln-cover mt-4 mb-4" variant="top" alt="Isekai Maou Diablo"/></Link>
                                 <Card.Title>Isekai Maou to Shoukan Shoujo no Dorei Majutsu</Card.Title>             
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>            
                     </Col>
-                    <Col className="my-4 py-4" lg={12} md={12} sm={12} id="K">
+                    <Col className="my-2 py-2" lg={12} md={12} sm={12} id="K">
                         <Element name="letraK"><Card.Title>K</Card.Title></Element>
-                        <Row>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                        <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/konosuba/"><img src={konosuba01} class="ln-cover mt-4 mb-4" variant="top" alt="KonoSuba"/></Link>
                                 <Card.Title>Kono Subarashii Sekai ni Shukufuku wo!</Card.Title>                 
                             </Col>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/kdgnk/"><img src={kdgnk01} class="ln-cover mt-4 mb-4" variant="top" alt="Kumo Desu Ga"/></Link>
                                 <Card.Title>Kumo Desu Ga, Nani Ka?</Card.Title>             
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>            
                     </Col>
-                    <Col className="my-4 py-4" lg={12} md={12} sm={12} id="M">
+                    <Col className="my-2 py-2" lg={12} md={12} sm={12} id="M">
                         <Element name="letraM"><Card.Title>M</Card.Title></Element>
-                        <Row>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                        <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/mondaiji/"><img src={mondaiji01} class="ln-cover mt-4 mb-4" variant="top" alt="Mondaiji Tachi"/></Link>
                                 <Card.Title>Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?</Card.Title>             
                             </Col>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>                                    <Link to="/light-novel/mushoku/"><img src={mushoku01} class="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei"/></Link>
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>                                    <Link to="/light-novel/mushoku/"><img src={mushoku01} class="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei"/></Link>
                                 <Card.Title>Mushoku Tensei: Isekai Ittara Honki Dasu</Card.Title>             
                             </Col>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/mamasuki/"><img src={mamasuki01} class="ln-cover mt-4 mb-4" variant="top" alt="Musume Janakute Mama ga Suki nano!?"/></Link>
                                 <Card.Title>Musume Janakute Mama ga Suki nano!?</Card.Title>             
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>            
                     </Col>
-                    <Col className="my-4 py-4" lg={12} md={12} sm={12} id="N">
+                    <Col className="my-2 py-2" lg={12} md={12} sm={12} id="N">
                         <Element name="letraN"><Card.Title>N</Card.Title></Element>
-                        <Row>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                        <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/ngnl/"><img src={ngnl01} class="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life"/></Link>
                                 <Card.Title>No Game No Life</Card.Title> 
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>
                     </Col>
-                    <Col className="my-4 py-4" lg={12} md={12} sm={12} id="O">
+                    <Col className="my-2 py-2" lg={12} md={12} sm={12} id="O">
                         <Element name="letraO"><Card.Title>O</Card.Title></Element>
-                        <Row>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                        <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/bakarina/"><img src={bakarina01} class="ln-cover mt-4 mb-4" variant="top" alt="Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta..."/></Link>
                                 <Card.Title>Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta...</Card.Title>   
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>
                     </Col>
-                    <Col className="my-4 py-4" lg={12} md={12} sm={12} id="R">
+                    <Col className="my-2 py-2" lg={12} md={12} sm={12} id="R">
                         <Element name="letraR"><Card.Title>R</Card.Title></Element>
-                        <Row>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                        <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/rz/"><img src={rz01} class="ln-cover mt-4 mb-4" variant="top" alt="Re:Zero kara Hajimeru Isekai Seikatsu"/></Link>
                                 <Card.Title>Re:Zero kara Hajimeru Isekai Seikatsu</Card.Title>   
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>
                     </Col>
-                    <Col className="my-4 py-4" lg={12} md={12} sm={12} id="S">
+                    <Col className="my-2 py-2" lg={12} md={12} sm={12} id="S">
                         <Element name="letraS"><Card.Title>S</Card.Title></Element>
-                        <Row>
-                            <Col className="mx-auto py-2" lg={2} md={3} sm={4} xs={6}>
+                        <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/sby/"><img src={seishun01} class="ln-cover mt-4 mb-4" variant="top" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"/></Link>
                                 <Card.Title>Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai</Card.Title>      
                             </Col>
