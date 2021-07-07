@@ -20,16 +20,9 @@ code {
   background-attachment: fixed;
 }
 
-.btn-dark {
-    background-color: #1F2833;
-    border: 3px solid-transparent;
-    border-radius: 100px;
-}
-
 .btn-dark:hover {
   background-color: #1F2833;
   border: 3px solid-transparent;
-  border-radius: 100px;
 }
 
 .btn-dark-text {
@@ -87,6 +80,12 @@ code {
   text-align: justify;
 }
 
+
+.center {
+  align-items: center;
+  justify-content: center;
+}
+
 .aside-img {
   width: 100%;
   max-width: 300px;
@@ -106,6 +105,8 @@ code {
   border-color: #e6e6ff;
   border-radius: 25px;
   border-style: outset;
+  opacity: 1.0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .ln-cover:hover {
@@ -115,6 +116,7 @@ code {
   border-color: #b3b3ff;
   border-radius: 25px;
   border-style: outset;
+  opacity: 0.75;
 }
 
 .carousel {

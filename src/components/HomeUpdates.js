@@ -27,11 +27,11 @@ function HomeUpdates() {
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/Ft5V1CrZ#qikpg5sYqrIbZ_MmC3W2viNZRho7USstMzDRaSOEUhU" target="_blank" rel="noreferrer">
-                                                Descargar</a>        
+                                                Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to="/light-novel/sby/03">Leer</Link>   
                                         </Button>
                                     </div>
@@ -45,11 +45,11 @@ function HomeUpdates() {
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/MsgXFA7I#i87-ep29sAwHOnRXH7qmfD7GVxpONJrA8oXFAwo-7is" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to="/light-novel/sby/02">Leer</Link> 
                                         </Button>
                                     </div>
@@ -63,11 +63,11 @@ function HomeUpdates() {
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/VoxFSAZI#q5-x37tVBDjq0ZqgDEoq8-DY-KBMFrafGA2AGERQL14" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to="/light-novel/sby/01">Leer</Link>
                                         </Button>
                                     </div>
@@ -81,11 +81,11 @@ function HomeUpdates() {
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/p4o0lChJ#6AHv2G7cekROyC5rAMJRK6ACy44UHZiXB3LREW0UbuA" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to="/light-novel/ngnl/10">Leer</Link>
                                         </Button>
                                     </div>
@@ -99,11 +99,11 @@ function HomeUpdates() {
                             <Card.Title> VOLUMEN 11</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/Fp4AkKSC#S3R-9Fwzf31z7WkAc-XrBffGosGjfp7MIIO4bvi6p8s" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to="/light-novel/kdgnk/11">Leer</Link>    
                                         </Button>
                                     </div>
@@ -117,11 +117,11 @@ function HomeUpdates() {
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/4lhGHa6C#jEBw6I4qr1eaRm5DrsxON4j2EvfNnHsoDmx4jWuVXGI" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to="/light-novel/kdgnk/10">Leer</Link>
                                         </Button>
                                     </div>

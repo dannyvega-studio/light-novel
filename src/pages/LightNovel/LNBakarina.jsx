@@ -3,22 +3,22 @@ import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import { Route, Link } from 'react-router-dom';
-import CarouselKAIYARI from '../components/CarouselKAIYARI';
-import kaiyari01 from '../assets/images/kaiyari/01.jpg';
-import kaiyari02 from '../assets/images/kaiyari/02.jpg';
-import kaiyari03 from '../assets/images/kaiyari/03.jpg';
-import kaiyari04 from '../assets/images/kaiyari/04.jpg';
-import kaiyari05 from '../assets/images/kaiyari/05.jpg';
-import kaiyari06 from '../assets/images/kaiyari/06.jpg';
-import kaiyari07 from '../assets/images/kaiyari/07.jpg';
-import kaiyari08 from '../assets/images/kaiyari/08.jpg';
-export {kaiyari01, kaiyari02, kaiyari03, kaiyari04, kaiyari05, kaiyari06,
-        kaiyari07, kaiyari08}
+import CarouselBAKARINA from '../../components/CarouselBAKARINA';
+import bakarina01 from '../../assets/images/bakarina/01.jpg';
+import bakarina02 from '../../assets/images/bakarina/02.jpg';
+import bakarina03 from '../../assets/images/bakarina/03.jpg';
+import bakarina04 from '../../assets/images/bakarina/04.jpg';
+import bakarina05 from '../../assets/images/bakarina/05.jpg';
+import bakarina06 from '../../assets/images/bakarina/06.jpg';
+import bakarina07 from '../../assets/images/bakarina/07.jpg';
+import bakarina08 from '../../assets/images/bakarina/08.jpg';
+export {bakarina01, bakarina02, bakarina03, bakarina04,
+        bakarina05, bakarina06, bakarina07, bakarina08};
 
-function ENKaiyari(props) {
+function LNBakarina(props) {
 
-    const Titulo = "Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahō to Skill Copy no Chōetsu Heal"
-    const linkNav = "kaiyari"
+    const Titulo = "Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta..."
+    const linkNav = "bakarina"
 
     return(
         <div>
@@ -31,21 +31,21 @@ function ENKaiyari(props) {
                         { props.title && <h1 className="display-4 font-weight-bolder mb-4">{props.title}</h1> }
                     </Col>
                     <Col sm={8}>
-                        <CarouselKAIYARI />
+                        <CarouselBAKARINA />
                     </Col>
                     <Col sm={12}>
                         { props.subTitle && <h3 className="display-4 font-weight-light mb-4">{props.subTitle}</h3> }
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kaiyari08} large={kaiyari08} alt={`${Titulo} Volumen 08`} />
+                        <ModalImage className="ln-cover" small={bakarina08} large={bakarina08} alt={`${Titulo} Volumen 08`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/dkxlSCRR#DbM5MeMo94J7GJLmPmhy9bLIDMH4-s-smUgDe-D3W5I" target="_blank" rel="noreferrer">
-                                                Descargar</a>    
+                                            <a class="btn-dark-text" href="https://mega.nz/file/hsJDiaYQ#XcF3Fzyxu7U94gsMZYrpKC-xy4cPdURJOnGAhtiGgak" target="_blank" rel="noreferrer">
+                                                Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/08`} key={linkNav}>Leer</Link>
@@ -56,14 +56,14 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kaiyari07} large={kaiyari07} alt={`${Titulo} Volumen 07`} />
+                        <ModalImage className="ln-cover" small={bakarina07} large={bakarina07} alt={`${Titulo} Volumen 07`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/R9hyEA5J#oB0p8wQD8PWTAmeenItb8OVtxwaBvnfKNwsuh2XeErs" target="_blank" rel="noreferrer">
-                                                Descargar</a>    
+                                            <a class="btn-dark-text" href="https://mega.nz/file/kxYnSQhJ#Z1RdD91jqUFwdhLEKH-q9ZiczyllqlrA__0X1-KIe28" target="_blank" rel="noreferrer">
+                                                Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/07`} key={linkNav}>Leer</Link>
@@ -74,14 +74,14 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kaiyari06} large={kaiyari06} alt={`${Titulo} Volumen 06`} />
+                        <ModalImage className="ln-cover" small={bakarina06} large={bakarina06} alt={`${Titulo} Volumen 06`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/R04iHK4J#L4NCi7vZU-FlCNGFNloLntASjz87kRD7WSq2BwTyy2g" target="_blank" rel="noreferrer">
-                                                Descargar</a>    
+                                            <a class="btn-dark-text" href="https://mega.nz/file/t1BjlAyB#o7Tftrdj179zdDbW-PwCv5zve8q35pIFko_OM5vvw-8" target="_blank" rel="noreferrer">
+                                                Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/06`} key={linkNav}>Leer</Link>
@@ -92,14 +92,14 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kaiyari05} large={kaiyari05} alt={`${Titulo} Volumen 05`} />
+                        <ModalImage className="ln-cover" small={bakarina05} large={bakarina05} alt={`${Titulo} Volumen 05`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Akh20STB#O_yVbx8coa4InsrO8AtyLUk-f7lssZPO8maoKfCyywE" target="_blank" rel="noreferrer">
-                                                Descargar</a>    
+                                            <a class="btn-dark-text" href="https://mega.nz/file/Rh5ESKyQ#iiIqqEvAtafCg1spJFXJSKT1CeGliV9g_nbujyw5-KQ" target="_blank" rel="noreferrer">
+                                                Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/05`} key={linkNav}>Leer</Link>
@@ -110,14 +110,14 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kaiyari04} large={kaiyari04} alt={`${Titulo} Volumen 04`} />
+                        <ModalImage className="ln-cover" small={bakarina04} large={bakarina04} alt={`${Titulo} Volumen 04`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/UkwmESZA#-N3ukkmspz7RbuOaoZ15ho03Y6GgDIzD1AX2mo2Ce6A" target="_blank" rel="noreferrer">
-                                                Descargar</a>    
+                                            <a class="btn-dark-text" href="https://mega.nz/file/d0Bj2IJC#g1_Kh-_5w3bTnYqBreANJD5_m1Xwg8Z02S0WgyOEF3I" target="_blank" rel="noreferrer">
+                                                Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/04`} key={linkNav}>Leer</Link>
@@ -128,14 +128,14 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kaiyari03} large={kaiyari03} alt={`${Titulo} Volumen 03`} />
+                        <ModalImage className="ln-cover" small={bakarina03} large={bakarina03} alt={`${Titulo} Volumen 03`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Ag5gXKjb#fb_lIhfnPY9SyJEG3QB19Df72cDPkcQtCuRlQwHxG6U" target="_blank" rel="noreferrer">
-                                                Descargar</a>    
+                                            <a class="btn-dark-text" href="https://mega.nz/file/MwYjxIzI#ZETJg-P1VdJvh5a-NoBlOSWrurn6KyAJXkkWmSIAVng" target="_blank" rel="noreferrer">
+                                                Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/03`} key={linkNav}>Leer</Link>
@@ -146,14 +146,14 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kaiyari02} large={kaiyari02} alt={`${Titulo} Volumen 02`} />
+                        <ModalImage className="ln-cover" small={bakarina02} large={bakarina02} alt={`${Titulo} Volumen 02`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/I14w2QxI#CClw5euL3HCz74LDeVbCIPQn8FsyK4oCD68GFMyOliQ" target="_blank" rel="noreferrer">
-                                                Descargar</a>    
+                                            <a class="btn-dark-text" href="https://mega.nz/file/x4QlyY6A#_JWur1q0J_iklBUzQ1G93rhFoe4NPhetnHKmzW6PIP8" target="_blank" rel="noreferrer">
+                                                Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/02`} key={linkNav}>Leer</Link>
@@ -164,13 +164,13 @@ function ENKaiyari(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={kaiyari01} large={kaiyari01} alt={`${Titulo} Volumen 01`} />
+                        <ModalImage className="ln-cover" small={bakarina01} large={bakarina01} alt={`${Titulo} Volumen 01`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/oxgiyIRQ#GuXogw0RIXQ5zmnSSuwTV1h-P0FBhPYEWFqmDKtwRaQ" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/EhQh1aKA#aq0q5Vj_ulsVOaTDrktk57eFC6tOKJNK-5Ape7XSYQc" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -187,4 +187,4 @@ function ENKaiyari(props) {
     );
 }
 
-export default ENKaiyari;
+export default LNBakarina;

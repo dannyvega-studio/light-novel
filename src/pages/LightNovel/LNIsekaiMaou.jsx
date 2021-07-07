@@ -3,21 +3,21 @@ import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import { Route, Link } from 'react-router-dom';
-import CarouselISEKAIMAOU from '../components/CarouselISEKAIMAOU';
-import isekaimaou01 from '../assets/images/isekaimaou/01.jpg';
-import isekaimaou02 from '../assets/images/isekaimaou/02.jpg';
-import isekaimaou03 from '../assets/images/isekaimaou/03.jpg';
-import isekaimaou04 from '../assets/images/isekaimaou/04.jpg';
-import isekaimaou05 from '../assets/images/isekaimaou/05.jpg';
-import isekaimaou06 from '../assets/images/isekaimaou/06.jpg';
-import isekaimaou07 from '../assets/images/isekaimaou/07.jpg';
-import isekaimaou08 from '../assets/images/isekaimaou/08.jpg';
-import isekaimaou09 from '../assets/images/isekaimaou/09.jpg';
-import isekaimaou10 from '../assets/images/isekaimaou/10.jpg';
-import isekaimaou11 from '../assets/images/isekaimaou/11.png';
-import isekaimaou12 from '../assets/images/isekaimaou/12.jpg';
-import isekaimaou13 from '../assets/images/isekaimaou/13.png';
-import isekaimaou14 from '../assets/images/isekaimaou/14.png';
+import CarouselISEKAIMAOU from '../../components/CarouselISEKAIMAOU';
+import isekaimaou01 from '../../assets/images/isekaimaou/01.jpg';
+import isekaimaou02 from '../../assets/images/isekaimaou/02.jpg';
+import isekaimaou03 from '../../assets/images/isekaimaou/03.jpg';
+import isekaimaou04 from '../../assets/images/isekaimaou/04.jpg';
+import isekaimaou05 from '../../assets/images/isekaimaou/05.jpg';
+import isekaimaou06 from '../../assets/images/isekaimaou/06.jpg';
+import isekaimaou07 from '../../assets/images/isekaimaou/07.jpg';
+import isekaimaou08 from '../../assets/images/isekaimaou/08.jpg';
+import isekaimaou09 from '../../assets/images/isekaimaou/09.jpg';
+import isekaimaou10 from '../../assets/images/isekaimaou/10.jpg';
+import isekaimaou11 from '../../assets/images/isekaimaou/11.png';
+import isekaimaou12 from '../../assets/images/isekaimaou/12.jpg';
+import isekaimaou13 from '../../assets/images/isekaimaou/13.png';
+import isekaimaou14 from '../../assets/images/isekaimaou/14.png';
 export {isekaimaou01, isekaimaou02, isekaimaou03, isekaimaou04, isekaimaou05, isekaimaou06, isekaimaou07,
         isekaimaou08, isekaimaou09, isekaimaou10, isekaimaou11, isekaimaou12, isekaimaou13}
 
@@ -49,11 +49,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 13</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/Vx42WBAB#E9bAvOe_r_zFeKNEK9H4qdVgXopSshyvjfHXRnpg85I" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/13`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -67,11 +67,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 12</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/h1gmFZQJ#205fpBuqPDbXnBHgQT45InWPkeydxYyAT1HhDvyt_zI" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/12`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -85,11 +85,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 11</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/VpgSnBDR#zsq8UfGrae3VtjBPiDAS5YKpy83mTasC2Rs9Warbzac" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/11`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -103,11 +103,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/F0omHLpZ#rUdYW31uYBJNbVGkGMCex897WsgLE3DAV4kKhldwEh8" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/10`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -121,11 +121,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/48xk3TCB#e1yIcboYxiI6CLPH7Ji0es4sBiPbbtBuwX4vHuyBwHk" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/09`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -139,11 +139,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/Bkh2jbxL#SLg9PEdQn_AsLZJkpiWmyQoBt41vxns-WiVxOHl2sk0" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/08`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -157,11 +157,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/xw5S1DwQ#na7_HvKGSuqd7gfvSHuXjCmV7mo54SJvr-1J5Npk3r4" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/07`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -175,11 +175,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/9lpghBKR#IncWGZKpoxO0Z4zjC-rnu2hd_dzuHND_B6B1Oc-QqbU" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/06`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -193,11 +193,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/shoklbjZ#C0k5mQ1PIqYLyUVI-HoSLNH7UOt89z4Fh11sqFGCS4w" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/05`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -211,11 +211,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/xl4gibKb#OWSk6-pWdi8A-EL4Cg6x6nVJIpxYxmUpnyGYihlmiI4" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/04`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -229,11 +229,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/g5pWiBqQ#fhEeNwZ1PNLXw1RiEvl6ew9-XHSIzj4UcMbJfQXlKok" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/03`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -247,11 +247,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/Nxhg1b4Z#9L7gni_JfblRbwl41y_GRv0TDKJUqB31rdHkvowm9HU" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/02`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -265,11 +265,11 @@ function LNIsekaiMaou(props) {
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/4kgAzR6Z#KjoDGLOt6ZNm_wESqyzIh5RIr1O8jbF_QdCwKPEiAe8" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/01`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>

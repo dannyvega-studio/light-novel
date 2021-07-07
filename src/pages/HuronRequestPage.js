@@ -21,7 +21,7 @@ function HuronRequestPage(props) {
                     </Col>
                     <Col lg={4} md={4} sm={6} xs={6}>
                         <Card.Img className="aside-img mt-4 mb-4" variant="top" alt="No Game No Life" src={mushoku} />
-                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                        <Button variant="dark" size="sm" className="mr-2">
                             <Link className="btn-dark-text" to="/light-novel/mushoku/">View All Volumes</Link>
                         </Button>
                     </Col>

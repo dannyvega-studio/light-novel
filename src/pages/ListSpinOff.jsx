@@ -40,19 +40,19 @@ function ListEroPage(props) {
                     <Col lg={12} md={12} sm={12}>
                         { props.title && <h1 className="display-2 font-weight-bolder mb-4">{props.title}</h1> }
                     </Col>
-                    <Col lg={3} md={4} sm={6} xs={6}>
+                    <Col lg={2} md={3} sm={4} xs={6}>
                         <Link to="/light-novel/kyakko/"><img src={kyakko01} class="ln-cover mt-4 mb-4" variant="top" alt="Ano Orokamono ni mo Kyakkou wo!"/></Link>
                         <Card.Title>Ano Orokamono ni mo Kyakkou wo!</Card.Title>             
                     </Col>
-                    <Col lg={3} md={4} sm={6} xs={6}>
+                    <Col lg={2} md={3} sm={4} xs={6}>
                         <Link to="/light-novel/kamen/"><img src={kamen01} class="ln-cover mt-4 mb-4" variant="top" alt="Kono Kamen no Akuma ni Soudan wo!"/></Link>
                         <Card.Title>Kono Kamen no Akuma ni Soudan wo!</Card.Title>             
                     </Col>
-                    <Col lg={3} md={4} sm={6} xs={6}>
+                    <Col lg={2} md={3} sm={4} xs={6}>
                         <Link to="/light-novel/bakuen/"><img src={bakuen01} class="ln-cover mt-4 mb-4" variant="top" alt="Kono Subarashii Sekai ni Bakuen wo!"/></Link>
                         <Card.Title>Kono Subarashii Sekai ni Bakuen wo!</Card.Title>             
                     </Col>
-                    <Col lg={3} md={4} sm={6} xs={6}>
+                    <Col lg={2} md={3} sm={4} xs={6}>
                         <Link to="/light-novel/bakuenzukko/"><img src={bakuenzukko01} class="ln-cover mt-4 mb-4" variant="top" alt="Kono Subarashii Sekai ni Bakuen wo! Zukko"/></Link>
                         <Card.Title>Kono Subarashii Sekai ni Bakuen wo! Zukko</Card.Title>             
                     </Col>

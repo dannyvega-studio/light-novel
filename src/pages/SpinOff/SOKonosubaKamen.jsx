@@ -35,11 +35,11 @@ function SOKamen(props) {
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/U1oAWKjZ#FSqDTL8ZaHavPprGsEG0115JFPAXNS6xQoXmQJyLQmY" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/01`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>

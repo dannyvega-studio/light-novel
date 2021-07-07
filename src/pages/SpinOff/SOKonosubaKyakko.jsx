@@ -41,11 +41,11 @@ function SOKyakko(props) {
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/R4hUUKja#MLwPDU8lNCGWvEad6cKNlxg7RNyUrOppMI8xc3YzVPc" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/06`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -59,11 +59,11 @@ function SOKyakko(props) {
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/IxwmDYIL#D6gV2yXIqMg0tFux4nL8bb1Z1HfieIAiGHTjj0wQfb0" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/05`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -77,11 +77,11 @@ function SOKyakko(props) {
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/hopQ2CKR#92WgLsOAwmex3s9GZrEsxKHnr8nuxGwOacN4vCz48UQ" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/04`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -95,11 +95,11 @@ function SOKyakko(props) {
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/oohAWSYb#AfdNBbq_pzhgDElayAzOer_5YKdiZUK2w9sUyqfexYE" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/03`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -113,11 +113,11 @@ function SOKyakko(props) {
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/I9wkzSaJ#bgrYrjJC6B-Y3hOZBGrcHFZQKZC6H3NAb0MNT61pVbo" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/02`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -131,11 +131,11 @@ function SOKyakko(props) {
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/o55GFYyD#GGi377DlZtfRDgOGWDLtCubmvYTuFLsrePZbvM9MbaM" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/01`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>

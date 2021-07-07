@@ -37,7 +37,7 @@ function ListEroPage(props) {
                     <Col lg={12} md={12} sm={12}>
                         { props.title && <h1 className="display-2 font-weight-bolder mb-4">{props.title}</h1> }
                     </Col>
-                    <Col lg={3} md={4} sm={6} xs={6}>
+                    <Col lg={2} md={3} sm={4} xs={6}>
                         <Link to="/light-novel/kaiyari/"><img src={kaiyari01} class="ln-cover mt-4 mb-4" variant="top" alt="Kaifuku Jutsushi no Yarinaoshi"/></Link>
                         <Card.Title>Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal</Card.Title>             
                     </Col>

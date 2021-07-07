@@ -1,14 +1,15 @@
 import React from 'react'
 import { Route, Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
-import TableHeader from '../Pagination/TableHeader.jsx'
-import Table from '@material-ui/core/Table'
-import TableBody from '@material-ui/core/TableBody'
-import TableCell from '@material-ui/core/TableCell'
-import TableRow from '@material-ui/core/TableRow'
-import TablePagination from '@material-ui/core/TablePagination'
-import { TableContainer, TableHead } from '@material-ui/core'
-import Typography from '@material-ui/core/Typography'
+import TableHeader from '../Pagination/TableHeader.jsx';
+import Table from '@material-ui/core/Table';
+import TableBody from '@material-ui/core/TableBody';
+import TableCell from '@material-ui/core/TableCell';
+import TableRow from '@material-ui/core/TableRow';
+import TablePagination from '@material-ui/core/TablePagination';
+import { TableContainer, TableHead } from '@material-ui/core';
+import Typography from '@material-ui/core/Typography';
+import SearchBar from "material-ui-search-bar";
 
 
 // Override CSS Styles in Table //
@@ -104,6 +105,14 @@ export default function TableContent(props) {
     return (
 
         <>
+        <SearchBar
+            onChange={() => console.log('onChange')}
+            onRequestSearch={() => console.log('onRequestSearch')}
+            style={{
+                margin: '10px',
+                maxWidth: 800
+            }}
+        />
         <TableContainer>
             <Table>
                 <TableHeader 

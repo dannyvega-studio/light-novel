@@ -3,41 +3,32 @@ import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import { Route, Link } from 'react-router-dom';
-import CarouselRZ from '../components/CarouselRZ';
-import rz01 from '../assets/images/rezero/01.png';
-import rz02 from '../assets/images/rezero/02.png';
-import rz03 from '../assets/images/rezero/03.png';
-import rz04 from '../assets/images/rezero/04.png';
-import rz05 from '../assets/images/rezero/05.png';
-import rz06 from '../assets/images/rezero/06.png';
-import rz07 from '../assets/images/rezero/07.png';
-import rz08 from '../assets/images/rezero/08.png';
-import rz09 from '../assets/images/rezero/09.png';
-import rz10 from '../assets/images/rezero/10.png';
-import rz11 from '../assets/images/rezero/11.png';
-import rz12 from '../assets/images/rezero/12.png';
-import rz13 from '../assets/images/rezero/13.png';
-import rz14 from '../assets/images/rezero/14.png';
-import rz15 from '../assets/images/rezero/15.png';
-import rz16 from '../assets/images/rezero/16.png';
-import rz17 from '../assets/images/rezero/17.png';
-import rz18 from '../assets/images/rezero/18.png';
-import rz19 from '../assets/images/rezero/19.png';
-import rz20 from '../assets/images/rezero/20.jpg';
-import rz21 from '../assets/images/rezero/21.png';
-import rz22 from '../assets/images/rezero/22.jpg';
-import rz23 from '../assets/images/rezero/23.jpg';
-import rz24 from '../assets/images/rezero/24.jpg';
-import rz25 from '../assets/images/rezero/25.jpg';
-import rz26 from '../assets/images/rezero/26.jpg';
-export {rz01, rz02, rz03, rz04, rz05, rz06, rz07, rz08, rz09, rz10,
-        rz11, rz12, rz13, rz14, rz15, rz16, rz17, rz18, rz19, rz20,
-        rz21, rz22, rz23, rz24, rz25, rz26};
+import CarouselKONOSUBA from '../../components/CarouselKONOSUBA';
+import konosuba01 from '../../assets/images/konosuba/01.png';
+import konosuba02 from '../../assets/images/konosuba/02.png';
+import konosuba03 from '../../assets/images/konosuba/03.png';
+import konosuba04 from '../../assets/images/konosuba/04.png';
+import konosuba05 from '../../assets/images/konosuba/05.png';
+import konosuba06 from '../../assets/images/konosuba/06.png';
+import konosuba07 from '../../assets/images/konosuba/07.png';
+import konosuba08 from '../../assets/images/konosuba/08.png';
+import konosuba09 from '../../assets/images/konosuba/09.png';
+import konosuba10 from '../../assets/images/konosuba/10.png';
+import konosuba11 from '../../assets/images/konosuba/11.png';
+import konosuba12 from '../../assets/images/konosuba/12.png';
+import konosuba13 from '../../assets/images/konosuba/13.jpg';
+import konosuba14 from '../../assets/images/konosuba/14.jpg';
+import konosuba15 from '../../assets/images/konosuba/15.jpg';
+import konosuba16 from '../../assets/images/konosuba/16.jpg';
+import konosuba17 from '../../assets/images/konosuba/17.jpg';
+export {konosuba01, konosuba02, konosuba03, konosuba04, konosuba05, konosuba06, 
+        konosuba07, konosuba08, konosuba09, konosuba10, konosuba11, konosuba12,
+        konosuba13, konosuba14, konosuba15, konosuba16, konosuba17}
 
-function LNReZero(props) {
+function LNKonosuba(props) {
 
-    const Titulo = "Re:Zero kara Hajimeru Isekai Seikatsu"
-    const linkNav = "rz"
+    const Titulo = "Kono Subarashii Sekai ni Shukufuku wo!"
+    const linkNav = "konosuba"
 
     return(
         <div>
@@ -50,23 +41,59 @@ function LNReZero(props) {
                         { props.title && <h1 className="display-4 font-weight-bolder mb-4">{props.title}</h1> }
                     </Col>
                     <Col sm={8}>
-                        <CarouselRZ />
+                        <CarouselKONOSUBA />
                     </Col>
                     <Col sm={12}>
                         { props.subTitle && <h3 className="display-4 font-weight-light mb-4">{props.subTitle}</h3> }
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz15} large={rz15} alt={`${Titulo} Volumen 15`} />
+                        <ModalImage className="ln-cover" small={konosuba17} large={konosuba17} alt={`${Titulo} Volumen 17`} />
+                        <Card.Body>
+                            <Card.Title> VOLUMEN 17</Card.Title>
+                                <Card.Text>
+                                    <div class="d-flex align-items-baseline justify-content-center">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/ZgonmCoI#-_AD2FP4f5WWBzPuIlJq_ljirx3Qc2pDCcuebus00t8" target="_blank" rel="noreferrer">
+                                                Descargar</a>
+                                        </Button>
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/17`} key={linkNav}>Leer</Link>
+                                        </Button>
+                                    </div>
+                                </Card.Text>
+                        </Card.Body>
+                        <Card.Img />
+                    </Col>
+                    <Col lg={3} md={4} sm={6} xs={6}>
+                        <ModalImage className="ln-cover" small={konosuba16} large={konosuba16} alt={`${Titulo} Volumen 16`} />
+                        <Card.Body>
+                            <Card.Title> VOLUMEN 16 </Card.Title>
+                                <Card.Text>
+                                    <div class="d-flex align-items-baseline justify-content-center">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/l45jVYqB#3oSV31BKPC5qM-BUTKyWyq5K1Z4FVnD_Zvak9A-R-ew" target="_blank" rel="noreferrer">
+                                                Descargar</a>
+                                        </Button>
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <Link className="btn-dark-text" to={`/light-novel/${linkNav}/16`} key={linkNav}>Leer</Link>
+                                        </Button>
+                                    </div>
+                                </Card.Text>
+                        </Card.Body>
+                        <Card.Img />
+                    </Col>
+                    <Col lg={3} md={4} sm={6} xs={6}>
+                        <ModalImage className="ln-cover" small={konosuba15} large={konosuba15} alt={`${Titulo} Volumen 15`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 15</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/o94SmKRD#tJKmiW7SusDGnykInzV8-e3RWfJ4NW_ysy2Yea2LBns" target="_blank" rel="noreferrer">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/00oXRCAD#QfiKxHzcqrDs1pvQLIAzIA6Y2uLANJm5NV2UH4QGwJc" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/15`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -75,16 +102,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz14} large={rz14} alt={`${Titulo} Volumen 14`} />
+                        <ModalImage className="ln-cover" small={konosuba14} large={konosuba14} alt={`${Titulo} Volumen 14`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 14</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/9h5CiYQJ#McdbCgYhM0OA1GlkXWrRUxWHRGkZ6RLNO_R6aV8jOz8" target="_blank" rel="noreferrer">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/M1gHia7A#JU92dH9IC7d0oNhaFW_PQnODvI2fRR1Jzd0wuuX5cVg" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/14`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -93,16 +120,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz13} large={rz13} alt={`${Titulo} Volumen 13`} />
+                        <ModalImage className="ln-cover" small={konosuba13} large={konosuba13} alt={`${Titulo} Volumen 13`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 13</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/N9oE3CYD#u7myID8tH4bU-Vh8ihFnKia5q7sn9C7sWVq3z9A0rKQ" target="_blank" rel="noreferrer">
-                                                Descargar</a>
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/dxphACgS#UCD7T_5GEX-WUheVupNs2AyUJL1iCJ36hz0KzeM4otE" target="_blank" rel="noreferrer">
+                                                Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/13`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -111,16 +138,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz12} large={rz12} alt={`${Titulo} Volumen 12`} />
+                        <ModalImage className="ln-cover" small={konosuba12} large={konosuba12} alt={`${Titulo} Volumen 12`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 12</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/h1xU1CjC#_P5putGEQIVLG2h1jvwEux61C4BHJ6fQ-PsscyuID7g" target="_blank" rel="noreferrer">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/dlp33IrJ#VkpfdRtpdEEXPsFKSpH0QD_iNoSiIovSO_3AgxKHacU" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/12`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -129,16 +156,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz11} large={rz11} alt={`${Titulo} Volumen 11`} />
+                        <ModalImage className="ln-cover" small={konosuba11} large={konosuba11} alt={`${Titulo} Volumen 11`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 11</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Aow2yIab#lsVrCgXnpdxXLm4ZqhCQgGU_q_y8odrdwisaVNEvQPg" target="_blank" rel="noreferrer">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/N8oFXQgB#_3IfEmMiTUW8tr0o1s3aLIbFq6iJxLBfxmUWddmkLAU" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/11`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -147,16 +174,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz10} large={rz10} alt={`${Titulo} Volumen 10`} />
+                        <ModalImage className="ln-cover" small={konosuba10} large={konosuba10} alt={`${Titulo} Volumen 10`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 10</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/8g4AWYwQ#wqCjRRFLrstizA2NhDfnUQG-QOVXhzRAkExdQkOlP-o" target="_blank" rel="noreferrer">
-                                                Descargar</a>
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/xloRQIRC#gTyhVYkB_aODfmWWHLO9QIrBnHoRKwxmg4IuYn20PIg" target="_blank" rel="noreferrer">
+                                                Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/10`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -165,16 +192,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz09} large={rz09} alt={`${Titulo} Volumen 09`} />
+                        <ModalImage className="ln-cover" small={konosuba09} large={konosuba09} alt={`${Titulo} Volumen 09`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 09</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/IhwE0Kia#cHATN1ecX-OOdFU6UMuxyQc3T72WvbBKi7_NOE9VZf0" target="_blank" rel="noreferrer">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/Q84RwSrJ#PDDn9XuWK9A5M-SIOl3W_yf5yGxsXK-Fn24HG1IVdJE" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/09`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -183,16 +210,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz08} large={rz08} alt={`${Titulo} Volumen 08`} />
+                        <ModalImage className="ln-cover" small={konosuba08} large={konosuba08} alt={`${Titulo} Volumen 08`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 08</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/9xoGCApB#Jya3Bu6yMC6ZJ37oyngkzckI_hrfshKSFWFLiESSsy0" target="_blank" rel="noreferrer">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/Y9plnIRS#jm4gmV9FPgOWPDemnD2jl6iClxpwjwJ-fZ4BRIDUTkw" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/08`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -201,16 +228,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz07} large={rz07} alt={`${Titulo} Volumen 07`} />
+                        <ModalImage className="ln-cover" small={konosuba07} large={konosuba07} alt={`${Titulo} Volumen 07`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 07</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/gsgklQ4T#1bWrqgXvQDEoEAeQTOI3mwzzku8Qn__V9UmPAvKjTsY" target="_blank" rel="noreferrer">
-                                                Descargar</a>
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/xko1SCJR#E63FM8cOBiJzPpZ0FO5dRno-oBOurOYiFu4fgLIWftc" target="_blank" rel="noreferrer">
+                                                Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/07`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -219,16 +246,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz06} large={rz06} alt={`${Titulo} Volumen 06`} />
+                        <ModalImage className="ln-cover" small={konosuba06} large={konosuba06} alt={`${Titulo} Volumen 06`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/d950WC5D#PqZa8wMniZH5DYGF07JOSGmO00pDEx0_gWPJgQmdbB4" target="_blank" rel="noreferrer">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/t1hRyCwZ#he1sucE3fdQFQDUd99boSaOZ5ueX_Iqb4O35hPiJ1EQ" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/06`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -237,16 +264,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz05} large={rz05} alt={`${Titulo} Volumen 05`} />
+                        <ModalImage className="ln-cover" small={konosuba05} large={konosuba05} alt={`${Titulo} Volumen 05`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/p55AzACb#7pMdu2IbuPBdAPzuQnn8_QyaXKxqkYUWQIePPIkVh2U" target="_blank" rel="noreferrer">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/xwg3VI7Q#orIxdoqg_JWZZFs1NjZiHVScFQQ_6LpJquvmlk-HOOE" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/05`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -255,16 +282,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz04} large={rz04} alt={`${Titulo} Volumen 04`} />
+                        <ModalImage className="ln-cover" small={konosuba04} large={konosuba04} alt={`${Titulo} Volumen 04`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/F5xAyQpI#xn6t48T1SyDpV4f1PjzKCce2pMNft76dK3YYaHaa6ns" target="_blank" rel="noreferrer">
-                                                Descargar</a>
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/Utg1CIiA#7_uwuc8-CWB1Mji3JGDzaB5KFdzf0nfGFxkYgNXN8tI" target="_blank" rel="noreferrer">
+                                                Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/04`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -273,16 +300,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz03} large={rz03} alt={`${Titulo} Volumen 03`} />
+                        <ModalImage className="ln-cover" small={konosuba03} large={konosuba03} alt={`${Titulo} Volumen 03`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/d540najS#p-eq9ZKscvPbmg_gyG80uhSmZ2d1ijFzOHmn2Ik847Q" target="_blank" rel="noreferrer">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/0hwlDSSQ#3oZjRbck691ieeFMXNhWCH8V42P3v30DtEIJveZ4dY0" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/03`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -291,16 +318,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz02} large={rz02} alt={`${Titulo} Volumen 02`} />
+                        <ModalImage className="ln-cover" small={konosuba02} large={konosuba02} alt={`${Titulo} Volumen 02`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Z4xkzQoB#I_hOA0VFRX5Tahw4OcL5jILAkY3ZuvIB2KBV-WI3uO8" target="_blank" rel="noreferrer">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/B9wRVa4Y#--waNoHxiiBvx4cXzVaIe5bK1UuUZoiEqLL4vWMYccY" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/02`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -309,16 +336,16 @@ function LNReZero(props) {
                         <Card.Img />
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>
-                        <ModalImage className="ln-cover" small={rz01} large={rz01} alt={`${Titulo} Volumen 01`} />
+                        <ModalImage className="ln-cover" small={konosuba01} large={konosuba01} alt={`${Titulo} Volumen 01`} />
                         <Card.Body>
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Bx4QiQ5b#c1gnXRagQ3tRsExAXSs6D0C88r8BUGdUxKsBYaWgKeU" target="_blank" rel="noreferrer">
+                                        <Button variant="dark" size="sm" className="mr-2">
+                                            <a class="btn-dark-text" href="https://mega.nz/file/kgAhzYBJ#zcUKHCi1FBBvMCukapsGIgn39fc-CQGLLkg5EQ6GazA" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/01`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -332,4 +359,4 @@ function LNReZero(props) {
     );
 }
 
-export default LNReZero;
+export default LNKonosuba;

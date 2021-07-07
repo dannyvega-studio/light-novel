@@ -37,11 +37,11 @@ function SOBakuen(props) {
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/o1ZUUbRD#5xIPmqDYQELQldx9oQrwFBiKOpsk8OiwqZA62GrdSx4" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/03`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -55,11 +55,11 @@ function SOBakuen(props) {
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/N1IQyLZQ#amBCWenjKx8gvf7uShoR7t7U-ZMM3iRYY1zueZMhw5k" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/02`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -73,11 +73,11 @@ function SOBakuen(props) {
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/tsBEmbRQ#Hq264uMO3fUO_nGalb0K8WqvFQojq-8CiGwpq0gfxa8" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/01`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>

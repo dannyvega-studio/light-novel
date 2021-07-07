@@ -3,21 +3,21 @@ import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import { Route, Link } from 'react-router-dom';
-import CarouselGS from '../components/CarouselGS';
-import gs01 from '../assets/images/goblinslayer/01.jpg';
-import gs02 from '../assets/images/goblinslayer/02.jpg';
-import gs03 from '../assets/images/goblinslayer/03.jpg';
-import gs04 from '../assets/images/goblinslayer/04.jpg';
-import gs05 from '../assets/images/goblinslayer/05.jpg';
-import gs06 from '../assets/images/goblinslayer/06.jpg';
-import gs07 from '../assets/images/goblinslayer/07.jpg';
-import gs08 from '../assets/images/goblinslayer/08.jpg';
-import gs09 from '../assets/images/goblinslayer/09.jpg';
-import gs10 from '../assets/images/goblinslayer/10.jpg';
-import gs11 from '../assets/images/goblinslayer/11.jpg';
-import gs12 from '../assets/images/goblinslayer/12.jpg';
-import gs13 from '../assets/images/goblinslayer/13.png';
-import gs14 from '../assets/images/goblinslayer/14.jpg';
+import CarouselGS from '../../components/CarouselGS';
+import gs01 from '../../assets/images/goblinslayer/01.jpg';
+import gs02 from '../../assets/images/goblinslayer/02.jpg';
+import gs03 from '../../assets/images/goblinslayer/03.jpg';
+import gs04 from '../../assets/images/goblinslayer/04.jpg';
+import gs05 from '../../assets/images/goblinslayer/05.jpg';
+import gs06 from '../../assets/images/goblinslayer/06.jpg';
+import gs07 from '../../assets/images/goblinslayer/07.jpg';
+import gs08 from '../../assets/images/goblinslayer/08.jpg';
+import gs09 from '../../assets/images/goblinslayer/09.jpg';
+import gs10 from '../../assets/images/goblinslayer/10.jpg';
+import gs11 from '../../assets/images/goblinslayer/11.jpg';
+import gs12 from '../../assets/images/goblinslayer/12.jpg';
+import gs13 from '../../assets/images/goblinslayer/13.png';
+import gs14 from '../../assets/images/goblinslayer/14.jpg';
 export {gs01, gs02, gs03, gs04, gs05, gs06}
 
 function LNGoblinSlayer(props) {
@@ -48,11 +48,11 @@ function LNGoblinSlayer(props) {
                             <Card.Title> VOLUMEN 06</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/g1xCFLrb#6zpVrfm4wqZCDIiTcQPtZqoO31vHa36sNiT4gtZtZJg" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/06`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -66,11 +66,11 @@ function LNGoblinSlayer(props) {
                             <Card.Title> VOLUMEN 05</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/5kwWgBxD#WOHSNsEQRMfFlNA2DyRw0M4i_vBxCjUM-1P-0WQqYL8" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/05`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -84,11 +84,11 @@ function LNGoblinSlayer(props) {
                             <Card.Title> VOLUMEN 04</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/Iop2XZqS#b1s137LHpvlvQPMR7PLAJWEoI1dp7PZJ8_m27EwAj-A" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/04`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -102,11 +102,11 @@ function LNGoblinSlayer(props) {
                             <Card.Title> VOLUMEN 03</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/ZooilTwR#n-qPhNOFgIrv-tOT5-gCJYlDoqwcRWE3FB7IDsgP7vs" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/03`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -120,11 +120,11 @@ function LNGoblinSlayer(props) {
                             <Card.Title> VOLUMEN 02</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/k0xyAD4S#T7zyKQyuGh12DxpMxPbFvFIIwYWCoGo5TJZjcT71M0A" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/02`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>
@@ -138,11 +138,11 @@ function LNGoblinSlayer(props) {
                             <Card.Title> VOLUMEN 01</Card.Title>
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <a class="btn-dark-text" href="https://mega.nz/file/FppwXT7Q#rtSuQQnPLx4hJ8z64yphfbDwucfuTW2EzoIU4Ev7Et8" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
-                                        <Button bsPrefix="btn-dark" variant="light" size="sm" className="mr-2">
+                                        <Button variant="dark" size="sm" className="mr-2">
                                             <Link className="btn-dark-text" to={`/light-novel/${linkNav}/01`} key={linkNav}>Leer</Link>
                                         </Button>
                                     </div>

@@ -19,7 +19,7 @@ import HuronRequestPage from './pages/HuronRequestPage';
 
 // START LIGHT NOVELS //
 
-import LNNoGameNoLife from './pages/LNNoGameNoLife.jsx';
+import LNNoGameNoLife from './pages/LightNovel/LNNoGameNoLife.jsx';
 import PDFViewverNGNL01 from './pages/PDFViewver/PDFViewverNGNL01';
 import PDFViewverNGNL02 from './pages/PDFViewver/PDFViewverNGNL02';
 import PDFViewverNGNL03 from './pages/PDFViewver/PDFViewverNGNL03';
@@ -31,7 +31,7 @@ import PDFViewverNGNL08 from './pages/PDFViewver/PDFViewverNGNL08';
 import PDFViewverNGNL09 from './pages/PDFViewver/PDFViewverNGNL09';
 import PDFViewverNGNL10 from './pages/PDFViewver/PDFViewverNGNL10';
 
-import LNMushokuTensei from './pages/LNMushokuTensei.jsx';
+import LNMushokuTensei from './pages/LightNovel/LNMushokuTensei.jsx';
 import PDFViewverMT01 from './pages/PDFViewver/MushoTensei/PDFViewverMT01';
 import PDFViewverMT02 from './pages/PDFViewver/MushoTensei/PDFViewverMT02';
 import PDFViewverMT03 from './pages/PDFViewver/MushoTensei/PDFViewverMT03';
@@ -57,7 +57,7 @@ import PDFViewverMT22 from './pages/PDFViewver/MushoTensei/PDFViewverMT22';
 import PDFViewverMT23 from './pages/PDFViewver/MushoTensei/PDFViewverMT23';
 import PDFViewverMT24 from './pages/PDFViewver/MushoTensei/PDFViewverMT24';
 
-import LNKumoDesuGa from './pages/LNKumoDesuGa';
+import LNKumoDesuGa from './pages/LightNovel/LNKumoDesuGa';
 import PDFViewverKDGNK01 from './pages/PDFViewver/KumoDesuGa/PDFViewverKDGNK01';
 import PDFViewverKDGNK02 from './pages/PDFViewver/KumoDesuGa/PDFViewverKDGNK02';
 import PDFViewverKDGNK03 from './pages/PDFViewver/KumoDesuGa/PDFViewverKDGNK03';
@@ -70,7 +70,7 @@ import PDFViewverKDGNK09 from './pages/PDFViewver/KumoDesuGa/PDFViewverKDGNK09';
 import PDFViewverKDGNK10 from './pages/PDFViewver/KumoDesuGa/PDFViewverKDGNK10';
 import PDFViewverKDGNK11 from './pages/PDFViewver/KumoDesuGa/PDFViewverKDGNK11';
 
-import LNGoblinSlayer from './pages/LNGoblinSlayer';
+import LNGoblinSlayer from './pages/LightNovel/LNGoblinSlayer';
 import PDFViewverGS01 from './pages/PDFViewver/GoblinSlayer/PDFViewverGS01';
 import PDFViewverGS02 from './pages/PDFViewver/GoblinSlayer/PDFViewverGS02';
 import PDFViewverGS03 from './pages/PDFViewver/GoblinSlayer/PDFViewverGS03';
@@ -78,12 +78,12 @@ import PDFViewverGS04 from './pages/PDFViewver/GoblinSlayer/PDFViewverGS04';
 import PDFViewverGS05 from './pages/PDFViewver/GoblinSlayer/PDFViewverGS05';
 import PDFViewverGS06 from './pages/PDFViewver/GoblinSlayer/PDFViewverGS06';
 
-import LNSeishunButa from './pages/LNSeishunButa';
+import LNSeishunButa from './pages/LightNovel/LNSeishunButa';
 import PDFViewverSBY01 from './pages/PDFViewver/SeishunButa/PDFViewverSBY01';
 import PDFViewverSBY02 from './pages/PDFViewver/SeishunButa/PDFViewverSBY02';
 import PDFViewverSBY03 from './pages/PDFViewver/SeishunButa/PDFViewverSBY03';
 
-import LNKonosuba from './pages/LNKonosuba';
+import LNKonosuba from './pages/LightNovel/LNKonosuba';
 import PDFViewverKONOSUBA01 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA01';
 import PDFViewverKONOSUBA02 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA02';
 import PDFViewverKONOSUBA03 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA03';
@@ -102,7 +102,7 @@ import PDFViewverKONOSUBA15 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA
 import PDFViewverKONOSUBA16 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA16';
 import PDFViewverKONOSUBA17 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA17';
 
-import LNIsekaiMaou from './pages/LNIsekaiMaou';
+import LNIsekaiMaou from './pages/LightNovel/LNIsekaiMaou';
 import PDFViewverISEKAIMAOU01 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU01';
 import PDFViewverISEKAIMAOU02 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU02';
 import PDFViewverISEKAIMAOU03 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU03';
@@ -117,7 +117,7 @@ import PDFViewverISEKAIMAOU11 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEK
 import PDFViewverISEKAIMAOU12 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU12';
 import PDFViewverISEKAIMAOU13 from './pages/PDFViewver/IsekaiMaou/PDFViewverISEKAIMAOU13';
 
-import LNBokuWaTomodachi from './pages/LNBokuWaTomodachi';
+import LNBokuWaTomodachi from './pages/LightNovel/LNBokuWaTomodachi';
 import PDFViewverBWTGS01 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS01';
 import PDFViewverBWTGS02 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS02';
 import PDFViewverBWTGS03 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS03';
@@ -129,7 +129,7 @@ import PDFViewverBWTGS08 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTG
 import PDFViewverBWTGS09 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS09';
 import PDFViewverBWTGS10 from './pages/PDFViewver/BokuWaTomodachi/PDFViewverBWTGS10';
 
-import LNMondaiji from './pages/LNMondaiji';
+import LNMondaiji from './pages/LightNovel/LNMondaiji';
 import PDFViewverMONDAIJI01 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI01';
 import PDFViewverMONDAIJI02 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI02';
 import PDFViewverMONDAIJI03 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI03';
@@ -143,7 +143,7 @@ import PDFViewverMONDAIJI10 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI
 import PDFViewverMONDAIJI11 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI11';
 import PDFViewverMONDAIJI12 from './pages/PDFViewver/Mondaiji/PDFViewverMONDAIJI12';
 
-import LNReZero from './pages/LNReZero';
+import LNReZero from './pages/LightNovel/LNReZero';
 import PDFViewverRZ01 from './pages/PDFViewver/ReZero/PDFViewverRZ01';
 import PDFViewverRZ02 from './pages/PDFViewver/ReZero/PDFViewverRZ02';
 import PDFViewverRZ03 from './pages/PDFViewver/ReZero/PDFViewverRZ03';
@@ -159,6 +159,16 @@ import PDFViewverRZ12 from './pages/PDFViewver/ReZero/PDFViewverRZ12';
 import PDFViewverRZ13 from './pages/PDFViewver/ReZero/PDFViewverRZ13';
 import PDFViewverRZ14 from './pages/PDFViewver/ReZero/PDFViewverRZ14';
 import PDFViewverRZ15 from './pages/PDFViewver/ReZero/PDFViewverRZ15';
+
+import LNBakarina from './pages/LightNovel/LNBakarina';
+import PDFViewverBAKARINA01 from './pages/PDFViewver/Bakarina/PDFViewverBAKARINA01';
+import PDFViewverBAKARINA02 from './pages/PDFViewver/Bakarina/PDFViewverBAKARINA02';
+import PDFViewverBAKARINA03 from './pages/PDFViewver/Bakarina/PDFViewverBAKARINA03';
+import PDFViewverBAKARINA04 from './pages/PDFViewver/Bakarina/PDFViewverBAKARINA04';
+import PDFViewverBAKARINA05 from './pages/PDFViewver/Bakarina/PDFViewverBAKARINA05';
+import PDFViewverBAKARINA06 from './pages/PDFViewver/Bakarina/PDFViewverBAKARINA06';
+import PDFViewverBAKARINA07 from './pages/PDFViewver/Bakarina/PDFViewverBAKARINA07';
+import PDFViewverBAKARINA08 from './pages/PDFViewver/Bakarina/PDFViewverBAKARINA08';
 
 // START SPIN OFF NOVELS //
 
@@ -347,6 +357,15 @@ class App extends React.Component {
         { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 13', path: '/light-novel/rz/13/' },
         { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 14', path: '/light-novel/rz/14/' },
         { title: 'Re:Zero kara Hajimeru Isekai Seikatsu Volumen 15', path: '/light-novel/rz/15/' },
+        { title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta...', path: '/light-novel/bakarina/' },
+        { title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta... Volumen 01', path: '/light-novel/bakarina/01/' },
+        { title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta... Volumen 02', path: '/light-novel/bakarina/02/' },
+        { title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta... Volumen 03', path: '/light-novel/bakarina/03/' },
+        { title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta... Volumen 04', path: '/light-novel/bakarina/04/' },
+        { title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta... Volumen 05', path: '/light-novel/bakarina/05/' },
+        { title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta... Volumen 06', path: '/light-novel/bakarina/06/' },
+        { title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta... Volumen 07', path: '/light-novel/bakarina/07/' },
+        { title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta... Volumen 08', path: '/light-novel/bakarina/08/' },
 
         // START SPIN OFF NOVELS //
 
@@ -453,6 +472,11 @@ class App extends React.Component {
         title: 'Re:Zero kara Hajimeru Isekai Seikatsu',
         subTitle: "Volúmenes: 15 de 26...",
         text: "Subaru Natsuki es un hikikomori que saliendo de una tienda de conveniencia es transportado misteriosamente a un reino de otro mundo, en donde lo primero que le ocurre es encontrarse con unos bandidos, sin embargo, él es rescatado por una hermosa chica medio-elfo de cabello plateado, llamada 'Satella' y como pago decide ayudarla con un problema que ignoró por ayudarle. Sin embargo, pronto la chica muere y el mismo Subaru es herido mortalmente cuando le dice: 'Te prometo que te salvaré', entonces el chico muere pero de pronto el tiempo se rebobina y se encuentra en el mismo punto en el que comenzó, lo que nombra 'Retorno de la Muerte'. Sin embargo, al reencontrarse con 'Satella' ella le reclama no llamarla como la Bruja de los Celos, por lo que allí es cuando, Subaru vuelve a querer ayudarla, pero confundido termina haciendo todo por su cuenta intentando salvar a la chica de su atacante, ¿Quien es 'Satella'? ¿Por qué Subaru fue transportado a ese mundo? ¿Por qué solo el recuerda lo ocurrido en bucles anteriores? Él mismo tendrá que volver una y otra vez de la muerte para descubrirlo y además salvar a los que quiere con el poder otorgado por la Bruja que quiere mantener sus retornos como un secreto entre ambos."
+      },
+      lnbakarina: {
+        title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta...',
+        subTitle: "Volúmenes: 08 de 09...",
+        text: "La única hija del duque Claes, Catarina, era orgullosa y egoísta porque fue malcriada por sus padres. Sin embargo, a la edad de ocho años, su padre la llevó al castillo real donde ella golpea su cabeza contra una piedra al tropezarse. Después de esto, logra recuperar los recuerdos de su vida anterior como una joven otaku de Japón que perdió la vida en un accidente de tráfico. Este mundo le parece familiar, por lo que se da cuenta de que es el del juego otome, Fortune Lover, que ella misma jugó antes de su accidente y que en realidad, reencarnó como la rival de la heroína y antagonista del juego. También recuerda que todo lo que le esperaba a Catarina al final del juego era el camino a la destrucción que termina en su exilio lejos del reino o su ejecución. Por lo tanto, Catarina dedicará todos sus esfuerzos a evitar un final destructivo para pasar una vejez pacífica."
       },
 
       // START LIGHT NOVELS //
@@ -702,6 +726,18 @@ render() {
           <Route path="/light-novel/rz/13" exact render={() => <PDFViewverRZ13 />} />
           <Route path="/light-novel/rz/14" exact render={() => <PDFViewverRZ14 />} />
           <Route path="/light-novel/rz/15" exact render={() => <PDFViewverRZ15 />} />
+          <Route path="/light-novel/bakarina/" exact render={() => 
+            <LNBakarina title={this.state.lnbakarina.title}
+                            subTitle={this.state.lnbakarina.subTitle} 
+                            text={this.state.lnbakarina.text} />} />
+          <Route path="/light-novel/bakarina/01" exact render={() => <PDFViewverBAKARINA01 />} />
+          <Route path="/light-novel/bakarina/02" exact render={() => <PDFViewverBAKARINA02 />} />
+          <Route path="/light-novel/bakarina/03" exact render={() => <PDFViewverBAKARINA03 />} />
+          <Route path="/light-novel/bakarina/04" exact render={() => <PDFViewverBAKARINA04 />} />
+          <Route path="/light-novel/bakarina/05" exact render={() => <PDFViewverBAKARINA05 />} />
+          <Route path="/light-novel/bakarina/06" exact render={() => <PDFViewverBAKARINA06 />} />
+          <Route path="/light-novel/bakarina/07" exact render={() => <PDFViewverBAKARINA07 />} />
+          <Route path="/light-novel/bakarina/08" exact render={() => <PDFViewverBAKARINA08 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 
