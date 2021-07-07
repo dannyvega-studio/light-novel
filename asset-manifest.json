@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/light-novel/static/css/main.2ce3233b.chunk.css",
-    "main.js": "/light-novel/static/js/main.451e5818.chunk.js",
-    "main.js.map": "/light-novel/static/js/main.451e5818.chunk.js.map",
+    "main.js": "/light-novel/static/js/main.6cbb8c26.chunk.js",
+    "main.js.map": "/light-novel/static/js/main.6cbb8c26.chunk.js.map",
     "runtime-main.js": "/light-novel/static/js/runtime-main.c2058399.js",
     "runtime-main.js.map": "/light-novel/static/js/runtime-main.c2058399.js.map",
     "static/css/2.5000a4cb.chunk.css": "/light-novel/static/css/2.5000a4cb.chunk.css",
-    "static/js/2.2c111f6b.chunk.js": "/light-novel/static/js/2.2c111f6b.chunk.js",
-    "static/js/2.2c111f6b.chunk.js.map": "/light-novel/static/js/2.2c111f6b.chunk.js.map",
+    "static/js/2.f9baa189.chunk.js": "/light-novel/static/js/2.f9baa189.chunk.js",
+    "static/js/2.f9baa189.chunk.js.map": "/light-novel/static/js/2.f9baa189.chunk.js.map",
     "static/js/3.f1e3b251.chunk.js": "/light-novel/static/js/3.f1e3b251.chunk.js",
     "static/js/3.f1e3b251.chunk.js.map": "/light-novel/static/js/3.f1e3b251.chunk.js.map",
     "index.html": "/light-novel/index.html",
     "static/css/2.5000a4cb.chunk.css.map": "/light-novel/static/css/2.5000a4cb.chunk.css.map",
     "static/css/main.2ce3233b.chunk.css.map": "/light-novel/static/css/main.2ce3233b.chunk.css.map",
-    "static/js/2.2c111f6b.chunk.js.LICENSE.txt": "/light-novel/static/js/2.2c111f6b.chunk.js.LICENSE.txt",
+    "static/js/2.f9baa189.chunk.js.LICENSE.txt": "/light-novel/static/js/2.f9baa189.chunk.js.LICENSE.txt",
     "static/media/01.00690fb0.jpg": "/light-novel/static/media/01.00690fb0.jpg",
     "static/media/01.1667aec0.png": "/light-novel/static/media/01.1667aec0.png",
     "static/media/01.16edfd1f.png": "/light-novel/static/media/01.16edfd1f.png",
@@ -25,6 +25,7 @@
     "static/media/01.4a9f5271.jpg": "/light-novel/static/media/01.4a9f5271.jpg",
     "static/media/01.591dd09d.png": "/light-novel/static/media/01.591dd09d.png",
     "static/media/01.63901fb1.jpg": "/light-novel/static/media/01.63901fb1.jpg",
+    "static/media/01.733a7514.jpg": "/light-novel/static/media/01.733a7514.jpg",
     "static/media/01.ae5914cd.jpg": "/light-novel/static/media/01.ae5914cd.jpg",
     "static/media/01.ae7239c3.png": "/light-novel/static/media/01.ae7239c3.png",
     "static/media/01.c62a5f78.jpg": "/light-novel/static/media/01.c62a5f78.jpg",
@@ -222,6 +223,7 @@
     "static/media/ilus01.4075520e.jpg": "/light-novel/static/media/ilus01.4075520e.jpg",
     "static/media/ilus01.7670a3ba.jpg": "/light-novel/static/media/ilus01.7670a3ba.jpg",
     "static/media/ilus01.79b8ad98.jpg": "/light-novel/static/media/ilus01.79b8ad98.jpg",
+    "static/media/ilus01.8f4b9636.jpg": "/light-novel/static/media/ilus01.8f4b9636.jpg",
     "static/media/ilus01.9c7d57bd.png": "/light-novel/static/media/ilus01.9c7d57bd.png",
     "static/media/ilus01.a82ee2bd.jpg": "/light-novel/static/media/ilus01.a82ee2bd.jpg",
     "static/media/ilus01.b0f09cca.jpg": "/light-novel/static/media/ilus01.b0f09cca.jpg",
@@ -243,6 +245,7 @@
     "static/media/ilus02.7ec9a7dc.jpg": "/light-novel/static/media/ilus02.7ec9a7dc.jpg",
     "static/media/ilus02.9b1bf664.png": "/light-novel/static/media/ilus02.9b1bf664.png",
     "static/media/ilus02.bd0d8b8e.jpg": "/light-novel/static/media/ilus02.bd0d8b8e.jpg",
+    "static/media/ilus02.c24c7b04.jpg": "/light-novel/static/media/ilus02.c24c7b04.jpg",
     "static/media/ilus02.cebc4a1f.jpg": "/light-novel/static/media/ilus02.cebc4a1f.jpg",
     "static/media/ilus02.d1d3b7f5.jpg": "/light-novel/static/media/ilus02.d1d3b7f5.jpg",
     "static/media/ilus02.ec13e04e.png": "/light-novel/static/media/ilus02.ec13e04e.png",
@@ -318,8 +321,8 @@
   "entrypoints": [
     "static/js/runtime-main.c2058399.js",
     "static/css/2.5000a4cb.chunk.css",
-    "static/js/2.2c111f6b.chunk.js",
+    "static/js/2.f9baa189.chunk.js",
     "static/css/main.2ce3233b.chunk.css",
-    "static/js/main.451e5818.chunk.js"
+    "static/js/main.6cbb8c26.chunk.js"
   ]
 }
