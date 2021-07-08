@@ -200,6 +200,20 @@ import PDFViewverHENNEKO13 from './pages/PDFViewver/Henneko/PDFViewverHENNEKO13'
 import LNBokunosensei from './pages/LightNovel/LNBokunosensei';
 import PDFViewverBOKUNOSENSEI01 from './pages/PDFViewver/Bokunosensei/PDFViewverBOKUNOSENSEI01';
 
+import LNFmp from './pages/LightNovel/LNFmp';
+import PDFViewverFMP01 from './pages/PDFViewver/Fmp/PDFViewverFMP01';
+import PDFViewverFMP02 from './pages/PDFViewver/Fmp/PDFViewverFMP02';
+import PDFViewverFMP03 from './pages/PDFViewver/Fmp/PDFViewverFMP03';
+import PDFViewverFMP04 from './pages/PDFViewver/Fmp/PDFViewverFMP04';
+import PDFViewverFMP05 from './pages/PDFViewver/Fmp/PDFViewverFMP05';
+import PDFViewverFMP06 from './pages/PDFViewver/Fmp/PDFViewverFMP06';
+import PDFViewverFMP07 from './pages/PDFViewver/Fmp/PDFViewverFMP07';
+import PDFViewverFMP08 from './pages/PDFViewver/Fmp/PDFViewverFMP08';
+import PDFViewverFMP09 from './pages/PDFViewver/Fmp/PDFViewverFMP09';
+import PDFViewverFMP10 from './pages/PDFViewver/Fmp/PDFViewverFMP10';
+import PDFViewverFMP11 from './pages/PDFViewver/Fmp/PDFViewverFMP11';
+import PDFViewverFMP12 from './pages/PDFViewver/Fmp/PDFViewverFMP12';
+
 // START SPIN OFF NOVELS //
 
 import SOKonosubaBakuen from './pages/SpinOff/SOKonosubaBakuen';
@@ -422,6 +436,19 @@ class App extends React.Component {
         { title: 'Hentai Ouji to Warawanai Neko Volumen 13', path: '/light-novel/henneko/13/' },
         { title: 'Boku no Sensei wa, Houkago Kawaii Konyakusha', path: '/light-novel/bokunosensei/' },
         { title: 'Boku no Sensei wa, Houkago Kawaii Konyakusha Volumen 01', path: '/light-novel/bokunosensei/01/' },
+        { title: 'Full Metal Panic!', path: '/light-novel/fmp/' },
+        { title: 'Full Metal Panic! Volumen 01', path: '/light-novel/fmp/01/' },
+        { title: 'Full Metal Panic! Volumen 02', path: '/light-novel/fmp/02/' },
+        { title: 'Full Metal Panic! Volumen 03', path: '/light-novel/fmp/03/' },
+        { title: 'Full Metal Panic! Volumen 04', path: '/light-novel/fmp/04/' },
+        { title: 'Full Metal Panic! Volumen 05', path: '/light-novel/fmp/05/' },
+        { title: 'Full Metal Panic! Volumen 06', path: '/light-novel/fmp/06/' },
+        { title: 'Full Metal Panic! Volumen 07', path: '/light-novel/fmp/07/' },
+        { title: 'Full Metal Panic! Volumen 08', path: '/light-novel/fmp/08/' },
+        { title: 'Full Metal Panic! Volumen 09', path: '/light-novel/fmp/09/' },
+        { title: 'Full Metal Panic! Volumen 10', path: '/light-novel/fmp/10/' },
+        { title: 'Full Metal Panic! Volumen 11', path: '/light-novel/fmp/11/' },
+        { title: 'Full Metal Panic! Volumen 12', path: '/light-novel/fmp/12/' },
 
         // START SPIN OFF NOVELS //
 
@@ -553,6 +580,11 @@ class App extends React.Component {
         title: 'Boku no Sensei wa, Houkago Kawaii Konyakusha',
         subTitle: "Volúmenes: 1 de ???",
         text: "Mi profesora, Reina Sakurakouji, es la mujer más hermosa de la escuela, pero también es famosa por ser muy fría. Un día después de la escuela, me encontré con ella por casualidad, y allí, por alguna razón, me presentó a sus padres como su prometido (o como si lo fuera), “Él es Shirase-kun. En realidad, estamos comprometidos”, y después de eso, ¡¿terminamos viviendo juntos?! Y aunque tenía una imagen aterradora de ella, en realidad… “¡¿Pero qué estás diciendo?! ¡No te burles de mí!”, ella en casa es muy tímida, indefensa, se emborracha rápidamente y además de eso, es una lindura torpe. Pero esto es algo que solo yo sé. ¡Este es el comienzo del acuerdo secreto de convivencia entre un estudiante y su profesora!"
+      },
+      lnfmp: {
+        title: "Full Metal Panic!",
+        subTitle: "Volúmenes 12 de 12",
+        text: "Sousuke Sagara, un chico que no es para nada normal, a su corta edad es un experimentado militar que trabaja para la organización privada Mithril. Desde Mithril se le ordena seguir y proteger a la joven estudiante Chidori Kaname, ella es candidata para ser una 'Whispered' (personas que contienen información de alta y avanzada tecnología llamada 'Tecnología Negra' implantada en su cerebro a nivel genético), a pesar de que Sousuke está entrenado, posee grandes habilidades de combate y es un experto piloto de Arm Slave (poderosos robots de combate) le será una misión muy difícil infiltrarse y pasar desapercibido en la escuela de Chidori. En el transcurso de la historia se desarrollará un fuerte sentimiento entre Sousuke y Chidori. Nuestro protagonista aprenderá que una chica enfurecida puede ser el oponente más letal de todos."
       },
 
       // START LIGHT NOVELS //
@@ -852,6 +884,22 @@ render() {
                             subTitle={this.state.lnbokunosensei.subTitle} 
                             text={this.state.lnbokunosensei.text} />} />
           <Route path="/light-novel/bokunosensei/01" exact render={() => <PDFViewverBOKUNOSENSEI01 />} />
+          <Route path="/light-novel/fmp/" exact render={() => 
+            <LNFmp title={this.state.lnfmp.title}
+                            subTitle={this.state.lnfmp.subTitle} 
+                            text={this.state.lnfmp.text} />} />
+          <Route path="/light-novel/fmp/01" exact render={() => <PDFViewverFMP01 />} />
+          <Route path="/light-novel/fmp/02" exact render={() => <PDFViewverFMP02 />} />
+          <Route path="/light-novel/fmp/03" exact render={() => <PDFViewverFMP03 />} />
+          <Route path="/light-novel/fmp/04" exact render={() => <PDFViewverFMP04 />} />
+          <Route path="/light-novel/fmp/05" exact render={() => <PDFViewverFMP05 />} />
+          <Route path="/light-novel/fmp/06" exact render={() => <PDFViewverFMP06 />} />
+          <Route path="/light-novel/fmp/07" exact render={() => <PDFViewverFMP07 />} />
+          <Route path="/light-novel/fmp/08" exact render={() => <PDFViewverFMP08 />} />
+          <Route path="/light-novel/fmp/09" exact render={() => <PDFViewverFMP09 />} />
+          <Route path="/light-novel/fmp/10" exact render={() => <PDFViewverFMP10 />} />
+          <Route path="/light-novel/fmp/11" exact render={() => <PDFViewverFMP11 />} />
+          <Route path="/light-novel/fmp/12" exact render={() => <PDFViewverFMP12 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 

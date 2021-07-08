@@ -22,6 +22,7 @@ import mamasuki01 from '../assets/images/mamasuki/01.jpg';
 import hige01 from '../assets/images/hige/01.jpg';
 import henneko01 from '../assets/images/henneko/01.jpg';
 import bokunosensei01 from '../assets/images/bokunosensei/01.jpg';
+import fmp01 from '../assets/images/fmp/01.png';
 
 
 // Override CSS Styles in pagination //
@@ -93,6 +94,16 @@ function ListPage(props) {
                             <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/bwtgs/"><img src={bwtgs01} class="ln-cover mt-4 mb-4" variant="top" alt="Boku wa Tomodachi ga Sukunai"/></Link>
                                 <Card.Title>Boku wa Tomodachi ga Sukunai</Card.Title>             
+                            </Col>
+                        </Row>
+                        <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>            
+                    </Col>
+                    <Col className="my-2 py-2" lg={12} md={12} sm={12} id="F">
+                        <Element name="letraF"><Card.Title>F</Card.Title></Element>
+                        <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
+                                <Link to="/light-novel/fmp/"><img src={fmp01} class="ln-cover mt-4 mb-4" variant="top" alt="Full Metal Panic!"/></Link>
+                                <Card.Title>Full Metal Panic!</Card.Title>             
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>            

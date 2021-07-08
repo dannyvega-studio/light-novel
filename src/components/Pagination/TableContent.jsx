@@ -37,6 +37,7 @@ const rowInformation = [
     {"name": "Ano Orokamono ni mo Kyakkou wo!", "estado": "En Traducción", "link": "kyakko"},
     {"name": "Boku no Sensei wa, Houkago Kawaii Konyakusha", "estado": "En Publicación" , "link": "bokunosensei"},
     {"name": "Boku wa Tomodachi ga Sukunai", "estado": "En Traducción" , "link": "bwtgs"},
+    {"name": "Full Metal Panic!", "estado": "Finalizado", "link": "fmp"},
     {"name": "Goblin Slayer", "estado": "En Publicación", "link": "gs"},
     {"name": "Hentai Ouji to Warawanai Neko", "estado": "Finalizado", "link": "henneko"},
     {"name": "Hige wo Soru. Soshite Joshi Kōsei wo Hirou", "estado": "En Traducción", "link": "hige"},
