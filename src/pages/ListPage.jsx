@@ -23,6 +23,7 @@ import hige01 from '../assets/images/hige/01.jpg';
 import henneko01 from '../assets/images/henneko/01.jpg';
 import bokunosensei01 from '../assets/images/bokunosensei/01.jpg';
 import fmp01 from '../assets/images/fmp/01.png';
+import elfsan01 from '../assets/images/elfsan/01.png';
 
 
 // Override CSS Styles in pagination //
@@ -176,6 +177,10 @@ function ListPage(props) {
                     <Col className="my-2 py-2" lg={12} md={12} sm={12} id="N">
                         <Element name="letraN"><Card.Title>N</Card.Title></Element>
                         <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
+                                <Link to="/light-novel/elfsan/"><img src={elfsan01} class="ln-cover mt-4 mb-4" variant="top" alt="Nihon e Youkoso Elf-san"/></Link>
+                                <Card.Title>Nihon e Youkoso Elf-san</Card.Title> 
+                            </Col>
                             <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/ngnl/"><img src={ngnl01} class="ln-cover mt-4 mb-4" variant="top" alt="No Game No Life"/></Link>
                                 <Card.Title>No Game No Life</Card.Title> 

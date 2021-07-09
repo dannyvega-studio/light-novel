@@ -51,6 +51,7 @@ const rowInformation = [
     {"name": "Musume Janakute Mama ga Suki nano!?", "estado": "En Publicación", "link": "mamasuki"},
     {"name": "Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?", "estado": "Finalizado", "link": "mondaiji"},
     {"name": "Mushoku Tensei: Isekai Ittara Honki Dasu", "estado": "Finalizado", "link": "mushoku"},
+    {"name": "Nihon e Youkoso Elf-san", "estado": "En Publicación", "link": "elfsan"},
     {"name": "No Game No Life", "estado": "Finalizado", "link": "ngnl"},
     {"name": "Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta...", "estado": "En Publicación", "link": "bakarina"},
     {"name": "Re:Zero kara Hajimeru Isekai Seikatsu", "estado": "En Publicación", "link": "rz"},

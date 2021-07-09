@@ -214,6 +214,14 @@ import PDFViewverFMP10 from './pages/PDFViewver/Fmp/PDFViewverFMP10';
 import PDFViewverFMP11 from './pages/PDFViewver/Fmp/PDFViewverFMP11';
 import PDFViewverFMP12 from './pages/PDFViewver/Fmp/PDFViewverFMP12';
 
+import LNElfsan from './pages/LightNovel/LNElfsan';
+import PDFViewverELFSAN01 from './pages/PDFViewver/Elfsan/PDFViewverELFSAN01';
+import PDFViewverELFSAN02 from './pages/PDFViewver/Elfsan/PDFViewverELFSAN02';
+import PDFViewverELFSAN03 from './pages/PDFViewver/Elfsan/PDFViewverELFSAN03';
+import PDFViewverELFSAN04 from './pages/PDFViewver/Elfsan/PDFViewverELFSAN04';
+import PDFViewverELFSAN05 from './pages/PDFViewver/Elfsan/PDFViewverELFSAN05';
+import PDFViewverELFSAN06 from './pages/PDFViewver/Elfsan/PDFViewverELFSAN06';
+
 // START SPIN OFF NOVELS //
 
 import SOKonosubaBakuen from './pages/SpinOff/SOKonosubaBakuen';
@@ -449,6 +457,13 @@ class App extends React.Component {
         { title: 'Full Metal Panic! Volumen 10', path: '/light-novel/fmp/10/' },
         { title: 'Full Metal Panic! Volumen 11', path: '/light-novel/fmp/11/' },
         { title: 'Full Metal Panic! Volumen 12', path: '/light-novel/fmp/12/' },
+        { title: 'Nihon e Youkoso Elf-san', path: '/light-novel/elfsan/' },
+        { title: 'Nihon e Youkoso Elf-san Volumen 01', path: '/light-novel/elfsan/01/' },
+        { title: 'Nihon e Youkoso Elf-san Volumen 02', path: '/light-novel/elfsan/02/' },
+        { title: 'Nihon e Youkoso Elf-san Volumen 03', path: '/light-novel/elfsan/03/' },
+        { title: 'Nihon e Youkoso Elf-san Volumen 04', path: '/light-novel/elfsan/04/' },
+        { title: 'Nihon e Youkoso Elf-san Volumen 05', path: '/light-novel/elfsan/05/' },
+        { title: 'Nihon e Youkoso Elf-san Volumen 06', path: '/light-novel/elfsan/06/' },
 
         // START SPIN OFF NOVELS //
 
@@ -482,8 +497,8 @@ class App extends React.Component {
         { title: 'Kaifuku Jutsushi no Yarinaoshi: Sokushi Mahou to Skill Copy no Chouetsu Heal Volumen 08', path: '/light-novel/kaiyari/08/' },
       ],
       home: {
-        title: '¡Bienvenido!',
-        subTitle: "Busqueda",
+        title: 'Bienvenido',
+        subTitle: "Buscar",
         text: "Mi nombre es Danny Vega y este es un pequeño proyecto que estoy realizando como hobby titulado LIGHT NOVELS, en el cual realizo respaldos en la nube de algunas Novelas Ligeras que son de mi agrado (algunas algun dia las leeré, algunas ya las terminé de leer, algunas otras no jaja), estos archivos pueden descargarlos desde Mega y/o GoogleDrive (sin acortadores ni nada por el estilo porque la verdad es algo molesto pasar tanto ad.fly) y de la misma manera para su comodidad en caso de que no sean de descargar archivos se los dejare para lectura en linea. Asi que a distrutar~!"
       },
       request: {
@@ -585,6 +600,11 @@ class App extends React.Component {
         title: "Full Metal Panic!",
         subTitle: "Volúmenes 12 de 12",
         text: "Sousuke Sagara, un chico que no es para nada normal, a su corta edad es un experimentado militar que trabaja para la organización privada Mithril. Desde Mithril se le ordena seguir y proteger a la joven estudiante Chidori Kaname, ella es candidata para ser una 'Whispered' (personas que contienen información de alta y avanzada tecnología llamada 'Tecnología Negra' implantada en su cerebro a nivel genético), a pesar de que Sousuke está entrenado, posee grandes habilidades de combate y es un experto piloto de Arm Slave (poderosos robots de combate) le será una misión muy difícil infiltrarse y pasar desapercibido en la escuela de Chidori. En el transcurso de la historia se desarrollará un fuerte sentimiento entre Sousuke y Chidori. Nuestro protagonista aprenderá que una chica enfurecida puede ser el oponente más letal de todos."
+      },
+      lnelfsan: {
+        title: "Nihon e Youkoso Elf-san",
+        subTitle: "Volúmenes 06 de 07...",
+        text: "La principal afición de Kazuhiro Kitase es dormir. Desde que era pequeño, era capaz de entrar en un mundo dentro de sus sueños y allí emprendió emocionantes aventuras. A medida que fue creciendo, conoció a una elfa y un día, mientras pasaba el rato con ella, fueron incinerados por el aliento de un dragón. Cuando se despertó, se dio cuenta de que una figura familiar dormía tranquilamente a su lado… ¡¿La chica elfa de sus sueños?! ¡Únete a Kazuhiro en sus nuevas aventuras a través de Japón y el mundo de sus sueños con esta encantadora elfa!"
       },
 
       // START LIGHT NOVELS //
@@ -900,6 +920,16 @@ render() {
           <Route path="/light-novel/fmp/10" exact render={() => <PDFViewverFMP10 />} />
           <Route path="/light-novel/fmp/11" exact render={() => <PDFViewverFMP11 />} />
           <Route path="/light-novel/fmp/12" exact render={() => <PDFViewverFMP12 />} />
+          <Route path="/light-novel/elfsan/" exact render={() => 
+            <LNElfsan title={this.state.lnelfsan.title}
+                            subTitle={this.state.lnelfsan.subTitle} 
+                            text={this.state.lnelfsan.text} />} />
+          <Route path="/light-novel/elfsan/01" exact render={() => <PDFViewverELFSAN01 />} />
+          <Route path="/light-novel/elfsan/02" exact render={() => <PDFViewverELFSAN02 />} />
+          <Route path="/light-novel/elfsan/03" exact render={() => <PDFViewverELFSAN03 />} />
+          <Route path="/light-novel/elfsan/04" exact render={() => <PDFViewverELFSAN04 />} />
+          <Route path="/light-novel/elfsan/05" exact render={() => <PDFViewverELFSAN05 />} />
+          <Route path="/light-novel/elfsan/06" exact render={() => <PDFViewverELFSAN06 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 
