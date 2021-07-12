@@ -35,6 +35,7 @@ const useStyles = makeStyles((theme) => ({
 
 const rowInformation = [
     {"name": "Ano Orokamono ni mo Kyakkou wo!", "estado": "En Traducción", "link": "kyakko"},
+    {"name": "Boku no Kanojo Sensei", "estado": "En Traducción" , "link": "bokusensei"},
     {"name": "Boku no Sensei wa, Houkago Kawaii Konyakusha", "estado": "En Publicación" , "link": "bokunosensei"},
     {"name": "Boku wa Tomodachi ga Sukunai", "estado": "En Traducción" , "link": "bwtgs"},
     {"name": "Full Metal Panic!", "estado": "Finalizado", "link": "fmp"},

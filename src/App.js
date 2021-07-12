@@ -222,6 +222,15 @@ import PDFViewverELFSAN04 from './pages/PDFViewver/Elfsan/PDFViewverELFSAN04';
 import PDFViewverELFSAN05 from './pages/PDFViewver/Elfsan/PDFViewverELFSAN05';
 import PDFViewverELFSAN06 from './pages/PDFViewver/Elfsan/PDFViewverELFSAN06';
 
+import LNBokusensei from './pages/LightNovel/LNBokusensei';
+import PDFViewverBOKUSENSEI01 from './pages/PDFViewver/Bokusensei/PDFViewverBOKUSENSEI01';
+import PDFViewverBOKUSENSEI02 from './pages/PDFViewver/Bokusensei/PDFViewverBOKUSENSEI02';
+import PDFViewverBOKUSENSEI03 from './pages/PDFViewver/Bokusensei/PDFViewverBOKUSENSEI03';
+import PDFViewverBOKUSENSEI04 from './pages/PDFViewver/Bokusensei/PDFViewverBOKUSENSEI04';
+import PDFViewverBOKUSENSEI05 from './pages/PDFViewver/Bokusensei/PDFViewverBOKUSENSEI05';
+import PDFViewverBOKUSENSEI06 from './pages/PDFViewver/Bokusensei/PDFViewverBOKUSENSEI06';
+import PDFViewverBOKUSENSEI07 from './pages/PDFViewver/Bokusensei/PDFViewverBOKUSENSEI07';
+
 // START SPIN OFF NOVELS //
 
 import SOKonosubaBakuen from './pages/SpinOff/SOKonosubaBakuen';
@@ -464,6 +473,14 @@ class App extends React.Component {
         { title: 'Nihon e Youkoso Elf-san Volumen 04', path: '/light-novel/elfsan/04/' },
         { title: 'Nihon e Youkoso Elf-san Volumen 05', path: '/light-novel/elfsan/05/' },
         { title: 'Nihon e Youkoso Elf-san Volumen 06', path: '/light-novel/elfsan/06/' },
+        { title: 'Boku no Kanojo Sensei', path: '/light-novel/bokusensei/' },
+        { title: 'Boku no Kanojo Sensei Volumen 01', path: '/light-novel/bokusensei/01/' },
+        { title: 'Boku no Kanojo Sensei Volumen 02', path: '/light-novel/bokusensei/02/' },
+        { title: 'Boku no Kanojo Sensei Volumen 03', path: '/light-novel/bokusensei/03/' },
+        { title: 'Boku no Kanojo Sensei Volumen 04', path: '/light-novel/bokusensei/04/' },
+        { title: 'Boku no Kanojo Sensei Volumen 05', path: '/light-novel/bokusensei/05/' },
+        { title: 'Boku no Kanojo Sensei Volumen 06', path: '/light-novel/bokusensei/06/' },
+        { title: 'Boku no Kanojo Sensei Volumen 07', path: '/light-novel/bokusensei/07/' },
 
         // START SPIN OFF NOVELS //
 
@@ -605,6 +622,11 @@ class App extends React.Component {
         title: "Nihon e Youkoso Elf-san",
         subTitle: "Volúmenes 06 de 07...",
         text: "La principal afición de Kazuhiro Kitase es dormir. Desde que era pequeño, era capaz de entrar en un mundo dentro de sus sueños y allí emprendió emocionantes aventuras. A medida que fue creciendo, conoció a una elfa y un día, mientras pasaba el rato con ella, fueron incinerados por el aliento de un dragón. Cuando se despertó, se dio cuenta de que una figura familiar dormía tranquilamente a su lado… ¡¿La chica elfa de sus sueños?! ¡Únete a Kazuhiro en sus nuevas aventuras a través de Japón y el mundo de sus sueños con esta encantadora elfa!"
+      },
+      lnbokusensei: {
+        title: "Boku no Kanojo Sensei",
+        subTitle: "Volúmenes 07 de 09",
+        text: "¿Puede ser Sensei la heroína? ¿Por favor? Debido a una experiencia traumática, desconfío de las personas que se hacen llamar ‘Sensei’. A mi, Saigi Makoto, se me fue llamado después de clases por la profesora más hermosa y popular de mi escuela, Fujiki Maka-sensei. “Me gustas…” ¡¿Eh…?! ¡¿Una confesión de la nada?! “Hasta que digas que me amas, seguiré persiguiéndote” Desde entonces, he sido convocado para ‘orientación académica’ después de clases, hemos visto TV juntos, he recibido contacto físico excesivo, hemos tenido citas… Y, con el tiempo, ¿Y poco a poco me volví consciente de Sensei…? ¿Pero no es malo que una profesora salga con su estudiante? Un romance que es absolutamente peligroso, el amor prohibido entre nosotros dos. ¡Que inicien las clases!"
       },
 
       // START LIGHT NOVELS //
@@ -930,6 +952,17 @@ render() {
           <Route path="/light-novel/elfsan/04" exact render={() => <PDFViewverELFSAN04 />} />
           <Route path="/light-novel/elfsan/05" exact render={() => <PDFViewverELFSAN05 />} />
           <Route path="/light-novel/elfsan/06" exact render={() => <PDFViewverELFSAN06 />} />
+          <Route path="/light-novel/bokusensei/" exact render={() => 
+            <LNBokusensei title={this.state.lnbokusensei.title}
+                            subTitle={this.state.lnbokusensei.subTitle} 
+                            text={this.state.lnbokusensei.text} />} />
+          <Route path="/light-novel/bokusensei/01" exact render={() => <PDFViewverBOKUSENSEI01 />} />
+          <Route path="/light-novel/bokusensei/02" exact render={() => <PDFViewverBOKUSENSEI02 />} />
+          <Route path="/light-novel/bokusensei/03" exact render={() => <PDFViewverBOKUSENSEI03 />} />
+          <Route path="/light-novel/bokusensei/04" exact render={() => <PDFViewverBOKUSENSEI04 />} />
+          <Route path="/light-novel/bokusensei/05" exact render={() => <PDFViewverBOKUSENSEI05 />} />
+          <Route path="/light-novel/bokusensei/06" exact render={() => <PDFViewverBOKUSENSEI06 />} />
+          <Route path="/light-novel/bokusensei/07" exact render={() => <PDFViewverBOKUSENSEI07 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 
