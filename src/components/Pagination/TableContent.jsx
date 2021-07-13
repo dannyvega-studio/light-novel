@@ -55,6 +55,7 @@ const rowInformation = [
     {"name": "Nihon e Youkoso Elf-san", "estado": "En Publicación", "link": "elfsan"},
     {"name": "No Game No Life", "estado": "Finalizado", "link": "ngnl"},
     {"name": "Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta...", "estado": "En Publicación", "link": "bakarina"},
+    {"name": "Overlord", "estado": "En Publicación", "link": "overlord"},
     {"name": "Re:Zero kara Hajimeru Isekai Seikatsu", "estado": "En Publicación", "link": "rz"},
     {"name": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai", "estado": "En Publicación", "link": "sby"},
 ]

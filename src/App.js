@@ -231,6 +231,19 @@ import PDFViewverBOKUSENSEI05 from './pages/PDFViewver/Bokusensei/PDFViewverBOKU
 import PDFViewverBOKUSENSEI06 from './pages/PDFViewver/Bokusensei/PDFViewverBOKUSENSEI06';
 import PDFViewverBOKUSENSEI07 from './pages/PDFViewver/Bokusensei/PDFViewverBOKUSENSEI07';
 
+import LNOverlord from './pages/LightNovel/LNOverlord';
+import PDFViewverOVERLORD01 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD01';
+import PDFViewverOVERLORD02 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD02';
+import PDFViewverOVERLORD03 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD03';
+import PDFViewverOVERLORD04 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD04';
+import PDFViewverOVERLORD05 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD05';
+import PDFViewverOVERLORD06 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD06';
+import PDFViewverOVERLORD07 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD07';
+import PDFViewverOVERLORD08 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD08';
+import PDFViewverOVERLORD09 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD09';
+import PDFViewverOVERLORD10 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD10';
+import PDFViewverOVERLORD11 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD11';
+
 // START SPIN OFF NOVELS //
 
 import SOKonosubaBakuen from './pages/SpinOff/SOKonosubaBakuen';
@@ -481,6 +494,18 @@ class App extends React.Component {
         { title: 'Boku no Kanojo Sensei Volumen 05', path: '/light-novel/bokusensei/05/' },
         { title: 'Boku no Kanojo Sensei Volumen 06', path: '/light-novel/bokusensei/06/' },
         { title: 'Boku no Kanojo Sensei Volumen 07', path: '/light-novel/bokusensei/07/' },
+        { title: 'Overlord', path: '/light-novel/overlord/' },
+        { title: 'Overlord Volumen 01', path: '/light-novel/overlord/01/' },
+        { title: 'Overlord Volumen 02', path: '/light-novel/overlord/02/' },
+        { title: 'Overlord Volumen 03', path: '/light-novel/overlord/03/' },
+        { title: 'Overlord Volumen 04', path: '/light-novel/overlord/04/' },
+        { title: 'Overlord Volumen 05', path: '/light-novel/overlord/05/' },
+        { title: 'Overlord Volumen 06', path: '/light-novel/overlord/06/' },
+        { title: 'Overlord Volumen 07', path: '/light-novel/overlord/07/' },
+        { title: 'Overlord Volumen 08', path: '/light-novel/overlord/08/' },
+        { title: 'Overlord Volumen 09', path: '/light-novel/overlord/09/' },
+        { title: 'Overlord Volumen 10', path: '/light-novel/overlord/10/' },
+        { title: 'Overlord Volumen 11', path: '/light-novel/overlord/11/' },
 
         // START SPIN OFF NOVELS //
 
@@ -627,6 +652,11 @@ class App extends React.Component {
         title: "Boku no Kanojo Sensei",
         subTitle: "Volúmenes 07 de 09",
         text: "¿Puede ser Sensei la heroína? ¿Por favor? Debido a una experiencia traumática, desconfío de las personas que se hacen llamar ‘Sensei’. A mi, Saigi Makoto, se me fue llamado después de clases por la profesora más hermosa y popular de mi escuela, Fujiki Maka-sensei. “Me gustas…” ¡¿Eh…?! ¡¿Una confesión de la nada?! “Hasta que digas que me amas, seguiré persiguiéndote” Desde entonces, he sido convocado para ‘orientación académica’ después de clases, hemos visto TV juntos, he recibido contacto físico excesivo, hemos tenido citas… Y, con el tiempo, ¿Y poco a poco me volví consciente de Sensei…? ¿Pero no es malo que una profesora salga con su estudiante? Un romance que es absolutamente peligroso, el amor prohibido entre nosotros dos. ¡Que inicien las clases!"
+      },
+      lnoverlord: {
+        title: "Overlord",
+        subTitle: "Volúmenes 11 de 14",
+        text: "En el año 2126, se decide descontinuar el DMMORPG Yggdrasil, un juego que ha sido el más popular durante los últimos doce años, pero que ha caído en desuso con el tiempo. El día que debían cerrarse los servidores del juego, Momonga, líder del gremio Ainz Ooal Gown, una vez compuesto por 41 miembros y acreditado como uno de los gremios más fuertes del juego, decide permanecer en línea hasta que el juego sea cerrado a modo de despedida de ese lugar tan especial para él. Tras la hora de cierre de los servidores, Momonga descubre que han sucedido cosas impresionantes y misteriosas. Aún está en la Gran Tumba de Nazarick, que es la base y hogar del gremio Ainz Ooal Gown, también se ha convertido realmente en su personaje con todos los poderes y habilidades que ello implica, los NPC que le sirven ahora son seres conscientes y la gran tumba ya no está en los pantanos de Yggdrasil, sino que ha sido enviada a un mundo de fantasía donde la magia y las criaturas místicas existen. Momonga decide que si ha de existir en ese mundo aspirará a la grandeza y descubrirá si algún otro jugador fue arrastrado allí como él. Por ello, cambia su nombre a Ainz Ooal Gown y decide convertirse en alguien tan famoso y temido que sea conocido en todo ese mundo. Así, además de lograr la gloria, cualquier otro jugador extraviado sabrá que allí hay alguien de tan poderoso gremio. Ahora, como Ainz Ooal Gown, el protagonista comienza a recorrer el mundo disfrazándose como aventurero, hechicero, mercenario, salvador o conquistador haciendo uso de la experiencia y habilidades que ha obtenido en el juego. Haciendo, de la Gran Tumba de Nazarick, un lugar en la historia de ese mundo."
       },
 
       // START LIGHT NOVELS //
@@ -963,6 +993,21 @@ render() {
           <Route path="/light-novel/bokusensei/05" exact render={() => <PDFViewverBOKUSENSEI05 />} />
           <Route path="/light-novel/bokusensei/06" exact render={() => <PDFViewverBOKUSENSEI06 />} />
           <Route path="/light-novel/bokusensei/07" exact render={() => <PDFViewverBOKUSENSEI07 />} />
+          <Route path="/light-novel/overlord/" exact render={() => 
+            <LNOverlord title={this.state.lnoverlord.title}
+                            subTitle={this.state.lnoverlord.subTitle} 
+                            text={this.state.lnoverlord.text} />} />
+          <Route path="/light-novel/overlord/01" exact render={() => <PDFViewverOVERLORD01 />} />
+          <Route path="/light-novel/overlord/02" exact render={() => <PDFViewverOVERLORD02 />} />
+          <Route path="/light-novel/overlord/03" exact render={() => <PDFViewverOVERLORD03 />} />
+          <Route path="/light-novel/overlord/04" exact render={() => <PDFViewverOVERLORD04 />} />
+          <Route path="/light-novel/overlord/05" exact render={() => <PDFViewverOVERLORD05 />} />
+          <Route path="/light-novel/overlord/06" exact render={() => <PDFViewverOVERLORD06 />} />
+          <Route path="/light-novel/overlord/07" exact render={() => <PDFViewverOVERLORD07 />} />
+          <Route path="/light-novel/overlord/08" exact render={() => <PDFViewverOVERLORD08 />} />
+          <Route path="/light-novel/overlord/09" exact render={() => <PDFViewverOVERLORD09 />} />
+          <Route path="/light-novel/overlord/10" exact render={() => <PDFViewverOVERLORD10 />} />
+          <Route path="/light-novel/overlord/11" exact render={() => <PDFViewverOVERLORD11 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 

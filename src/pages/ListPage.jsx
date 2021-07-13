@@ -25,6 +25,7 @@ import bokunosensei01 from '../assets/images/bokunosensei/01.jpg';
 import fmp01 from '../assets/images/fmp/01.png';
 import elfsan01 from '../assets/images/elfsan/01.png';
 import bokusensei01 from '../assets/images/bokusensei/01.jpg';
+import overlord01 from '../assets/images/overlord/01.png';
 
 
 // Override CSS Styles in pagination //
@@ -199,6 +200,10 @@ function ListPage(props) {
                             <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/bakarina/"><img src={bakarina01} class="ln-cover mt-4 mb-4" variant="top" alt="Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta..."/></Link>
                                 <Card.Title>Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta...</Card.Title>   
+                            </Col>
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
+                                <Link to="/light-novel/overlord/"><img src={overlord01} class="ln-cover mt-4 mb-4" variant="top" alt="Overlord"/></Link>
+                                <Card.Title>Overlord</Card.Title>   
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>
