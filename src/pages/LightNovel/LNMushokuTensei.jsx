@@ -47,11 +47,17 @@ function LNMushokuTensei(props) {
                     <Col sm={12}>
                         { props.title && <h1 className="display-4 font-weight-bolder mb-4">{props.title}</h1> }
                     </Col>
-                    <Col sm={8}>
+                    <Col lg={6} sm={8}>
                         <CarouselMushokuTensei />
                     </Col>
+                    <Col lg={6} sm={12}>
+                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/mushoku-tensei-isekai-ittara-honki-dasu" target="_blank"><h4>1er Temporada</h4></a></h2>
+                        <h2 className="mt-4">Genero: <h4>Isekai, Acción, Aventura, Fantasía</h4></h2>
+                        <h2 className="mt-4">Traductor: <a href="https://www.facebook.com/MushokuTenseiSpanish" target="_blank"><h4>Mushoku Tensei ES</h4></a></h2>
+                        <h2 className="mt-4">Estado: <h4>Finalizado</h4></h2>
+                        { props.subTitle && <h1 className="display-4 font-weight-light mt-4 mb-4">{props.subTitle}</h1> }
+                    </Col>
                     <Col sm={12}>
-                        { props.subTitle && <h3 className="display-4 font-weight-light mb-4">{props.subTitle}</h3> }
                         { props.text && <h4 className="lead font-weight-light justify mr-4 ml-4 mb-4">{props.text}</h4> }
                     </Col>
                     <Col lg={3} md={4} sm={6} xs={6}>

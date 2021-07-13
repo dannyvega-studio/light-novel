@@ -550,12 +550,12 @@ class App extends React.Component {
       },
       lnkdgnk: {
         title: 'Kumo Desu Ga, Nani Ka?',
-        subTitle: "Volúmenes: 11 de 14...",
+        subTitle: "Volúmenes: 11 de 14",
         text: "La historia comienza con la protagonista una estudiante de preparatoria, hasta que una misteriosa explosión asesina a su clase entera y estos reencarnan en un mundo de fantasía. Mientras que algunos reencarnaron como príncipes o prodigios, otros no fueron tan afortunados. Nuestra heroína, quien era la más antisocial del grupo, descubre que reencarno como una araña. Ahora al fondo de la cadena alimenticia, para sobrevivir necesitara adaptarse a esta nueva situación con pura fuerza de voluntad mientras esta atrapada en un laberinto lleno de monstruos, ¡Es comer o ser comido! Esta es la historia de una araña haciendo todo lo posible para sobrevivir."
       },
       lngs: {
         title: 'Goblin Slayer',
-        subTitle: "Volúmenes: 06 de 14...",
+        subTitle: "Volúmenes: 06 de 14",
         text: "En un mundo de fantasía, los aventureros de todas partes se unen al Gremio, a fin de completar contratos de cualquier trabajo disponible que incluya la caza de diversos tipos de monstruos que vagan por la tierra u otro tipo de misión que sea ofrecida. Una sacerdotisa inexperta junto a un grupo de novatos forman su primer grupo de aventuras, aceptando un contrato para destruir un nido de goblins, sin embargo la falta de experiencia y exceso de confianza de los integrantes les juega una mala pasada y el resto de su grupo es eliminado. Sorpresivamente, ella es salvada por un hombre conocido como Goblin Slayer, un aventurero cuyo único propósito es la erradicación de los goblins con una dedicación extrema."
       },
       lnsby: {
@@ -570,12 +570,12 @@ class App extends React.Component {
       },
       lnisekaimou: {
         title: 'Isekai Maou to Shoukan Shoujo no Dorei Majutsu',
-        subTitle: "Volúmenes: 13 de 14...",
+        subTitle: "Volúmenes: 13 de 14",
         text: "En el MMORPG Cross Reverie, Takuma Sakamoto es tan poderoso que es llamado 'Diablo', una especie de 'Supremo demonio' por los otros jugadores. Un día es invocado a un mundo paralelo, pero llega a éste con la misma apariencia que tenía en la última actuación suya en el juego. Ya allí conoce a dos chicas que se proclaman a sí mismas como sus Invocadoras, y como forma de asegurarse su fidelidad, tratan de realizar un ritual de esclavitud para convertirlo en su familiar, pero cuando la habilidad pasiva de Takuma ('Reflexión mágica') se activa, son las chicas las que quedan esclavizadas. Aunque Takuma puede ser el hechicero más fuerte que existe, no tiene idea de cómo interactuar y/o relacionarse con otras personas. Es aquí donde él hace su elección: actuar basándose en la personalidad de su rol en el juego."
       },
       lnbwtgs: {
         title: 'Boku wa Tomodachi ga Sukunai',
-        subTitle: "Volúmenes: 10 de 11...",
+        subTitle: "Volúmenes: 10 de 11",
         text: "En la escuela católica de Santa Crónica, Kodaka Hasegawa es un amable chico que lleva sólo un mes en el colegio y que no ha tenido mucha suerte haciendo amigos debido a su apariencia de delincuente, la cual incluye cabello rubio natural y ojos fieros; rasgos que heredó de su padre japonés y de su difunta madre inglesa. Un día, se encuentra a una compañera de clase, llamada Yozora, hablando sola. Ella es famosa en la escuela por ser hermosa y lista, pero asocial. Yozora le explica que habla con su amiga imaginaria ya que siempre ha tenido dificultad para sociabilizar. Varios días después le revela a Kodaka que gracias a su charla se inspiró para crear un club después de la escuela con el único propósito de hacer amigos en el cual es obligado a ingresar en contra su voluntad, y así, el 'Club de los vecinos' es creado oficialmente. Otros cinco miembros se unen pronto al club, comenzando con la ídolo de la escuela, Sena Kashiwazaki, quien tiene un montón de admiradores masculinos, pero ninguna amiga. La hermana menor de Kodaka, Kobato, quien está en la división de la escuela media de Santa Crónica y es una fan del anime oscuro. Kusunoki Yukimura es un estudiante de un año inferior a Kodaka, quien trata de convertirse en un hombre varonil a pesar de ser en realidad una chica. Maria Takayama, una maestra de 10 años de edad y monja en la academia que se convierte en la consejera del club. Rika Shiguma una estudiante de año inferior y un genio reconocido, aunque tiene un lado extremadamente pervertido."
       },
       lnmondaiji: {
@@ -585,22 +585,22 @@ class App extends React.Component {
       },
       lnrz: {
         title: 'Re:Zero kara Hajimeru Isekai Seikatsu',
-        subTitle: "Volúmenes: 15 de 26...",
+        subTitle: "Volúmenes: 15 de 26",
         text: "Subaru Natsuki es un hikikomori que saliendo de una tienda de conveniencia es transportado misteriosamente a un reino de otro mundo, en donde lo primero que le ocurre es encontrarse con unos bandidos, sin embargo, él es rescatado por una hermosa chica medio-elfo de cabello plateado, llamada 'Satella' y como pago decide ayudarla con un problema que ignoró por ayudarle. Sin embargo, pronto la chica muere y el mismo Subaru es herido mortalmente cuando le dice: 'Te prometo que te salvaré', entonces el chico muere pero de pronto el tiempo se rebobina y se encuentra en el mismo punto en el que comenzó, lo que nombra 'Retorno de la Muerte'. Sin embargo, al reencontrarse con 'Satella' ella le reclama no llamarla como la Bruja de los Celos, por lo que allí es cuando, Subaru vuelve a querer ayudarla, pero confundido termina haciendo todo por su cuenta intentando salvar a la chica de su atacante, ¿Quien es 'Satella'? ¿Por qué Subaru fue transportado a ese mundo? ¿Por qué solo el recuerda lo ocurrido en bucles anteriores? Él mismo tendrá que volver una y otra vez de la muerte para descubrirlo y además salvar a los que quiere con el poder otorgado por la Bruja que quiere mantener sus retornos como un secreto entre ambos."
       },
       lnbakarina: {
         title: 'Otome Game no Hametsu Flag Shika Nai Akuyaku Reijō ni Tensei Shiteshimatta',
-        subTitle: "Volúmenes: 08 de 09...",
+        subTitle: "Volúmenes: 08 de 09",
         text: "La única hija del duque Claes, Catarina, era orgullosa y egoísta porque fue malcriada por sus padres. Sin embargo, a la edad de ocho años, su padre la llevó al castillo real donde ella golpea su cabeza contra una piedra al tropezarse. Después de esto, logra recuperar los recuerdos de su vida anterior como una joven otaku de Japón que perdió la vida en un accidente de tráfico. Este mundo le parece familiar, por lo que se da cuenta de que es el del juego otome, Fortune Lover, que ella misma jugó antes de su accidente y que en realidad, reencarnó como la rival de la heroína y antagonista del juego. También recuerda que todo lo que le esperaba a Catarina al final del juego era el camino a la destrucción que termina en su exilio lejos del reino o su ejecución. Por lo tanto, Catarina dedicará todos sus esfuerzos a evitar un final destructivo para pasar una vejez pacífica."
       },
       lnmamasuki: {
         title: 'Musume Janakute Mama ga Suki nano!?',
-        subTitle: "Volúmenes: 04 de 05...",
+        subTitle: "Volúmenes: 04 de 05",
         text: "Soy Ayako Katsuragi, tengo 30 años. Han pasado 10 años desde que acogí a la hija de mi hermana fallecida. Mi hija se ha convertido en una estudiante de preparatoria y se lleva muy bien con su amigo de la infancia, Takumi Aterazawa. ¿Tal vez comiencen a salir? Ta-kun es un chico muy agradable y estoy a favor de ello. ¿Eh? ¿'Por favor, dame a tu hija' es lo que quiere decirme? Oh, Dios, eres tan correcto— 'Ayako-san. He estado enamorado de ti desde hace mucho tiempo. Por favor, sal conmigo.'…¡¿No estás enamorado de mi hija, sino de mí?!' Una mujer que crió a la hija de su hermana y un chico que estaba enamorado de ella. ¡Este es el comienzo de una comedia romántica de amor súper puro en el que estallan sentimientos de muchos años!"
       },
       lnhige: {
         title: 'Hige wo Soru. Soshite Joshi Kōsei wo Hirou',
-        subTitle: "Volúmenes: 04 de 05...",
+        subTitle: "Volúmenes: 04 de 05",
         text: "La historia comienza con Yoshida, un empleado de oficina masculino de 26 años especializado en tecnología de la información, quien fue rechazado por su colega Airi Gotou, que siempre quiso durante 5 años. A pesar de conseguir tener una cita con ella, su confesión es rechazada por esta. Deprimido y borracho, Yoshida vio a Sayu Ogiwara , una joshi kōsei errante (JK, chica de secundaria) sentada frente a su puerta. Sayu había estado fuera de casa durante 6 meses y decidió tener relaciones sexuales con varios hombres para quedarse en su casa. Sayu inicialmente le pidió a Yoshida que la dejara pasar la noche a cambio de que ella le hiciera el amor, pero Yoshida solo accedió a albergarla sin la necesidad de ese intercambio. Después de preguntarle sus antecedentes a Sayu, Yoshida decidió invitarla a vivir en su casa hasta que descubriera lo que valía y se hiciera más madura. Sayu estuvo de acuerdo y comenzó a trabajar a tiempo parcial en una tienda cerca de la casa de Yoshida. Y así, es como comienza esta historia de una relación entre un adulto desconsolado y una estudiante de secundaria fugitiva."
       },
       lnhenneko: {
@@ -620,7 +620,7 @@ class App extends React.Component {
       },
       lnelfsan: {
         title: "Nihon e Youkoso Elf-san",
-        subTitle: "Volúmenes 06 de 07...",
+        subTitle: "Volúmenes 06 de 07",
         text: "La principal afición de Kazuhiro Kitase es dormir. Desde que era pequeño, era capaz de entrar en un mundo dentro de sus sueños y allí emprendió emocionantes aventuras. A medida que fue creciendo, conoció a una elfa y un día, mientras pasaba el rato con ella, fueron incinerados por el aliento de un dragón. Cuando se despertó, se dio cuenta de que una figura familiar dormía tranquilamente a su lado… ¡¿La chica elfa de sus sueños?! ¡Únete a Kazuhiro en sus nuevas aventuras a través de Japón y el mundo de sus sueños con esta encantadora elfa!"
       },
       lnbokusensei: {
