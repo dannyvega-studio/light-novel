@@ -53,7 +53,7 @@ function ListPage(props) {
             <Helmet>
                 <title>Light Novels || List Page</title>
             </Helmet>
-            <Container className="bg-white border" id="inicioNovelas">
+            <Container className="bg-white border" fluid={true}>
 
                 <Row className="justify-content-center py-5">
                     <Col lg={12} md={12} sm={12}>

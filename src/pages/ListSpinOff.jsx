@@ -35,7 +35,7 @@ function ListEroPage(props) {
             <Helmet>
                 <title>Light Novels || Spin Off List</title>
             </Helmet>
-            <Container className="bg-white border">
+            <Container className="bg-white border" fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col lg={12} md={12} sm={12}>
                         { props.title && <h1 className="display-2 font-weight-bolder mb-4">{props.title}</h1> }

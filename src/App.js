@@ -11,11 +11,9 @@ import styled, { ThemeProvider } from 'styled-components';
 import { Toggle } from './components/Toggle';
 
 import HomePage from './pages/HomePage';
-import RequestPage from './pages/RequestPage';
 import ListPage from './pages/ListPage';
 import ListEroPage from './pages/ListEroPage';
 import ListSpinOff from './pages/ListSpinOff';
-import HuronRequestPage from './pages/HuronRequestPage';
 
 // START LIGHT NOVELS //
 
@@ -294,8 +292,6 @@ class App extends React.Component {
         { title: 'Spin Off List', path: '/light-novel/solist/' },
         { title: 'Erotic List', path: '/light-novel/erolist/' },
         { title: 'SpinOff List', path: '/light-novel/solist/' },
-        { title: 'Request', path: '/light-novel/request/' },
-        { title: 'Sr Huron Requests', path: '/light-novel/huron/' },
         { title: 'About', path: '/light-novel/about/' },
 
         // START LIGHT NOVELS //
@@ -543,10 +539,6 @@ class App extends React.Component {
         subTitle: "Buscar",
         text: "Mi nombre es Danny Vega y este es un pequeño proyecto que estoy realizando como hobby titulado LIGHT NOVELS, en el cual realizo respaldos en la nube de algunas Novelas Ligeras que son de mi agrado (algunas algun dia las leeré, algunas ya las terminé de leer, algunas otras no jaja), estos archivos pueden descargarlos desde Mega y/o GoogleDrive (sin acortadores ni nada por el estilo porque la verdad es algo molesto pasar tanto ad.fly) y de la misma manera para su comodidad en caso de que no sean de descargar archivos se los dejare para lectura en linea. Asi que a distrutar~!"
       },
-      request: {
-        title: "Amigos",
-        text: "Aqui dejo algunos resumenes y opiniones de mis amigos sobre las novelas que ellos ya han leido."
-      },
       list: {
         title: "Novelas Ligeras",
       },
@@ -555,10 +547,6 @@ class App extends React.Component {
       },
       solist: {
         title: "Spin Off",
-      },
-      huronrequest: {
-        title: 'Sr. Hurón',
-        subTitle: "Thicc and LN are Top Tier",
       },
 
       // START LIGHT NOVELS //
@@ -707,7 +695,7 @@ render() {
     <GlobalStyles />*/}
 
       <Router>
-        <Container className="p-0" fluid={false}>
+        <Container className="p-0" fluid={true}>
 
           <Jumbotron className="mb-0 border jumbotron-bg"></Jumbotron>
           
@@ -720,7 +708,6 @@ render() {
                 <Link className="nav-link" to="/light-novel/list/">Novelas Ligeras</Link>
                 <Link className="nav-link" to="/light-novel/erolist/">Novelas 18+</Link>
                 <Link className="nav-link" to="/light-novel/solist/">Spin Off</Link>
-                <Link className="nav-link" to="/light-novel/request/">Reseñas</Link>
                 <Link className="nav-link" to="/light-novel/about/">Acerca</Link>
               </Nav>
               <Nav className="ml-auto">
@@ -733,18 +720,12 @@ render() {
             <HomePage title={this.state.home.title} 
                       subTitle={this.state.home.subTitle} 
                       text={this.state.home.text} />} />
-          <Route path="/light-novel/request/" exact render={() => 
-            <RequestPage title={this.state.request.title} 
-                            text={this.state.request.text} />} />
           <Route path="/light-novel/list/" exact render={() => 
             <ListPage title={this.state.list.title} />} />
           <Route path="/light-novel/solist/" exact render={() => 
             <ListSpinOff title={this.state.solist.title} />} />
           <Route path="/light-novel/erolist/" exact render={() => 
             <ListEroPage title={this.state.erolist.title} />} />
-          <Route path="/light-novel/huron/" exact render={() => 
-            <HuronRequestPage title={this.state.huronrequest.title}
-                            subTitle={this.state.huronrequest.subTitle} />} />
           <Route path="/light-novel/ngnl/" exact render={() => 
             <LNNoGameNoLife title={this.state.lnngnl.title}
                             subTitle={this.state.lnngnl.subTitle} 

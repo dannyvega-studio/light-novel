@@ -31,7 +31,7 @@ function LNIsekaiMaou(props) {
             <Helmet>
                 <title>Light Novels || {Titulo}</title>
             </Helmet>
-            <Container className="bg-white border">
+            <Container className="bg-white border" fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col sm={12}>
                         { props.title && <h1 className="display-4 font-weight-bolder mb-4">{props.title}</h1> }

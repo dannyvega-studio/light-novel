@@ -10,7 +10,7 @@ function PDFViewverOVERLORD06(props) {
             <Helmet>
                 <title>Light Novels || Overlord 06 View Online</title>
             </Helmet>
-            <Container className="bg-white border">
+            <Container className="bg-white border" fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={10}>
                         <PDFReaderOVERLORD06 />

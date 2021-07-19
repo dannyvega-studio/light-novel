@@ -10,7 +10,7 @@ function PDFViewverBWTGS02(props) {
             <Helmet>
                 <title>Light Novels || Boku wa Tomodachi ga Sukunai 02 View Online</title>
             </Helmet>
-            <Container className="bg-white border">
+            <Container className="bg-white border" fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={10}>
                         <PDFReaderBWTGS02 />

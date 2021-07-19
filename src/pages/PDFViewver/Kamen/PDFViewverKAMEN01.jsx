@@ -10,7 +10,7 @@ function PDFViewverKAMEN01(props) {
             <Helmet>
                 <title>Light Novels || Kono Kamen no Akuma ni Soudan wo! 01 View Online</title>
             </Helmet>
-            <Container className="bg-white border">
+            <Container className="bg-white border" fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={10}>
                         <PDFReaderKAMEN01 />

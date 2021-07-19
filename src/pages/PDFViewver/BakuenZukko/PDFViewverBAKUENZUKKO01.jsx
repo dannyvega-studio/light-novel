@@ -10,7 +10,7 @@ function PDFViewverBAKUENZUKKO01(props) {
             <Helmet>
                 <title>Light Novels || Kono Subarashii Sekai ni Bakuen wo! Zukko 01 View Online</title>
             </Helmet>
-            <Container className="bg-white border">
+            <Container className="bg-white border" fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={10}>
                         <PDFReaderBAKUENZUKKO01 />

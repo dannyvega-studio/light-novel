@@ -10,7 +10,7 @@ function PDFViewverELFSAN06(props) {
             <Helmet>
                 <title>Light Novels || Nihon e Youkoso Elf-san 06 View Online</title>
             </Helmet>
-            <Container className="bg-white border">
+            <Container className="bg-white border" fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={10}>
                         <PDFReaderELFSAN06 />

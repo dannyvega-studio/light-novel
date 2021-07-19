@@ -92,7 +92,7 @@ export default function TableContent(props) {
     const [orderDirection, setOrderDirection] = React.useState('Asc')
     const [valueToOrderBy, setValueToOrderBy] = React.useState('name')
     const [page, setPage] = React.useState(0)
-    const [rowsPerPage, setRowsPerPage] = React.useState(10)
+    const [rowsPerPage, setRowsPerPage] = React.useState(15)
 
     const handleRequestSort = (event, property) => {
         const isAscending = (valueToOrderBy === property && orderDirection === 'Asc')

@@ -9,12 +9,6 @@ import ilus05 from '../../assets/images/overlord/ilus05.png';
 import ilus06 from '../../assets/images/overlord/ilus06.png';
 import ilus07 from '../../assets/images/overlord/ilus07.png';
 import ilus08 from '../../assets/images/overlord/ilus08.png';
-import ilus09 from '../../assets/images/overlord/ilus09.png';
-import ilus10 from '../../assets/images/overlord/ilus10.png';
-import ilus11 from '../../assets/images/overlord/ilus11.png';
-import ilus12 from '../../assets/images/overlord/ilus12.png';
-import ilus13 from '../../assets/images/overlord/ilus13.png';
-import ilus14 from '../../assets/images/overlord/ilus14.png';
 
 class CarouselOVERLORD extends React.Component {
     render() {
@@ -43,24 +37,6 @@ class CarouselOVERLORD extends React.Component {
                 </div>
                 <div>
                     <img alt="OVERLORD" src={ilus08} />
-                </div>
-                <div>
-                    <img alt="OVERLORD" src={ilus09} />
-                </div>
-                <div>
-                    <img alt="OVERLORD" src={ilus10} />
-                </div>
-                <div>
-                    <img alt="OVERLORD" src={ilus11} />
-                </div>
-                <div>
-                    <img alt="OVERLORD" src={ilus12} />
-                </div>
-                <div>
-                    <img alt="OVERLORD" src={ilus13} />
-                </div>
-                <div>
-                    <img alt="OVERLORD" src={ilus14} />
                 </div>
             </Carousel>
         );

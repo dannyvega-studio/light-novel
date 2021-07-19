@@ -10,7 +10,7 @@ function PDFViewverISEKAIMAOU03(props) {
             <Helmet>
                 <title>Light Novels || Isekai Maou to Shoukan Shoujo no Dorei Majutsu 03 View Online</title>
             </Helmet>
-            <Container className="bg-white border">
+            <Container className="bg-white border" fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={10}>
                         <PDFReaderISEKAIMAOU03 />

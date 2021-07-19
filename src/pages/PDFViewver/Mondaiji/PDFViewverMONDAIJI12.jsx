@@ -10,7 +10,7 @@ function PDFViewverMONDAIJI12(props) {
             <Helmet>
                 <title>Light Novels || Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo? 12 View Online</title>
             </Helmet>
-            <Container className="bg-white border">
+            <Container className="bg-white border" fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={10}>
                         <PDFReaderMONDAIJI12 />

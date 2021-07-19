@@ -10,7 +10,7 @@ function PDFViewverNGNL07(props) {
             <Helmet>
                 <title>Light Novels || No Game No Life 07 View Online</title>
             </Helmet>
-            <Container className="bg-white border">
+            <Container className="bg-white border" fluid={true}>
                 <Row className="justify-content-center py-5">
                     <Col md={10}>
                         <PDFReaderNGNL07 />
