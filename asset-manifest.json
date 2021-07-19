@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/light-novel/static/css/main.2ce3233b.chunk.css",
-    "main.js": "/light-novel/static/js/main.cf80a7a4.chunk.js",
-    "main.js.map": "/light-novel/static/js/main.cf80a7a4.chunk.js.map",
+    "main.js": "/light-novel/static/js/main.0445c700.chunk.js",
+    "main.js.map": "/light-novel/static/js/main.0445c700.chunk.js.map",
     "runtime-main.js": "/light-novel/static/js/runtime-main.c2058399.js",
     "runtime-main.js.map": "/light-novel/static/js/runtime-main.c2058399.js.map",
     "static/css/2.5000a4cb.chunk.css": "/light-novel/static/css/2.5000a4cb.chunk.css",
@@ -371,20 +371,13 @@
     "static/media/ilus09.52fc1d16.png": "/light-novel/static/media/ilus09.52fc1d16.png",
     "static/media/ilus09.a2712076.png": "/light-novel/static/media/ilus09.a2712076.png",
     "static/media/ilus09.c4cb6b87.jpg": "/light-novel/static/media/ilus09.c4cb6b87.jpg",
-    "static/media/ilus09.dd28fec9.png": "/light-novel/static/media/ilus09.dd28fec9.png",
-    "static/media/ilus10.0ff60ee9.png": "/light-novel/static/media/ilus10.0ff60ee9.png",
-    "static/media/ilus11.d11baa2c.png": "/light-novel/static/media/ilus11.d11baa2c.png",
-    "static/media/ilus12.c6414a37.png": "/light-novel/static/media/ilus12.c6414a37.png",
-    "static/media/ilus13.3e06d9da.png": "/light-novel/static/media/ilus13.3e06d9da.png",
-    "static/media/ilus14.4a450afc.png": "/light-novel/static/media/ilus14.4a450afc.png",
-    "static/media/logo.3e84c3e0.png": "/light-novel/static/media/logo.3e84c3e0.png",
-    "static/media/profile-huron.a3c925f9.jpg": "/light-novel/static/media/profile-huron.a3c925f9.jpg"
+    "static/media/logo.3e84c3e0.png": "/light-novel/static/media/logo.3e84c3e0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c2058399.js",
     "static/css/2.5000a4cb.chunk.css",
     "static/js/2.06e381d0.chunk.js",
     "static/css/main.2ce3233b.chunk.css",
-    "static/js/main.cf80a7a4.chunk.js"
+    "static/js/main.0445c700.chunk.js"
   ]
 }
