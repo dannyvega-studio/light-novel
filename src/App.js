@@ -242,6 +242,12 @@ import PDFViewverOVERLORD09 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD
 import PDFViewverOVERLORD10 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD10';
 import PDFViewverOVERLORD11 from './pages/PDFViewver/Overlord/PDFViewverOVERLORD11';
 
+import LNElaina from './pages/LightNovel/LNElaina';
+import PDFViewverELAINA01 from './pages/PDFViewver/Elaina/PDFViewverELAINA01';
+import PDFViewverELAINA02 from './pages/PDFViewver/Elaina/PDFViewverELAINA02';
+import PDFViewverELAINA03 from './pages/PDFViewver/Elaina/PDFViewverELAINA03';
+import PDFViewverELAINA04 from './pages/PDFViewver/Elaina/PDFViewverELAINA04';
+
 // START SPIN OFF NOVELS //
 
 import SOKonosubaBakuen from './pages/SpinOff/SOKonosubaBakuen';
@@ -502,6 +508,11 @@ class App extends React.Component {
         { title: 'Overlord Volumen 09', path: '/light-novel/overlord/09/' },
         { title: 'Overlord Volumen 10', path: '/light-novel/overlord/10/' },
         { title: 'Overlord Volumen 11', path: '/light-novel/overlord/11/' },
+        { title: 'Majo no Tabitabi', path: '/light-novel/elaina/' },
+        { title: 'Majo no Tabitabi Volumen 01', path: '/light-novel/elaina/01/' },
+        { title: 'Majo no Tabitabi Volumen 02', path: '/light-novel/elaina/02/' },
+        { title: 'Majo no Tabitabi Volumen 03', path: '/light-novel/elaina/03/' },
+        { title: 'Majo no Tabitabi Volumen 04', path: '/light-novel/elaina/04/' },
 
         // START SPIN OFF NOVELS //
 
@@ -645,6 +656,11 @@ class App extends React.Component {
         title: "Overlord",
         subTitle: "Volúmenes 11 de 14",
         text: "En el año 2126, se decide descontinuar el DMMORPG Yggdrasil, un juego que ha sido el más popular durante los últimos doce años, pero que ha caído en desuso con el tiempo. El día que debían cerrarse los servidores del juego, Momonga, líder del gremio Ainz Ooal Gown, una vez compuesto por 41 miembros y acreditado como uno de los gremios más fuertes del juego, decide permanecer en línea hasta que el juego sea cerrado a modo de despedida de ese lugar tan especial para él. Tras la hora de cierre de los servidores, Momonga descubre que han sucedido cosas impresionantes y misteriosas. Aún está en la Gran Tumba de Nazarick, que es la base y hogar del gremio Ainz Ooal Gown, también se ha convertido realmente en su personaje con todos los poderes y habilidades que ello implica, los NPC que le sirven ahora son seres conscientes y la gran tumba ya no está en los pantanos de Yggdrasil, sino que ha sido enviada a un mundo de fantasía donde la magia y las criaturas místicas existen. Momonga decide que si ha de existir en ese mundo aspirará a la grandeza y descubrirá si algún otro jugador fue arrastrado allí como él. Por ello, cambia su nombre a Ainz Ooal Gown y decide convertirse en alguien tan famoso y temido que sea conocido en todo ese mundo. Así, además de lograr la gloria, cualquier otro jugador extraviado sabrá que allí hay alguien de tan poderoso gremio. Ahora, como Ainz Ooal Gown, el protagonista comienza a recorrer el mundo disfrazándose como aventurero, hechicero, mercenario, salvador o conquistador haciendo uso de la experiencia y habilidades que ha obtenido en el juego. Haciendo, de la Gran Tumba de Nazarick, un lugar en la historia de ese mundo."
+      },
+      lnelaina: {
+        title: "Majo no Tabitabi",
+        subTitle: "Volúmenes 04 de 17",
+        text: "No es sobre el destino… ¿Cuál es tu historia favorita? ¿Tiene un héroe que mata a un dragón y salva a la princesa? ¿O el hijo de una profecía destinado a la grandeza? Bueno, mi historia es un poco diferente. Es una historia de una bruja que viaja por el mundo, en busca de nada en particular. Sin misiones por su cuenta, es libre de ir a donde sea que el viento la lleve, agregando unas cuantas páginas a la historia de las personas que conoce antes de emprender su próxima aventura. Al final de su viaje, la bruja toma una aprendiz que algún día comenzará su propio viaje. Y así el ciclo continúa, o eso narra la historia. ¿Quién podrá ser la bruja que inicia la historia de nuevo?"
       },
 
       // START LIGHT NOVELS //
@@ -989,6 +1005,14 @@ render() {
           <Route path="/light-novel/overlord/09" exact render={() => <PDFViewverOVERLORD09 />} />
           <Route path="/light-novel/overlord/10" exact render={() => <PDFViewverOVERLORD10 />} />
           <Route path="/light-novel/overlord/11" exact render={() => <PDFViewverOVERLORD11 />} />
+          <Route path="/light-novel/elaina/" exact render={() => 
+            <LNElaina title={this.state.lnelaina.title}
+                            subTitle={this.state.lnelaina.subTitle} 
+                            text={this.state.lnelaina.text} />} />
+          <Route path="/light-novel/elaina/01" exact render={() => <PDFViewverELAINA01 />} />
+          <Route path="/light-novel/elaina/02" exact render={() => <PDFViewverELAINA02 />} />
+          <Route path="/light-novel/elaina/03" exact render={() => <PDFViewverELAINA03 />} />
+          <Route path="/light-novel/elaina/04" exact render={() => <PDFViewverELAINA04 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 

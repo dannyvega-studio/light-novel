@@ -26,6 +26,7 @@ import fmp01 from '../assets/images/fmp/01.png';
 import elfsan01 from '../assets/images/elfsan/01.png';
 import bokusensei01 from '../assets/images/bokusensei/01.jpg';
 import overlord01 from '../assets/images/overlord/01.png';
+import elaina01 from '../assets/images/elaina/01.jpg';
 
 
 // Override CSS Styles in pagination //
@@ -166,6 +167,10 @@ function ListPage(props) {
                     <Col className="my-2 py-2" lg={12} md={12} sm={12} id="M">
                         <Element name="letraM"><Card.Title>M</Card.Title></Element>
                         <Row className="justify-content-center">
+                            <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
+                                <Link to="/light-novel/elaina/"><img src={elaina01} class="ln-cover mt-4 mb-4" variant="top" alt="Majo no Tabitabi Elaina"/></Link>
+                                <Card.Title>Majo no TabiTabi</Card.Title>             
+                            </Col>
                             <Col className="py-2" lg={3} md={4} sm={4} xs={6}>
                                 <Link to="/light-novel/mondaiji/"><img src={mondaiji01} class="ln-cover mt-4 mb-4" variant="top" alt="Mondaiji Tachi"/></Link>
                                 <Card.Title>Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?</Card.Title>             
