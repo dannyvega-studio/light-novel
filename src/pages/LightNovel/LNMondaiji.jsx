@@ -54,7 +54,7 @@ function LNMondaiji(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/wsIkWRCT#5joDy7yUj1u71PUlV0OTTSAD7WXqZif4SpEExwblbVQ" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/968ddbe177baaaa98916ef2391e939e6508bc251/Mondaiji/Mondaiji12.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -72,7 +72,7 @@ function LNMondaiji(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/M0ZWxD6R#_xPJfE2Krpck8W2_jKJhCHcIXHMfyy0PjHTQEZPu72w" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/968ddbe177baaaa98916ef2391e939e6508bc251/Mondaiji/Mondaiji11.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -90,7 +90,7 @@ function LNMondaiji(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/h9YySTya#VW3xNHXU4pUKTuF-cUQj94V4VNdlPeteKczpxT5POk0" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/968ddbe177baaaa98916ef2391e939e6508bc251/Mondaiji/Mondaiji10.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -108,7 +108,7 @@ function LNMondaiji(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/09JGHDTQ#qkHGvRzRWyQ5u-XQXaq72RtgUuR8iKBidYfahptBzhc" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/968ddbe177baaaa98916ef2391e939e6508bc251/Mondaiji/Mondaiji09.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -126,7 +126,7 @@ function LNMondaiji(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/R8A2yJjB#n0cp6nmoJJzWm_GFUZd9KnHPUwDYdNnsNPpjWymiX6k" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/968ddbe177baaaa98916ef2391e939e6508bc251/Mondaiji/Mondaiji08.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -144,7 +144,7 @@ function LNMondaiji(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/BhRmDRTT#QVlV9nTnvIMS7yLFnUBdxIoR7aPth1dnI1ruAmTha_U" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/968ddbe177baaaa98916ef2391e939e6508bc251/Mondaiji/Mondaiji07.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -162,7 +162,7 @@ function LNMondaiji(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/RhAggZwJ#T7-Od3G9XCaee8pSZvwu-XWVIwFnq5A59lcBr0XviSY" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/968ddbe177baaaa98916ef2391e939e6508bc251/Mondaiji/Mondaiji06.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -180,7 +180,7 @@ function LNMondaiji(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/R9RC1DZI#NLBQXXRVh99FPnoss29n2cTJNjDc7196LXXyMFFFr10" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/968ddbe177baaaa98916ef2391e939e6508bc251/Mondaiji/Mondaiji05.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -198,7 +198,7 @@ function LNMondaiji(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/NoA0HDRT#ULwF1iKPCfD7nsdQ0NcEo6g6tOs-b7Avhvv3cN9mAgU" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/968ddbe177baaaa98916ef2391e939e6508bc251/Mondaiji/Mondaiji05.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -216,7 +216,7 @@ function LNMondaiji(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/IhRSCJpR#d7XcMV-NIikcWxgVeygJy1Bf6iVLT_dDZ4am2Iz3fMc" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/968ddbe177baaaa98916ef2391e939e6508bc251/Mondaiji/Mondaiji03.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -234,7 +234,7 @@ function LNMondaiji(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/E5ZCVJIR#Tw9IgftVxnwYMgwRMlyC9TfmlmgvfnTAAMBY3BnFBYE" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/968ddbe177baaaa98916ef2391e939e6508bc251/Mondaiji/Mondaiji02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -252,7 +252,7 @@ function LNMondaiji(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/BxBkzZKK#ticuhV5aUzG-qXiZGyMuSZOK9sCJlZ7DNTQ8FEAnV6A" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/968ddbe177baaaa98916ef2391e939e6508bc251/Mondaiji/Mondaiji01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

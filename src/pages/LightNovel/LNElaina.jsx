@@ -45,7 +45,7 @@ function LNElaina(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/dlJAgbSI#4FaJYt_jzquZGVbwbZ_CcsCIGLUQFAN88QRBxUUByAU" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/b58999b402c4a6c0f51bbdec30b73430e5d98779/Elaina/Elaina04.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -63,7 +63,7 @@ function LNElaina(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/skIkHLjL#c0lipTR9Qg0PoMQCM9JCBh4m-wCMhWNZnjbi6xOQYig" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/b58999b402c4a6c0f51bbdec30b73430e5d98779/Elaina/Elaina03.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -81,7 +81,7 @@ function LNElaina(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/I4BW2D4B#sh6VVxyXo7qL7dAntlxNtTB_XWPY4khbZLTX_aXbHrc" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/b58999b402c4a6c0f51bbdec30b73430e5d98779/Elaina/Elaina02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -99,7 +99,7 @@ function LNElaina(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/k8ZEDbBQ#oo4sTXCHSu93YAAappIjSQTl-z90hhs_r96NnH_diew" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/b58999b402c4a6c0f51bbdec30b73430e5d98779/Elaina/Elaina01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

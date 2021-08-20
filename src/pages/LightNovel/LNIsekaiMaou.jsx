@@ -57,7 +57,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Vx42WBAB#E9bAvOe_r_zFeKNEK9H4qdVgXopSshyvjfHXRnpg85I" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou13.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -75,7 +75,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/h1gmFZQJ#205fpBuqPDbXnBHgQT45InWPkeydxYyAT1HhDvyt_zI" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou12.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -93,7 +93,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/VpgSnBDR#zsq8UfGrae3VtjBPiDAS5YKpy83mTasC2Rs9Warbzac" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou11.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -111,7 +111,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/F0omHLpZ#rUdYW31uYBJNbVGkGMCex897WsgLE3DAV4kKhldwEh8" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou10.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -129,7 +129,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/48xk3TCB#e1yIcboYxiI6CLPH7Ji0es4sBiPbbtBuwX4vHuyBwHk" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou09.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -147,7 +147,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Bkh2jbxL#SLg9PEdQn_AsLZJkpiWmyQoBt41vxns-WiVxOHl2sk0" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou08.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -165,7 +165,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/xw5S1DwQ#na7_HvKGSuqd7gfvSHuXjCmV7mo54SJvr-1J5Npk3r4" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou07.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -183,7 +183,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/9lpghBKR#IncWGZKpoxO0Z4zjC-rnu2hd_dzuHND_B6B1Oc-QqbU" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou06.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -201,7 +201,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/shoklbjZ#C0k5mQ1PIqYLyUVI-HoSLNH7UOt89z4Fh11sqFGCS4w" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou05.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -219,7 +219,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/xl4gibKb#OWSk6-pWdi8A-EL4Cg6x6nVJIpxYxmUpnyGYihlmiI4" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou04.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -237,7 +237,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/g5pWiBqQ#fhEeNwZ1PNLXw1RiEvl6ew9-XHSIzj4UcMbJfQXlKok" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou03.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -255,7 +255,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Nxhg1b4Z#9L7gni_JfblRbwl41y_GRv0TDKJUqB31rdHkvowm9HU" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -273,7 +273,7 @@ function LNIsekaiMaou(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/4kgAzR6Z#KjoDGLOt6ZNm_wESqyzIh5RIr1O8jbF_QdCwKPEiAe8" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f64c157aaca910e8f7f9a9305f9cce55fda7a790/IsekaiMaouDiablo/isekaimaou01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

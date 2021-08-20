@@ -51,7 +51,7 @@ function LNBokusensei(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/xoYTUIrb#jsi-9diiq5BPPC1gfCc8tHzjfQRPYykH1-JKwUocdZo" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/7d95969c3e2d40cf693548adc3a8e4f8b76d814e/BNKS/bnks07.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -69,7 +69,7 @@ function LNBokusensei(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/g0IhVYbQ#Vc4i8Q_FS9k-oW0lYw7ac6_CHpwKx3rnPVNjJeWcQ8w" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/7d95969c3e2d40cf693548adc3a8e4f8b76d814e/BNKS/bnks06.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -87,7 +87,7 @@ function LNBokusensei(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/kkIhxIKK#k6uIH8wkX0vQCEblSKx8Md5jJ-xURGJixtRLiYR7qEs" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/7d95969c3e2d40cf693548adc3a8e4f8b76d814e/BNKS/bnks05.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -105,7 +105,7 @@ function LNBokusensei(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/o4ZHhQqZ#7CaJpu9x-2y5K2G8Uugx1SjLsFp2BaFnqiL6gito-mQ" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/7d95969c3e2d40cf693548adc3a8e4f8b76d814e/BNKS/bnks04.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -123,7 +123,7 @@ function LNBokusensei(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/sppW0QiC#6xmdbHhetiPnt9Wd-htGAkQuBv1j71CMfBd_PbSyPSY" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/7d95969c3e2d40cf693548adc3a8e4f8b76d814e/BNKS/bnks03.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -141,7 +141,7 @@ function LNBokusensei(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/w8wEFaBQ#mJelZj5qpS6cFJkpPr_efXfCQN12jsAajYr2jwn66mU" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/7d95969c3e2d40cf693548adc3a8e4f8b76d814e/BNKS/bnks02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -159,7 +159,7 @@ function LNBokusensei(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/F9AV0QgZ#yqsmUFdkDyO86Y9e9ZI8qx9IYjHorjehXKenkhNu-GQ" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/7d95969c3e2d40cf693548adc3a8e4f8b76d814e/BNKS/bnks01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

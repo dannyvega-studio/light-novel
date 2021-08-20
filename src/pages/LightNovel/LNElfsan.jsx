@@ -47,7 +47,7 @@ function LNElfsan(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/R552EQwC#X7oxoMHyjjcLmD620rrAiWo9Z8KZkhjacZ2U2jPQb-o" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f7d07f3c6d1f0a0f0a20e6c5266cbd032e0ce1a3/ElfSan/elf-san06.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -65,7 +65,7 @@ function LNElfsan(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/9sgWRY6I#oEiXBiV6CaCKrKOOPh8Z4_FCXXZNsDtTPRhowQDH3lE" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f7d07f3c6d1f0a0f0a20e6c5266cbd032e0ce1a3/ElfSan/elf-san05.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -83,7 +83,7 @@ function LNElfsan(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/8g5GXAhJ#jeVr5YG809G_Rm8JYhtp3nbC6siqGmOSH_VdArN8bhI" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f7d07f3c6d1f0a0f0a20e6c5266cbd032e0ce1a3/ElfSan/elf-san04.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -101,7 +101,7 @@ function LNElfsan(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Qs5QxIYL#hPG2b4toJNU-cQduu6RJFmjN5EnSkcHVdGT18d95CxY" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f7d07f3c6d1f0a0f0a20e6c5266cbd032e0ce1a3/ElfSan/elf-san03.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -119,7 +119,7 @@ function LNElfsan(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/JgoAlYqI#1i9WKgBAp73ovIgOsP5kXdHV4zngWPjB3qhnSbtv_V0" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f7d07f3c6d1f0a0f0a20e6c5266cbd032e0ce1a3/ElfSan/elf-san02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -137,7 +137,7 @@ function LNElfsan(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/kwxyyYCQ#DCtKBYZWKt_XHjO_5fiLhuxe8OT5zQcpPd5iirYXxJs" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/f7d07f3c6d1f0a0f0a20e6c5266cbd032e0ce1a3/ElfSan/elf-san01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

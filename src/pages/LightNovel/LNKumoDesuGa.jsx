@@ -56,7 +56,7 @@ function LNKumoDesuGa(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Fp4AkKSC#S3R-9Fwzf31z7WkAc-XrBffGosGjfp7MIIO4bvi6p8s" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/KDGNK/kdgnk11.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -74,7 +74,7 @@ function LNKumoDesuGa(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/4lhGHa6C#jEBw6I4qr1eaRm5DrsxON4j2EvfNnHsoDmx4jWuVXGI" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/KDGNK/kdgnk10.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -92,7 +92,7 @@ function LNKumoDesuGa(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/oowkFCZZ#ys2WIOba25z_XgBxocxfoDPoFO6uKJVT8kmX87TGf8I" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/KDGNK/kdgnk09.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -110,7 +110,7 @@ function LNKumoDesuGa(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Epw0DQDZ#oH1DzqL3JGk_Fs5H2HTsjG1OXSd2aXkJ8q9sBOGpQuk" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/KDGNK/kdgnk08.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -128,7 +128,7 @@ function LNKumoDesuGa(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Yo5yjSLB#uAUBDwxWIYAM31_rY0KK5ssqhbkg6o3pVVkMO9RAw8o" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/KDGNK/kdgnk07.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -146,7 +146,7 @@ function LNKumoDesuGa(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/5g4yQaqB#Gg9hhOogNTx1rkK9DPuy3NOWpSEQmPPSt4dl3LfDuS4" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/KDGNK/kdgnk06.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -164,7 +164,7 @@ function LNKumoDesuGa(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/k0ww3YQT#yayb8xEPDwC0waF_oYiU0uKvrlQ645WgwhYLb9gWqjA" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/KDGNK/kdgnk05.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -182,7 +182,7 @@ function LNKumoDesuGa(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Zo5gSCZD#ZDte8EilMgpyj_8xgk35Dsr5JBKNjQNNqsaPJOh7SQw" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/KDGNK/kdgnk04.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -200,7 +200,7 @@ function LNKumoDesuGa(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/g44yjaKL#mdErCgChtlTaUIfEFwoZtaz9uisPhgczi02P9dK_P6U" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/KDGNK/kdgnk03.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -218,7 +218,7 @@ function LNKumoDesuGa(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/FgwgxSCS#XGQxUeGeon9oT9cU3y-V_5jxZIYgXrB-uTbEYSi2X5M" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/KDGNK/kdgnk02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -236,7 +236,7 @@ function LNKumoDesuGa(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/RthigS4Q#C3cUIeTWuTKxZ2O4LQgfTD-tq6LfktSI0GIcZ1ClJs0" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/KDGNK/kdgnk01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

@@ -43,7 +43,7 @@ function LNKuma(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/05wxlSRD#zFQuXNi5d8UvEoUx5lkLiYHv7OnuVULB3HurT3ixnIM" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/37c9a8b92e04db81d32b22bb825dd4bfc9e8eadd/KumaKuma/kuma02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -61,7 +61,7 @@ function LNKuma(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/gsxxmSiI#sCn_XCLWy2Z31xouG2ewinuBIf-NOWvQhyyYMbuXjIM" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/37c9a8b92e04db81d32b22bb825dd4bfc9e8eadd/KumaKuma/kuma01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

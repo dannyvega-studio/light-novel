@@ -58,7 +58,7 @@ function LNFmp(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/YtITxSKC#OG6zVoMoOxZXsoGL3bWIXefsjMeN0LaHjG8oJFsKBhI" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/6ed06a2d1c5e66906ed45869e056fb6b79839a17/FMP/Full%20Metal%20Panic%20Volumen%2012.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -76,7 +76,7 @@ function LNFmp(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/sgAnGa4R#nB1gByGU4UtN4f1k9rtFMmPRPhupF9eB1yBLeVxWUtw" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/6ed06a2d1c5e66906ed45869e056fb6b79839a17/FMP/Full%20Metal%20Panic%20Volumen%2011.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -94,7 +94,7 @@ function LNFmp(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/B1YXGQxB#TMY9ge2FgD58LyDDuaYhWeOI1mReObOMBM3MSS-hukc" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/6ed06a2d1c5e66906ed45869e056fb6b79839a17/FMP/Full%20Metal%20Panic%20Volumen%2010.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -112,7 +112,7 @@ function LNFmp(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/slw0kTLZ#HtZkmc7Pf9hGUR8lrycyZKAdVXC-Gc6UWBtACMh-0Bw" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/6ed06a2d1c5e66906ed45869e056fb6b79839a17/FMP/Full%20Metal%20Panic%20Volumen%2009.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -130,7 +130,7 @@ function LNFmp(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/lkoQTT6R#gACnl6qh9EAKjJnVOt_34yilewKLvP8Nxy4ZBSWFohM" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/6ed06a2d1c5e66906ed45869e056fb6b79839a17/FMP/Full%20Metal%20Panic%20Volumen%2008.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -148,7 +148,7 @@ function LNFmp(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/RxJTyY4C#0jfMe9_Wpx0fCH_n6rnEVG6oPwoxD2Sp679LNrUjOx4" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/6ed06a2d1c5e66906ed45869e056fb6b79839a17/FMP/Full%20Metal%20Panic%20Volumen%2007.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -166,7 +166,7 @@ function LNFmp(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/1thi2RCJ#6mz0i1JFLHA_0KeSuRwxg--ZiKFjtNADGUekkCOMrmI" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/6ed06a2d1c5e66906ed45869e056fb6b79839a17/FMP/Full%20Metal%20Panic%20Volumen%2006.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -184,7 +184,7 @@ function LNFmp(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/4thy3ZbA#1auKmWB62vm88IunCkU8WI7nL9oQoEhdBpS3XE6CI00" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/6ed06a2d1c5e66906ed45869e056fb6b79839a17/FMP/Full%20Metal%20Panic%20Volumen%2005.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -202,7 +202,7 @@ function LNFmp(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/toR3HArL#5Pw7zjYomoKo4iNmueUwpnRI2cj7a5OFhCL0KlpRHKU" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/6ed06a2d1c5e66906ed45869e056fb6b79839a17/FMP/Full%20Metal%20Panic%20Volumen%2004.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -220,7 +220,7 @@ function LNFmp(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/l9QxRI4Y#t4c33UjxE-pD81VqWXD-ft403M42qD4maVORpnYX8tY" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/6ed06a2d1c5e66906ed45869e056fb6b79839a17/FMP/Full%20Metal%20Panic%20Volumen%2003.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -238,7 +238,7 @@ function LNFmp(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/05YnUSoa#DKsZo7AaRZFJXxxw4KxjG21MRfRIsg0oVFU4GGFYxwI" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/6ed06a2d1c5e66906ed45869e056fb6b79839a17/FMP/Full%20Metal%20Panic%20Volumen%2002.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -256,7 +256,7 @@ function LNFmp(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/wtADgQ7L#P1ZVSscpFUCBnoTxL2qdYXz7Ch_ZYztLvPTgztZ2NfA" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/6ed06a2d1c5e66906ed45869e056fb6b79839a17/FMP/Full%20Metal%20Panic%20Volumen%2001.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

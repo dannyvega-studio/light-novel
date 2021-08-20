@@ -55,7 +55,7 @@ function LNGoblinSlayer(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/g1xCFLrb#6zpVrfm4wqZCDIiTcQPtZqoO31vHa36sNiT4gtZtZJg" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/GS/gs06.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -73,7 +73,7 @@ function LNGoblinSlayer(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/5kwWgBxD#WOHSNsEQRMfFlNA2DyRw0M4i_vBxCjUM-1P-0WQqYL8" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/GS/gs05.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -91,7 +91,7 @@ function LNGoblinSlayer(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Iop2XZqS#b1s137LHpvlvQPMR7PLAJWEoI1dp7PZJ8_m27EwAj-A" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/GS/gs04.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -109,7 +109,7 @@ function LNGoblinSlayer(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/ZooilTwR#n-qPhNOFgIrv-tOT5-gCJYlDoqwcRWE3FB7IDsgP7vs" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/GS/gs03.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -127,7 +127,7 @@ function LNGoblinSlayer(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/k0xyAD4S#T7zyKQyuGh12DxpMxPbFvFIIwYWCoGo5TJZjcT71M0A" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/GS/gs02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -145,7 +145,7 @@ function LNGoblinSlayer(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/FppwXT7Q#rtSuQQnPLx4hJ8z64yphfbDwucfuTW2EzoIU4Ev7Et8" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/686bc5c5fabd0d3b7d43b2514b1e1516913e9e2a/GS/gs01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

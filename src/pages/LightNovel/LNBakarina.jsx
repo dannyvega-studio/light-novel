@@ -50,7 +50,7 @@ function LNBakarina(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/hsJDiaYQ#XcF3Fzyxu7U94gsMZYrpKC-xy4cPdURJOnGAhtiGgak" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/b3916e7c230e1ff1359107f1cde3635c7d79bd37/Bakarina/Bakarina-08.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -68,7 +68,7 @@ function LNBakarina(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/kxYnSQhJ#Z1RdD91jqUFwdhLEKH-q9ZiczyllqlrA__0X1-KIe28" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/b3916e7c230e1ff1359107f1cde3635c7d79bd37/Bakarina/Bakarina-07.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -86,7 +86,7 @@ function LNBakarina(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/t1BjlAyB#o7Tftrdj179zdDbW-PwCv5zve8q35pIFko_OM5vvw-8" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/b3916e7c230e1ff1359107f1cde3635c7d79bd37/Bakarina/Bakarina-06.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -104,7 +104,7 @@ function LNBakarina(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Rh5ESKyQ#iiIqqEvAtafCg1spJFXJSKT1CeGliV9g_nbujyw5-KQ" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/b3916e7c230e1ff1359107f1cde3635c7d79bd37/Bakarina/Bakarina-05.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -122,7 +122,7 @@ function LNBakarina(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/d0Bj2IJC#g1_Kh-_5w3bTnYqBreANJD5_m1Xwg8Z02S0WgyOEF3I" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/b3916e7c230e1ff1359107f1cde3635c7d79bd37/Bakarina/Bakarina-04.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -140,7 +140,7 @@ function LNBakarina(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/MwYjxIzI#ZETJg-P1VdJvh5a-NoBlOSWrurn6KyAJXkkWmSIAVng" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/b3916e7c230e1ff1359107f1cde3635c7d79bd37/Bakarina/Bakarina-03.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -158,7 +158,7 @@ function LNBakarina(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/x4QlyY6A#_JWur1q0J_iklBUzQ1G93rhFoe4NPhetnHKmzW6PIP8" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/b3916e7c230e1ff1359107f1cde3635c7d79bd37/Bakarina/Bakarina-02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -176,7 +176,7 @@ function LNBakarina(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/EhQh1aKA#aq0q5Vj_ulsVOaTDrktk57eFC6tOKJNK-5Ape7XSYQc" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/b3916e7c230e1ff1359107f1cde3635c7d79bd37/Bakarina/Bakarina-01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

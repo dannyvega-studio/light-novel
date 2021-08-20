@@ -59,6 +59,7 @@ const rowInformation = [
     {"name": "Overlord", "estado": "En Publicación", "link": "overlord"},
     {"name": "Re:Zero kara Hajimeru Isekai Seikatsu", "estado": "En Publicación", "link": "rz"},
     {"name": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai", "estado": "En Publicación", "link": "sby"},
+    {"name": "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita", "estado": "En Publicación", "link": "300"},
 ]
 
 function descendingComparator(a,b,orderBy) {

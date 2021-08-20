@@ -62,7 +62,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/ZgonmCoI#-_AD2FP4f5WWBzPuIlJq_ljirx3Qc2pDCcuebus00t8" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks17.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -80,7 +80,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/l45jVYqB#3oSV31BKPC5qM-BUTKyWyq5K1Z4FVnD_Zvak9A-R-ew" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks16.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -98,7 +98,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/00oXRCAD#QfiKxHzcqrDs1pvQLIAzIA6Y2uLANJm5NV2UH4QGwJc" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks15.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -116,7 +116,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/M1gHia7A#JU92dH9IC7d0oNhaFW_PQnODvI2fRR1Jzd0wuuX5cVg" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks14.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -134,7 +134,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/dxphACgS#UCD7T_5GEX-WUheVupNs2AyUJL1iCJ36hz0KzeM4otE" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks13.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -152,7 +152,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/dlp33IrJ#VkpfdRtpdEEXPsFKSpH0QD_iNoSiIovSO_3AgxKHacU" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks12.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -170,7 +170,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/N8oFXQgB#_3IfEmMiTUW8tr0o1s3aLIbFq6iJxLBfxmUWddmkLAU" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks11.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -188,7 +188,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/xloRQIRC#gTyhVYkB_aODfmWWHLO9QIrBnHoRKwxmg4IuYn20PIg" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks10.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -206,7 +206,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Q84RwSrJ#PDDn9XuWK9A5M-SIOl3W_yf5yGxsXK-Fn24HG1IVdJE" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks09.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -224,7 +224,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Y9plnIRS#jm4gmV9FPgOWPDemnD2jl6iClxpwjwJ-fZ4BRIDUTkw" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks08.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -242,7 +242,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/xko1SCJR#E63FM8cOBiJzPpZ0FO5dRno-oBOurOYiFu4fgLIWftc" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks07.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -260,7 +260,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/t1hRyCwZ#he1sucE3fdQFQDUd99boSaOZ5ueX_Iqb4O35hPiJ1EQ" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks06.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -278,7 +278,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/xwg3VI7Q#orIxdoqg_JWZZFs1NjZiHVScFQQ_6LpJquvmlk-HOOE" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks05.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -296,7 +296,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/Utg1CIiA#7_uwuc8-CWB1Mji3JGDzaB5KFdzf0nfGFxkYgNXN8tI" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks04.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -314,7 +314,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/0hwlDSSQ#3oZjRbck691ieeFMXNhWCH8V42P3v30DtEIJveZ4dY0" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks03.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -332,7 +332,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/B9wRVa4Y#--waNoHxiiBvx4cXzVaIe5bK1UuUZoiEqLL4vWMYccY" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -350,7 +350,7 @@ function LNKonosuba(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/kgAhzYBJ#zcUKHCi1FBBvMCukapsGIgn39fc-CQGLLkg5EQ6GazA" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/4f0b88de534fd008f7d01830e301d9f193590e05/KonoSuba/ks01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

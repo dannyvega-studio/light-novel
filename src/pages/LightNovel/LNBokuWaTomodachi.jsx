@@ -54,7 +54,7 @@ function LNBokuWaTomodachi(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/JkAWlTTD#Pma9Li65B3nSqcZxeHl1kGPbKlaq9tgKvpOQpnMQL7M" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/5fb2e101914a91646eb69756c1376c94e1748c01/BWTGS/BWTGS10.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -72,7 +72,7 @@ function LNBokuWaTomodachi(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/NsQGgRSI#PqsOWqmD7jSjBLRHw3ukG-gWV2NV5YjoYYgKnGmTvxI" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/5fb2e101914a91646eb69756c1376c94e1748c01/BWTGS/BWTGS09.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -90,7 +90,7 @@ function LNBokuWaTomodachi(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/xxBkFbSI#6L0xzu-6mjblNRosO4ws8trvPpUpq4lOC_UGsioG6jk" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/5fb2e101914a91646eb69756c1376c94e1748c01/BWTGS/BWTGS08.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -108,7 +108,7 @@ function LNBokuWaTomodachi(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/RxRkXLgZ#bgryUK92qNab0oF_fuO_49kwtoCq8kC2ir0j0uTk2_o" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/5fb2e101914a91646eb69756c1376c94e1748c01/BWTGS/BWTGS07.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -126,7 +126,7 @@ function LNBokuWaTomodachi(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/MpRAzDqJ#_bwd68Sx6rXtYvyyolGtgYLX61XCt4Hr6TnVidZXQXU" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/5fb2e101914a91646eb69756c1376c94e1748c01/BWTGS/BWTGS06.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -144,7 +144,7 @@ function LNBokuWaTomodachi(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/gpQmnTJR#5w6CAvswX6p3cBtjECvLcNBmUvbgT0xjDlbl14tvd8I" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/5fb2e101914a91646eb69756c1376c94e1748c01/BWTGS/BWTGS05.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -162,7 +162,7 @@ function LNBokuWaTomodachi(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/t5IQSbqQ#E56WlzuMoFs0DC4jjuryf8Fzc6fTPRZkwcnBK3Qfrks" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/5fb2e101914a91646eb69756c1376c94e1748c01/BWTGS/BWTGS04.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -180,7 +180,7 @@ function LNBokuWaTomodachi(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/ltZmWBIa#PU7ikTA6gpSrIdVC_lM00JfVS91nMCWKr7f1Bvdpxz4" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/5fb2e101914a91646eb69756c1376c94e1748c01/BWTGS/BWTGS03.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -198,7 +198,7 @@ function LNBokuWaTomodachi(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/JhIEiZAa#8MwnCIxMI0F9GVCmaDj6WMZ5nZR3NPAja7O_u1kDx7w" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/5fb2e101914a91646eb69756c1376c94e1748c01/BWTGS/BWTGS02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -216,7 +216,7 @@ function LNBokuWaTomodachi(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/o5RyXZrJ#fHseJwr78FBROY19NUDkLCUWAAvDqxDZ2fy8CCyA8Iw" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/5fb2e101914a91646eb69756c1376c94e1748c01/BWTGS/BWTGS01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

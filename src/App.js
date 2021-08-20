@@ -74,6 +74,7 @@ import LNSeishunButa from './pages/LightNovel/LNSeishunButa';
 import PDFViewverSBY01 from './pages/PDFViewver/SeishunButa/PDFViewverSBY01';
 import PDFViewverSBY02 from './pages/PDFViewver/SeishunButa/PDFViewverSBY02';
 import PDFViewverSBY03 from './pages/PDFViewver/SeishunButa/PDFViewverSBY03';
+import PDFViewverSBY04 from './pages/PDFViewver/SeishunButa/PDFViewverSBY04';
 
 import LNKonosuba from './pages/LightNovel/LNKonosuba';
 import PDFViewverKONOSUBA01 from './pages/PDFViewver/KonoSuba/PDFViewverKONOSUBA01';
@@ -246,6 +247,13 @@ import LNKuma from './pages/LightNovel/LNKuma';
 import PDFViewverKUMA01 from './pages/PDFViewver/Kuma/PDFViewverKUMA01';
 import PDFViewverKUMA02 from './pages/PDFViewver/Kuma/PDFViewverKUMA02';
 
+import LN300 from './pages/LightNovel/LN300';
+import PDFViewver30001 from './pages/PDFViewver/300/PDFViewver30001';
+import PDFViewver30002 from './pages/PDFViewver/300/PDFViewver30002';
+import PDFViewver30003 from './pages/PDFViewver/300/PDFViewver30003';
+import PDFViewver30004 from './pages/PDFViewver/300/PDFViewver30004';
+import PDFViewver30005 from './pages/PDFViewver/300/PDFViewver30005';
+
 // START SPIN OFF NOVELS //
 
 import SOKonosubaBakuen from './pages/SpinOff/SOKonosubaBakuen';
@@ -359,6 +367,7 @@ class App extends React.Component {
         { title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Volumen 01', path: '/light-novel/sby/01/' },
         { title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Volumen 02', path: '/light-novel/sby/02/' },
         { title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Volumen 03', path: '/light-novel/sby/03/' },
+        { title: 'Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai Volumen 04', path: '/light-novel/sby/04/' },
         { title: 'Kono Subarashii Sekai ni Shukufuku wo!', path: '/light-novel/konosuba/' },
         { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 01', path: '/light-novel/konosuba/01/' },
         { title: 'Kono Subarashii Sekai ni Shukufuku wo! Volumen 02', path: '/light-novel/konosuba/02/' },
@@ -514,6 +523,12 @@ class App extends React.Component {
         { title: 'Kuma Kuma Kuma Bear', path: '/light-novel/kumakuma/' },
         { title: 'Kuma Kuma Kuma Bear Volumen 01', path: '/light-novel/kumakuma/01/' },
         { title: 'Kuma Kuma Kuma Bear Volumen 02', path: '/light-novel/kumakuma/02/' },
+        { title: 'Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita', path: '/light-novel/300/' },
+        { title: 'Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita Volumen 01', path: '/light-novel/300/01/' },
+        { title: 'Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita Volumen 02', path: '/light-novel/300/02/' },
+        { title: 'Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita Volumen 03', path: '/light-novel/300/03/' },
+        { title: 'Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita Volumen 04', path: '/light-novel/300/04/' },
+        { title: 'Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita Volumen 05', path: '/light-novel/300/05/' },
 
         // START SPIN OFF NOVELS //
 
@@ -667,6 +682,11 @@ class App extends React.Component {
         title: "Kuma Kuma Kuma Bear",
         subTitle: "Volúmenes 02 de 14",
         text: "Yuna, una chica de quince años, comienza a jugar su primer juego VRMMO. Ella ha conseguido miles de millones de yenes en acciones, y se confina en su casa para jugar sin ir a la escuela. Hoy, una actualización importante ha llegado al juego y ella obtiene un súper raro e intransferible traje de oso. Pero usarlo es tan vergonzoso que no se atreve a equiparlo, ni siquiera ayuda el hecho de que solo es un juego. Además, cuando responde la encuesta de satisfacción sobre la nueva actualización y reinicia el juego, ella descubre que está en un extraño bosque y está vistiendo el traje de eso. ¿Dónde estoy? ¿Un mensaje de Dios? ¿Un mundo diferente? Si ella está usando el traje de oso (que es un objeto poderosísimo) significa que es invencible, pero si se lo quita es solo una chica normal. ¡La aventura que Yuna nunca pidió acaba de comenzar!"
+      },
+      ln300: {
+        title: "Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita",
+        subTitle: "Volúmenes 05 de 14",
+        text: "Después de vivir una dolorosa vida como una empleada de oficina, Azusa Aizawa terminó su vida corta tras morir por exceso de trabajo. Entonces, cuando se encontró reencarnada como una bruja inmortal y sin envejecimiento alguno en un mundo de fantasía, se compromete a pasar sus días sin estrés y de la manera más agradable posible. Se gana la vida a duras penas cazando los objetivos fáciles: ¡los slimes! Pero después de 300 años seguidos de hacer este simple trabajo, terminó con poderes superlativos y alocados. ¿Cómo mantendrá ahora su vida discreta?"
       },
 
       // START SPIN OFF //
@@ -822,6 +842,7 @@ render() {
           <Route path="/light-novel/sby/01" exact render={() => <PDFViewverSBY01 />} />
           <Route path="/light-novel/sby/02" exact render={() => <PDFViewverSBY02 />} />
           <Route path="/light-novel/sby/03" exact render={() => <PDFViewverSBY03 />} />
+          <Route path="/light-novel/sby/04" exact render={() => <PDFViewverSBY04 />} />
           <Route path="/light-novel/konosuba/" exact render={() => 
             <LNKonosuba title={this.state.lnkonosuba.title}
                             subTitle={this.state.lnkonosuba.subTitle} 
@@ -1025,6 +1046,15 @@ render() {
                             text={this.state.lnkuma.text} />} />
           <Route path="/light-novel/kumakuma/01" exact render={() => <PDFViewverKUMA01 />} />
           <Route path="/light-novel/kumakuma/02" exact render={() => <PDFViewverKUMA02 />} />
+          <Route path="/light-novel/300/" exact render={() => 
+            <LN300 title={this.state.ln300.title}
+                            subTitle={this.state.ln300.subTitle} 
+                            text={this.state.ln300.text} />} />
+          <Route path="/light-novel/300/01" exact render={() => <PDFViewver30001 />} />
+          <Route path="/light-novel/300/02" exact render={() => <PDFViewver30002 />} />
+          <Route path="/light-novel/300/03" exact render={() => <PDFViewver30003 />} />
+          <Route path="/light-novel/300/04" exact render={() => <PDFViewver30004 />} />
+          <Route path="/light-novel/300/05" exact render={() => <PDFViewver30005 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 

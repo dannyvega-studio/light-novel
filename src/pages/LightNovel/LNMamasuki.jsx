@@ -46,7 +46,7 @@ function LNMamasuki(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/1gpBHYDA#C0oV7LMPN7LvAyZo0wD3tXXSyScWkoCPwzciCkn-rgI" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/3a5c45ef82b54891b6fb39c1130de555f816098d/Mamasuki/mamasuki04.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -64,7 +64,7 @@ function LNMamasuki(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/ItgTzSpJ#ezOzZovMYz0WDUPy0rNEmYdgiq8R5ZO5t6tzImZsp20" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/3a5c45ef82b54891b6fb39c1130de555f816098d/Mamasuki/mamasuki03.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -82,7 +82,7 @@ function LNMamasuki(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/pggBFaaJ#lyAyTRrbxGbQxqwqr3WMJZYFiSOtkqn6GH13LhWSb_0" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/3a5c45ef82b54891b6fb39c1130de555f816098d/Mamasuki/mamasuki02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -100,7 +100,7 @@ function LNMamasuki(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/h4xhhaYb#ioIvZBDuk5fa3jomKghduOGZdl7h5kU6z9qGZ1CUKo4" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/3a5c45ef82b54891b6fb39c1130de555f816098d/Mamasuki/mamasuki01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

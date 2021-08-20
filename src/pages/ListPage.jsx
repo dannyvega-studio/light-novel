@@ -28,6 +28,7 @@ import bokusensei01 from '../assets/images/bokusensei/01.jpg';
 import overlord01 from '../assets/images/overlord/01.png';
 import elaina01 from '../assets/images/elaina/01.jpg';
 import kuma01 from '../assets/images/kumakuma/01.jpg';
+import slime30001 from '../assets/images/300/01.png';
 
 
 // Override CSS Styles in pagination //
@@ -234,6 +235,10 @@ function ListPage(props) {
                             <Col className="py-2" lg={2} md={3} sm={4} xs={6}>
                                 <Link to="/light-novel/sby/"><img src={seishun01} class="ln-cover mt-4 mb-4" variant="top" alt="Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai"/></Link>
                                 <Card.Title>Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai</Card.Title>      
+                            </Col>
+                            <Col className="py-2" lg={2} md={3} sm={4} xs={6}>
+                                <Link to="/light-novel/300/"><img src={slime30001} class="ln-cover mt-4 mb-4" variant="top" alt="Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita"/></Link>
+                                <Card.Title>Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita</Card.Title>      
                             </Col>
                         </Row>
                         <Button className="bg-dark btn-dark px-2 mr-1" onClick={() => scroll.scrollToTop()}>Volver</Button>

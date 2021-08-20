@@ -42,7 +42,7 @@ function LNBokunosensei(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/FlAjSQqT#F3xiQqPdtNW10rLDhtpA8793AmG16taTkz2a65B9wko" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/01b83ebd01ed4cd156ea4ac1d7e69fa717ada77a/BokuNoSensei/bokunosensei01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

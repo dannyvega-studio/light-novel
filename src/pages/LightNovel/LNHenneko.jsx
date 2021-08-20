@@ -56,7 +56,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/E9JTDSyZ#53G4mVoSF1A6kbF9owavLUq2ctB7J3Jnf86ZUgWn7-8" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko13.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -74,7 +74,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/51RXXaRZ#2xVYvNzCy93HaXvqZhIIqbyrXd19Q-lzPCA-aHdJof0" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko12.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -92,7 +92,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/lwR1TKLS#uIUoh8k-IIdMcWxyYkSF_Wtsvk97noHEYpGqr51znNM" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko11.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -110,7 +110,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/wwRD0apI#6LbzKdlDP2V84UdJ0WJm3B8BkITpmvil5yoasaRnZ4I" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko10.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -128,7 +128,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/h0JUDTjL#opWI_W0QjuG0YNBGjz3FQWeqJOGnO5KJQgAuAMq63-E" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko09.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -146,7 +146,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/ogRF2AyT#04iuPuQ4dDdXePEZCBRRJCwAvDQ1TVNWNwlnxsmubNs" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko08.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -164,7 +164,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/s5JwnJ5R#Zbe70mnM7BvKxzNUG_1G_Z4HLVmm4P2D9NY5lxbJmz0" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko07.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -182,7 +182,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/t8BiUD6J#2oCFjAgSELkL_SGM-yihfDingMN2iNQ_ay4KYNDpXW0" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko06.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -200,7 +200,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/koRDRAhR#1y07Bc4J8g0Xjfr4cab5q2ouUXpEk1oAYH_ST7r1N8E" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko05.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -218,7 +218,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/w5JhmAhY#8KI8dHMgqNdNDqqaNVTuDufAr80kccA1-XsxblGkAw8" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko04.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -236,7 +236,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/tsYShRYT#jboyD07ocvdK520MEsIgpUgJX_cPP0Z4yGnQO12NBuo" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko03.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -254,7 +254,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/cgQmWT4T#czXd9yGDkdoZ9W62iqXFfge6Z9ucPkR8huXYmBvjps4" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko02.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -272,7 +272,7 @@ function LNHenneko(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/FkA2FTBQ#ypfTRlgNOhkSywVxdTComakgt-G3EBSvb0ucUEIhmDE" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/356e9831d657bb40e957cb02c204f775b9af8fa8/Henneko/henneko01.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">

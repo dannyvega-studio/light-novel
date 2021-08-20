@@ -57,7 +57,7 @@ function LNOverlord(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/FkQ0FRKJ#DKxZNf0e7kF2B5Q4CNVRcytY-6HPh2m6bum___lk_70" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/95cdc4bfe71a744b4720e63b862e6114ba4db9bb/Overlord/Overlord%20Vol%2011%20JG.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -75,7 +75,7 @@ function LNOverlord(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/gwp0HaCK#HojETfnq8EZ-k5oFwOjbVSTbsWNUAFEWbornUYq5kjQ" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/95cdc4bfe71a744b4720e63b862e6114ba4db9bb/Overlord/Overlord%20Vol%2010%20JG.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -93,7 +93,7 @@ function LNOverlord(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/glJiFBYL#UBrinbevoLTL5EabDtXwOw_2EGNt2sWowSFCl0zhhi8" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/95cdc4bfe71a744b4720e63b862e6114ba4db9bb/Overlord/Overlord%20Vol%209%20JG.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -111,7 +111,7 @@ function LNOverlord(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/18QExbxJ#OTjn1VSUbyv7T7GQfhZji9lg0snrBGKIqylixnnaA-Y" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/95cdc4bfe71a744b4720e63b862e6114ba4db9bb/Overlord/Overlord%20Vol%208%20JG.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -129,7 +129,7 @@ function LNOverlord(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/YwAwDBQL#UUvLzqclV_zXkebMozlDYIEcUxp7MLwCgFFTAJDDWnM" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/95cdc4bfe71a744b4720e63b862e6114ba4db9bb/Overlord/Overlord%20Vol%207%20JG.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -147,7 +147,7 @@ function LNOverlord(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/1s5k1agR#Jo_wt5TT6DxIpY3aJU8rOAxBddVbBdCgDD99rQJEAMY" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/95cdc4bfe71a744b4720e63b862e6114ba4db9bb/Overlord/Overlord%20Vol%206%20JG.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -165,7 +165,7 @@ function LNOverlord(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/ZlJyjbgK#3ZvTZ1RO8xZsUkbzkKH9u_Was8gkGrvBBIhUOrisz68" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/95cdc4bfe71a744b4720e63b862e6114ba4db9bb/Overlord/Overlord%20Vol%205%20JG.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -183,7 +183,7 @@ function LNOverlord(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/w8hQRK5B#-galhx07W9GuQHkgPfASl7P3LeFlc58CNs_S4Z4eWNQ" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/95cdc4bfe71a744b4720e63b862e6114ba4db9bb/Overlord/Overlord%20Vol%204%20JG.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -201,7 +201,7 @@ function LNOverlord(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/p54yzIbA#DwxLkYWWawePrMHbwhTCMqzGN7RJ3an2JS3NdkJRl-0" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/95cdc4bfe71a744b4720e63b862e6114ba4db9bb/Overlord/Overlord%20Vol%203%20JG.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -219,7 +219,7 @@ function LNOverlord(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/o9ZGEDxY#ujTLU3VG3Yz7b_-pVtJ38A-ZotZUogQYJppa8xUkf8A" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/95cdc4bfe71a744b4720e63b862e6114ba4db9bb/Overlord/Overlord%20Vol%202%20JG.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
@@ -237,7 +237,7 @@ function LNOverlord(props) {
                                 <Card.Text>
                                     <div class="d-flex align-items-baseline justify-content-center">
                                         <Button variant="dark" size="sm" className="mr-2">
-                                            <a class="btn-dark-text" href="https://mega.nz/file/do4gRQzJ#vjx7RUVmbezQnjAysCNPbZPfG4xqHnVCZuEBWTlA9ac" target="_blank" rel="noreferrer">
+                                            <a class="btn-dark-text" href="https://raw.githubusercontent.com/dannyvega-studio/ln-backup-001/95cdc4bfe71a744b4720e63b862e6114ba4db9bb/Overlord/Overlord%20Vol%201%20JG.pdf" target="_blank" rel="noreferrer">
                                                 Descargar</a>    
                                         </Button>
                                         <Button variant="dark" size="sm" className="mr-2">
