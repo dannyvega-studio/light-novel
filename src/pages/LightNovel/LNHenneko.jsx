@@ -39,10 +39,10 @@ function LNHenneko(props) {
                         <CarouselHENNEKO />
                     </Col>
                     <Col lg={6} sm={12}>
-                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/hentai-ouji-to-warawanai-neko" target="_blank"><h4>1er Temporada</h4></a></h2>
+                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/hentai-ouji-to-warawanai-neko" target="_blank" rel="noreferrer"><h4>1er Temporada</h4></a></h2>
                         <h2 className="mt-4">Genero: <h4>Comedia Romantica, Harem, Sobrenatural</h4></h2>
-                        <h2 className="mt-4">Traductor: <a href="https://hitoribocchitranslation.wordpress.com/" target="_blank"><h4>HitoriBocchi Translations</h4></a>
-                            <a href="http://traductionsin123.blogspot.com/" target="_blank"><h4>Traductions in 1,2,3</h4></a></h2>
+                        <h2 className="mt-4">Traductor: <a href="https://hitoribocchitranslation.wordpress.com/" target="_blank" rel="noreferrer"><h4>HitoriBocchi Translations</h4></a>
+                            <a href="http://traductionsin123.blogspot.com/" target="_blank" rel="noreferrer"><h4>Traductions in 1,2,3</h4></a></h2>
                         <h2 className="mt-4">Estado: <h4>Finalizado</h4></h2>
                         { props.subTitle && <h1 className="display-4 font-weight-light mt-4 mb-4">{props.subTitle}</h1> }
                     </Col>

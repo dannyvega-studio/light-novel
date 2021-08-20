@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import { Route, Link } from 'react-router-dom';
-import CarouselISEKAIMAOU from '../../components/CarouselISEKAIMAOU';
+import CarouselISEKAIMAOU from '../../components/Carousel/CarouselISEKAIMAOU';
 import isekaimaou01 from '../../assets/images/isekaimaou/01.jpg';
 import isekaimaou02 from '../../assets/images/isekaimaou/02.jpg';
 import isekaimaou03 from '../../assets/images/isekaimaou/03.jpg';
@@ -40,10 +40,10 @@ function LNIsekaiMaou(props) {
                         <CarouselISEKAIMAOU />
                     </Col>
                     <Col lg={6} sm={12}>
-                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/isekai-maou-to-shoukan-shoujo-no-dorei-majutsu" target="_blank"><h4>1er Temporada</h4></a>
-                            <a href="https://www3.animeflv.net/anime/isekai-maou-to-shoukan-shoujo-no-dorei-majutsu-o" target="_blank"><h4>2da Temporada</h4></a></h2>
+                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/isekai-maou-to-shoukan-shoujo-no-dorei-majutsu" target="_blank" rel="noreferrer"><h4>1er Temporada</h4></a>
+                            <a href="https://www3.animeflv.net/anime/isekai-maou-to-shoukan-shoujo-no-dorei-majutsu-o" target="_blank" rel="noreferrer"><h4>2da Temporada</h4></a></h2>
                         <h2 className="mt-4">Genero: <h4>Isekai, Comedia, Harem, Fantasía</h4></h2>
-                        <h2 className="mt-4">Traductor: <a href="https://www.facebook.com/KikuslirusProyect/" target="_blank"><h4>Kikuslirus Project</h4></a></h2>
+                        <h2 className="mt-4">Traductor: <a href="https://www.facebook.com/KikuslirusProyect/" target="_blank" rel="noreferrer"><h4>Kikuslirus Project</h4></a></h2>
                         <h2 className="mt-4">Estado: <h4>En Publicación</h4></h2>
                         { props.subTitle && <h1 className="display-4 font-weight-light mt-4 mb-4">{props.subTitle}</h1> }
                     </Col>

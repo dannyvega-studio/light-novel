@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import { Route, Link } from 'react-router-dom';
-import CarouselKAIYARI from '../components/CarouselKAIYARI';
+import CarouselKAIYARI from '../components/Carousel/CarouselKAIYARI';
 import kaiyari01 from '../assets/images/kaiyari/01.jpg';
 import kaiyari02 from '../assets/images/kaiyari/02.jpg';
 import kaiyari03 from '../assets/images/kaiyari/03.jpg';

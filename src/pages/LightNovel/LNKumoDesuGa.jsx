@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import { Route, Link } from 'react-router-dom';
-import CarouselKDGNK from '../../components/CarouselKDGNK';
+import CarouselKDGNK from '../../components/Carousel/CarouselKDGNK';
 import kdgnk01 from '../../assets/images/kumodesuga/01.jpg';
 import kdgnk02 from '../../assets/images/kumodesuga/02.jpg';
 import kdgnk03 from '../../assets/images/kumodesuga/03.jpg';
@@ -40,9 +40,9 @@ function LNKumoDesuGa(props) {
                         <CarouselKDGNK />
                     </Col>
                     <Col lg={6} sm={12}>
-                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/kumo-desu-ga-nani-ka" target="_blank"><h4>1er Temporada</h4></a></h2>
+                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/kumo-desu-ga-nani-ka" target="_blank" rel="noreferrer"><h4>1er Temporada</h4></a></h2>
                         <h2 className="mt-4">Genero: <h4>Isekai, Comedia, Aventura, Fantasía</h4></h2>
-                        <h2 className="mt-4">Traductor: <a href="https://novelasligeras.net/" target="_blank"><h4>NOVA</h4></a></h2>
+                        <h2 className="mt-4">Traductor: <a href="https://novelasligeras.net/" target="_blank" rel="noreferrer"><h4>NOVA</h4></a></h2>
                         <h2 className="mt-4">Estado: <h4>En Publicación</h4></h2>
                         { props.subTitle && <h1 className="display-4 font-weight-light mt-4 mb-4">{props.subTitle}</h1> }
                     </Col>

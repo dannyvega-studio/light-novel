@@ -2,13 +2,7 @@ import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Container, Nav, Navbar, Jumbotron, Button } from 'react-bootstrap';
-
-import { useDarkMode } from './styles/useDarkMode';
-import { GlobalStyles, lightTheme, darkTheme } from './styles/globalStyles';
-import styled, { ThemeProvider } from 'styled-components';
-
-import { Toggle } from './components/Toggle';
+import { Container, Nav, Navbar, Jumbotron } from 'react-bootstrap';
 
 import HomePage from './pages/HomePage';
 import ListPage from './pages/ListPage';
@@ -247,6 +241,10 @@ import PDFViewverELAINA01 from './pages/PDFViewver/Elaina/PDFViewverELAINA01';
 import PDFViewverELAINA02 from './pages/PDFViewver/Elaina/PDFViewverELAINA02';
 import PDFViewverELAINA03 from './pages/PDFViewver/Elaina/PDFViewverELAINA03';
 import PDFViewverELAINA04 from './pages/PDFViewver/Elaina/PDFViewverELAINA04';
+
+import LNKuma from './pages/LightNovel/LNKuma';
+import PDFViewverKUMA01 from './pages/PDFViewver/Kuma/PDFViewverKUMA01';
+import PDFViewverKUMA02 from './pages/PDFViewver/Kuma/PDFViewverKUMA02';
 
 // START SPIN OFF NOVELS //
 
@@ -513,6 +511,9 @@ class App extends React.Component {
         { title: 'Majo no Tabitabi Volumen 02', path: '/light-novel/elaina/02/' },
         { title: 'Majo no Tabitabi Volumen 03', path: '/light-novel/elaina/03/' },
         { title: 'Majo no Tabitabi Volumen 04', path: '/light-novel/elaina/04/' },
+        { title: 'Kuma Kuma Kuma Bear', path: '/light-novel/kumakuma/' },
+        { title: 'Kuma Kuma Kuma Bear Volumen 01', path: '/light-novel/kumakuma/01/' },
+        { title: 'Kuma Kuma Kuma Bear Volumen 02', path: '/light-novel/kumakuma/02/' },
 
         // START SPIN OFF NOVELS //
 
@@ -662,8 +663,13 @@ class App extends React.Component {
         subTitle: "Volúmenes 04 de 17",
         text: "No es sobre el destino… ¿Cuál es tu historia favorita? ¿Tiene un héroe que mata a un dragón y salva a la princesa? ¿O el hijo de una profecía destinado a la grandeza? Bueno, mi historia es un poco diferente. Es una historia de una bruja que viaja por el mundo, en busca de nada en particular. Sin misiones por su cuenta, es libre de ir a donde sea que el viento la lleve, agregando unas cuantas páginas a la historia de las personas que conoce antes de emprender su próxima aventura. Al final de su viaje, la bruja toma una aprendiz que algún día comenzará su propio viaje. Y así el ciclo continúa, o eso narra la historia. ¿Quién podrá ser la bruja que inicia la historia de nuevo?"
       },
+      lnkuma: {
+        title: "Kuma Kuma Kuma Bear",
+        subTitle: "Volúmenes 02 de 14",
+        text: "Yuna, una chica de quince años, comienza a jugar su primer juego VRMMO. Ella ha conseguido miles de millones de yenes en acciones, y se confina en su casa para jugar sin ir a la escuela. Hoy, una actualización importante ha llegado al juego y ella obtiene un súper raro e intransferible traje de oso. Pero usarlo es tan vergonzoso que no se atreve a equiparlo, ni siquiera ayuda el hecho de que solo es un juego. Además, cuando responde la encuesta de satisfacción sobre la nueva actualización y reinicia el juego, ella descubre que está en un extraño bosque y está vistiendo el traje de eso. ¿Dónde estoy? ¿Un mensaje de Dios? ¿Un mundo diferente? Si ella está usando el traje de oso (que es un objeto poderosísimo) significa que es invencible, pero si se lo quita es solo una chica normal. ¡La aventura que Yuna nunca pidió acaba de comenzar!"
+      },
 
-      // START LIGHT NOVELS //
+      // START SPIN OFF //
       
       sobakuen: {
         title: 'Kono Subarashii Sekai ni Bakuen wo!',
@@ -1013,6 +1019,12 @@ render() {
           <Route path="/light-novel/elaina/02" exact render={() => <PDFViewverELAINA02 />} />
           <Route path="/light-novel/elaina/03" exact render={() => <PDFViewverELAINA03 />} />
           <Route path="/light-novel/elaina/04" exact render={() => <PDFViewverELAINA04 />} />
+          <Route path="/light-novel/kumakuma/" exact render={() => 
+            <LNKuma title={this.state.lnkuma.title}
+                            subTitle={this.state.lnkuma.subTitle} 
+                            text={this.state.lnkuma.text} />} />
+          <Route path="/light-novel/kumakuma/01" exact render={() => <PDFViewverKUMA01 />} />
+          <Route path="/light-novel/kumakuma/02" exact render={() => <PDFViewverKUMA02 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 

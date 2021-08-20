@@ -1,11 +1,11 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import ilus01 from '../assets/images/isekaimaou/ilus01.jpg';
-import ilus02 from '../assets/images/isekaimaou/ilus02.png';
-import ilus03 from '../assets/images/isekaimaou/ilus03.jpg';
-import ilus04 from '../assets/images/isekaimaou/ilus04.jpg';
-import ilus05 from '../assets/images/isekaimaou/ilus05.jpg';
+import ilus01 from '../../assets/images/isekaimaou/ilus01.jpg';
+import ilus02 from '../../assets/images/isekaimaou/ilus02.png';
+import ilus03 from '../../assets/images/isekaimaou/ilus03.jpg';
+import ilus04 from '../../assets/images/isekaimaou/ilus04.jpg';
+import ilus05 from '../../assets/images/isekaimaou/ilus05.jpg';
 
 class CarouselISEKAIMAOU extends React.Component {
     render() {

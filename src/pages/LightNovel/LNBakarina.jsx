@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import { Route, Link } from 'react-router-dom';
-import CarouselBAKARINA from '../../components/CarouselBAKARINA';
+import CarouselBAKARINA from '../../components/Carousel/CarouselBAKARINA';
 import bakarina01 from '../../assets/images/bakarina/01.jpg';
 import bakarina02 from '../../assets/images/bakarina/02.jpg';
 import bakarina03 from '../../assets/images/bakarina/03.jpg';
@@ -34,9 +34,9 @@ function LNBakarina(props) {
                         <CarouselBAKARINA />
                     </Col>
                     <Col lg={6} sm={12}>
-                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta" target="_blank"><h4>1er Temporada</h4></a></h2>
+                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/otome-game-no-hametsu-flag-shika-nai-akuyaku-reijou-ni-tensei-shiteshimatta" target="_blank" rel="noreferrer"><h4>1er Temporada</h4></a></h2>
                         <h2 className="mt-4">Genero: <h4>Comedia Romantica, Harem Inverso</h4></h2>
-                        <h2 className="mt-4">Traductor: <a href="https://ferindradtraducciones.blogspot.com/" target="_blank"><h4>ferindrad traducciones</h4></a></h2>
+                        <h2 className="mt-4">Traductor: <a href="https://ferindradtraducciones.blogspot.com/" target="_blank" rel="noreferrer"><h4>ferindrad traducciones</h4></a></h2>
                         <h2 className="mt-4">Estado: <h4>En Publicación</h4></h2>
                         { props.subTitle && <h1 className="display-4 font-weight-light mt-4 mb-4">{props.subTitle}</h1> }
                     </Col>

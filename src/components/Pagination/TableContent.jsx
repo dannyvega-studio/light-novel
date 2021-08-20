@@ -3,11 +3,10 @@ import { Route, Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import TableHeader from '../Pagination/TableHeader.jsx';
 import Table from '@material-ui/core/Table';
-import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableRow from '@material-ui/core/TableRow';
 import TablePagination from '@material-ui/core/TablePagination';
-import { TableContainer, TableHead } from '@material-ui/core';
+import { TableContainer } from '@material-ui/core';
 import Typography from '@material-ui/core/Typography';
 import SearchBar from "material-ui-search-bar";
 
@@ -48,6 +47,7 @@ const rowInformation = [
     {"name": "Kono Subarashii Sekai ni Bakuen wo!", "estado": "Finalizado", "link": "bakuen"},
     {"name": "Kono Subarashii Sekai ni Bakuen wo! Zukko", "estado": "Finalizado", "link": "bakuenzukko"},
     {"name": "Kono Subarashii Sekai ni Shukufuku wo!", "estado": "Finalizado", "link": "konosuba"},
+    {"name": "Kuma Kuma Kuma Bear", "estado": "En Publicación", "link": "kumakuma"},
     {"name": "Kumo Desu Ga, Nani Ka?", "estado": "En Publicación", "link": "kdgnk"},
     {"name": "Majo no Tabitabi", "estado": "En Publicación", "link": "elaina"},
     {"name": "Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?", "estado": "Finalizado", "link": "mondaiji"},
@@ -89,6 +89,9 @@ const sortedRowInformation = (rowArray, comparator) => {
 
 export default function TableContent(props) {
 
+    const [setRows] = React.useState(rowInformation);
+    const [searched, setSearched] = React.useState("");
+
     const classes = useStyles()
     const [orderDirection, setOrderDirection] = React.useState('Asc')
     const [valueToOrderBy, setValueToOrderBy] = React.useState('name')
@@ -112,12 +115,31 @@ export default function TableContent(props) {
     }
     // **** ///
 
+    // Barra de Navegacion //
+
+    const requestSearch = (searchedVal) => {
+    const filteredRows = searchedVal.map((novela) => [novela])
+    filteredRows.filter((novela) => {
+        return novela.name.toLowerCase().includes(searchedVal.toLowerCase());
+    });
+        setRows(filteredRows);
+    };
+
+    const cancelSearch = () => {
+        setSearched("");
+        requestSearch(searched);
+    };
+
+  // ***** //
+
     return (
 
         <>
         <SearchBar
-            onChange={() => console.log('onChange')}
-            onRequestSearch={() => console.log('onRequestSearch')}
+            value={searched}
+            onChange={(searchVal) => requestSearch(searchVal)}
+            onCancelSearch={() => cancelSearch()}
+            placeholder='Buscar Novela'
             style={{
                 margin: '10px',
                 maxWidth: 800

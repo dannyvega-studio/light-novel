@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import { Route, Link } from 'react-router-dom';
-import CarouselMONDAIJI from '../../components/CarouselMONDAIJI';
+import CarouselMONDAIJI from '../../components/Carousel/CarouselMONDAIJI';
 import mondaiji01 from '../../assets/images/mondaiji/01.jpg';
 import mondaiji02 from '../../assets/images/mondaiji/02.jpg';
 import mondaiji03 from '../../assets/images/mondaiji/03.jpg';
@@ -38,9 +38,9 @@ function LNMondaiji(props) {
                         <CarouselMONDAIJI />
                     </Col>
                     <Col lg={6} sm={12}>
-                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/mondaiji-tachi-ga-isekai-kara-kuru-sou-desu-yo" target="_blank"><h4>1er Temporada</h4></a></h2>
+                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/mondaiji-tachi-ga-isekai-kara-kuru-sou-desu-yo" target="_blank" rel="noreferrer"><h4>1er Temporada</h4></a></h2>
                         <h2 className="mt-4">Genero: <h4>Isekai, Comedia, Aventura, Fantasía</h4></h2>
-                        <h2 className="mt-4">Traductor: <a href="https://lnproyects.blogspot.com/" target="_blank"><h4>LN Proyects</h4></a></h2>
+                        <h2 className="mt-4">Traductor: <a href="https://lnproyects.blogspot.com/" target="_blank" rel="noreferrer"><h4>LN Proyects</h4></a></h2>
                         <h2 className="mt-4">Estado: <h4>Finalizado</h4></h2>
                         { props.subTitle && <h1 className="display-4 font-weight-light mt-4 mb-4">{props.subTitle}</h1> }
                     </Col>

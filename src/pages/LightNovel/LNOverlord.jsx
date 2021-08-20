@@ -39,11 +39,11 @@ function LNOverlord(props) {
                         <CarouselOVERLORD />
                     </Col>
                     <Col lg={6} sm={12}>
-                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/overlord" target="_blank"><h4>1er Temporada</h4></a>
-                            <a href="https://www3.animeflv.net/anime/overlord-ii" target="_blank"><h4>2da Temporada</h4></a>
-                            <a href="https://www3.animeflv.net/anime/overlord-iii" target="_blank"><h4>3er Temporada</h4></a></h2>
+                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/overlord" target="_blank" rel="noreferrer"><h4>1er Temporada</h4></a>
+                            <a href="https://www3.animeflv.net/anime/overlord-ii" target="_blank" rel="noreferrer"><h4>2da Temporada</h4></a>
+                            <a href="https://www3.animeflv.net/anime/overlord-iii" target="_blank" rel="noreferrer"><h4>3er Temporada</h4></a></h2>
                         <h2 className="mt-4">Genero: <h4>Isekai, Acción, Fantasía Oscura</h4></h2>
-                        <h2 className="mt-4">Traductor: <a href="https://overlord-es.blogspot.com/" target="_blank"><h4>Overlord ES</h4></a></h2>
+                        <h2 className="mt-4">Traductor: <a href="https://overlord-es.blogspot.com/" target="_blank" rel="noreferrer"><h4>Overlord ES</h4></a></h2>
                         <h2 className="mt-4">Estado: <h4>En Publicación</h4></h2>
                         { props.subTitle && <h1 className="display-4 font-weight-light mt-4 mb-4">{props.subTitle}</h1> }
                     </Col>

@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import { Route, Link } from 'react-router-dom';
-import CarouselGS from '../../components/CarouselGS';
+import CarouselGS from '../../components/Carousel/CarouselGS';
 import gs01 from '../../assets/images/goblinslayer/01.jpg';
 import gs02 from '../../assets/images/goblinslayer/02.jpg';
 import gs03 from '../../assets/images/goblinslayer/03.jpg';
@@ -39,9 +39,9 @@ function LNGoblinSlayer(props) {
                         <CarouselGS />
                     </Col>
                     <Col lg={6} sm={12}>
-                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/goblin-slayer" target="_blank"><h4>1er Temporada</h4></a></h2>
+                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/goblin-slayer" target="_blank" rel="noreferrer"><h4>1er Temporada</h4></a></h2>
                         <h2 className="mt-4">Genero: <h4>Acción, Aventura, Fantasía</h4></h2>
-                        <h2 className="mt-4">Traductor: <a href="https://www.facebook.com/EinherjarProject/" target="_blank"><h4>Einherjar Project</h4></a></h2>
+                        <h2 className="mt-4">Traductor: <a href="https://www.facebook.com/EinherjarProject/" target="_blank" rel="noreferrer"><h4>Einherjar Project</h4></a></h2>
                         <h2 className="mt-4">Estado: <h4>En Publicación</h4></h2>
                         { props.subTitle && <h1 className="display-4 font-weight-light mt-4 mb-4">{props.subTitle}</h1> }
                     </Col>

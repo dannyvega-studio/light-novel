@@ -37,7 +37,7 @@ function LNBokusensei(props) {
                     <Col lg={6} sm={12}>
                         <h2 className="mt-2">Anime: <h4>No tiene :'(</h4></h2>
                         <h2 className="mt-4">Genero: <h4>Harem, Ecchi, Comedia, Escolar</h4></h2>
-                        <h2 className="mt-4">Traductor: <a href="https://shinsengumitranslations.wordpress.com/" target="_blank"><h4>shinsengumitranslations</h4></a></h2>
+                        <h2 className="mt-4">Traductor: <a href="https://shinsengumitranslations.wordpress.com/" target="_blank" rel="noreferrer"><h4>shinsengumitranslations</h4></a></h2>
                         <h2 className="mt-4">Estado: <h4>Finalizado en espera de Traducción</h4></h2>
                         { props.subTitle && <h1 className="display-4 font-weight-light mt-4 mb-4">{props.subTitle}</h1> }
                     </Col>

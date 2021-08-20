@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import { Route, Link } from 'react-router-dom';
-import CarouselBWTGS from '../../components/CarouselBWTGS';
+import CarouselBWTGS from '../../components/Carousel/CarouselBWTGS';
 import bwtgs01 from '../../assets/images/bokuwatomodachi/01.png';
 import bwtgs02 from '../../assets/images/bokuwatomodachi/02.png';
 import bwtgs03 from '../../assets/images/bokuwatomodachi/03.jpg';
@@ -37,10 +37,10 @@ function LNBokuWaTomodachi(props) {
                         <CarouselBWTGS />
                     </Col>
                     <Col lg={6} sm={12}>
-                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/boku-wa-tomodachi" target="_blank"><h4>1er Temporada</h4></a> 
-                            <a href="https://www3.animeflv.net/anime/boku-wa-tomodachi-ga-sukunai-next" target="_blank"><h4>2da Temporada</h4></a></h2>
+                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/boku-wa-tomodachi" target="_blank" rel="noreferrer"><h4>1er Temporada</h4></a> 
+                            <a href="https://www3.animeflv.net/anime/boku-wa-tomodachi-ga-sukunai-next" target="_blank" rel="noreferrer"><h4>2da Temporada</h4></a></h2>
                         <h2 className="mt-4">Genero: <h4>Comedia, Ecchi, Harem, Escolar</h4></h2>
-                        <h2 className="mt-4">Traductor: <a href="http://traductionsin123.blogspot.com/" target="_blank"><h4>Traductions in 1,2,3</h4></a></h2>
+                        <h2 className="mt-4">Traductor: <a href="http://traductionsin123.blogspot.com/" target="_blank" rel="noreferrer"><h4>Traductions in 1,2,3</h4></a></h2>
                         <h2 className="mt-4">Estado: <h4>Finalizado En Traducción</h4></h2>
                         { props.subTitle && <h1 className="display-4 font-weight-light mt-4 mb-4">{props.subTitle}</h1> }
                     </Col>

@@ -33,7 +33,7 @@ export default function TableHeader(props) {
                         Estado
                     </TableSortLabel>
                 </TableCell>
-            </TableRow>
+            </TableRow>        
         </TableHead>
     )
 }

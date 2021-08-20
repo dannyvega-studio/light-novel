@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 import ModalImage from "react-modal-image";
 import { Container, Row, Col, Card, Button} from 'react-bootstrap';
 import { Route, Link } from 'react-router-dom';
-import CarouselNGNL from '../../components/CarouselNGNL';
+import CarouselNGNL from '../../components/Carousel/CarouselNGNL';
 import ngnl01 from '../../assets/images/ngnl/01.jpg';
 import ngnl02 from '../../assets/images/ngnl/02.jpg';
 import ngnl03 from '../../assets/images/ngnl/03.jpg';
@@ -35,10 +35,10 @@ function LNNoGameNoLife(props) {
                         <CarouselNGNL />
                     </Col>
                     <Col lg={6} sm={12}>
-                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/no-game-no-life" target="_blank"><h4>1er Temporada</h4></a>
-                            <a href="https://www3.animeflv.net/anime/no-game-no-life-zero" target="_blank"><h4>Pelicula</h4></a></h2>
+                        <h2 className="mt-2">Anime: <a href="https://www3.animeflv.net/anime/no-game-no-life" target="_blank" rel="noreferrer"><h4>1er Temporada</h4></a>
+                            <a href="https://www3.animeflv.net/anime/no-game-no-life-zero" target="_blank" rel="noreferrer"><h4>Pelicula</h4></a></h2>
                         <h2 className="mt-4">Genero: <h4>Isekai, Ecchi, Comedia, Fantasía</h4></h2>
-                        <h2 className="mt-4">Traductor: <a href="https://www.facebook.com/KikuslirusProyect/" target="_blank"><h4>Kikuslirus Project</h4></a></h2>
+                        <h2 className="mt-4">Traductor: <a href="https://www.facebook.com/KikuslirusProyect/" target="_blank" rel="noreferrer"><h4>Kikuslirus Project</h4></a></h2>
                         <h2 className="mt-4">Estado: <h4>Finalizado</h4></h2>
                         { props.subTitle && <h1 className="display-4 font-weight-light mt-4 mb-4">{props.subTitle}</h1> }
                     </Col>

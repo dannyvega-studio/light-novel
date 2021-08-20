@@ -1,10 +1,10 @@
 import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import ilus01 from '../assets/images/kumodesuga/ilus01.png';
-import ilus02 from '../assets/images/kumodesuga/ilus02.png';
-import ilus03 from '../assets/images/kumodesuga/ilus03.png';
-import ilus04 from '../assets/images/kumodesuga/ilus04.jpg';
+import ilus01 from '../../assets/images/kumodesuga/ilus01.png';
+import ilus02 from '../../assets/images/kumodesuga/ilus02.png';
+import ilus03 from '../../assets/images/kumodesuga/ilus03.png';
+import ilus04 from '../../assets/images/kumodesuga/ilus04.jpg';
 
 class CarouselKDGNK extends React.Component {
     render() {
