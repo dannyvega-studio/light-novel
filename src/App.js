@@ -254,6 +254,12 @@ import PDFViewver30003 from './pages/PDFViewver/300/PDFViewver30003';
 import PDFViewver30004 from './pages/PDFViewver/300/PDFViewver30004';
 import PDFViewver30005 from './pages/PDFViewver/300/PDFViewver30005';
 
+import LNSombras from './pages/LightNovel/LNSombras';
+import PDFViewverSOMBRAS01 from './pages/PDFViewver/Sombras/PDFViewverSOMBRAS01';
+import PDFViewverSOMBRAS02 from './pages/PDFViewver/Sombras/PDFViewverSOMBRAS02';
+import PDFViewverSOMBRAS03 from './pages/PDFViewver/Sombras/PDFViewverSOMBRAS03';
+import PDFViewverSOMBRAS04 from './pages/PDFViewver/Sombras/PDFViewverSOMBRAS04';
+
 // START SPIN OFF NOVELS //
 
 import SOKonosubaBakuen from './pages/SpinOff/SOKonosubaBakuen';
@@ -287,11 +293,6 @@ import PDFViewverKAIYARI08 from './pages/PDFViewver/KaiYari/PDFViewverKAIYARI08'
 
 import logo from './assets/images/logo.png';
 
-/*function AppDarkLight() {
-  const [ theme, toggleTheme ] = useDarkMode();
-  const themeMode = theme === 'light' ? lightTheme : darkTheme;
-}*/
-
 class App extends React.Component {
     
   constructor(props) {
@@ -307,7 +308,6 @@ class App extends React.Component {
         { title: 'About', path: '/light-novel/about/' },
 
         // START LIGHT NOVELS //
-        
         { title: 'No Game No Life', path: '/light-novel/ngnl/' },
         { title: 'No Game No Life Volumen 01', path: '/light-novel/ngnl/01/' },
         { title: 'No Game No Life Volumen 02', path: '/light-novel/ngnl/02/' },
@@ -529,6 +529,10 @@ class App extends React.Component {
         { title: 'Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita Volumen 03', path: '/light-novel/300/03/' },
         { title: 'Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita Volumen 04', path: '/light-novel/300/04/' },
         { title: 'Slime Taoshite 300-nen, Shiranai Uchi ni Level Max ni Nattemashita Volumen 05', path: '/light-novel/300/05/' },
+        { title: 'Kage no Jitsuryokusha ni Naritakute! Volumen 01', path: '/light-novel/sombras/01/' },
+        { title: 'Kage no Jitsuryokusha ni Naritakute! Volumen 02', path: '/light-novel/sombras/02/' },
+        { title: 'Kage no Jitsuryokusha ni Naritakute! Volumen 03', path: '/light-novel/sombras/03/' },
+        { title: 'Kage no Jitsuryokusha ni Naritakute! Volumen 04', path: '/light-novel/sombras/04/' },
 
         // START SPIN OFF NOVELS //
 
@@ -688,6 +692,11 @@ class App extends React.Component {
         subTitle: "Volúmenes 05 de 14",
         text: "Después de vivir una dolorosa vida como una empleada de oficina, Azusa Aizawa terminó su vida corta tras morir por exceso de trabajo. Entonces, cuando se encontró reencarnada como una bruja inmortal y sin envejecimiento alguno en un mundo de fantasía, se compromete a pasar sus días sin estrés y de la manera más agradable posible. Se gana la vida a duras penas cazando los objetivos fáciles: ¡los slimes! Pero después de 300 años seguidos de hacer este simple trabajo, terminó con poderes superlativos y alocados. ¿Cómo mantendrá ahora su vida discreta?"
       },
+      lnsombras: {
+        title: "Kage no Jitsuryokusha ni Naritakute!",
+        subTitle: "Volúmenes 04 de 05",
+        text: "Desde que era un niño, quería convertirse en la eminencia en la sombra, una persona que opera en las sombras. Entrenó su cuerpo, haciendo prácticamente todo lo posible en el mundo, hasta que un día en una de sus sesiones de entrenamiento, se encontró con la magia. Sin embargo, esto no era magia y de hecho, eran los faros de un automóvil. Y así, murió. Incluso después de reencarnarse, el niño, ahora hijo de un noble, Cid Kagenou, quería alcanzar sus sueños. Después de rescatar a una niña, Cid crea una trama elaborada sobre cómo él era el líder de una antigua organización, que juró luchar contra el Culto de Diabolos, para evitar que dicho culto resucite a Diabolos. La niña jura lealtad a Cid y así él construye su organización, Shadow Garden."
+      },
 
       // START SPIN OFF //
       
@@ -726,15 +735,9 @@ class App extends React.Component {
 
 render() {
 
-  //const [ theme, toggleTheme ] = useDarkMode();
-  //const themeMode = theme === 'light' ? lightTheme : darkTheme;
-
   return (
 
     <div className="App bg">
-
-    {/*<ThemeProvider theme={themeMode}>
-    <GlobalStyles />*/}
 
       <Router>
         <Container className="p-0" fluid={true}>
@@ -751,9 +754,6 @@ render() {
                 <Link className="nav-link" to="/light-novel/erolist/">Novelas 18+</Link>
                 <Link className="nav-link" to="/light-novel/solist/">Spin Off</Link>
                 <Link className="nav-link" to="/light-novel/about/">Acerca</Link>
-              </Nav>
-              <Nav className="ml-auto">
-                {/*<Toggle theme={theme} toggleTheme={toggleTheme} />*/}
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -1055,6 +1055,14 @@ render() {
           <Route path="/light-novel/300/03" exact render={() => <PDFViewver30003 />} />
           <Route path="/light-novel/300/04" exact render={() => <PDFViewver30004 />} />
           <Route path="/light-novel/300/05" exact render={() => <PDFViewver30005 />} />
+          <Route path="/light-novel/sombras/" exact render={() => 
+            <LNSombras title={this.state.lnsombras.title}
+                            subTitle={this.state.lnsombras.subTitle} 
+                            text={this.state.lnsombras.text} />} />
+          <Route path="/light-novel/sombras/01" exact render={() => <PDFViewverSOMBRAS01 />} />
+          <Route path="/light-novel/sombras/02" exact render={() => <PDFViewverSOMBRAS02 />} />
+          <Route path="/light-novel/sombras/03" exact render={() => <PDFViewverSOMBRAS03 />} />
+          <Route path="/light-novel/sombras/04" exact render={() => <PDFViewverSOMBRAS04 />} />
 
           
           <Route path="/light-novel/bakuen/" exact render={() => 
@@ -1102,7 +1110,6 @@ render() {
           
         </Container>
       </Router>
-      {/*</ThemeProvider>*/}
     
       </div>
     );

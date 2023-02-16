@@ -29,6 +29,7 @@ import overlord01 from '../assets/images/overlord/01.png';
 import elaina01 from '../assets/images/elaina/01.jpg';
 import kuma01 from '../assets/images/kumakuma/01.jpg';
 import slime30001 from '../assets/images/300/01.png';
+import sombras01 from '../assets/images/sombras/01.png';
 
 
 // Override CSS Styles in pagination //
@@ -156,6 +157,10 @@ function ListPage(props) {
                         <Element name="letraK"><Card.Title>K</Card.Title></Element>
                         <Row className="justify-content-center">
                             <Col className="py-2" lg={2} md={3} sm={4} xs={6}>
+                                <Link to="/light-novel/sombras/"><img src={sombras01} class="ln-cover mt-4 mb-4" variant="top" alt="Eminencia en las Sombras"/></Link>
+                                <Card.Title>Kage no Jitsuryokusha ni Naritakute!</Card.Title>                 
+                            </Col>
+                            <Col className="py-2" lg={2} md={3} sm={4} xs={6}>
                                 <Link to="/light-novel/konosuba/"><img src={konosuba01} class="ln-cover mt-4 mb-4" variant="top" alt="KonoSuba"/></Link>
                                 <Card.Title>Kono Subarashii Sekai ni Shukufuku wo!</Card.Title>                 
                             </Col>
@@ -181,7 +186,8 @@ function ListPage(props) {
                                 <Link to="/light-novel/mondaiji/"><img src={mondaiji01} class="ln-cover mt-4 mb-4" variant="top" alt="Mondaiji Tachi"/></Link>
                                 <Card.Title>Mondaiji-tachi ga Isekai Kara Kuru Sō Desu yo?</Card.Title>             
                             </Col>
-                            <Col className="py-2" lg={2} md={3} sm={4} xs={6}>                                    <Link to="/light-novel/mushoku/"><img src={mushoku01} class="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei"/></Link>
+                            <Col className="py-2" lg={2} md={3} sm={4} xs={6}>                                    
+                                <Link to="/light-novel/mushoku/"><img src={mushoku01} class="ln-cover mt-4 mb-4" variant="top" alt="Mushoku Tensei"/></Link>
                                 <Card.Title>Mushoku Tensei: Isekai Ittara Honki Dasu</Card.Title>             
                             </Col>
                             <Col className="py-2" lg={2} md={3} sm={4} xs={6}>
